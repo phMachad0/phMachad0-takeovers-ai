@@ -1,1 +1,1327 @@
-{"layout": [{"bbox": [293.23944091796875, 2056.048095703125, 2200.42333984375, 2152.968017578125], "label": "text", "score": 0.9672064781188965, "texts": [{"orientation_angle": 0, "polygon": [[300.0, 2056.0], [2203.0, 2061.0], [2203.0, 2109.0], [300.0, 2104.0]], "score": 0.990006685256958, "text": "L'Associée unique constate que les comptes annuels font apparaître un bénéfice net comptable d'un"}, {"orientation_angle": 0, "polygon": [[300.0, 2105.0], [834.0, 2111.0], [833.0, 2157.0], [300.0, 2152.0]], "score": 0.984573483467102, "text": "montant de 21 777,27 euros."}]}, {"bbox": [297.933349609375, 1322.7701416015625, 2206.27783203125, 1424.2452392578125], "label": "text", "score": 0.966733992099762, "texts": [{"orientation_angle": 0, "polygon": [[303.0, 1323.0], [2210.0, 1327.0], [2210.0, 1373.0], [303.0, 1370.0]], "score": 0.9964367747306824, "text": "Nous vous proposons de bien vouloir approuver les comptes annuels (bilan, compte de résultat et"}, {"orientation_angle": 0, "polygon": [[305.0, 1376.0], [2005.0, 1380.0], [2005.0, 1426.0], [305.0, 1423.0]], "score": 0.9937255382537842, "text": "annexe) tels qu'ils vous sont présentés et qui font apparaître un bénéfice de 21 777,27 euros."}]}, {"bbox": [296.19677734375, 1480.849609375, 2202.046630859375, 1578.787841796875], "label": "text", "score": 0.965921938419342, "texts": [{"orientation_angle": 0, "polygon": [[303.0, 1481.0], [2206.0, 1486.0], [2206.0, 1532.0], [303.0, 1527.0]], "score": 0.9878909587860107, "text": "Nous vous proposons également de bien vouloir affecter le résultat de l’exercice clos le 31 décembre"}, {"orientation_angle": 0, "polygon": [[305.0, 1534.0], [851.0, 1539.0], [851.0, 1582.0], [305.0, 1577.0]], "score": 0.9993013739585876, "text": "2024 de la manière suivante :"}]}, {"bbox": [294.43011474609375, 2213.1337890625, 1621.509765625, 2259.0869140625], "label": "text", "score": 0.9239619374275208, "texts": [{"orientation_angle": 0, "polygon": [[300.0, 2213.0], [1619.0, 2217.0], [1619.0, 2263.0], [300.0, 2260.0]], "score": 0.99053955078125, "text": "L'Associée unique décide d'affecter ce résultat de la manière suivante :"}]}, {"bbox": [300.472412109375, 1110.7984619140625, 2206.3388671875, 1212.9605712890625], "label": "text", "score": 0.9060754776000977, "texts": [{"orientation_angle": 0, "polygon": [[382.0, 1109.0], [2210.0, 1116.0], [2209.0, 1162.0], [382.0, 1155.0]], "score": 0.9924647808074951, "text": "Résolution d'affectation du résultat de l'exercice clos le 31 décembre 2024 proposée par le"}, {"orientation_angle": 0, "polygon": [[382.0, 1166.0], [877.0, 1166.0], [877.0, 1212.0], [382.0, 1212.0]], "score": 0.9987770915031433, "text": "rapport de la Présidente."}]}, {"bbox": [413.799072265625, 2324.252685546875, 2085.482177734375, 2370.367431640625], "label": "text", "score": 0.898288905620575, "texts": [{"orientation_angle": 0, "polygon": [[422.0, 2328.0], [1126.0, 2328.0], [1126.0, 2369.0], [422.0, 2369.0]], "score": 0.9881591796875, "text": "- au compte « Autres réserves » pour .."}, {"orientation_angle": 0, "polygon": [[1780.0, 2321.0], [2089.0, 2327.0], [2088.0, 2375.0], [1779.0, 2369.0]], "score": 0.9719384908676147, "text": ".21 777,27 euros"}]}, {"bbox": [294.13818359375, 1901.0198974609375, 2202.83642578125, 2001.8419189453125], "label": "text", "score": 0.8558118939399719, "texts": [{"orientation_angle": 0, "polygon": [[376.0, 1895.0], [2210.0, 1902.0], [2209.0, 1953.0], [375.0, 1946.0]], "score": 0.9609748125076294, "text": "Résolution d'affectation du résultat de l'exercice clos le 31 décembre 2024 votée par"}, {"orientation_angle": 0, "polygon": [[376.0, 1951.0], [739.0, 1957.0], [738.0, 2003.0], [375.0, 1998.0]], "score": 0.9950994849205017, "text": "l'Associée unique."}]}, {"bbox": [417.79541015625, 1640.38134765625, 2088.9091796875, 1685.89013671875], "label": "text", "score": 0.8423859477043152, "texts": [{"orientation_angle": 0, "polygon": [[425.0, 1645.0], [1142.0, 1645.0], [1142.0, 1685.0], [425.0, 1685.0]], "score": 0.9603092074394226, "text": "- au compte « Autres réserves » pour ..."}, {"orientation_angle": 0, "polygon": [[1781.0, 1638.0], [2091.0, 1644.0], [2090.0, 1692.0], [1780.0, 1686.0]], "score": 0.9961919784545898, "text": ".21 777,27 euros"}]}, {"bbox": [699.573974609375, 2586.994873046875, 1795.091064453125, 2631.396728515625], "label": "text", "score": 0.7343004941940308, "texts": [{"orientation_angle": 0, "polygon": [[710.0, 2588.0], [1795.0, 2592.0], [1794.0, 2633.0], [710.0, 2629.0]], "score": 0.9989462494850159, "text": "POUR EXTRAIT CERTIFIE CONFORME A L'ORIGINAL"}]}, {"bbox": [560.578369140625, 263.96148681640625, 1962.533203125, 533.75439453125], "label": "doc_title", "score": 0.722432553768158, "texts": [{"orientation_angle": 0, "polygon": [[779.0, 277.0], [1745.0, 281.0], [1744.0, 327.0], [778.0, 324.0]], "score": 0.9996175169944763, "text": "ETABLISSEMENTS JACQUENET MALIN"}, {"orientation_angle": 0, "polygon": [[624.0, 327.0], [1903.0, 330.0], [1903.0, 382.0], [623.0, 378.0]], "score": 0.9921100735664368, "text": "Société par actions simplifiée au capital de 155 497,64 euros"}, {"orientation_angle": 0, "polygon": [[982.0, 378.0], [1543.0, 378.0], [1543.0, 430.0], [982.0, 430.0]], "score": 0.9968480467796326, "text": "Siège social : TOUILLON"}, {"orientation_angle": 0, "polygon": [[1042.0, 430.0], [1478.0, 430.0], [1478.0, 471.0], [1042.0, 471.0]], "score": 0.9770742654800415, "text": "21500 MONTBARD"}, {"orientation_angle": 0, "polygon": [[992.0, 478.0], [1531.0, 479.0], [1531.0, 526.0], [992.0, 524.0]], "score": 0.9895987510681152, "text": "RCS DIJON 016 850 919"}]}, {"bbox": [977.9891357421875, 2760.56201171875, 1704.7568359375, 3090.460693359375], "label": "image", "score": 0.6989339590072632, "texts": [{"orientation_angle": 0, "polygon": [[1172.0, 2881.0], [1576.0, 2738.0], [1629.0, 2887.0], [1225.0, 3029.0]], "score": 0.7668793201446533, "text": "acqu"}]}, {"bbox": [668.2001342773438, 731.2230224609375, 1847.87841796875, 899.4498291015625], "label": "doc_title", "score": 0.641552209854126, "texts": [{"orientation_angle": 0, "polygon": [[725.0, 743.0], [1795.0, 745.0], [1795.0, 786.0], [725.0, 784.0]], "score": 0.9858490824699402, "text": "EXTRAIT DU PROCES VERBAL DE LA REUNION"}, {"orientation_angle": 0, "polygon": [[985.0, 798.0], [1536.0, 798.0], [1536.0, 839.0], [985.0, 839.0]], "score": 0.9932039976119995, "text": "DE L'ASSOCIEE UNIQUE"}, {"orientation_angle": 0, "polygon": [[1084.0, 846.0], [1438.0, 849.0], [1438.0, 895.0], [1083.0, 892.0]], "score": 0.9938567876815796, "text": "DU 30 JUIN 2025"}]}], "most_frequent_angle": 0, "ocr": [{"orientation_angle": 0, "polygon": [[779.0, 277.0], [1745.0, 281.0], [1744.0, 327.0], [778.0, 324.0]], "score": 0.9996175169944763, "text": "ETABLISSEMENTS JACQUENET MALIN"}, {"orientation_angle": 0, "polygon": [[624.0, 327.0], [1903.0, 330.0], [1903.0, 382.0], [623.0, 378.0]], "score": 0.9921100735664368, "text": "Société par actions simplifiée au capital de 155 497,64 euros"}, {"orientation_angle": 0, "polygon": [[982.0, 378.0], [1543.0, 378.0], [1543.0, 430.0], [982.0, 430.0]], "score": 0.9968480467796326, "text": "Siège social : TOUILLON"}, {"orientation_angle": 0, "polygon": [[1042.0, 430.0], [1478.0, 430.0], [1478.0, 471.0], [1042.0, 471.0]], "score": 0.9770742654800415, "text": "21500 MONTBARD"}, {"orientation_angle": 0, "polygon": [[992.0, 478.0], [1531.0, 479.0], [1531.0, 526.0], [992.0, 524.0]], "score": 0.9895987510681152, "text": "RCS DIJON 016 850 919"}, {"orientation_angle": 0, "polygon": [[725.0, 743.0], [1795.0, 745.0], [1795.0, 786.0], [725.0, 784.0]], "score": 0.9858490824699402, "text": "EXTRAIT DU PROCES VERBAL DE LA REUNION"}, {"orientation_angle": 0, "polygon": [[985.0, 798.0], [1536.0, 798.0], [1536.0, 839.0], [985.0, 839.0]], "score": 0.9932039976119995, "text": "DE L'ASSOCIEE UNIQUE"}, {"orientation_angle": 0, "polygon": [[1084.0, 846.0], [1438.0, 849.0], [1438.0, 895.0], [1083.0, 892.0]], "score": 0.9938567876815796, "text": "DU 30 JUIN 2025"}, {"orientation_angle": 0, "polygon": [[382.0, 1109.0], [2210.0, 1116.0], [2209.0, 1162.0], [382.0, 1155.0]], "score": 0.9924647808074951, "text": "Résolution d'affectation du résultat de l'exercice clos le 31 décembre 2024 proposée par le"}, {"orientation_angle": 0, "polygon": [[382.0, 1166.0], [877.0, 1166.0], [877.0, 1212.0], [382.0, 1212.0]], "score": 0.9987770915031433, "text": "rapport de la Présidente."}, {"orientation_angle": 0, "polygon": [[303.0, 1323.0], [2210.0, 1327.0], [2210.0, 1373.0], [303.0, 1370.0]], "score": 0.9964367747306824, "text": "Nous vous proposons de bien vouloir approuver les comptes annuels (bilan, compte de résultat et"}, {"orientation_angle": 0, "polygon": [[305.0, 1376.0], [2005.0, 1380.0], [2005.0, 1426.0], [305.0, 1423.0]], "score": 0.9937255382537842, "text": "annexe) tels qu'ils vous sont présentés et qui font apparaître un bénéfice de 21 777,27 euros."}, {"orientation_angle": 0, "polygon": [[303.0, 1481.0], [2206.0, 1486.0], [2206.0, 1532.0], [303.0, 1527.0]], "score": 0.9878909587860107, "text": "Nous vous proposons également de bien vouloir affecter le résultat de l’exercice clos le 31 décembre"}, {"orientation_angle": 0, "polygon": [[305.0, 1534.0], [851.0, 1539.0], [851.0, 1582.0], [305.0, 1577.0]], "score": 0.9993013739585876, "text": "2024 de la manière suivante :"}, {"orientation_angle": 0, "polygon": [[425.0, 1645.0], [1142.0, 1645.0], [1142.0, 1685.0], [425.0, 1685.0]], "score": 0.9603092074394226, "text": "- au compte « Autres réserves » pour ..."}, {"orientation_angle": 0, "polygon": [[1781.0, 1638.0], [2091.0, 1644.0], [2090.0, 1692.0], [1780.0, 1686.0]], "score": 0.9961919784545898, "text": ".21 777,27 euros"}, {"orientation_angle": 0, "polygon": [[376.0, 1895.0], [2210.0, 1902.0], [2209.0, 1953.0], [375.0, 1946.0]], "score": 0.9609748125076294, "text": "Résolution d'affectation du résultat de l'exercice clos le 31 décembre 2024 votée par"}, {"orientation_angle": 0, "polygon": [[376.0, 1951.0], [739.0, 1957.0], [738.0, 2003.0], [375.0, 1998.0]], "score": 0.9950994849205017, "text": "l'Associée unique."}, {"orientation_angle": 0, "polygon": [[300.0, 2056.0], [2203.0, 2061.0], [2203.0, 2109.0], [300.0, 2104.0]], "score": 0.990006685256958, "text": "L'Associée unique constate que les comptes annuels font apparaître un bénéfice net comptable d'un"}, {"orientation_angle": 0, "polygon": [[300.0, 2105.0], [834.0, 2111.0], [833.0, 2157.0], [300.0, 2152.0]], "score": 0.984573483467102, "text": "montant de 21 777,27 euros."}, {"orientation_angle": 0, "polygon": [[300.0, 2213.0], [1619.0, 2217.0], [1619.0, 2263.0], [300.0, 2260.0]], "score": 0.99053955078125, "text": "L'Associée unique décide d'affecter ce résultat de la manière suivante :"}, {"orientation_angle": 0, "polygon": [[422.0, 2328.0], [1126.0, 2328.0], [1126.0, 2369.0], [422.0, 2369.0]], "score": 0.9881591796875, "text": "- au compte « Autres réserves » pour .."}, {"orientation_angle": 0, "polygon": [[1780.0, 2321.0], [2089.0, 2327.0], [2088.0, 2375.0], [1779.0, 2369.0]], "score": 0.9719384908676147, "text": ".21 777,27 euros"}, {"orientation_angle": 0, "polygon": [[710.0, 2588.0], [1795.0, 2592.0], [1794.0, 2633.0], [710.0, 2629.0]], "score": 0.9989462494850159, "text": "POUR EXTRAIT CERTIFIE CONFORME A L'ORIGINAL"}, {"orientation_angle": 0, "polygon": [[1066.0, 2695.0], [1442.0, 2695.0], [1442.0, 2741.0], [1066.0, 2741.0]], "score": 0.9998177886009216, "text": "LA PRESIDENTE"}, {"orientation_angle": 0, "polygon": [[1172.0, 2881.0], [1576.0, 2738.0], [1629.0, 2887.0], [1225.0, 3029.0]], "score": 0.7668793201446533, "text": "acqu"}], "page": 13, "pdf": "CA_016850919_2104_K00174791822_2024_C__68d54b5d0b48dc249e073fc1.pdf", "skew_angle": 0.0}
+{
+  "layout": [
+    {
+      "bbox": [
+        293.23944091796875,
+        2056.048095703125,
+        2200.42333984375,
+        2152.968017578125
+      ],
+      "label": "text",
+      "score": 0.9672064781188965,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              300,
+              2056
+            ],
+            [
+              2203,
+              2061
+            ],
+            [
+              2203,
+              2109
+            ],
+            [
+              300,
+              2104
+            ]
+          ],
+          "score": 0.990006685256958,
+          "text": "L'Associée unique constate que les comptes annuels font apparaître un bénéfice net comptable d'un"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              300,
+              2105
+            ],
+            [
+              834,
+              2111
+            ],
+            [
+              833,
+              2157
+            ],
+            [
+              300,
+              2152
+            ]
+          ],
+          "score": 0.984573483467102,
+          "text": "montant de 21 777,27 euros."
+        }
+      ]
+    },
+    {
+      "bbox": [
+        297.933349609375,
+        1322.7701416015625,
+        2206.27783203125,
+        1424.2452392578125
+      ],
+      "label": "text",
+      "score": 0.966733992099762,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              303,
+              1323
+            ],
+            [
+              2210,
+              1327
+            ],
+            [
+              2210,
+              1373
+            ],
+            [
+              303,
+              1370
+            ]
+          ],
+          "score": 0.9964367747306824,
+          "text": "Nous vous proposons de bien vouloir approuver les comptes annuels (bilan, compte de résultat et"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              305,
+              1376
+            ],
+            [
+              2005,
+              1380
+            ],
+            [
+              2005,
+              1426
+            ],
+            [
+              305,
+              1423
+            ]
+          ],
+          "score": 0.9937255382537842,
+          "text": "annexe) tels qu'ils vous sont présentés et qui font apparaître un bénéfice de 21 777,27 euros."
+        }
+      ]
+    },
+    {
+      "bbox": [
+        296.19677734375,
+        1480.849609375,
+        2202.046630859375,
+        1578.787841796875
+      ],
+      "label": "text",
+      "score": 0.965921938419342,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              303,
+              1481
+            ],
+            [
+              2206,
+              1486
+            ],
+            [
+              2206,
+              1532
+            ],
+            [
+              303,
+              1527
+            ]
+          ],
+          "score": 0.9878909587860107,
+          "text": "Nous vous proposons également de bien vouloir affecter le résultat de l’exercice clos le 31 décembre"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              305,
+              1534
+            ],
+            [
+              851,
+              1539
+            ],
+            [
+              851,
+              1582
+            ],
+            [
+              305,
+              1577
+            ]
+          ],
+          "score": 0.9993013739585876,
+          "text": "2024 de la manière suivante :"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        294.43011474609375,
+        2213.1337890625,
+        1621.509765625,
+        2259.0869140625
+      ],
+      "label": "text",
+      "score": 0.9239619374275208,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              300,
+              2213
+            ],
+            [
+              1619,
+              2217
+            ],
+            [
+              1619,
+              2263
+            ],
+            [
+              300,
+              2260
+            ]
+          ],
+          "score": 0.99053955078125,
+          "text": "L'Associée unique décide d'affecter ce résultat de la manière suivante :"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        300.472412109375,
+        1110.7984619140625,
+        2206.3388671875,
+        1212.9605712890625
+      ],
+      "label": "text",
+      "score": 0.9060754776000977,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              382,
+              1109
+            ],
+            [
+              2210,
+              1116
+            ],
+            [
+              2209,
+              1162
+            ],
+            [
+              382,
+              1155
+            ]
+          ],
+          "score": 0.9924647808074951,
+          "text": "Résolution d'affectation du résultat de l'exercice clos le 31 décembre 2024 proposée par le"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              382,
+              1166
+            ],
+            [
+              877,
+              1166
+            ],
+            [
+              877,
+              1212
+            ],
+            [
+              382,
+              1212
+            ]
+          ],
+          "score": 0.9987770915031433,
+          "text": "rapport de la Présidente."
+        }
+      ]
+    },
+    {
+      "bbox": [
+        413.799072265625,
+        2324.252685546875,
+        2085.482177734375,
+        2370.367431640625
+      ],
+      "label": "text",
+      "score": 0.898288905620575,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              422,
+              2328
+            ],
+            [
+              1126,
+              2328
+            ],
+            [
+              1126,
+              2369
+            ],
+            [
+              422,
+              2369
+            ]
+          ],
+          "score": 0.9881591796875,
+          "text": "- au compte « Autres réserves » pour .."
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1780,
+              2321
+            ],
+            [
+              2089,
+              2327
+            ],
+            [
+              2088,
+              2375
+            ],
+            [
+              1779,
+              2369
+            ]
+          ],
+          "score": 0.9719384908676147,
+          "text": ".21 777,27 euros"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        294.13818359375,
+        1901.0198974609375,
+        2202.83642578125,
+        2001.8419189453125
+      ],
+      "label": "text",
+      "score": 0.8558118939399719,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              376,
+              1895
+            ],
+            [
+              2210,
+              1902
+            ],
+            [
+              2209,
+              1953
+            ],
+            [
+              375,
+              1946
+            ]
+          ],
+          "score": 0.9609748125076294,
+          "text": "Résolution d'affectation du résultat de l'exercice clos le 31 décembre 2024 votée par"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              376,
+              1951
+            ],
+            [
+              739,
+              1957
+            ],
+            [
+              738,
+              2003
+            ],
+            [
+              375,
+              1998
+            ]
+          ],
+          "score": 0.9950994849205017,
+          "text": "l'Associée unique."
+        }
+      ]
+    },
+    {
+      "bbox": [
+        417.79541015625,
+        1640.38134765625,
+        2088.9091796875,
+        1685.89013671875
+      ],
+      "label": "text",
+      "score": 0.8423859477043152,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              425,
+              1645
+            ],
+            [
+              1142,
+              1645
+            ],
+            [
+              1142,
+              1685
+            ],
+            [
+              425,
+              1685
+            ]
+          ],
+          "score": 0.9603092074394226,
+          "text": "- au compte « Autres réserves » pour ..."
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1781,
+              1638
+            ],
+            [
+              2091,
+              1644
+            ],
+            [
+              2090,
+              1692
+            ],
+            [
+              1780,
+              1686
+            ]
+          ],
+          "score": 0.9961919784545898,
+          "text": ".21 777,27 euros"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        699.573974609375,
+        2586.994873046875,
+        1795.091064453125,
+        2631.396728515625
+      ],
+      "label": "text",
+      "score": 0.7343004941940308,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              710,
+              2588
+            ],
+            [
+              1795,
+              2592
+            ],
+            [
+              1794,
+              2633
+            ],
+            [
+              710,
+              2629
+            ]
+          ],
+          "score": 0.9989462494850159,
+          "text": "POUR EXTRAIT CERTIFIE CONFORME A L'ORIGINAL"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        560.578369140625,
+        263.96148681640625,
+        1962.533203125,
+        533.75439453125
+      ],
+      "label": "doc_title",
+      "score": 0.722432553768158,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              779,
+              277
+            ],
+            [
+              1745,
+              281
+            ],
+            [
+              1744,
+              327
+            ],
+            [
+              778,
+              324
+            ]
+          ],
+          "score": 0.9996175169944763,
+          "text": "ETABLISSEMENTS JACQUENET MALIN"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              624,
+              327
+            ],
+            [
+              1903,
+              330
+            ],
+            [
+              1903,
+              382
+            ],
+            [
+              623,
+              378
+            ]
+          ],
+          "score": 0.9921100735664368,
+          "text": "Société par actions simplifiée au capital de 155 497,64 euros"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              982,
+              378
+            ],
+            [
+              1543,
+              378
+            ],
+            [
+              1543,
+              430
+            ],
+            [
+              982,
+              430
+            ]
+          ],
+          "score": 0.9968480467796326,
+          "text": "Siège social : TOUILLON"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1042,
+              430
+            ],
+            [
+              1478,
+              430
+            ],
+            [
+              1478,
+              471
+            ],
+            [
+              1042,
+              471
+            ]
+          ],
+          "score": 0.9770742654800415,
+          "text": "21500 MONTBARD"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              992,
+              478
+            ],
+            [
+              1531,
+              479
+            ],
+            [
+              1531,
+              526
+            ],
+            [
+              992,
+              524
+            ]
+          ],
+          "score": 0.9895987510681152,
+          "text": "RCS DIJON 016 850 919"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        977.9891357421875,
+        2760.56201171875,
+        1704.7568359375,
+        3090.460693359375
+      ],
+      "label": "image",
+      "score": 0.6989339590072632,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1172,
+              2881
+            ],
+            [
+              1576,
+              2738
+            ],
+            [
+              1629,
+              2887
+            ],
+            [
+              1225,
+              3029
+            ]
+          ],
+          "score": 0.7668793201446533,
+          "text": "acqu"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        668.2001342773438,
+        731.2230224609375,
+        1847.87841796875,
+        899.4498291015625
+      ],
+      "label": "doc_title",
+      "score": 0.641552209854126,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              725,
+              743
+            ],
+            [
+              1795,
+              745
+            ],
+            [
+              1795,
+              786
+            ],
+            [
+              725,
+              784
+            ]
+          ],
+          "score": 0.9858490824699402,
+          "text": "EXTRAIT DU PROCES VERBAL DE LA REUNION"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              985,
+              798
+            ],
+            [
+              1536,
+              798
+            ],
+            [
+              1536,
+              839
+            ],
+            [
+              985,
+              839
+            ]
+          ],
+          "score": 0.9932039976119995,
+          "text": "DE L'ASSOCIEE UNIQUE"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1084,
+              846
+            ],
+            [
+              1438,
+              849
+            ],
+            [
+              1438,
+              895
+            ],
+            [
+              1083,
+              892
+            ]
+          ],
+          "score": 0.9938567876815796,
+          "text": "DU 30 JUIN 2025"
+        }
+      ]
+    }
+  ],
+  "most_frequent_angle": 0,
+  "ocr": [
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          779,
+          277
+        ],
+        [
+          1745,
+          281
+        ],
+        [
+          1744,
+          327
+        ],
+        [
+          778,
+          324
+        ]
+      ],
+      "score": 0.9996175169944763,
+      "text": "ETABLISSEMENTS JACQUENET MALIN"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          624,
+          327
+        ],
+        [
+          1903,
+          330
+        ],
+        [
+          1903,
+          382
+        ],
+        [
+          623,
+          378
+        ]
+      ],
+      "score": 0.9921100735664368,
+      "text": "Société par actions simplifiée au capital de 155 497,64 euros"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          982,
+          378
+        ],
+        [
+          1543,
+          378
+        ],
+        [
+          1543,
+          430
+        ],
+        [
+          982,
+          430
+        ]
+      ],
+      "score": 0.9968480467796326,
+      "text": "Siège social : TOUILLON"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1042,
+          430
+        ],
+        [
+          1478,
+          430
+        ],
+        [
+          1478,
+          471
+        ],
+        [
+          1042,
+          471
+        ]
+      ],
+      "score": 0.9770742654800415,
+      "text": "21500 MONTBARD"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          992,
+          478
+        ],
+        [
+          1531,
+          479
+        ],
+        [
+          1531,
+          526
+        ],
+        [
+          992,
+          524
+        ]
+      ],
+      "score": 0.9895987510681152,
+      "text": "RCS DIJON 016 850 919"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          725,
+          743
+        ],
+        [
+          1795,
+          745
+        ],
+        [
+          1795,
+          786
+        ],
+        [
+          725,
+          784
+        ]
+      ],
+      "score": 0.9858490824699402,
+      "text": "EXTRAIT DU PROCES VERBAL DE LA REUNION"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          985,
+          798
+        ],
+        [
+          1536,
+          798
+        ],
+        [
+          1536,
+          839
+        ],
+        [
+          985,
+          839
+        ]
+      ],
+      "score": 0.9932039976119995,
+      "text": "DE L'ASSOCIEE UNIQUE"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1084,
+          846
+        ],
+        [
+          1438,
+          849
+        ],
+        [
+          1438,
+          895
+        ],
+        [
+          1083,
+          892
+        ]
+      ],
+      "score": 0.9938567876815796,
+      "text": "DU 30 JUIN 2025"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          382,
+          1109
+        ],
+        [
+          2210,
+          1116
+        ],
+        [
+          2209,
+          1162
+        ],
+        [
+          382,
+          1155
+        ]
+      ],
+      "score": 0.9924647808074951,
+      "text": "Résolution d'affectation du résultat de l'exercice clos le 31 décembre 2024 proposée par le"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          382,
+          1166
+        ],
+        [
+          877,
+          1166
+        ],
+        [
+          877,
+          1212
+        ],
+        [
+          382,
+          1212
+        ]
+      ],
+      "score": 0.9987770915031433,
+      "text": "rapport de la Présidente."
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          303,
+          1323
+        ],
+        [
+          2210,
+          1327
+        ],
+        [
+          2210,
+          1373
+        ],
+        [
+          303,
+          1370
+        ]
+      ],
+      "score": 0.9964367747306824,
+      "text": "Nous vous proposons de bien vouloir approuver les comptes annuels (bilan, compte de résultat et"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          305,
+          1376
+        ],
+        [
+          2005,
+          1380
+        ],
+        [
+          2005,
+          1426
+        ],
+        [
+          305,
+          1423
+        ]
+      ],
+      "score": 0.9937255382537842,
+      "text": "annexe) tels qu'ils vous sont présentés et qui font apparaître un bénéfice de 21 777,27 euros."
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          303,
+          1481
+        ],
+        [
+          2206,
+          1486
+        ],
+        [
+          2206,
+          1532
+        ],
+        [
+          303,
+          1527
+        ]
+      ],
+      "score": 0.9878909587860107,
+      "text": "Nous vous proposons également de bien vouloir affecter le résultat de l’exercice clos le 31 décembre"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          305,
+          1534
+        ],
+        [
+          851,
+          1539
+        ],
+        [
+          851,
+          1582
+        ],
+        [
+          305,
+          1577
+        ]
+      ],
+      "score": 0.9993013739585876,
+      "text": "2024 de la manière suivante :"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          425,
+          1645
+        ],
+        [
+          1142,
+          1645
+        ],
+        [
+          1142,
+          1685
+        ],
+        [
+          425,
+          1685
+        ]
+      ],
+      "score": 0.9603092074394226,
+      "text": "- au compte « Autres réserves » pour ..."
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1781,
+          1638
+        ],
+        [
+          2091,
+          1644
+        ],
+        [
+          2090,
+          1692
+        ],
+        [
+          1780,
+          1686
+        ]
+      ],
+      "score": 0.9961919784545898,
+      "text": ".21 777,27 euros"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          376,
+          1895
+        ],
+        [
+          2210,
+          1902
+        ],
+        [
+          2209,
+          1953
+        ],
+        [
+          375,
+          1946
+        ]
+      ],
+      "score": 0.9609748125076294,
+      "text": "Résolution d'affectation du résultat de l'exercice clos le 31 décembre 2024 votée par"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          376,
+          1951
+        ],
+        [
+          739,
+          1957
+        ],
+        [
+          738,
+          2003
+        ],
+        [
+          375,
+          1998
+        ]
+      ],
+      "score": 0.9950994849205017,
+      "text": "l'Associée unique."
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          300,
+          2056
+        ],
+        [
+          2203,
+          2061
+        ],
+        [
+          2203,
+          2109
+        ],
+        [
+          300,
+          2104
+        ]
+      ],
+      "score": 0.990006685256958,
+      "text": "L'Associée unique constate que les comptes annuels font apparaître un bénéfice net comptable d'un"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          300,
+          2105
+        ],
+        [
+          834,
+          2111
+        ],
+        [
+          833,
+          2157
+        ],
+        [
+          300,
+          2152
+        ]
+      ],
+      "score": 0.984573483467102,
+      "text": "montant de 21 777,27 euros."
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          300,
+          2213
+        ],
+        [
+          1619,
+          2217
+        ],
+        [
+          1619,
+          2263
+        ],
+        [
+          300,
+          2260
+        ]
+      ],
+      "score": 0.99053955078125,
+      "text": "L'Associée unique décide d'affecter ce résultat de la manière suivante :"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          422,
+          2328
+        ],
+        [
+          1126,
+          2328
+        ],
+        [
+          1126,
+          2369
+        ],
+        [
+          422,
+          2369
+        ]
+      ],
+      "score": 0.9881591796875,
+      "text": "- au compte « Autres réserves » pour .."
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1780,
+          2321
+        ],
+        [
+          2089,
+          2327
+        ],
+        [
+          2088,
+          2375
+        ],
+        [
+          1779,
+          2369
+        ]
+      ],
+      "score": 0.9719384908676147,
+      "text": ".21 777,27 euros"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          710,
+          2588
+        ],
+        [
+          1795,
+          2592
+        ],
+        [
+          1794,
+          2633
+        ],
+        [
+          710,
+          2629
+        ]
+      ],
+      "score": 0.9989462494850159,
+      "text": "POUR EXTRAIT CERTIFIE CONFORME A L'ORIGINAL"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1066,
+          2695
+        ],
+        [
+          1442,
+          2695
+        ],
+        [
+          1442,
+          2741
+        ],
+        [
+          1066,
+          2741
+        ]
+      ],
+      "score": 0.9998177886009216,
+      "text": "LA PRESIDENTE"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1172,
+          2881
+        ],
+        [
+          1576,
+          2738
+        ],
+        [
+          1629,
+          2887
+        ],
+        [
+          1225,
+          3029
+        ]
+      ],
+      "score": 0.7668793201446533,
+      "text": "acqu"
+    }
+  ],
+  "page": 13,
+  "pdf": "CA_016850919_2104_K00174791822_2024_C__68d54b5d0b48dc249e073fc1.pdf",
+  "skew_angle": 0
+}

@@ -1,1 +1,3156 @@
-{"layout": [{"bbox": [439.67138671875, 429.464111328125, 3252.943359375, 2130.37109375], "cells": [{"bbox": [442.60821509361267, 432.0273838043213, 1309.9288330078125, 582.9161682128906], "score": 0.962295413017273, "texts": [{"orientation_angle": 0, "polygon": [[555.0, 477.0], [1200.0, 479.0], [1200.0, 527.0], [555.0, 525.0]], "score": 0.9982869029045105, "text": "ACTIF : LES CONSTRUCTIONS"}]}, {"bbox": [1603.31005859375, 588.3299102783203, 3249.1259765625, 2124.0230712890625], "score": 0.9619808793067932, "texts": [{"orientation_angle": 0, "polygon": [[1607.0, 695.0], [2680.0, 702.0], [2679.0, 748.0], [1607.0, 741.0]], "score": 0.9831116795539856, "text": "1995-97 Bail Emphytéotique de 55 ans avec retour à Ville de Niort"}, {"orientation_angle": 0, "polygon": [[1636.0, 748.0], [1731.0, 748.0], [1731.0, 791.0], [1636.0, 791.0]], "score": 0.9999212622642517, "text": "2000"}, {"orientation_angle": 0, "polygon": [[1762.0, 746.0], [2680.0, 751.0], [2679.0, 798.0], [1762.0, 792.0]], "score": 0.9956227540969849, "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"}, {"orientation_angle": 0, "polygon": [[1610.0, 794.0], [1755.0, 798.0], [1754.0, 841.0], [1608.0, 837.0]], "score": 0.9986933469772339, "text": "99-2000"}, {"orientation_angle": 0, "polygon": [[1758.0, 796.0], [2975.0, 803.0], [2975.0, 849.0], [1758.0, 842.0]], "score": 0.9939752221107483, "text": "Bail Emphytéotique de 55 ans retour à la Ville de Niort des 6 Logts réabilités"}, {"orientation_angle": 0, "polygon": [[1636.0, 844.0], [1727.0, 844.0], [1727.0, 889.0], [1636.0, 889.0]], "score": 0.9998950958251953, "text": "2001"}, {"orientation_angle": 0, "polygon": [[1764.0, 846.0], [3102.0, 858.0], [3102.0, 899.0], [1763.0, 887.0]], "score": 0.990784764289856, "text": "Bail à construire de 55 ans retour à la Ville de Niort d'une parcelle avec un logement"}, {"orientation_angle": 0, "polygon": [[1636.0, 894.0], [1731.0, 894.0], [1731.0, 940.0], [1636.0, 940.0]], "score": 0.999913215637207, "text": "2002"}, {"orientation_angle": 0, "polygon": [[1764.0, 895.0], [2583.0, 901.0], [2583.0, 942.0], [1763.0, 936.0]], "score": 0.9889782667160034, "text": "Bail à construire de 55 ans retour à la Ville de Niort"}, {"orientation_angle": 0, "polygon": [[1636.0, 942.0], [1729.0, 942.0], [1729.0, 988.0], [1636.0, 988.0]], "score": 0.9999470710754395, "text": "2002"}, {"orientation_angle": 0, "polygon": [[1764.0, 943.0], [2680.0, 949.0], [2679.0, 995.0], [1763.0, 990.0]], "score": 0.9820775985717773, "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"}, {"orientation_angle": 0, "polygon": [[1636.0, 993.0], [1729.0, 993.0], [1729.0, 1038.0], [1636.0, 1038.0]], "score": 0.9999011754989624, "text": "2004"}, {"orientation_angle": 0, "polygon": [[1764.0, 993.0], [2838.0, 1002.0], [2837.0, 1046.0], [1763.0, 1038.0]], "score": 0.9986780881881714, "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort 2/11 logts"}, {"orientation_angle": 0, "polygon": [[1636.0, 1041.0], [1729.0, 1041.0], [1729.0, 1086.0], [1636.0, 1086.0]], "score": 0.9999186396598816, "text": "2005"}, {"orientation_angle": 0, "polygon": [[1765.0, 1041.0], [2676.0, 1046.0], [2676.0, 1093.0], [1765.0, 1087.0]], "score": 0.9949188828468323, "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"}, {"orientation_angle": 0, "polygon": [[1636.0, 1091.0], [1729.0, 1091.0], [1729.0, 1136.0], [1636.0, 1136.0]], "score": 0.9959973096847534, "text": "2005"}, {"orientation_angle": 0, "polygon": [[1764.0, 1091.0], [2678.0, 1098.0], [2678.0, 1144.0], [1763.0, 1137.0]], "score": 0.9911753535270691, "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"}, {"orientation_angle": 0, "polygon": [[1461.0, 1336.0], [3104.0, 1348.0], [3104.0, 1400.0], [1461.0, 1388.0]], "score": 0.9963064193725586, "text": "218 773 Engagement sur les charges d'entretien et renouvellement des composants suite réforme 2005"}, {"orientation_angle": 0, "polygon": [[1606.0, 1391.0], [2417.0, 1396.0], [2416.0, 1443.0], [1605.0, 1437.0]], "score": 0.9992671012878418, "text": "supprimant les provisions pour grosses réparations"}, {"orientation_angle": 0, "polygon": [[1673.0, 1588.0], [3090.0, 1600.0], [3090.0, 1640.0], [1672.0, 1628.0]], "score": 0.9850603938102722, "text": "1999 Bail à construire de 55 ans avec maintien dans le patrimoine et transfert pour 0, 15 € du terrain"}, {"orientation_angle": 0, "polygon": [[1611.0, 1636.0], [3121.0, 1650.0], [3121.0, 1691.0], [1610.0, 1677.0]], "score": 0.9851887822151184, "text": "99/2000 Bail Emphytéotique de 55 ans avec clause de transfert partiel au preneur à la fin du bait 1/7 logts"}, {"orientation_angle": 0, "polygon": [[1671.0, 1686.0], [3090.0, 1696.0], [3090.0, 1738.0], [1671.0, 1727.0]], "score": 0.9929725527763367, "text": "1999 Bail à construire de 55 ans avec maintien dans le patrimoine et transfert pour 0,15 € du terrain"}, {"orientation_angle": 0, "polygon": [[1669.0, 1736.0], [3090.0, 1746.0], [3090.0, 1787.0], [1669.0, 1777.0]], "score": 0.9912595748901367, "text": "2000 Bail à construire de 55 ans avec maintien dans le patrimoine et transfert pour 0,15 € du terrain"}, {"orientation_angle": 0, "polygon": [[1764.0, 1983.0], [2894.0, 1990.0], [2894.0, 2036.0], [1763.0, 2029.0]], "score": 0.9870420098304749, "text": "Tous ces baux font l'objet d'un avenant portant la durée de 55 à 62 ans."}]}, {"bbox": [1606.3199462890625, 435.47300004959106, 3247.857421875, 589.0730743408203], "score": 0.9578052759170532, "texts": [{"orientation_angle": 0, "polygon": [[2286.0, 491.0], [2570.0, 491.0], [2570.0, 537.0], [2286.0, 537.0]], "score": 0.99965900182724, "text": "OBSERVATIONS"}]}, {"bbox": [1308.9081420898438, 434.67931938171387, 1607.7020263671875, 584.6497650146484], "score": 0.9518195986747742, "texts": [{"orientation_angle": 0, "polygon": [[1318.0, 437.0], [1595.0, 437.0], [1595.0, 484.0], [1318.0, 484.0]], "score": 0.9991974830627441, "text": "VALEUR NETTE"}, {"orientation_angle": 0, "polygon": [[1317.0, 485.0], [1604.0, 489.0], [1603.0, 535.0], [1316.0, 532.0]], "score": 0.9976120591163635, "text": "COMPTABLE AU"}, {"orientation_angle": 0, "polygon": [[1381.0, 533.0], [1535.0, 537.0], [1534.0, 585.0], [1380.0, 581.0]], "score": 0.9997752904891968, "text": "31/12/22"}]}, {"bbox": [441.1143363714218, 674.4898681640625, 1312.3660888671875, 2126.5067138671875], "score": 0.9297540187835693, "texts": [{"orientation_angle": 0, "polygon": [[702.0, 691.0], [959.0, 695.0], [959.0, 741.0], [701.0, 737.0]], "score": 0.9989783763885498, "text": "A La Ménagère"}, {"orientation_angle": 0, "polygon": [[706.0, 744.0], [925.0, 744.0], [925.0, 786.0], [706.0, 786.0]], "score": 0.9864209294319153, "text": "Cité Thébauft"}, {"orientation_angle": 0, "polygon": [[705.0, 792.0], [918.0, 796.0], [917.0, 839.0], [704.0, 835.0]], "score": 0.9780795574188232, "text": "Ste Pezenne"}, {"orientation_angle": 0, "polygon": [[703.0, 840.0], [973.0, 844.0], [972.0, 887.0], [703.0, 883.0]], "score": 0.9904987215995789, "text": "Les Nardouzans"}, {"orientation_angle": 0, "polygon": [[705.0, 890.0], [889.0, 890.0], [889.0, 931.0], [705.0, 931.0]], "score": 0.9304613471031189, "text": "Muttisites 1"}, {"orientation_angle": 0, "polygon": [[705.0, 940.0], [1238.0, 942.0], [1237.0, 983.0], [705.0, 981.0]], "score": 0.9997424483299255, "text": "Divers Secteur 1 Maisons de ville"}, {"orientation_angle": 0, "polygon": [[705.0, 991.0], [890.0, 991.0], [890.0, 1033.0], [705.0, 1033.0]], "score": 0.999110996723175, "text": "Multisites 2"}, {"orientation_angle": 0, "polygon": [[703.0, 1039.0], [832.0, 1039.0], [832.0, 1082.0], [703.0, 1082.0]], "score": 0.9660378694534302, "text": "Bellune"}, {"orientation_angle": 0, "polygon": [[704.0, 1082.0], [844.0, 1086.0], [843.0, 1134.0], [703.0, 1130.0]], "score": 0.9998277425765991, "text": "Cholette"}, {"orientation_angle": 0, "polygon": [[449.0, 1283.0], [1181.0, 1287.0], [1181.0, 1333.0], [449.0, 1329.0]], "score": 0.9841279983520508, "text": "2 - ENGAGEMENTS DONNES FINANCIERS"}, {"orientation_angle": 0, "polygon": [[705.0, 1334.0], [1047.0, 1338.0], [1046.0, 1381.0], [705.0, 1377.0]], "score": 0.9747008085250854, "text": "La Maison de retraite"}, {"orientation_angle": 0, "polygon": [[449.0, 1532.0], [925.0, 1534.0], [925.0, 1580.0], [449.0, 1578.0]], "score": 0.9836500883102417, "text": "3 - ENGAGEMENTS RECUS"}, {"orientation_angle": 0, "polygon": [[704.0, 1579.0], [1009.0, 1585.0], [1008.0, 1632.0], [703.0, 1626.0]], "score": 0.9947120547294617, "text": "Chant des oiseaux"}, {"orientation_angle": 0, "polygon": [[704.0, 1631.0], [916.0, 1637.0], [915.0, 1680.0], [703.0, 1674.0]], "score": 0.964477002620697, "text": "Ste Pezenne"}, {"orientation_angle": 0, "polygon": [[703.0, 1677.0], [808.0, 1682.0], [806.0, 1728.0], [701.0, 1723.0]], "score": 0.999681293964386, "text": "Goise"}, {"orientation_angle": 0, "polygon": [[703.0, 1725.0], [852.0, 1733.0], [849.0, 1778.0], [701.0, 1769.0]], "score": 0.999600887298584, "text": "Gardoux"}]}, {"bbox": [1309.8529663085938, 1173.2904663085938, 1607.6500244140625, 1880.7882080078125], "score": 0.9175376296043396, "texts": [{"orientation_angle": 0, "polygon": [[1462.0, 1585.0], [1602.0, 1589.0], [1601.0, 1633.0], [1461.0, 1629.0]], "score": 0.9752451777458191, "text": "261 966"}, {"orientation_angle": 0, "polygon": [[1483.0, 1636.0], [1605.0, 1636.0], [1605.0, 1679.0], [1483.0, 1679.0]], "score": 0.9928324222564697, "text": "41 499"}, {"orientation_angle": 0, "polygon": [[1433.0, 1684.0], [1602.0, 1684.0], [1602.0, 1727.0], [1433.0, 1727.0]], "score": 0.9955477118492126, "text": "1 063 449"}, {"orientation_angle": 0, "polygon": [[1463.0, 1734.0], [1604.0, 1734.0], [1604.0, 1777.0], [1463.0, 1777.0]], "score": 0.9988948106765747, "text": "889 905"}]}, {"bbox": [1310.6224365234375, 1928.294921875, 1606.7620849609375, 2122.1072998046875], "score": 0.9159820079803467, "texts": []}, {"bbox": [1310.8367309570312, 1875.8511962890625, 1605.837158203125, 1931.017822265625], "score": 0.9099366068840027, "texts": [{"orientation_angle": 0, "polygon": [[1432.0, 1882.0], [1602.0, 1882.0], [1602.0, 1925.0], [1432.0, 1925.0]], "score": 0.9996827244758606, "text": "2 256 819"}]}, {"bbox": [1309.8258056640625, 1135.3880004882812, 1606.6007080078125, 1187.523681640625], "score": 0.8609446287155151, "texts": [{"orientation_angle": 0, "polygon": [[1184.0, 1136.0], [1310.0, 1136.0], [1310.0, 1185.0], [1184.0, 1185.0]], "score": 0.9998399615287781, "text": "TOTAL"}, {"orientation_angle": 0, "polygon": [[1432.0, 1141.0], [1602.0, 1141.0], [1602.0, 1184.0], [1432.0, 1184.0]], "score": 0.9528923034667969, "text": "4 481 057"}]}, {"bbox": [1309.2394409179688, 582.8333435058594, 1608.344482421875, 1150.1294555664062], "score": 0.856168270111084, "texts": [{"orientation_angle": 0, "polygon": [[1464.0, 698.0], [1609.0, 698.0], [1609.0, 741.0], [1464.0, 741.0]], "score": 0.9897660613059998, "text": "654 002"}, {"orientation_angle": 0, "polygon": [[1607.0, 715.0], [1616.0, 715.0], [1616.0, 724.0], [1607.0, 724.0]], "score": 0.8025979995727539, "text": "−"}, {"orientation_angle": 0, "polygon": [[1464.0, 748.0], [1605.0, 748.0], [1605.0, 791.0], [1464.0, 791.0]], "score": 0.9890909194946289, "text": "368 122"}, {"orientation_angle": 0, "polygon": [[1463.0, 796.0], [1607.0, 796.0], [1607.0, 839.0], [1463.0, 839.0]], "score": 0.9797937273979187, "text": "248 992"}, {"orientation_angle": 0, "polygon": [[1483.0, 844.0], [1605.0, 844.0], [1605.0, 889.0], [1483.0, 889.0]], "score": 0.9399531483650208, "text": "50 730"}, {"orientation_angle": 0, "polygon": [[1464.0, 892.0], [1606.0, 896.0], [1604.0, 940.0], [1462.0, 936.0]], "score": 0.9978410005569458, "text": "792 714"}, {"orientation_angle": 0, "polygon": [[1463.0, 943.0], [1604.0, 943.0], [1604.0, 986.0], [1463.0, 986.0]], "score": 0.9754728674888611, "text": "748 443"}, {"orientation_angle": 0, "polygon": [[1464.0, 991.0], [1605.0, 991.0], [1605.0, 1034.0], [1464.0, 1034.0]], "score": 0.9946429133415222, "text": "186 405"}, {"orientation_angle": 0, "polygon": [[1433.0, 1043.0], [1604.0, 1043.0], [1604.0, 1084.0], [1433.0, 1084.0]], "score": 0.9737288355827332, "text": "1 375 715"}, {"orientation_angle": 0, "polygon": [[1482.0, 1091.0], [1604.0, 1091.0], [1604.0, 1136.0], [1482.0, 1136.0]], "score": 0.9229623675346375, "text": "55 933"}]}, {"bbox": [444.23279094696045, 581.2534484863281, 1310.0306396484375, 690.4230651855469], "score": 0.7188323140144348, "texts": [{"orientation_angle": 0, "polygon": [[452.0, 643.0], [1348.0, 648.0], [1347.0, 690.0], [452.0, 684.0]], "score": 0.9957834482192993, "text": "1 - ENGAGEMENTS DONNES SUR DES IMMEUBLES"}]}], "label": "table", "score": 0.9903325438499451}, {"bbox": [296.2032775878906, 1219.0042724609375, 335.376953125, 1260.905029296875], "label": "number", "score": 0.5405483841896057, "texts": [{"orientation_angle": 0, "polygon": [[290.0, 1214.0], [344.0, 1214.0], [344.0, 1269.0], [290.0, 1269.0]], "score": 0.34358125925064087, "text": "B0"}]}, {"bbox": [1260.5982666015625, 258.99029541015625, 2436.269775390625, 312.3655090332031], "label": "figure_title", "score": 0.5304921865463257, "texts": [{"orientation_angle": 0, "polygon": [[1262.0, 254.0], [2439.0, 263.0], [2439.0, 319.0], [1261.0, 310.0]], "score": 0.9981448650360107, "text": "ENGAGEMENTS HORS BILAN.2 SEMESTRE 2022"}]}], "most_frequent_angle": 0, "ocr": [{"orientation_angle": 0, "polygon": [[1262.0, 254.0], [2439.0, 263.0], [2439.0, 319.0], [1261.0, 310.0]], "score": 0.9981448650360107, "text": "ENGAGEMENTS HORS BILAN.2 SEMESTRE 2022"}, {"orientation_angle": 0, "polygon": [[1318.0, 437.0], [1595.0, 437.0], [1595.0, 484.0], [1318.0, 484.0]], "score": 0.9991974830627441, "text": "VALEUR NETTE"}, {"orientation_angle": 0, "polygon": [[555.0, 477.0], [1200.0, 479.0], [1200.0, 527.0], [555.0, 525.0]], "score": 0.9982869029045105, "text": "ACTIF : LES CONSTRUCTIONS"}, {"orientation_angle": 0, "polygon": [[1317.0, 485.0], [1604.0, 489.0], [1603.0, 535.0], [1316.0, 532.0]], "score": 0.9976120591163635, "text": "COMPTABLE AU"}, {"orientation_angle": 0, "polygon": [[2286.0, 491.0], [2570.0, 491.0], [2570.0, 537.0], [2286.0, 537.0]], "score": 0.99965900182724, "text": "OBSERVATIONS"}, {"orientation_angle": 0, "polygon": [[1381.0, 533.0], [1535.0, 537.0], [1534.0, 585.0], [1380.0, 581.0]], "score": 0.9997752904891968, "text": "31/12/22"}, {"orientation_angle": 0, "polygon": [[452.0, 643.0], [1348.0, 648.0], [1347.0, 690.0], [452.0, 684.0]], "score": 0.9957834482192993, "text": "1 - ENGAGEMENTS DONNES SUR DES IMMEUBLES"}, {"orientation_angle": 0, "polygon": [[702.0, 691.0], [959.0, 695.0], [959.0, 741.0], [701.0, 737.0]], "score": 0.9989783763885498, "text": "A La Ménagère"}, {"orientation_angle": 0, "polygon": [[1464.0, 698.0], [1609.0, 698.0], [1609.0, 741.0], [1464.0, 741.0]], "score": 0.9897660613059998, "text": "654 002"}, {"orientation_angle": 0, "polygon": [[1607.0, 695.0], [2680.0, 702.0], [2679.0, 748.0], [1607.0, 741.0]], "score": 0.9831116795539856, "text": "1995-97 Bail Emphytéotique de 55 ans avec retour à Ville de Niort"}, {"orientation_angle": 0, "polygon": [[1607.0, 715.0], [1616.0, 715.0], [1616.0, 724.0], [1607.0, 724.0]], "score": 0.8025979995727539, "text": "−"}, {"orientation_angle": 0, "polygon": [[706.0, 744.0], [925.0, 744.0], [925.0, 786.0], [706.0, 786.0]], "score": 0.9864209294319153, "text": "Cité Thébauft"}, {"orientation_angle": 0, "polygon": [[1464.0, 748.0], [1605.0, 748.0], [1605.0, 791.0], [1464.0, 791.0]], "score": 0.9890909194946289, "text": "368 122"}, {"orientation_angle": 0, "polygon": [[1636.0, 748.0], [1731.0, 748.0], [1731.0, 791.0], [1636.0, 791.0]], "score": 0.9999212622642517, "text": "2000"}, {"orientation_angle": 0, "polygon": [[1762.0, 746.0], [2680.0, 751.0], [2679.0, 798.0], [1762.0, 792.0]], "score": 0.9956227540969849, "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"}, {"orientation_angle": 0, "polygon": [[705.0, 792.0], [918.0, 796.0], [917.0, 839.0], [704.0, 835.0]], "score": 0.9780795574188232, "text": "Ste Pezenne"}, {"orientation_angle": 0, "polygon": [[1463.0, 796.0], [1607.0, 796.0], [1607.0, 839.0], [1463.0, 839.0]], "score": 0.9797937273979187, "text": "248 992"}, {"orientation_angle": 0, "polygon": [[1610.0, 794.0], [1755.0, 798.0], [1754.0, 841.0], [1608.0, 837.0]], "score": 0.9986933469772339, "text": "99-2000"}, {"orientation_angle": 0, "polygon": [[1758.0, 796.0], [2975.0, 803.0], [2975.0, 849.0], [1758.0, 842.0]], "score": 0.9939752221107483, "text": "Bail Emphytéotique de 55 ans retour à la Ville de Niort des 6 Logts réabilités"}, {"orientation_angle": 0, "polygon": [[703.0, 840.0], [973.0, 844.0], [972.0, 887.0], [703.0, 883.0]], "score": 0.9904987215995789, "text": "Les Nardouzans"}, {"orientation_angle": 0, "polygon": [[1483.0, 844.0], [1605.0, 844.0], [1605.0, 889.0], [1483.0, 889.0]], "score": 0.9399531483650208, "text": "50 730"}, {"orientation_angle": 0, "polygon": [[1636.0, 844.0], [1727.0, 844.0], [1727.0, 889.0], [1636.0, 889.0]], "score": 0.9998950958251953, "text": "2001"}, {"orientation_angle": 0, "polygon": [[1764.0, 846.0], [3102.0, 858.0], [3102.0, 899.0], [1763.0, 887.0]], "score": 0.990784764289856, "text": "Bail à construire de 55 ans retour à la Ville de Niort d'une parcelle avec un logement"}, {"orientation_angle": 0, "polygon": [[705.0, 890.0], [889.0, 890.0], [889.0, 931.0], [705.0, 931.0]], "score": 0.9304613471031189, "text": "Muttisites 1"}, {"orientation_angle": 0, "polygon": [[1464.0, 892.0], [1606.0, 896.0], [1604.0, 940.0], [1462.0, 936.0]], "score": 0.9978410005569458, "text": "792 714"}, {"orientation_angle": 0, "polygon": [[1636.0, 894.0], [1731.0, 894.0], [1731.0, 940.0], [1636.0, 940.0]], "score": 0.999913215637207, "text": "2002"}, {"orientation_angle": 0, "polygon": [[1764.0, 895.0], [2583.0, 901.0], [2583.0, 942.0], [1763.0, 936.0]], "score": 0.9889782667160034, "text": "Bail à construire de 55 ans retour à la Ville de Niort"}, {"orientation_angle": 0, "polygon": [[705.0, 940.0], [1238.0, 942.0], [1237.0, 983.0], [705.0, 981.0]], "score": 0.9997424483299255, "text": "Divers Secteur 1 Maisons de ville"}, {"orientation_angle": 0, "polygon": [[1463.0, 943.0], [1604.0, 943.0], [1604.0, 986.0], [1463.0, 986.0]], "score": 0.9754728674888611, "text": "748 443"}, {"orientation_angle": 0, "polygon": [[1636.0, 942.0], [1729.0, 942.0], [1729.0, 988.0], [1636.0, 988.0]], "score": 0.9999470710754395, "text": "2002"}, {"orientation_angle": 0, "polygon": [[1764.0, 943.0], [2680.0, 949.0], [2679.0, 995.0], [1763.0, 990.0]], "score": 0.9820775985717773, "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"}, {"orientation_angle": 0, "polygon": [[705.0, 991.0], [890.0, 991.0], [890.0, 1033.0], [705.0, 1033.0]], "score": 0.999110996723175, "text": "Multisites 2"}, {"orientation_angle": 0, "polygon": [[1464.0, 991.0], [1605.0, 991.0], [1605.0, 1034.0], [1464.0, 1034.0]], "score": 0.9946429133415222, "text": "186 405"}, {"orientation_angle": 0, "polygon": [[1636.0, 993.0], [1729.0, 993.0], [1729.0, 1038.0], [1636.0, 1038.0]], "score": 0.9999011754989624, "text": "2004"}, {"orientation_angle": 0, "polygon": [[1764.0, 993.0], [2838.0, 1002.0], [2837.0, 1046.0], [1763.0, 1038.0]], "score": 0.9986780881881714, "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort 2/11 logts"}, {"orientation_angle": 0, "polygon": [[703.0, 1039.0], [832.0, 1039.0], [832.0, 1082.0], [703.0, 1082.0]], "score": 0.9660378694534302, "text": "Bellune"}, {"orientation_angle": 0, "polygon": [[1433.0, 1043.0], [1604.0, 1043.0], [1604.0, 1084.0], [1433.0, 1084.0]], "score": 0.9737288355827332, "text": "1 375 715"}, {"orientation_angle": 0, "polygon": [[1636.0, 1041.0], [1729.0, 1041.0], [1729.0, 1086.0], [1636.0, 1086.0]], "score": 0.9999186396598816, "text": "2005"}, {"orientation_angle": 0, "polygon": [[1765.0, 1041.0], [2676.0, 1046.0], [2676.0, 1093.0], [1765.0, 1087.0]], "score": 0.9949188828468323, "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"}, {"orientation_angle": 0, "polygon": [[704.0, 1082.0], [844.0, 1086.0], [843.0, 1134.0], [703.0, 1130.0]], "score": 0.9998277425765991, "text": "Cholette"}, {"orientation_angle": 0, "polygon": [[1482.0, 1091.0], [1604.0, 1091.0], [1604.0, 1136.0], [1482.0, 1136.0]], "score": 0.9229623675346375, "text": "55 933"}, {"orientation_angle": 0, "polygon": [[1636.0, 1091.0], [1729.0, 1091.0], [1729.0, 1136.0], [1636.0, 1136.0]], "score": 0.9959973096847534, "text": "2005"}, {"orientation_angle": 0, "polygon": [[1764.0, 1091.0], [2678.0, 1098.0], [2678.0, 1144.0], [1763.0, 1137.0]], "score": 0.9911753535270691, "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"}, {"orientation_angle": 0, "polygon": [[1184.0, 1136.0], [1310.0, 1136.0], [1310.0, 1185.0], [1184.0, 1185.0]], "score": 0.9998399615287781, "text": "TOTAL"}, {"orientation_angle": 0, "polygon": [[1432.0, 1141.0], [1602.0, 1141.0], [1602.0, 1184.0], [1432.0, 1184.0]], "score": 0.9528923034667969, "text": "4 481 057"}, {"orientation_angle": 0, "polygon": [[290.0, 1214.0], [344.0, 1214.0], [344.0, 1269.0], [290.0, 1269.0]], "score": 0.34358125925064087, "text": "B0"}, {"orientation_angle": 0, "polygon": [[449.0, 1283.0], [1181.0, 1287.0], [1181.0, 1333.0], [449.0, 1329.0]], "score": 0.9841279983520508, "text": "2 - ENGAGEMENTS DONNES FINANCIERS"}, {"orientation_angle": 0, "polygon": [[705.0, 1334.0], [1047.0, 1338.0], [1046.0, 1381.0], [705.0, 1377.0]], "score": 0.9747008085250854, "text": "La Maison de retraite"}, {"orientation_angle": 0, "polygon": [[1461.0, 1336.0], [3104.0, 1348.0], [3104.0, 1400.0], [1461.0, 1388.0]], "score": 0.9963064193725586, "text": "218 773 Engagement sur les charges d'entretien et renouvellement des composants suite réforme 2005"}, {"orientation_angle": 0, "polygon": [[1606.0, 1391.0], [2417.0, 1396.0], [2416.0, 1443.0], [1605.0, 1437.0]], "score": 0.9992671012878418, "text": "supprimant les provisions pour grosses réparations"}, {"orientation_angle": 0, "polygon": [[449.0, 1532.0], [925.0, 1534.0], [925.0, 1580.0], [449.0, 1578.0]], "score": 0.9836500883102417, "text": "3 - ENGAGEMENTS RECUS"}, {"orientation_angle": 0, "polygon": [[704.0, 1579.0], [1009.0, 1585.0], [1008.0, 1632.0], [703.0, 1626.0]], "score": 0.9947120547294617, "text": "Chant des oiseaux"}, {"orientation_angle": 0, "polygon": [[1462.0, 1585.0], [1602.0, 1589.0], [1601.0, 1633.0], [1461.0, 1629.0]], "score": 0.9752451777458191, "text": "261 966"}, {"orientation_angle": 0, "polygon": [[1673.0, 1588.0], [3090.0, 1600.0], [3090.0, 1640.0], [1672.0, 1628.0]], "score": 0.9850603938102722, "text": "1999 Bail à construire de 55 ans avec maintien dans le patrimoine et transfert pour 0, 15 € du terrain"}, {"orientation_angle": 0, "polygon": [[704.0, 1631.0], [916.0, 1637.0], [915.0, 1680.0], [703.0, 1674.0]], "score": 0.964477002620697, "text": "Ste Pezenne"}, {"orientation_angle": 0, "polygon": [[1483.0, 1636.0], [1605.0, 1636.0], [1605.0, 1679.0], [1483.0, 1679.0]], "score": 0.9928324222564697, "text": "41 499"}, {"orientation_angle": 0, "polygon": [[1611.0, 1636.0], [3121.0, 1650.0], [3121.0, 1691.0], [1610.0, 1677.0]], "score": 0.9851887822151184, "text": "99/2000 Bail Emphytéotique de 55 ans avec clause de transfert partiel au preneur à la fin du bait 1/7 logts"}, {"orientation_angle": 0, "polygon": [[703.0, 1677.0], [808.0, 1682.0], [806.0, 1728.0], [701.0, 1723.0]], "score": 0.999681293964386, "text": "Goise"}, {"orientation_angle": 0, "polygon": [[1433.0, 1684.0], [1602.0, 1684.0], [1602.0, 1727.0], [1433.0, 1727.0]], "score": 0.9955477118492126, "text": "1 063 449"}, {"orientation_angle": 0, "polygon": [[1671.0, 1686.0], [3090.0, 1696.0], [3090.0, 1738.0], [1671.0, 1727.0]], "score": 0.9929725527763367, "text": "1999 Bail à construire de 55 ans avec maintien dans le patrimoine et transfert pour 0,15 € du terrain"}, {"orientation_angle": 0, "polygon": [[703.0, 1725.0], [852.0, 1733.0], [849.0, 1778.0], [701.0, 1769.0]], "score": 0.999600887298584, "text": "Gardoux"}, {"orientation_angle": 0, "polygon": [[1463.0, 1734.0], [1604.0, 1734.0], [1604.0, 1777.0], [1463.0, 1777.0]], "score": 0.9988948106765747, "text": "889 905"}, {"orientation_angle": 0, "polygon": [[1669.0, 1736.0], [3090.0, 1746.0], [3090.0, 1787.0], [1669.0, 1777.0]], "score": 0.9912595748901367, "text": "2000 Bail à construire de 55 ans avec maintien dans le patrimoine et transfert pour 0,15 € du terrain"}, {"orientation_angle": 0, "polygon": [[1432.0, 1882.0], [1602.0, 1882.0], [1602.0, 1925.0], [1432.0, 1925.0]], "score": 0.9996827244758606, "text": "2 256 819"}, {"orientation_angle": 0, "polygon": [[1764.0, 1983.0], [2894.0, 1990.0], [2894.0, 2036.0], [1763.0, 2029.0]], "score": 0.9870420098304749, "text": "Tous ces baux font l'objet d'un avenant portant la durée de 55 à 62 ans."}], "page": 23, "pdf": "CA_027080076_7901_1970B00007_2022_C__65c82ef3bdf2f0305301b0a2.pdf", "skew_angle": 1.0080328642503527}
+{
+  "layout": [
+    {
+      "bbox": [
+        439.67138671875,
+        429.464111328125,
+        3252.943359375,
+        2130.37109375
+      ],
+      "cells": [
+        {
+          "bbox": [
+            442.60821509361267,
+            432.0273838043213,
+            1309.9288330078125,
+            582.9161682128906
+          ],
+          "score": 0.962295413017273,
+          "texts": [
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  555,
+                  477
+                ],
+                [
+                  1200,
+                  479
+                ],
+                [
+                  1200,
+                  527
+                ],
+                [
+                  555,
+                  525
+                ]
+              ],
+              "score": 0.9982869029045105,
+              "text": "ACTIF : LES CONSTRUCTIONS"
+            }
+          ]
+        },
+        {
+          "bbox": [
+            1603.31005859375,
+            588.3299102783203,
+            3249.1259765625,
+            2124.0230712890625
+          ],
+          "score": 0.9619808793067932,
+          "texts": [
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1607,
+                  695
+                ],
+                [
+                  2680,
+                  702
+                ],
+                [
+                  2679,
+                  748
+                ],
+                [
+                  1607,
+                  741
+                ]
+              ],
+              "score": 0.9831116795539856,
+              "text": "1995-97 Bail Emphytéotique de 55 ans avec retour à Ville de Niort"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1636,
+                  748
+                ],
+                [
+                  1731,
+                  748
+                ],
+                [
+                  1731,
+                  791
+                ],
+                [
+                  1636,
+                  791
+                ]
+              ],
+              "score": 0.9999212622642517,
+              "text": "2000"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1762,
+                  746
+                ],
+                [
+                  2680,
+                  751
+                ],
+                [
+                  2679,
+                  798
+                ],
+                [
+                  1762,
+                  792
+                ]
+              ],
+              "score": 0.9956227540969849,
+              "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1610,
+                  794
+                ],
+                [
+                  1755,
+                  798
+                ],
+                [
+                  1754,
+                  841
+                ],
+                [
+                  1608,
+                  837
+                ]
+              ],
+              "score": 0.9986933469772339,
+              "text": "99-2000"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1758,
+                  796
+                ],
+                [
+                  2975,
+                  803
+                ],
+                [
+                  2975,
+                  849
+                ],
+                [
+                  1758,
+                  842
+                ]
+              ],
+              "score": 0.9939752221107483,
+              "text": "Bail Emphytéotique de 55 ans retour à la Ville de Niort des 6 Logts réabilités"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1636,
+                  844
+                ],
+                [
+                  1727,
+                  844
+                ],
+                [
+                  1727,
+                  889
+                ],
+                [
+                  1636,
+                  889
+                ]
+              ],
+              "score": 0.9998950958251953,
+              "text": "2001"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1764,
+                  846
+                ],
+                [
+                  3102,
+                  858
+                ],
+                [
+                  3102,
+                  899
+                ],
+                [
+                  1763,
+                  887
+                ]
+              ],
+              "score": 0.990784764289856,
+              "text": "Bail à construire de 55 ans retour à la Ville de Niort d'une parcelle avec un logement"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1636,
+                  894
+                ],
+                [
+                  1731,
+                  894
+                ],
+                [
+                  1731,
+                  940
+                ],
+                [
+                  1636,
+                  940
+                ]
+              ],
+              "score": 0.999913215637207,
+              "text": "2002"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1764,
+                  895
+                ],
+                [
+                  2583,
+                  901
+                ],
+                [
+                  2583,
+                  942
+                ],
+                [
+                  1763,
+                  936
+                ]
+              ],
+              "score": 0.9889782667160034,
+              "text": "Bail à construire de 55 ans retour à la Ville de Niort"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1636,
+                  942
+                ],
+                [
+                  1729,
+                  942
+                ],
+                [
+                  1729,
+                  988
+                ],
+                [
+                  1636,
+                  988
+                ]
+              ],
+              "score": 0.9999470710754395,
+              "text": "2002"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1764,
+                  943
+                ],
+                [
+                  2680,
+                  949
+                ],
+                [
+                  2679,
+                  995
+                ],
+                [
+                  1763,
+                  990
+                ]
+              ],
+              "score": 0.9820775985717773,
+              "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1636,
+                  993
+                ],
+                [
+                  1729,
+                  993
+                ],
+                [
+                  1729,
+                  1038
+                ],
+                [
+                  1636,
+                  1038
+                ]
+              ],
+              "score": 0.9999011754989624,
+              "text": "2004"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1764,
+                  993
+                ],
+                [
+                  2838,
+                  1002
+                ],
+                [
+                  2837,
+                  1046
+                ],
+                [
+                  1763,
+                  1038
+                ]
+              ],
+              "score": 0.9986780881881714,
+              "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort 2/11 logts"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1636,
+                  1041
+                ],
+                [
+                  1729,
+                  1041
+                ],
+                [
+                  1729,
+                  1086
+                ],
+                [
+                  1636,
+                  1086
+                ]
+              ],
+              "score": 0.9999186396598816,
+              "text": "2005"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1765,
+                  1041
+                ],
+                [
+                  2676,
+                  1046
+                ],
+                [
+                  2676,
+                  1093
+                ],
+                [
+                  1765,
+                  1087
+                ]
+              ],
+              "score": 0.9949188828468323,
+              "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1636,
+                  1091
+                ],
+                [
+                  1729,
+                  1091
+                ],
+                [
+                  1729,
+                  1136
+                ],
+                [
+                  1636,
+                  1136
+                ]
+              ],
+              "score": 0.9959973096847534,
+              "text": "2005"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1764,
+                  1091
+                ],
+                [
+                  2678,
+                  1098
+                ],
+                [
+                  2678,
+                  1144
+                ],
+                [
+                  1763,
+                  1137
+                ]
+              ],
+              "score": 0.9911753535270691,
+              "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1461,
+                  1336
+                ],
+                [
+                  3104,
+                  1348
+                ],
+                [
+                  3104,
+                  1400
+                ],
+                [
+                  1461,
+                  1388
+                ]
+              ],
+              "score": 0.9963064193725586,
+              "text": "218 773 Engagement sur les charges d'entretien et renouvellement des composants suite réforme 2005"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1606,
+                  1391
+                ],
+                [
+                  2417,
+                  1396
+                ],
+                [
+                  2416,
+                  1443
+                ],
+                [
+                  1605,
+                  1437
+                ]
+              ],
+              "score": 0.9992671012878418,
+              "text": "supprimant les provisions pour grosses réparations"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1673,
+                  1588
+                ],
+                [
+                  3090,
+                  1600
+                ],
+                [
+                  3090,
+                  1640
+                ],
+                [
+                  1672,
+                  1628
+                ]
+              ],
+              "score": 0.9850603938102722,
+              "text": "1999 Bail à construire de 55 ans avec maintien dans le patrimoine et transfert pour 0, 15 € du terrain"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1611,
+                  1636
+                ],
+                [
+                  3121,
+                  1650
+                ],
+                [
+                  3121,
+                  1691
+                ],
+                [
+                  1610,
+                  1677
+                ]
+              ],
+              "score": 0.9851887822151184,
+              "text": "99/2000 Bail Emphytéotique de 55 ans avec clause de transfert partiel au preneur à la fin du bait 1/7 logts"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1671,
+                  1686
+                ],
+                [
+                  3090,
+                  1696
+                ],
+                [
+                  3090,
+                  1738
+                ],
+                [
+                  1671,
+                  1727
+                ]
+              ],
+              "score": 0.9929725527763367,
+              "text": "1999 Bail à construire de 55 ans avec maintien dans le patrimoine et transfert pour 0,15 € du terrain"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1669,
+                  1736
+                ],
+                [
+                  3090,
+                  1746
+                ],
+                [
+                  3090,
+                  1787
+                ],
+                [
+                  1669,
+                  1777
+                ]
+              ],
+              "score": 0.9912595748901367,
+              "text": "2000 Bail à construire de 55 ans avec maintien dans le patrimoine et transfert pour 0,15 € du terrain"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1764,
+                  1983
+                ],
+                [
+                  2894,
+                  1990
+                ],
+                [
+                  2894,
+                  2036
+                ],
+                [
+                  1763,
+                  2029
+                ]
+              ],
+              "score": 0.9870420098304749,
+              "text": "Tous ces baux font l'objet d'un avenant portant la durée de 55 à 62 ans."
+            }
+          ]
+        },
+        {
+          "bbox": [
+            1606.3199462890625,
+            435.47300004959106,
+            3247.857421875,
+            589.0730743408203
+          ],
+          "score": 0.9578052759170532,
+          "texts": [
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2286,
+                  491
+                ],
+                [
+                  2570,
+                  491
+                ],
+                [
+                  2570,
+                  537
+                ],
+                [
+                  2286,
+                  537
+                ]
+              ],
+              "score": 0.99965900182724,
+              "text": "OBSERVATIONS"
+            }
+          ]
+        },
+        {
+          "bbox": [
+            1308.9081420898438,
+            434.67931938171387,
+            1607.7020263671875,
+            584.6497650146484
+          ],
+          "score": 0.9518195986747742,
+          "texts": [
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1318,
+                  437
+                ],
+                [
+                  1595,
+                  437
+                ],
+                [
+                  1595,
+                  484
+                ],
+                [
+                  1318,
+                  484
+                ]
+              ],
+              "score": 0.9991974830627441,
+              "text": "VALEUR NETTE"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1317,
+                  485
+                ],
+                [
+                  1604,
+                  489
+                ],
+                [
+                  1603,
+                  535
+                ],
+                [
+                  1316,
+                  532
+                ]
+              ],
+              "score": 0.9976120591163635,
+              "text": "COMPTABLE AU"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1381,
+                  533
+                ],
+                [
+                  1535,
+                  537
+                ],
+                [
+                  1534,
+                  585
+                ],
+                [
+                  1380,
+                  581
+                ]
+              ],
+              "score": 0.9997752904891968,
+              "text": "31/12/22"
+            }
+          ]
+        },
+        {
+          "bbox": [
+            441.1143363714218,
+            674.4898681640625,
+            1312.3660888671875,
+            2126.5067138671875
+          ],
+          "score": 0.9297540187835693,
+          "texts": [
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  702,
+                  691
+                ],
+                [
+                  959,
+                  695
+                ],
+                [
+                  959,
+                  741
+                ],
+                [
+                  701,
+                  737
+                ]
+              ],
+              "score": 0.9989783763885498,
+              "text": "A La Ménagère"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  706,
+                  744
+                ],
+                [
+                  925,
+                  744
+                ],
+                [
+                  925,
+                  786
+                ],
+                [
+                  706,
+                  786
+                ]
+              ],
+              "score": 0.9864209294319153,
+              "text": "Cité Thébauft"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  705,
+                  792
+                ],
+                [
+                  918,
+                  796
+                ],
+                [
+                  917,
+                  839
+                ],
+                [
+                  704,
+                  835
+                ]
+              ],
+              "score": 0.9780795574188232,
+              "text": "Ste Pezenne"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  703,
+                  840
+                ],
+                [
+                  973,
+                  844
+                ],
+                [
+                  972,
+                  887
+                ],
+                [
+                  703,
+                  883
+                ]
+              ],
+              "score": 0.9904987215995789,
+              "text": "Les Nardouzans"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  705,
+                  890
+                ],
+                [
+                  889,
+                  890
+                ],
+                [
+                  889,
+                  931
+                ],
+                [
+                  705,
+                  931
+                ]
+              ],
+              "score": 0.9304613471031189,
+              "text": "Muttisites 1"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  705,
+                  940
+                ],
+                [
+                  1238,
+                  942
+                ],
+                [
+                  1237,
+                  983
+                ],
+                [
+                  705,
+                  981
+                ]
+              ],
+              "score": 0.9997424483299255,
+              "text": "Divers Secteur 1 Maisons de ville"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  705,
+                  991
+                ],
+                [
+                  890,
+                  991
+                ],
+                [
+                  890,
+                  1033
+                ],
+                [
+                  705,
+                  1033
+                ]
+              ],
+              "score": 0.999110996723175,
+              "text": "Multisites 2"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  703,
+                  1039
+                ],
+                [
+                  832,
+                  1039
+                ],
+                [
+                  832,
+                  1082
+                ],
+                [
+                  703,
+                  1082
+                ]
+              ],
+              "score": 0.9660378694534302,
+              "text": "Bellune"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  704,
+                  1082
+                ],
+                [
+                  844,
+                  1086
+                ],
+                [
+                  843,
+                  1134
+                ],
+                [
+                  703,
+                  1130
+                ]
+              ],
+              "score": 0.9998277425765991,
+              "text": "Cholette"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  449,
+                  1283
+                ],
+                [
+                  1181,
+                  1287
+                ],
+                [
+                  1181,
+                  1333
+                ],
+                [
+                  449,
+                  1329
+                ]
+              ],
+              "score": 0.9841279983520508,
+              "text": "2 - ENGAGEMENTS DONNES FINANCIERS"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  705,
+                  1334
+                ],
+                [
+                  1047,
+                  1338
+                ],
+                [
+                  1046,
+                  1381
+                ],
+                [
+                  705,
+                  1377
+                ]
+              ],
+              "score": 0.9747008085250854,
+              "text": "La Maison de retraite"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  449,
+                  1532
+                ],
+                [
+                  925,
+                  1534
+                ],
+                [
+                  925,
+                  1580
+                ],
+                [
+                  449,
+                  1578
+                ]
+              ],
+              "score": 0.9836500883102417,
+              "text": "3 - ENGAGEMENTS RECUS"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  704,
+                  1579
+                ],
+                [
+                  1009,
+                  1585
+                ],
+                [
+                  1008,
+                  1632
+                ],
+                [
+                  703,
+                  1626
+                ]
+              ],
+              "score": 0.9947120547294617,
+              "text": "Chant des oiseaux"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  704,
+                  1631
+                ],
+                [
+                  916,
+                  1637
+                ],
+                [
+                  915,
+                  1680
+                ],
+                [
+                  703,
+                  1674
+                ]
+              ],
+              "score": 0.964477002620697,
+              "text": "Ste Pezenne"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  703,
+                  1677
+                ],
+                [
+                  808,
+                  1682
+                ],
+                [
+                  806,
+                  1728
+                ],
+                [
+                  701,
+                  1723
+                ]
+              ],
+              "score": 0.999681293964386,
+              "text": "Goise"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  703,
+                  1725
+                ],
+                [
+                  852,
+                  1733
+                ],
+                [
+                  849,
+                  1778
+                ],
+                [
+                  701,
+                  1769
+                ]
+              ],
+              "score": 0.999600887298584,
+              "text": "Gardoux"
+            }
+          ]
+        },
+        {
+          "bbox": [
+            1309.8529663085938,
+            1173.2904663085938,
+            1607.6500244140625,
+            1880.7882080078125
+          ],
+          "score": 0.9175376296043396,
+          "texts": [
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1462,
+                  1585
+                ],
+                [
+                  1602,
+                  1589
+                ],
+                [
+                  1601,
+                  1633
+                ],
+                [
+                  1461,
+                  1629
+                ]
+              ],
+              "score": 0.9752451777458191,
+              "text": "261 966"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1483,
+                  1636
+                ],
+                [
+                  1605,
+                  1636
+                ],
+                [
+                  1605,
+                  1679
+                ],
+                [
+                  1483,
+                  1679
+                ]
+              ],
+              "score": 0.9928324222564697,
+              "text": "41 499"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1433,
+                  1684
+                ],
+                [
+                  1602,
+                  1684
+                ],
+                [
+                  1602,
+                  1727
+                ],
+                [
+                  1433,
+                  1727
+                ]
+              ],
+              "score": 0.9955477118492126,
+              "text": "1 063 449"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1463,
+                  1734
+                ],
+                [
+                  1604,
+                  1734
+                ],
+                [
+                  1604,
+                  1777
+                ],
+                [
+                  1463,
+                  1777
+                ]
+              ],
+              "score": 0.9988948106765747,
+              "text": "889 905"
+            }
+          ]
+        },
+        {
+          "bbox": [
+            1310.6224365234375,
+            1928.294921875,
+            1606.7620849609375,
+            2122.1072998046875
+          ],
+          "score": 0.9159820079803467,
+          "texts": []
+        },
+        {
+          "bbox": [
+            1310.8367309570312,
+            1875.8511962890625,
+            1605.837158203125,
+            1931.017822265625
+          ],
+          "score": 0.9099366068840027,
+          "texts": [
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1432,
+                  1882
+                ],
+                [
+                  1602,
+                  1882
+                ],
+                [
+                  1602,
+                  1925
+                ],
+                [
+                  1432,
+                  1925
+                ]
+              ],
+              "score": 0.9996827244758606,
+              "text": "2 256 819"
+            }
+          ]
+        },
+        {
+          "bbox": [
+            1309.8258056640625,
+            1135.3880004882812,
+            1606.6007080078125,
+            1187.523681640625
+          ],
+          "score": 0.8609446287155151,
+          "texts": [
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1184,
+                  1136
+                ],
+                [
+                  1310,
+                  1136
+                ],
+                [
+                  1310,
+                  1185
+                ],
+                [
+                  1184,
+                  1185
+                ]
+              ],
+              "score": 0.9998399615287781,
+              "text": "TOTAL"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1432,
+                  1141
+                ],
+                [
+                  1602,
+                  1141
+                ],
+                [
+                  1602,
+                  1184
+                ],
+                [
+                  1432,
+                  1184
+                ]
+              ],
+              "score": 0.9528923034667969,
+              "text": "4 481 057"
+            }
+          ]
+        },
+        {
+          "bbox": [
+            1309.2394409179688,
+            582.8333435058594,
+            1608.344482421875,
+            1150.1294555664062
+          ],
+          "score": 0.856168270111084,
+          "texts": [
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1464,
+                  698
+                ],
+                [
+                  1609,
+                  698
+                ],
+                [
+                  1609,
+                  741
+                ],
+                [
+                  1464,
+                  741
+                ]
+              ],
+              "score": 0.9897660613059998,
+              "text": "654 002"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1607,
+                  715
+                ],
+                [
+                  1616,
+                  715
+                ],
+                [
+                  1616,
+                  724
+                ],
+                [
+                  1607,
+                  724
+                ]
+              ],
+              "score": 0.8025979995727539,
+              "text": "−"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1464,
+                  748
+                ],
+                [
+                  1605,
+                  748
+                ],
+                [
+                  1605,
+                  791
+                ],
+                [
+                  1464,
+                  791
+                ]
+              ],
+              "score": 0.9890909194946289,
+              "text": "368 122"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1463,
+                  796
+                ],
+                [
+                  1607,
+                  796
+                ],
+                [
+                  1607,
+                  839
+                ],
+                [
+                  1463,
+                  839
+                ]
+              ],
+              "score": 0.9797937273979187,
+              "text": "248 992"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1483,
+                  844
+                ],
+                [
+                  1605,
+                  844
+                ],
+                [
+                  1605,
+                  889
+                ],
+                [
+                  1483,
+                  889
+                ]
+              ],
+              "score": 0.9399531483650208,
+              "text": "50 730"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1464,
+                  892
+                ],
+                [
+                  1606,
+                  896
+                ],
+                [
+                  1604,
+                  940
+                ],
+                [
+                  1462,
+                  936
+                ]
+              ],
+              "score": 0.9978410005569458,
+              "text": "792 714"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1463,
+                  943
+                ],
+                [
+                  1604,
+                  943
+                ],
+                [
+                  1604,
+                  986
+                ],
+                [
+                  1463,
+                  986
+                ]
+              ],
+              "score": 0.9754728674888611,
+              "text": "748 443"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1464,
+                  991
+                ],
+                [
+                  1605,
+                  991
+                ],
+                [
+                  1605,
+                  1034
+                ],
+                [
+                  1464,
+                  1034
+                ]
+              ],
+              "score": 0.9946429133415222,
+              "text": "186 405"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1433,
+                  1043
+                ],
+                [
+                  1604,
+                  1043
+                ],
+                [
+                  1604,
+                  1084
+                ],
+                [
+                  1433,
+                  1084
+                ]
+              ],
+              "score": 0.9737288355827332,
+              "text": "1 375 715"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1482,
+                  1091
+                ],
+                [
+                  1604,
+                  1091
+                ],
+                [
+                  1604,
+                  1136
+                ],
+                [
+                  1482,
+                  1136
+                ]
+              ],
+              "score": 0.9229623675346375,
+              "text": "55 933"
+            }
+          ]
+        },
+        {
+          "bbox": [
+            444.23279094696045,
+            581.2534484863281,
+            1310.0306396484375,
+            690.4230651855469
+          ],
+          "score": 0.7188323140144348,
+          "texts": [
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  452,
+                  643
+                ],
+                [
+                  1348,
+                  648
+                ],
+                [
+                  1347,
+                  690
+                ],
+                [
+                  452,
+                  684
+                ]
+              ],
+              "score": 0.9957834482192993,
+              "text": "1 - ENGAGEMENTS DONNES SUR DES IMMEUBLES"
+            }
+          ]
+        }
+      ],
+      "label": "table",
+      "score": 0.9903325438499451
+    },
+    {
+      "bbox": [
+        296.2032775878906,
+        1219.0042724609375,
+        335.376953125,
+        1260.905029296875
+      ],
+      "label": "number",
+      "score": 0.5405483841896057,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              290,
+              1214
+            ],
+            [
+              344,
+              1214
+            ],
+            [
+              344,
+              1269
+            ],
+            [
+              290,
+              1269
+            ]
+          ],
+          "score": 0.34358125925064087,
+          "text": "B0"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        1260.5982666015625,
+        258.99029541015625,
+        2436.269775390625,
+        312.3655090332031
+      ],
+      "label": "figure_title",
+      "score": 0.5304921865463257,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1262,
+              254
+            ],
+            [
+              2439,
+              263
+            ],
+            [
+              2439,
+              319
+            ],
+            [
+              1261,
+              310
+            ]
+          ],
+          "score": 0.9981448650360107,
+          "text": "ENGAGEMENTS HORS BILAN.2 SEMESTRE 2022"
+        }
+      ]
+    }
+  ],
+  "most_frequent_angle": 0,
+  "ocr": [
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1262,
+          254
+        ],
+        [
+          2439,
+          263
+        ],
+        [
+          2439,
+          319
+        ],
+        [
+          1261,
+          310
+        ]
+      ],
+      "score": 0.9981448650360107,
+      "text": "ENGAGEMENTS HORS BILAN.2 SEMESTRE 2022"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1318,
+          437
+        ],
+        [
+          1595,
+          437
+        ],
+        [
+          1595,
+          484
+        ],
+        [
+          1318,
+          484
+        ]
+      ],
+      "score": 0.9991974830627441,
+      "text": "VALEUR NETTE"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          555,
+          477
+        ],
+        [
+          1200,
+          479
+        ],
+        [
+          1200,
+          527
+        ],
+        [
+          555,
+          525
+        ]
+      ],
+      "score": 0.9982869029045105,
+      "text": "ACTIF : LES CONSTRUCTIONS"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1317,
+          485
+        ],
+        [
+          1604,
+          489
+        ],
+        [
+          1603,
+          535
+        ],
+        [
+          1316,
+          532
+        ]
+      ],
+      "score": 0.9976120591163635,
+      "text": "COMPTABLE AU"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2286,
+          491
+        ],
+        [
+          2570,
+          491
+        ],
+        [
+          2570,
+          537
+        ],
+        [
+          2286,
+          537
+        ]
+      ],
+      "score": 0.99965900182724,
+      "text": "OBSERVATIONS"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1381,
+          533
+        ],
+        [
+          1535,
+          537
+        ],
+        [
+          1534,
+          585
+        ],
+        [
+          1380,
+          581
+        ]
+      ],
+      "score": 0.9997752904891968,
+      "text": "31/12/22"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          452,
+          643
+        ],
+        [
+          1348,
+          648
+        ],
+        [
+          1347,
+          690
+        ],
+        [
+          452,
+          684
+        ]
+      ],
+      "score": 0.9957834482192993,
+      "text": "1 - ENGAGEMENTS DONNES SUR DES IMMEUBLES"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          702,
+          691
+        ],
+        [
+          959,
+          695
+        ],
+        [
+          959,
+          741
+        ],
+        [
+          701,
+          737
+        ]
+      ],
+      "score": 0.9989783763885498,
+      "text": "A La Ménagère"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1464,
+          698
+        ],
+        [
+          1609,
+          698
+        ],
+        [
+          1609,
+          741
+        ],
+        [
+          1464,
+          741
+        ]
+      ],
+      "score": 0.9897660613059998,
+      "text": "654 002"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1607,
+          695
+        ],
+        [
+          2680,
+          702
+        ],
+        [
+          2679,
+          748
+        ],
+        [
+          1607,
+          741
+        ]
+      ],
+      "score": 0.9831116795539856,
+      "text": "1995-97 Bail Emphytéotique de 55 ans avec retour à Ville de Niort"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1607,
+          715
+        ],
+        [
+          1616,
+          715
+        ],
+        [
+          1616,
+          724
+        ],
+        [
+          1607,
+          724
+        ]
+      ],
+      "score": 0.8025979995727539,
+      "text": "−"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          706,
+          744
+        ],
+        [
+          925,
+          744
+        ],
+        [
+          925,
+          786
+        ],
+        [
+          706,
+          786
+        ]
+      ],
+      "score": 0.9864209294319153,
+      "text": "Cité Thébauft"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1464,
+          748
+        ],
+        [
+          1605,
+          748
+        ],
+        [
+          1605,
+          791
+        ],
+        [
+          1464,
+          791
+        ]
+      ],
+      "score": 0.9890909194946289,
+      "text": "368 122"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1636,
+          748
+        ],
+        [
+          1731,
+          748
+        ],
+        [
+          1731,
+          791
+        ],
+        [
+          1636,
+          791
+        ]
+      ],
+      "score": 0.9999212622642517,
+      "text": "2000"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1762,
+          746
+        ],
+        [
+          2680,
+          751
+        ],
+        [
+          2679,
+          798
+        ],
+        [
+          1762,
+          792
+        ]
+      ],
+      "score": 0.9956227540969849,
+      "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          705,
+          792
+        ],
+        [
+          918,
+          796
+        ],
+        [
+          917,
+          839
+        ],
+        [
+          704,
+          835
+        ]
+      ],
+      "score": 0.9780795574188232,
+      "text": "Ste Pezenne"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1463,
+          796
+        ],
+        [
+          1607,
+          796
+        ],
+        [
+          1607,
+          839
+        ],
+        [
+          1463,
+          839
+        ]
+      ],
+      "score": 0.9797937273979187,
+      "text": "248 992"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1610,
+          794
+        ],
+        [
+          1755,
+          798
+        ],
+        [
+          1754,
+          841
+        ],
+        [
+          1608,
+          837
+        ]
+      ],
+      "score": 0.9986933469772339,
+      "text": "99-2000"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1758,
+          796
+        ],
+        [
+          2975,
+          803
+        ],
+        [
+          2975,
+          849
+        ],
+        [
+          1758,
+          842
+        ]
+      ],
+      "score": 0.9939752221107483,
+      "text": "Bail Emphytéotique de 55 ans retour à la Ville de Niort des 6 Logts réabilités"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          703,
+          840
+        ],
+        [
+          973,
+          844
+        ],
+        [
+          972,
+          887
+        ],
+        [
+          703,
+          883
+        ]
+      ],
+      "score": 0.9904987215995789,
+      "text": "Les Nardouzans"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1483,
+          844
+        ],
+        [
+          1605,
+          844
+        ],
+        [
+          1605,
+          889
+        ],
+        [
+          1483,
+          889
+        ]
+      ],
+      "score": 0.9399531483650208,
+      "text": "50 730"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1636,
+          844
+        ],
+        [
+          1727,
+          844
+        ],
+        [
+          1727,
+          889
+        ],
+        [
+          1636,
+          889
+        ]
+      ],
+      "score": 0.9998950958251953,
+      "text": "2001"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1764,
+          846
+        ],
+        [
+          3102,
+          858
+        ],
+        [
+          3102,
+          899
+        ],
+        [
+          1763,
+          887
+        ]
+      ],
+      "score": 0.990784764289856,
+      "text": "Bail à construire de 55 ans retour à la Ville de Niort d'une parcelle avec un logement"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          705,
+          890
+        ],
+        [
+          889,
+          890
+        ],
+        [
+          889,
+          931
+        ],
+        [
+          705,
+          931
+        ]
+      ],
+      "score": 0.9304613471031189,
+      "text": "Muttisites 1"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1464,
+          892
+        ],
+        [
+          1606,
+          896
+        ],
+        [
+          1604,
+          940
+        ],
+        [
+          1462,
+          936
+        ]
+      ],
+      "score": 0.9978410005569458,
+      "text": "792 714"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1636,
+          894
+        ],
+        [
+          1731,
+          894
+        ],
+        [
+          1731,
+          940
+        ],
+        [
+          1636,
+          940
+        ]
+      ],
+      "score": 0.999913215637207,
+      "text": "2002"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1764,
+          895
+        ],
+        [
+          2583,
+          901
+        ],
+        [
+          2583,
+          942
+        ],
+        [
+          1763,
+          936
+        ]
+      ],
+      "score": 0.9889782667160034,
+      "text": "Bail à construire de 55 ans retour à la Ville de Niort"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          705,
+          940
+        ],
+        [
+          1238,
+          942
+        ],
+        [
+          1237,
+          983
+        ],
+        [
+          705,
+          981
+        ]
+      ],
+      "score": 0.9997424483299255,
+      "text": "Divers Secteur 1 Maisons de ville"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1463,
+          943
+        ],
+        [
+          1604,
+          943
+        ],
+        [
+          1604,
+          986
+        ],
+        [
+          1463,
+          986
+        ]
+      ],
+      "score": 0.9754728674888611,
+      "text": "748 443"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1636,
+          942
+        ],
+        [
+          1729,
+          942
+        ],
+        [
+          1729,
+          988
+        ],
+        [
+          1636,
+          988
+        ]
+      ],
+      "score": 0.9999470710754395,
+      "text": "2002"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1764,
+          943
+        ],
+        [
+          2680,
+          949
+        ],
+        [
+          2679,
+          995
+        ],
+        [
+          1763,
+          990
+        ]
+      ],
+      "score": 0.9820775985717773,
+      "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          705,
+          991
+        ],
+        [
+          890,
+          991
+        ],
+        [
+          890,
+          1033
+        ],
+        [
+          705,
+          1033
+        ]
+      ],
+      "score": 0.999110996723175,
+      "text": "Multisites 2"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1464,
+          991
+        ],
+        [
+          1605,
+          991
+        ],
+        [
+          1605,
+          1034
+        ],
+        [
+          1464,
+          1034
+        ]
+      ],
+      "score": 0.9946429133415222,
+      "text": "186 405"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1636,
+          993
+        ],
+        [
+          1729,
+          993
+        ],
+        [
+          1729,
+          1038
+        ],
+        [
+          1636,
+          1038
+        ]
+      ],
+      "score": 0.9999011754989624,
+      "text": "2004"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1764,
+          993
+        ],
+        [
+          2838,
+          1002
+        ],
+        [
+          2837,
+          1046
+        ],
+        [
+          1763,
+          1038
+        ]
+      ],
+      "score": 0.9986780881881714,
+      "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort 2/11 logts"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          703,
+          1039
+        ],
+        [
+          832,
+          1039
+        ],
+        [
+          832,
+          1082
+        ],
+        [
+          703,
+          1082
+        ]
+      ],
+      "score": 0.9660378694534302,
+      "text": "Bellune"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1433,
+          1043
+        ],
+        [
+          1604,
+          1043
+        ],
+        [
+          1604,
+          1084
+        ],
+        [
+          1433,
+          1084
+        ]
+      ],
+      "score": 0.9737288355827332,
+      "text": "1 375 715"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1636,
+          1041
+        ],
+        [
+          1729,
+          1041
+        ],
+        [
+          1729,
+          1086
+        ],
+        [
+          1636,
+          1086
+        ]
+      ],
+      "score": 0.9999186396598816,
+      "text": "2005"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1765,
+          1041
+        ],
+        [
+          2676,
+          1046
+        ],
+        [
+          2676,
+          1093
+        ],
+        [
+          1765,
+          1087
+        ]
+      ],
+      "score": 0.9949188828468323,
+      "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          704,
+          1082
+        ],
+        [
+          844,
+          1086
+        ],
+        [
+          843,
+          1134
+        ],
+        [
+          703,
+          1130
+        ]
+      ],
+      "score": 0.9998277425765991,
+      "text": "Cholette"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1482,
+          1091
+        ],
+        [
+          1604,
+          1091
+        ],
+        [
+          1604,
+          1136
+        ],
+        [
+          1482,
+          1136
+        ]
+      ],
+      "score": 0.9229623675346375,
+      "text": "55 933"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1636,
+          1091
+        ],
+        [
+          1729,
+          1091
+        ],
+        [
+          1729,
+          1136
+        ],
+        [
+          1636,
+          1136
+        ]
+      ],
+      "score": 0.9959973096847534,
+      "text": "2005"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1764,
+          1091
+        ],
+        [
+          2678,
+          1098
+        ],
+        [
+          2678,
+          1144
+        ],
+        [
+          1763,
+          1137
+        ]
+      ],
+      "score": 0.9911753535270691,
+      "text": "Bail Emphytéotique de 55 ans avec retour à Ville de Niort"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1184,
+          1136
+        ],
+        [
+          1310,
+          1136
+        ],
+        [
+          1310,
+          1185
+        ],
+        [
+          1184,
+          1185
+        ]
+      ],
+      "score": 0.9998399615287781,
+      "text": "TOTAL"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1432,
+          1141
+        ],
+        [
+          1602,
+          1141
+        ],
+        [
+          1602,
+          1184
+        ],
+        [
+          1432,
+          1184
+        ]
+      ],
+      "score": 0.9528923034667969,
+      "text": "4 481 057"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          290,
+          1214
+        ],
+        [
+          344,
+          1214
+        ],
+        [
+          344,
+          1269
+        ],
+        [
+          290,
+          1269
+        ]
+      ],
+      "score": 0.34358125925064087,
+      "text": "B0"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          449,
+          1283
+        ],
+        [
+          1181,
+          1287
+        ],
+        [
+          1181,
+          1333
+        ],
+        [
+          449,
+          1329
+        ]
+      ],
+      "score": 0.9841279983520508,
+      "text": "2 - ENGAGEMENTS DONNES FINANCIERS"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          705,
+          1334
+        ],
+        [
+          1047,
+          1338
+        ],
+        [
+          1046,
+          1381
+        ],
+        [
+          705,
+          1377
+        ]
+      ],
+      "score": 0.9747008085250854,
+      "text": "La Maison de retraite"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1461,
+          1336
+        ],
+        [
+          3104,
+          1348
+        ],
+        [
+          3104,
+          1400
+        ],
+        [
+          1461,
+          1388
+        ]
+      ],
+      "score": 0.9963064193725586,
+      "text": "218 773 Engagement sur les charges d'entretien et renouvellement des composants suite réforme 2005"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1606,
+          1391
+        ],
+        [
+          2417,
+          1396
+        ],
+        [
+          2416,
+          1443
+        ],
+        [
+          1605,
+          1437
+        ]
+      ],
+      "score": 0.9992671012878418,
+      "text": "supprimant les provisions pour grosses réparations"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          449,
+          1532
+        ],
+        [
+          925,
+          1534
+        ],
+        [
+          925,
+          1580
+        ],
+        [
+          449,
+          1578
+        ]
+      ],
+      "score": 0.9836500883102417,
+      "text": "3 - ENGAGEMENTS RECUS"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          704,
+          1579
+        ],
+        [
+          1009,
+          1585
+        ],
+        [
+          1008,
+          1632
+        ],
+        [
+          703,
+          1626
+        ]
+      ],
+      "score": 0.9947120547294617,
+      "text": "Chant des oiseaux"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1462,
+          1585
+        ],
+        [
+          1602,
+          1589
+        ],
+        [
+          1601,
+          1633
+        ],
+        [
+          1461,
+          1629
+        ]
+      ],
+      "score": 0.9752451777458191,
+      "text": "261 966"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1673,
+          1588
+        ],
+        [
+          3090,
+          1600
+        ],
+        [
+          3090,
+          1640
+        ],
+        [
+          1672,
+          1628
+        ]
+      ],
+      "score": 0.9850603938102722,
+      "text": "1999 Bail à construire de 55 ans avec maintien dans le patrimoine et transfert pour 0, 15 € du terrain"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          704,
+          1631
+        ],
+        [
+          916,
+          1637
+        ],
+        [
+          915,
+          1680
+        ],
+        [
+          703,
+          1674
+        ]
+      ],
+      "score": 0.964477002620697,
+      "text": "Ste Pezenne"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1483,
+          1636
+        ],
+        [
+          1605,
+          1636
+        ],
+        [
+          1605,
+          1679
+        ],
+        [
+          1483,
+          1679
+        ]
+      ],
+      "score": 0.9928324222564697,
+      "text": "41 499"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1611,
+          1636
+        ],
+        [
+          3121,
+          1650
+        ],
+        [
+          3121,
+          1691
+        ],
+        [
+          1610,
+          1677
+        ]
+      ],
+      "score": 0.9851887822151184,
+      "text": "99/2000 Bail Emphytéotique de 55 ans avec clause de transfert partiel au preneur à la fin du bait 1/7 logts"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          703,
+          1677
+        ],
+        [
+          808,
+          1682
+        ],
+        [
+          806,
+          1728
+        ],
+        [
+          701,
+          1723
+        ]
+      ],
+      "score": 0.999681293964386,
+      "text": "Goise"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1433,
+          1684
+        ],
+        [
+          1602,
+          1684
+        ],
+        [
+          1602,
+          1727
+        ],
+        [
+          1433,
+          1727
+        ]
+      ],
+      "score": 0.9955477118492126,
+      "text": "1 063 449"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1671,
+          1686
+        ],
+        [
+          3090,
+          1696
+        ],
+        [
+          3090,
+          1738
+        ],
+        [
+          1671,
+          1727
+        ]
+      ],
+      "score": 0.9929725527763367,
+      "text": "1999 Bail à construire de 55 ans avec maintien dans le patrimoine et transfert pour 0,15 € du terrain"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          703,
+          1725
+        ],
+        [
+          852,
+          1733
+        ],
+        [
+          849,
+          1778
+        ],
+        [
+          701,
+          1769
+        ]
+      ],
+      "score": 0.999600887298584,
+      "text": "Gardoux"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1463,
+          1734
+        ],
+        [
+          1604,
+          1734
+        ],
+        [
+          1604,
+          1777
+        ],
+        [
+          1463,
+          1777
+        ]
+      ],
+      "score": 0.9988948106765747,
+      "text": "889 905"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1669,
+          1736
+        ],
+        [
+          3090,
+          1746
+        ],
+        [
+          3090,
+          1787
+        ],
+        [
+          1669,
+          1777
+        ]
+      ],
+      "score": 0.9912595748901367,
+      "text": "2000 Bail à construire de 55 ans avec maintien dans le patrimoine et transfert pour 0,15 € du terrain"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1432,
+          1882
+        ],
+        [
+          1602,
+          1882
+        ],
+        [
+          1602,
+          1925
+        ],
+        [
+          1432,
+          1925
+        ]
+      ],
+      "score": 0.9996827244758606,
+      "text": "2 256 819"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1764,
+          1983
+        ],
+        [
+          2894,
+          1990
+        ],
+        [
+          2894,
+          2036
+        ],
+        [
+          1763,
+          2029
+        ]
+      ],
+      "score": 0.9870420098304749,
+      "text": "Tous ces baux font l'objet d'un avenant portant la durée de 55 à 62 ans."
+    }
+  ],
+  "page": 23,
+  "pdf": "CA_027080076_7901_1970B00007_2022_C__65c82ef3bdf2f0305301b0a2.pdf",
+  "skew_angle": 1.0080328642503527
+}

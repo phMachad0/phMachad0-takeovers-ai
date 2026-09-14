@@ -1,1 +1,1486 @@
-{"layout": [{"bbox": [487.50238037109375, 298.42388916015625, 2301.158203125, 803.7146606445312], "label": "text", "score": 0.982548177242279, "texts": [{"orientation_angle": 0, "polygon": [[500.0, 312.0], [2307.0, 312.0], [2307.0, 358.0], [500.0, 358.0]], "score": 0.9904226660728455, "text": "significative liée à des événements ou à des circonstances susceptibles de mettre en cause la"}, {"orientation_angle": 0, "polygon": [[500.0, 375.0], [2305.0, 375.0], [2305.0, 421.0], [500.0, 421.0]], "score": 0.9914486408233643, "text": "capacité de la société à poursuivre son exploitation. Cette appréciation s’appuie sur les éléments"}, {"orientation_angle": 0, "polygon": [[498.0, 435.0], [2309.0, 437.0], [2309.0, 483.0], [498.0, 481.0]], "score": 0.9980677366256714, "text": "collectés jusqu'à la date de son rapport, étant toutefois rappelé que des circonstances ou"}, {"orientation_angle": 0, "polygon": [[501.0, 502.0], [2307.0, 502.0], [2307.0, 543.0], [501.0, 543.0]], "score": 0.9803678393363953, "text": "événements ultérieurs pourraient mettre en cause la continuité d'exploitation. S'il conclut à"}, {"orientation_angle": 0, "polygon": [[496.0, 558.0], [2307.0, 560.0], [2307.0, 606.0], [496.0, 605.0]], "score": 0.9897871017456055, "text": "l’existence d’une incertitude significative, il attire l’attention des lecteurs de son rapport sur les"}, {"orientation_angle": 0, "polygon": [[501.0, 625.0], [2304.0, 625.0], [2304.0, 666.0], [501.0, 666.0]], "score": 0.9995689988136292, "text": "informations fournies dans les comptes annuels au sujet de cette incertitude ou, si ces informations"}, {"orientation_angle": 0, "polygon": [[501.0, 690.0], [2305.0, 690.0], [2305.0, 731.0], [501.0, 731.0]], "score": 0.9881638884544373, "text": "ne sont pas fournies ou ne sont pas pertinentes, il formule une certification avec réserve ou un"}, {"orientation_angle": 0, "polygon": [[500.0, 749.0], [834.0, 749.0], [834.0, 795.0], [500.0, 795.0]], "score": 0.9994784593582153, "text": "refus de certifier ;"}]}, {"bbox": [429.7406005859375, 868.6709594726562, 2301.4013671875, 981.3937377929688], "label": "text", "score": 0.9317529201507568, "texts": [{"orientation_angle": 0, "polygon": [[441.0, 872.0], [469.0, 872.0], [469.0, 913.0], [441.0, 913.0]], "score": 0.38541045784950256, "text": "y"}, {"orientation_angle": 0, "polygon": [[501.0, 877.0], [2304.0, 877.0], [2304.0, 918.0], [501.0, 918.0]], "score": 0.9928829669952393, "text": "Il apprécie la présentation d’ensemble des comptes annuels et évalue si les comptes annuels"}, {"orientation_angle": 0, "polygon": [[503.0, 939.0], [2236.0, 939.0], [2236.0, 980.0], [503.0, 980.0]], "score": 0.9917541146278381, "text": "reflètent les opérations et événements sous-jacents de manière à en donner une image fidèle."}]}, {"bbox": [1745.400390625, 146.36268615722656, 2324.307861328125, 185.4134063720703], "label": "header", "score": 0.9170445203781128, "texts": [{"orientation_angle": 0, "polygon": [[1776.0, 149.0], [2304.0, 149.0], [2304.0, 190.0], [1776.0, 190.0]], "score": 0.9991251826286316, "text": "Exercice clos le 30 juin 2022"}]}, {"bbox": [388.04058837890625, 146.80349731445312, 763.8716430664062, 183.93338012695312], "label": "header", "score": 0.9017466306686401, "texts": [{"orientation_angle": 0, "polygon": [[405.0, 144.0], [755.0, 147.0], [754.0, 194.0], [405.0, 190.0]], "score": 0.9754890203475952, "text": "BERNACHON SAS,"}]}, {"bbox": [2104.595947265625, 3272.392822265625, 2180.5849609375, 3309.6357421875], "label": "number", "score": 0.7007371187210083, "texts": [{"orientation_angle": 0, "polygon": [[2087.0, 3231.0], [2361.0, 3240.0], [2358.0, 3348.0], [2084.0, 3339.0]], "score": 0.8512040972709656, "text": "6/25>"}]}, {"bbox": [1469.970947265625, 1176.6156005859375, 1887.993896484375, 1284.3538818359375], "label": "text", "score": 0.6020168662071228, "texts": [{"orientation_angle": 0, "polygon": [[1577.0, 1176.0], [1787.0, 1180.0], [1786.0, 1230.0], [1576.0, 1226.0]], "score": 0.9994981288909912, "text": "Fait à Lyon"}, {"orientation_angle": 0, "polygon": [[1471.0, 1235.0], [1892.0, 1235.0], [1892.0, 1281.0], [1471.0, 1281.0]], "score": 0.9918845891952515, "text": "Le 14 novembre 2022,"}]}, {"bbox": [1353.538818359375, 1451.3836669921875, 2009.231689453125, 1672.8729248046875], "label": "text", "score": 0.5960333347320557, "texts": [{"orientation_angle": 0, "polygon": [[1514.0, 1458.0], [1850.0, 1458.0], [1850.0, 1504.0], [1514.0, 1504.0]], "score": 0.9997700452804565, "text": "AURYS AUDIT SAS"}, {"orientation_angle": 0, "polygon": [[1359.0, 1516.0], [2009.0, 1516.0], [2009.0, 1562.0], [1359.0, 1562.0]], "score": 0.971725583076477, "text": "Représentée par Frédéric VELozzO"}, {"orientation_angle": 0, "polygon": [[1437.0, 1574.0], [1926.0, 1574.0], [1926.0, 1615.0], [1437.0, 1615.0]], "score": 0.9907298684120178, "text": "Commissaire aux Comptes"}, {"orientation_angle": 0, "polygon": [[1607.0, 1626.0], [1757.0, 1626.0], [1757.0, 1673.0], [1607.0, 1673.0]], "score": 0.9994639158248901, "text": "Associé"}]}, {"bbox": [145.137451171875, 1066.6729736328125, 2321.39111328125, 2718.33056640625], "label": "image", "score": 0.5053420066833496, "texts": [{"orientation_angle": 0, "polygon": [[1577.0, 1176.0], [1787.0, 1180.0], [1786.0, 1230.0], [1576.0, 1226.0]], "score": 0.9994981288909912, "text": "Fait à Lyon"}, {"orientation_angle": 0, "polygon": [[1471.0, 1235.0], [1892.0, 1235.0], [1892.0, 1281.0], [1471.0, 1281.0]], "score": 0.9918845891952515, "text": "Le 14 novembre 2022,"}, {"orientation_angle": 0, "polygon": [[1514.0, 1458.0], [1850.0, 1458.0], [1850.0, 1504.0], [1514.0, 1504.0]], "score": 0.9997700452804565, "text": "AURYS AUDIT SAS"}, {"orientation_angle": 0, "polygon": [[1359.0, 1516.0], [2009.0, 1516.0], [2009.0, 1562.0], [1359.0, 1562.0]], "score": 0.971725583076477, "text": "Représentée par Frédéric VELozzO"}, {"orientation_angle": 0, "polygon": [[1437.0, 1574.0], [1926.0, 1574.0], [1926.0, 1615.0], [1437.0, 1615.0]], "score": 0.9907298684120178, "text": "Commissaire aux Comptes"}, {"orientation_angle": 0, "polygon": [[1607.0, 1626.0], [1757.0, 1626.0], [1757.0, 1673.0], [1607.0, 1673.0]], "score": 0.9994639158248901, "text": "Associé"}, {"orientation_angle": 0, "polygon": [[1764.0, 2303.0], [1850.0, 2282.0], [1878.0, 2392.0], [1792.0, 2413.0]], "score": 0.16286839544773102, "text": "-"}, {"orientation_angle": 0, "polygon": [[1044.0, 2359.0], [1251.0, 2359.0], [1251.0, 2585.0], [1044.0, 2585.0]], "score": 0.7563343048095703, "text": "−"}, {"orientation_angle": 1, "polygon": [[1695.0, 2350.0], [1990.0, 2292.0], [2062.0, 2652.0], [1768.0, 2710.0]], "score": 0.0, "text": ""}, {"orientation_angle": 0, "polygon": [[1825.0, 2366.0], [1845.0, 2366.0], [1845.0, 2377.0], [1825.0, 2377.0]], "score": 0.0, "text": ""}, {"orientation_angle": 0, "polygon": [[1819.0, 2376.0], [1862.0, 2376.0], [1862.0, 2396.0], [1819.0, 2396.0]], "score": 0.0, "text": ""}, {"orientation_angle": 0, "polygon": [[1129.0, 2403.0], [1149.0, 2403.0], [1149.0, 2415.0], [1129.0, 2415.0]], "score": 0.0, "text": ""}]}], "most_frequent_angle": 0, "ocr": [{"orientation_angle": 0, "polygon": [[405.0, 144.0], [755.0, 147.0], [754.0, 194.0], [405.0, 190.0]], "score": 0.9754890203475952, "text": "BERNACHON SAS,"}, {"orientation_angle": 0, "polygon": [[1776.0, 149.0], [2304.0, 149.0], [2304.0, 190.0], [1776.0, 190.0]], "score": 0.9991251826286316, "text": "Exercice clos le 30 juin 2022"}, {"orientation_angle": 0, "polygon": [[500.0, 312.0], [2307.0, 312.0], [2307.0, 358.0], [500.0, 358.0]], "score": 0.9904226660728455, "text": "significative liée à des événements ou à des circonstances susceptibles de mettre en cause la"}, {"orientation_angle": 0, "polygon": [[500.0, 375.0], [2305.0, 375.0], [2305.0, 421.0], [500.0, 421.0]], "score": 0.9914486408233643, "text": "capacité de la société à poursuivre son exploitation. Cette appréciation s’appuie sur les éléments"}, {"orientation_angle": 0, "polygon": [[498.0, 435.0], [2309.0, 437.0], [2309.0, 483.0], [498.0, 481.0]], "score": 0.9980677366256714, "text": "collectés jusqu'à la date de son rapport, étant toutefois rappelé que des circonstances ou"}, {"orientation_angle": 0, "polygon": [[501.0, 502.0], [2307.0, 502.0], [2307.0, 543.0], [501.0, 543.0]], "score": 0.9803678393363953, "text": "événements ultérieurs pourraient mettre en cause la continuité d'exploitation. S'il conclut à"}, {"orientation_angle": 0, "polygon": [[496.0, 558.0], [2307.0, 560.0], [2307.0, 606.0], [496.0, 605.0]], "score": 0.9897871017456055, "text": "l’existence d’une incertitude significative, il attire l’attention des lecteurs de son rapport sur les"}, {"orientation_angle": 0, "polygon": [[501.0, 625.0], [2304.0, 625.0], [2304.0, 666.0], [501.0, 666.0]], "score": 0.9995689988136292, "text": "informations fournies dans les comptes annuels au sujet de cette incertitude ou, si ces informations"}, {"orientation_angle": 0, "polygon": [[501.0, 690.0], [2305.0, 690.0], [2305.0, 731.0], [501.0, 731.0]], "score": 0.9881638884544373, "text": "ne sont pas fournies ou ne sont pas pertinentes, il formule une certification avec réserve ou un"}, {"orientation_angle": 0, "polygon": [[500.0, 749.0], [834.0, 749.0], [834.0, 795.0], [500.0, 795.0]], "score": 0.9994784593582153, "text": "refus de certifier ;"}, {"orientation_angle": 0, "polygon": [[441.0, 872.0], [469.0, 872.0], [469.0, 913.0], [441.0, 913.0]], "score": 0.38541045784950256, "text": "y"}, {"orientation_angle": 0, "polygon": [[501.0, 877.0], [2304.0, 877.0], [2304.0, 918.0], [501.0, 918.0]], "score": 0.9928829669952393, "text": "Il apprécie la présentation d’ensemble des comptes annuels et évalue si les comptes annuels"}, {"orientation_angle": 0, "polygon": [[503.0, 939.0], [2236.0, 939.0], [2236.0, 980.0], [503.0, 980.0]], "score": 0.9917541146278381, "text": "reflètent les opérations et événements sous-jacents de manière à en donner une image fidèle."}, {"orientation_angle": 0, "polygon": [[1577.0, 1176.0], [1787.0, 1180.0], [1786.0, 1230.0], [1576.0, 1226.0]], "score": 0.9994981288909912, "text": "Fait à Lyon"}, {"orientation_angle": 0, "polygon": [[1471.0, 1235.0], [1892.0, 1235.0], [1892.0, 1281.0], [1471.0, 1281.0]], "score": 0.9918845891952515, "text": "Le 14 novembre 2022,"}, {"orientation_angle": 0, "polygon": [[1514.0, 1458.0], [1850.0, 1458.0], [1850.0, 1504.0], [1514.0, 1504.0]], "score": 0.9997700452804565, "text": "AURYS AUDIT SAS"}, {"orientation_angle": 0, "polygon": [[1359.0, 1516.0], [2009.0, 1516.0], [2009.0, 1562.0], [1359.0, 1562.0]], "score": 0.971725583076477, "text": "Représentée par Frédéric VELozzO"}, {"orientation_angle": 0, "polygon": [[1437.0, 1574.0], [1926.0, 1574.0], [1926.0, 1615.0], [1437.0, 1615.0]], "score": 0.9907298684120178, "text": "Commissaire aux Comptes"}, {"orientation_angle": 0, "polygon": [[1607.0, 1626.0], [1757.0, 1626.0], [1757.0, 1673.0], [1607.0, 1673.0]], "score": 0.9994639158248901, "text": "Associé"}, {"orientation_angle": 0, "polygon": [[1764.0, 2303.0], [1850.0, 2282.0], [1878.0, 2392.0], [1792.0, 2413.0]], "score": 0.16286839544773102, "text": "-"}, {"orientation_angle": 0, "polygon": [[1044.0, 2359.0], [1251.0, 2359.0], [1251.0, 2585.0], [1044.0, 2585.0]], "score": 0.7563343048095703, "text": "−"}, {"orientation_angle": 1, "polygon": [[1695.0, 2350.0], [1990.0, 2292.0], [2062.0, 2652.0], [1768.0, 2710.0]], "score": 0.0, "text": ""}, {"orientation_angle": 0, "polygon": [[1825.0, 2366.0], [1845.0, 2366.0], [1845.0, 2377.0], [1825.0, 2377.0]], "score": 0.0, "text": ""}, {"orientation_angle": 0, "polygon": [[1819.0, 2376.0], [1862.0, 2376.0], [1862.0, 2396.0], [1819.0, 2396.0]], "score": 0.0, "text": ""}, {"orientation_angle": 0, "polygon": [[1129.0, 2403.0], [1149.0, 2403.0], [1149.0, 2415.0], [1129.0, 2415.0]], "score": 0.0, "text": ""}, {"orientation_angle": 1, "polygon": [[126.0, 3174.0], [322.0, 3174.0], [322.0, 3366.0], [126.0, 3366.0]], "score": 0.913091778755188, "text": "V"}, {"orientation_angle": 0, "polygon": [[295.0, 3205.0], [753.0, 3205.0], [753.0, 3337.0], [295.0, 3337.0]], "score": 0.9986556172370911, "text": "AURYS"}, {"orientation_angle": 0, "polygon": [[2087.0, 3231.0], [2361.0, 3240.0], [2358.0, 3348.0], [2084.0, 3339.0]], "score": 0.8512040972709656, "text": "6/25>"}], "page": 23, "pdf": "CA_328024377_6901_1983B01173_2022_B2022057483__63e8ebbb54febda17c19ee7e.pdf", "skew_angle": 0.0}
+{
+  "layout": [
+    {
+      "bbox": [
+        487.50238037109375,
+        298.42388916015625,
+        2301.158203125,
+        803.7146606445312
+      ],
+      "label": "text",
+      "score": 0.982548177242279,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              500,
+              312
+            ],
+            [
+              2307,
+              312
+            ],
+            [
+              2307,
+              358
+            ],
+            [
+              500,
+              358
+            ]
+          ],
+          "score": 0.9904226660728455,
+          "text": "significative liée à des événements ou à des circonstances susceptibles de mettre en cause la"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              500,
+              375
+            ],
+            [
+              2305,
+              375
+            ],
+            [
+              2305,
+              421
+            ],
+            [
+              500,
+              421
+            ]
+          ],
+          "score": 0.9914486408233643,
+          "text": "capacité de la société à poursuivre son exploitation. Cette appréciation s’appuie sur les éléments"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              498,
+              435
+            ],
+            [
+              2309,
+              437
+            ],
+            [
+              2309,
+              483
+            ],
+            [
+              498,
+              481
+            ]
+          ],
+          "score": 0.9980677366256714,
+          "text": "collectés jusqu'à la date de son rapport, étant toutefois rappelé que des circonstances ou"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              501,
+              502
+            ],
+            [
+              2307,
+              502
+            ],
+            [
+              2307,
+              543
+            ],
+            [
+              501,
+              543
+            ]
+          ],
+          "score": 0.9803678393363953,
+          "text": "événements ultérieurs pourraient mettre en cause la continuité d'exploitation. S'il conclut à"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              496,
+              558
+            ],
+            [
+              2307,
+              560
+            ],
+            [
+              2307,
+              606
+            ],
+            [
+              496,
+              605
+            ]
+          ],
+          "score": 0.9897871017456055,
+          "text": "l’existence d’une incertitude significative, il attire l’attention des lecteurs de son rapport sur les"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              501,
+              625
+            ],
+            [
+              2304,
+              625
+            ],
+            [
+              2304,
+              666
+            ],
+            [
+              501,
+              666
+            ]
+          ],
+          "score": 0.9995689988136292,
+          "text": "informations fournies dans les comptes annuels au sujet de cette incertitude ou, si ces informations"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              501,
+              690
+            ],
+            [
+              2305,
+              690
+            ],
+            [
+              2305,
+              731
+            ],
+            [
+              501,
+              731
+            ]
+          ],
+          "score": 0.9881638884544373,
+          "text": "ne sont pas fournies ou ne sont pas pertinentes, il formule une certification avec réserve ou un"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              500,
+              749
+            ],
+            [
+              834,
+              749
+            ],
+            [
+              834,
+              795
+            ],
+            [
+              500,
+              795
+            ]
+          ],
+          "score": 0.9994784593582153,
+          "text": "refus de certifier ;"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        429.7406005859375,
+        868.6709594726562,
+        2301.4013671875,
+        981.3937377929688
+      ],
+      "label": "text",
+      "score": 0.9317529201507568,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              441,
+              872
+            ],
+            [
+              469,
+              872
+            ],
+            [
+              469,
+              913
+            ],
+            [
+              441,
+              913
+            ]
+          ],
+          "score": 0.38541045784950256,
+          "text": "y"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              501,
+              877
+            ],
+            [
+              2304,
+              877
+            ],
+            [
+              2304,
+              918
+            ],
+            [
+              501,
+              918
+            ]
+          ],
+          "score": 0.9928829669952393,
+          "text": "Il apprécie la présentation d’ensemble des comptes annuels et évalue si les comptes annuels"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              503,
+              939
+            ],
+            [
+              2236,
+              939
+            ],
+            [
+              2236,
+              980
+            ],
+            [
+              503,
+              980
+            ]
+          ],
+          "score": 0.9917541146278381,
+          "text": "reflètent les opérations et événements sous-jacents de manière à en donner une image fidèle."
+        }
+      ]
+    },
+    {
+      "bbox": [
+        1745.400390625,
+        146.36268615722656,
+        2324.307861328125,
+        185.4134063720703
+      ],
+      "label": "header",
+      "score": 0.9170445203781128,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1776,
+              149
+            ],
+            [
+              2304,
+              149
+            ],
+            [
+              2304,
+              190
+            ],
+            [
+              1776,
+              190
+            ]
+          ],
+          "score": 0.9991251826286316,
+          "text": "Exercice clos le 30 juin 2022"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        388.04058837890625,
+        146.80349731445312,
+        763.8716430664062,
+        183.93338012695312
+      ],
+      "label": "header",
+      "score": 0.9017466306686401,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              405,
+              144
+            ],
+            [
+              755,
+              147
+            ],
+            [
+              754,
+              194
+            ],
+            [
+              405,
+              190
+            ]
+          ],
+          "score": 0.9754890203475952,
+          "text": "BERNACHON SAS,"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        2104.595947265625,
+        3272.392822265625,
+        2180.5849609375,
+        3309.6357421875
+      ],
+      "label": "number",
+      "score": 0.7007371187210083,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              2087,
+              3231
+            ],
+            [
+              2361,
+              3240
+            ],
+            [
+              2358,
+              3348
+            ],
+            [
+              2084,
+              3339
+            ]
+          ],
+          "score": 0.8512040972709656,
+          "text": "6/25>"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        1469.970947265625,
+        1176.6156005859375,
+        1887.993896484375,
+        1284.3538818359375
+      ],
+      "label": "text",
+      "score": 0.6020168662071228,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1577,
+              1176
+            ],
+            [
+              1787,
+              1180
+            ],
+            [
+              1786,
+              1230
+            ],
+            [
+              1576,
+              1226
+            ]
+          ],
+          "score": 0.9994981288909912,
+          "text": "Fait à Lyon"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1471,
+              1235
+            ],
+            [
+              1892,
+              1235
+            ],
+            [
+              1892,
+              1281
+            ],
+            [
+              1471,
+              1281
+            ]
+          ],
+          "score": 0.9918845891952515,
+          "text": "Le 14 novembre 2022,"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        1353.538818359375,
+        1451.3836669921875,
+        2009.231689453125,
+        1672.8729248046875
+      ],
+      "label": "text",
+      "score": 0.5960333347320557,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1514,
+              1458
+            ],
+            [
+              1850,
+              1458
+            ],
+            [
+              1850,
+              1504
+            ],
+            [
+              1514,
+              1504
+            ]
+          ],
+          "score": 0.9997700452804565,
+          "text": "AURYS AUDIT SAS"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1359,
+              1516
+            ],
+            [
+              2009,
+              1516
+            ],
+            [
+              2009,
+              1562
+            ],
+            [
+              1359,
+              1562
+            ]
+          ],
+          "score": 0.971725583076477,
+          "text": "Représentée par Frédéric VELozzO"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1437,
+              1574
+            ],
+            [
+              1926,
+              1574
+            ],
+            [
+              1926,
+              1615
+            ],
+            [
+              1437,
+              1615
+            ]
+          ],
+          "score": 0.9907298684120178,
+          "text": "Commissaire aux Comptes"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1607,
+              1626
+            ],
+            [
+              1757,
+              1626
+            ],
+            [
+              1757,
+              1673
+            ],
+            [
+              1607,
+              1673
+            ]
+          ],
+          "score": 0.9994639158248901,
+          "text": "Associé"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        145.137451171875,
+        1066.6729736328125,
+        2321.39111328125,
+        2718.33056640625
+      ],
+      "label": "image",
+      "score": 0.5053420066833496,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1577,
+              1176
+            ],
+            [
+              1787,
+              1180
+            ],
+            [
+              1786,
+              1230
+            ],
+            [
+              1576,
+              1226
+            ]
+          ],
+          "score": 0.9994981288909912,
+          "text": "Fait à Lyon"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1471,
+              1235
+            ],
+            [
+              1892,
+              1235
+            ],
+            [
+              1892,
+              1281
+            ],
+            [
+              1471,
+              1281
+            ]
+          ],
+          "score": 0.9918845891952515,
+          "text": "Le 14 novembre 2022,"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1514,
+              1458
+            ],
+            [
+              1850,
+              1458
+            ],
+            [
+              1850,
+              1504
+            ],
+            [
+              1514,
+              1504
+            ]
+          ],
+          "score": 0.9997700452804565,
+          "text": "AURYS AUDIT SAS"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1359,
+              1516
+            ],
+            [
+              2009,
+              1516
+            ],
+            [
+              2009,
+              1562
+            ],
+            [
+              1359,
+              1562
+            ]
+          ],
+          "score": 0.971725583076477,
+          "text": "Représentée par Frédéric VELozzO"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1437,
+              1574
+            ],
+            [
+              1926,
+              1574
+            ],
+            [
+              1926,
+              1615
+            ],
+            [
+              1437,
+              1615
+            ]
+          ],
+          "score": 0.9907298684120178,
+          "text": "Commissaire aux Comptes"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1607,
+              1626
+            ],
+            [
+              1757,
+              1626
+            ],
+            [
+              1757,
+              1673
+            ],
+            [
+              1607,
+              1673
+            ]
+          ],
+          "score": 0.9994639158248901,
+          "text": "Associé"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1764,
+              2303
+            ],
+            [
+              1850,
+              2282
+            ],
+            [
+              1878,
+              2392
+            ],
+            [
+              1792,
+              2413
+            ]
+          ],
+          "score": 0.16286839544773102,
+          "text": "-"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1044,
+              2359
+            ],
+            [
+              1251,
+              2359
+            ],
+            [
+              1251,
+              2585
+            ],
+            [
+              1044,
+              2585
+            ]
+          ],
+          "score": 0.7563343048095703,
+          "text": "−"
+        },
+        {
+          "orientation_angle": 1,
+          "polygon": [
+            [
+              1695,
+              2350
+            ],
+            [
+              1990,
+              2292
+            ],
+            [
+              2062,
+              2652
+            ],
+            [
+              1768,
+              2710
+            ]
+          ],
+          "score": 0,
+          "text": ""
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1825,
+              2366
+            ],
+            [
+              1845,
+              2366
+            ],
+            [
+              1845,
+              2377
+            ],
+            [
+              1825,
+              2377
+            ]
+          ],
+          "score": 0,
+          "text": ""
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1819,
+              2376
+            ],
+            [
+              1862,
+              2376
+            ],
+            [
+              1862,
+              2396
+            ],
+            [
+              1819,
+              2396
+            ]
+          ],
+          "score": 0,
+          "text": ""
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1129,
+              2403
+            ],
+            [
+              1149,
+              2403
+            ],
+            [
+              1149,
+              2415
+            ],
+            [
+              1129,
+              2415
+            ]
+          ],
+          "score": 0,
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "most_frequent_angle": 0,
+  "ocr": [
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          405,
+          144
+        ],
+        [
+          755,
+          147
+        ],
+        [
+          754,
+          194
+        ],
+        [
+          405,
+          190
+        ]
+      ],
+      "score": 0.9754890203475952,
+      "text": "BERNACHON SAS,"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1776,
+          149
+        ],
+        [
+          2304,
+          149
+        ],
+        [
+          2304,
+          190
+        ],
+        [
+          1776,
+          190
+        ]
+      ],
+      "score": 0.9991251826286316,
+      "text": "Exercice clos le 30 juin 2022"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          500,
+          312
+        ],
+        [
+          2307,
+          312
+        ],
+        [
+          2307,
+          358
+        ],
+        [
+          500,
+          358
+        ]
+      ],
+      "score": 0.9904226660728455,
+      "text": "significative liée à des événements ou à des circonstances susceptibles de mettre en cause la"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          500,
+          375
+        ],
+        [
+          2305,
+          375
+        ],
+        [
+          2305,
+          421
+        ],
+        [
+          500,
+          421
+        ]
+      ],
+      "score": 0.9914486408233643,
+      "text": "capacité de la société à poursuivre son exploitation. Cette appréciation s’appuie sur les éléments"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          498,
+          435
+        ],
+        [
+          2309,
+          437
+        ],
+        [
+          2309,
+          483
+        ],
+        [
+          498,
+          481
+        ]
+      ],
+      "score": 0.9980677366256714,
+      "text": "collectés jusqu'à la date de son rapport, étant toutefois rappelé que des circonstances ou"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          501,
+          502
+        ],
+        [
+          2307,
+          502
+        ],
+        [
+          2307,
+          543
+        ],
+        [
+          501,
+          543
+        ]
+      ],
+      "score": 0.9803678393363953,
+      "text": "événements ultérieurs pourraient mettre en cause la continuité d'exploitation. S'il conclut à"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          496,
+          558
+        ],
+        [
+          2307,
+          560
+        ],
+        [
+          2307,
+          606
+        ],
+        [
+          496,
+          605
+        ]
+      ],
+      "score": 0.9897871017456055,
+      "text": "l’existence d’une incertitude significative, il attire l’attention des lecteurs de son rapport sur les"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          501,
+          625
+        ],
+        [
+          2304,
+          625
+        ],
+        [
+          2304,
+          666
+        ],
+        [
+          501,
+          666
+        ]
+      ],
+      "score": 0.9995689988136292,
+      "text": "informations fournies dans les comptes annuels au sujet de cette incertitude ou, si ces informations"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          501,
+          690
+        ],
+        [
+          2305,
+          690
+        ],
+        [
+          2305,
+          731
+        ],
+        [
+          501,
+          731
+        ]
+      ],
+      "score": 0.9881638884544373,
+      "text": "ne sont pas fournies ou ne sont pas pertinentes, il formule une certification avec réserve ou un"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          500,
+          749
+        ],
+        [
+          834,
+          749
+        ],
+        [
+          834,
+          795
+        ],
+        [
+          500,
+          795
+        ]
+      ],
+      "score": 0.9994784593582153,
+      "text": "refus de certifier ;"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          441,
+          872
+        ],
+        [
+          469,
+          872
+        ],
+        [
+          469,
+          913
+        ],
+        [
+          441,
+          913
+        ]
+      ],
+      "score": 0.38541045784950256,
+      "text": "y"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          501,
+          877
+        ],
+        [
+          2304,
+          877
+        ],
+        [
+          2304,
+          918
+        ],
+        [
+          501,
+          918
+        ]
+      ],
+      "score": 0.9928829669952393,
+      "text": "Il apprécie la présentation d’ensemble des comptes annuels et évalue si les comptes annuels"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          503,
+          939
+        ],
+        [
+          2236,
+          939
+        ],
+        [
+          2236,
+          980
+        ],
+        [
+          503,
+          980
+        ]
+      ],
+      "score": 0.9917541146278381,
+      "text": "reflètent les opérations et événements sous-jacents de manière à en donner une image fidèle."
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1577,
+          1176
+        ],
+        [
+          1787,
+          1180
+        ],
+        [
+          1786,
+          1230
+        ],
+        [
+          1576,
+          1226
+        ]
+      ],
+      "score": 0.9994981288909912,
+      "text": "Fait à Lyon"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1471,
+          1235
+        ],
+        [
+          1892,
+          1235
+        ],
+        [
+          1892,
+          1281
+        ],
+        [
+          1471,
+          1281
+        ]
+      ],
+      "score": 0.9918845891952515,
+      "text": "Le 14 novembre 2022,"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1514,
+          1458
+        ],
+        [
+          1850,
+          1458
+        ],
+        [
+          1850,
+          1504
+        ],
+        [
+          1514,
+          1504
+        ]
+      ],
+      "score": 0.9997700452804565,
+      "text": "AURYS AUDIT SAS"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1359,
+          1516
+        ],
+        [
+          2009,
+          1516
+        ],
+        [
+          2009,
+          1562
+        ],
+        [
+          1359,
+          1562
+        ]
+      ],
+      "score": 0.971725583076477,
+      "text": "Représentée par Frédéric VELozzO"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1437,
+          1574
+        ],
+        [
+          1926,
+          1574
+        ],
+        [
+          1926,
+          1615
+        ],
+        [
+          1437,
+          1615
+        ]
+      ],
+      "score": 0.9907298684120178,
+      "text": "Commissaire aux Comptes"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1607,
+          1626
+        ],
+        [
+          1757,
+          1626
+        ],
+        [
+          1757,
+          1673
+        ],
+        [
+          1607,
+          1673
+        ]
+      ],
+      "score": 0.9994639158248901,
+      "text": "Associé"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1764,
+          2303
+        ],
+        [
+          1850,
+          2282
+        ],
+        [
+          1878,
+          2392
+        ],
+        [
+          1792,
+          2413
+        ]
+      ],
+      "score": 0.16286839544773102,
+      "text": "-"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1044,
+          2359
+        ],
+        [
+          1251,
+          2359
+        ],
+        [
+          1251,
+          2585
+        ],
+        [
+          1044,
+          2585
+        ]
+      ],
+      "score": 0.7563343048095703,
+      "text": "−"
+    },
+    {
+      "orientation_angle": 1,
+      "polygon": [
+        [
+          1695,
+          2350
+        ],
+        [
+          1990,
+          2292
+        ],
+        [
+          2062,
+          2652
+        ],
+        [
+          1768,
+          2710
+        ]
+      ],
+      "score": 0,
+      "text": ""
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1825,
+          2366
+        ],
+        [
+          1845,
+          2366
+        ],
+        [
+          1845,
+          2377
+        ],
+        [
+          1825,
+          2377
+        ]
+      ],
+      "score": 0,
+      "text": ""
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1819,
+          2376
+        ],
+        [
+          1862,
+          2376
+        ],
+        [
+          1862,
+          2396
+        ],
+        [
+          1819,
+          2396
+        ]
+      ],
+      "score": 0,
+      "text": ""
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1129,
+          2403
+        ],
+        [
+          1149,
+          2403
+        ],
+        [
+          1149,
+          2415
+        ],
+        [
+          1129,
+          2415
+        ]
+      ],
+      "score": 0,
+      "text": ""
+    },
+    {
+      "orientation_angle": 1,
+      "polygon": [
+        [
+          126,
+          3174
+        ],
+        [
+          322,
+          3174
+        ],
+        [
+          322,
+          3366
+        ],
+        [
+          126,
+          3366
+        ]
+      ],
+      "score": 0.913091778755188,
+      "text": "V"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          295,
+          3205
+        ],
+        [
+          753,
+          3205
+        ],
+        [
+          753,
+          3337
+        ],
+        [
+          295,
+          3337
+        ]
+      ],
+      "score": 0.9986556172370911,
+      "text": "AURYS"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2087,
+          3231
+        ],
+        [
+          2361,
+          3240
+        ],
+        [
+          2358,
+          3348
+        ],
+        [
+          2084,
+          3339
+        ]
+      ],
+      "score": 0.8512040972709656,
+      "text": "6/25>"
+    }
+  ],
+  "page": 23,
+  "pdf": "CA_328024377_6901_1983B01173_2022_B2022057483__63e8ebbb54febda17c19ee7e.pdf",
+  "skew_angle": 0
+}

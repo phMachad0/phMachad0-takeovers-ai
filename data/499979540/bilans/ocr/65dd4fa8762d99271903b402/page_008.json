@@ -1,1 +1,5543 @@
-{"layout": [{"bbox": [126.68841552734375, 148.98094177246094, 2317.529052734375, 3216.632568359375], "label": "image", "score": 0.9765956401824951, "texts": [{"orientation_angle": 0, "polygon": [[1807.0, 116.0], [2316.0, 116.0], [2316.0, 157.0], [1807.0, 157.0]], "score": 0.9921385645866394, "text": "DGFiP N° 2033-G-SD 2023"}, {"orientation_angle": 0, "polygon": [[2047.0, 163.0], [2267.0, 163.0], [2267.0, 192.0], [2047.0, 192.0]], "score": 0.9781662225723267, "text": "Formulaire obligatoire"}, {"orientation_angle": 0, "polygon": [[856.0, 176.0], [1535.0, 176.0], [1535.0, 217.0], [856.0, 217.0]], "score": 0.998253583908081, "text": "FILIALES ET PARTICIPATIONS"}, {"orientation_angle": 0, "polygon": [[2014.0, 193.0], [2291.0, 192.0], [2292.0, 222.0], [2014.0, 224.0]], "score": 0.9753490686416626, "text": "(art. 38 de l'ann. Il au CGI)"}, {"orientation_angle": 0, "polygon": [[1890.0, 219.0], [1911.0, 219.0], [1911.0, 248.0], [1890.0, 248.0]], "score": 0.9990554451942444, "text": "1"}, {"orientation_angle": 0, "polygon": [[1968.0, 228.0], [2026.0, 228.0], [2026.0, 279.0], [1968.0, 279.0]], "score": 0.9875941872596741, "text": "(1)"}, {"orientation_angle": 0, "polygon": [[774.0, 260.0], [1663.0, 260.0], [1663.0, 299.0], [774.0, 299.0]], "score": 0.994198203086853, "text": "(liste des personnes ou groupements de personnes de droit ou de fait"}, {"orientation_angle": 0, "polygon": [[321.0, 304.0], [466.0, 308.0], [464.0, 346.0], [320.0, 342.0]], "score": 0.9596357941627502, "text": "N° de dépôt"}, {"orientation_angle": 0, "polygon": [[813.0, 301.0], [1618.0, 303.0], [1618.0, 344.0], [813.0, 342.0]], "score": 0.9949648380279541, "text": "dont la société détient directement au moins 10 % du capital)"}, {"orientation_angle": 0, "polygon": [[1935.0, 306.0], [1957.0, 306.0], [1957.0, 339.0], [1935.0, 339.0]], "score": 0.0, "text": ""}, {"orientation_angle": 0, "polygon": [[2111.0, 301.0], [2245.0, 301.0], [2245.0, 349.0], [2111.0, 349.0]], "score": 0.9006553292274475, "text": "Néant *"}, {"orientation_angle": 0, "polygon": [[181.0, 431.0], [446.0, 431.0], [446.0, 465.0], [181.0, 465.0]], "score": 0.9984474182128906, "text": "EXERCICE CLOS LE"}, {"orientation_angle": 0, "polygon": [[488.0, 426.0], [663.0, 426.0], [663.0, 462.0], [488.0, 462.0]], "score": 0.9999527931213379, "text": "31/12/2022"}, {"orientation_angle": 0, "polygon": [[1545.0, 441.0], [1638.0, 441.0], [1638.0, 477.0], [1545.0, 477.0]], "score": 0.9996121525764465, "text": "SIREN"}, {"orientation_angle": 0, "polygon": [[1713.0, 436.0], [2085.0, 436.0], [2085.0, 482.0], [1713.0, 482.0]], "score": 0.9735680818557739, "text": "4 9 9 9 7 9 5 4 0"}, {"orientation_angle": 0, "polygon": [[179.0, 506.0], [643.0, 510.0], [642.0, 544.0], [179.0, 541.0]], "score": 0.9823012351989746, "text": "DÉNOMINATION DE L'ENTREPRISE"}, {"orientation_angle": 0, "polygon": [[679.0, 512.0], [891.0, 512.0], [891.0, 548.0], [679.0, 548.0]], "score": 0.9994376301765442, "text": "SAS HADEAN"}, {"orientation_angle": 0, "polygon": [[178.0, 580.0], [384.0, 584.0], [384.0, 620.0], [177.0, 616.0]], "score": 0.9978212714195251, "text": "ADRESSE (voie)"}, {"orientation_angle": 0, "polygon": [[420.0, 583.0], [705.0, 583.0], [705.0, 619.0], [420.0, 619.0]], "score": 0.9756974577903748, "text": "94 Grand Rue Sapiac"}, {"orientation_angle": 0, "polygon": [[176.0, 652.0], [372.0, 652.0], [372.0, 686.0], [176.0, 686.0]], "score": 0.9790080785751343, "text": "CODE POSTAL"}, {"orientation_angle": 0, "polygon": [[474.0, 655.0], [567.0, 655.0], [567.0, 693.0], [474.0, 693.0]], "score": 0.9999641180038452, "text": "82000"}, {"orientation_angle": 0, "polygon": [[1099.0, 652.0], [1191.0, 652.0], [1191.0, 688.0], [1099.0, 688.0]], "score": 0.9996846914291382, "text": "VILLE"}, {"orientation_angle": 0, "polygon": [[1247.0, 654.0], [1468.0, 654.0], [1468.0, 688.0], [1247.0, 688.0]], "score": 0.9992713928222656, "text": "MONTAUBAN"}, {"orientation_angle": 0, "polygon": [[171.0, 708.0], [1034.0, 710.0], [1034.0, 749.0], [171.0, 748.0]], "score": 0.992634654045105, "text": "NOMBRE TOTAL DE FILIALES DÉTENUES PAR L'ENTREPRISE"}, {"orientation_angle": 0, "polygon": [[1079.0, 712.0], [1147.0, 712.0], [1147.0, 753.0], [1079.0, 753.0]], "score": 0.9999497532844543, "text": "905"}, {"orientation_angle": 1, "polygon": [[1337.0, 715.0], [1359.0, 715.0], [1359.0, 748.0], [1337.0, 748.0]], "score": 0.31420063972473145, "text": "T"}, {"orientation_angle": 0, "polygon": [[145.0, 783.0], [367.0, 787.0], [366.0, 828.0], [144.0, 824.0]], "score": 0.9951428174972534, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[401.0, 787.0], [476.0, 787.0], [476.0, 826.0], [401.0, 826.0]], "score": 0.9908153414726257, "text": "SAS"}, {"orientation_angle": 0, "polygon": [[772.0, 792.0], [965.0, 792.0], [965.0, 828.0], [772.0, 828.0]], "score": 0.9995810985565186, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[1041.0, 796.0], [1446.0, 796.0], [1446.0, 825.0], [1041.0, 825.0]], "score": 0.9996306300163269, "text": "ARCHEAN TECHNOLOGIES"}, {"orientation_angle": 0, "polygon": [[143.0, 860.0], [617.0, 866.0], [617.0, 905.0], [143.0, 900.0]], "score": 0.982127845287323, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[668.0, 862.0], [824.0, 862.0], [824.0, 898.0], [668.0, 898.0]], "score": 0.9999692440032959, "text": "480489707"}, {"orientation_angle": 0, "polygon": [[1334.0, 862.0], [1535.0, 862.0], [1535.0, 898.0], [1334.0, 898.0]], "score": 0.9979146122932434, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[1621.0, 861.0], [1726.0, 861.0], [1726.0, 903.0], [1621.0, 903.0]], "score": 0.9999244809150696, "text": "100.00"}, {"orientation_angle": 0, "polygon": [[144.0, 927.0], [274.0, 931.0], [273.0, 969.0], [143.0, 965.0]], "score": 0.9916817545890808, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[353.0, 927.0], [407.0, 927.0], [407.0, 968.0], [353.0, 968.0]], "score": 0.6739425659179688, "text": "No"}, {"orientation_angle": 0, "polygon": [[457.0, 931.0], [538.0, 931.0], [538.0, 968.0], [457.0, 968.0]], "score": 0.9989628791809082, "text": "1899"}, {"orientation_angle": 0, "polygon": [[844.0, 931.0], [922.0, 931.0], [922.0, 970.0], [844.0, 970.0]], "score": 0.998697817325592, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[949.0, 932.0], [1156.0, 932.0], [1156.0, 968.0], [949.0, 968.0]], "score": 0.980319619178772, "text": "Avenue d'Italie"}, {"orientation_angle": 0, "polygon": [[364.0, 1016.0], [527.0, 1016.0], [527.0, 1052.0], [364.0, 1052.0]], "score": 0.9897377490997314, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[579.0, 1009.0], [675.0, 1009.0], [675.0, 1047.0], [579.0, 1047.0]], "score": 0.9999326467514038, "text": "82000"}, {"orientation_angle": 0, "polygon": [[961.0, 1018.0], [1106.0, 1018.0], [1106.0, 1054.0], [961.0, 1054.0]], "score": 0.9998212456703186, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1146.0, 1011.0], [1363.0, 1011.0], [1363.0, 1047.0], [1146.0, 1047.0]], "score": 0.9994328618049622, "text": "MONTAUBAN"}, {"orientation_angle": 0, "polygon": [[1709.0, 1011.0], [1792.0, 1011.0], [1792.0, 1057.0], [1709.0, 1057.0]], "score": 0.995850682258606, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[1795.0, 1011.0], [1909.0, 1011.0], [1909.0, 1049.0], [1795.0, 1049.0]], "score": 0.997325599193573, "text": "France"}, {"orientation_angle": 0, "polygon": [[147.0, 1100.0], [369.0, 1104.0], [368.0, 1145.0], [146.0, 1141.0]], "score": 0.982333242893219, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[772.0, 1105.0], [965.0, 1109.0], [964.0, 1145.0], [772.0, 1141.0]], "score": 0.999432384967804, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[147.0, 1180.0], [624.0, 1184.0], [624.0, 1220.0], [146.0, 1216.0]], "score": 0.9766192436218262, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1348.0, 1180.0], [1551.0, 1184.0], [1550.0, 1220.0], [1347.0, 1216.0]], "score": 0.999461829662323, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[149.0, 1257.0], [279.0, 1261.0], [278.0, 1297.0], [148.0, 1293.0]], "score": 0.995403528213501, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[360.0, 1250.0], [416.0, 1243.0], [422.0, 1287.0], [367.0, 1295.0]], "score": 0.7222312688827515, "text": "N°"}, {"orientation_angle": 0, "polygon": [[844.0, 1254.0], [922.0, 1254.0], [922.0, 1293.0], [844.0, 1293.0]], "score": 0.9996015429496765, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[372.0, 1338.0], [532.0, 1338.0], [532.0, 1369.0], [372.0, 1369.0]], "score": 0.9984840750694275, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[958.0, 1336.0], [1104.0, 1336.0], [1104.0, 1372.0], [958.0, 1372.0]], "score": 0.999934196472168, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1704.0, 1332.0], [1784.0, 1337.0], [1781.0, 1381.0], [1701.0, 1377.0]], "score": 0.9978496432304382, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[147.0, 1413.0], [369.0, 1417.0], [368.0, 1458.0], [146.0, 1454.0]], "score": 0.982841432094574, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[771.0, 1418.0], [965.0, 1422.0], [964.0, 1458.0], [770.0, 1454.0]], "score": 0.9990744590759277, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[147.0, 1494.0], [624.0, 1497.0], [624.0, 1533.0], [146.0, 1529.0]], "score": 0.9904065132141113, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1347.0, 1492.0], [1551.0, 1492.0], [1551.0, 1528.0], [1347.0, 1528.0]], "score": 0.9993119239807129, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[149.0, 1570.0], [278.0, 1574.0], [277.0, 1612.0], [148.0, 1608.0]], "score": 0.9921391606330872, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[364.0, 1564.0], [419.0, 1564.0], [419.0, 1607.0], [364.0, 1607.0]], "score": 0.6769512295722961, "text": "N°"}, {"orientation_angle": 0, "polygon": [[843.0, 1569.0], [922.0, 1569.0], [922.0, 1607.0], [843.0, 1607.0]], "score": 0.9996607303619385, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[372.0, 1637.0], [532.0, 1637.0], [532.0, 1673.0], [372.0, 1673.0]], "score": 0.9995878338813782, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[957.0, 1640.0], [1105.0, 1645.0], [1104.0, 1680.0], [956.0, 1676.0]], "score": 0.9999097585678101, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1704.0, 1635.0], [1784.0, 1640.0], [1781.0, 1684.0], [1701.0, 1679.0]], "score": 0.9994321465492249, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[143.0, 1718.0], [360.0, 1721.0], [360.0, 1757.0], [143.0, 1754.0]], "score": 0.971231997013092, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[771.0, 1721.0], [965.0, 1725.0], [964.0, 1761.0], [770.0, 1757.0]], "score": 0.9989401698112488, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[150.0, 1802.0], [624.0, 1805.0], [624.0, 1841.0], [150.0, 1837.0]], "score": 0.9792364239692688, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1346.0, 1803.0], [1551.0, 1807.0], [1550.0, 1843.0], [1345.0, 1839.0]], "score": 0.9967862367630005, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[150.0, 1870.0], [279.0, 1870.0], [279.0, 1906.0], [150.0, 1906.0]], "score": 0.972405731678009, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[364.0, 1865.0], [420.0, 1865.0], [420.0, 1908.0], [364.0, 1908.0]], "score": 0.7578495740890503, "text": "N°"}, {"orientation_angle": 0, "polygon": [[844.0, 1869.0], [922.0, 1874.0], [920.0, 1913.0], [842.0, 1909.0]], "score": 0.9997602105140686, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[370.0, 1937.0], [536.0, 1937.0], [536.0, 1978.0], [370.0, 1978.0]], "score": 0.9985347390174866, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[948.0, 1938.0], [1096.0, 1942.0], [1095.0, 1980.0], [947.0, 1976.0]], "score": 0.9998254776000977, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1695.0, 1938.0], [1775.0, 1938.0], [1775.0, 1985.0], [1695.0, 1985.0]], "score": 0.9993816614151001, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[148.0, 2022.0], [365.0, 2022.0], [365.0, 2058.0], [148.0, 2058.0]], "score": 0.9989451169967651, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[774.0, 2026.0], [965.0, 2026.0], [965.0, 2062.0], [774.0, 2062.0]], "score": 0.9992087483406067, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[147.0, 2091.0], [624.0, 2094.0], [624.0, 2128.0], [146.0, 2125.0]], "score": 0.978221595287323, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1346.0, 2094.0], [1549.0, 2094.0], [1549.0, 2128.0], [1346.0, 2128.0]], "score": 0.9408262968063354, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[146.0, 2166.0], [276.0, 2170.0], [275.0, 2207.0], [144.0, 2203.0]], "score": 0.9753495454788208, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[365.0, 2168.0], [420.0, 2168.0], [420.0, 2209.0], [365.0, 2209.0]], "score": 0.700232207775116, "text": "N"}, {"orientation_angle": 0, "polygon": [[844.0, 2162.0], [922.0, 2167.0], [920.0, 2206.0], [842.0, 2201.0]], "score": 0.992622971534729, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[370.0, 2229.0], [532.0, 2229.0], [532.0, 2265.0], [370.0, 2265.0]], "score": 0.9931855797767639, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[940.0, 2232.0], [1086.0, 2236.0], [1085.0, 2272.0], [939.0, 2268.0]], "score": 0.9998865127563477, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1697.0, 2233.0], [1778.0, 2233.0], [1778.0, 2277.0], [1697.0, 2277.0]], "score": 0.9987144470214844, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[145.0, 2332.0], [360.0, 2332.0], [360.0, 2368.0], [145.0, 2368.0]], "score": 0.9983470439910889, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[774.0, 2334.0], [967.0, 2334.0], [967.0, 2368.0], [774.0, 2368.0]], "score": 0.9995948672294617, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[138.0, 2402.0], [622.0, 2406.0], [622.0, 2440.0], [138.0, 2436.0]], "score": 0.9878509640693665, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1334.0, 2400.0], [1539.0, 2404.0], [1538.0, 2440.0], [1333.0, 2436.0]], "score": 0.9858907461166382, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[146.0, 2460.0], [276.0, 2464.0], [275.0, 2502.0], [144.0, 2498.0]], "score": 0.9927910566329956, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[365.0, 2462.0], [419.0, 2462.0], [419.0, 2505.0], [365.0, 2505.0]], "score": 0.7662553191184998, "text": "N°"}, {"orientation_angle": 0, "polygon": [[844.0, 2472.0], [922.0, 2472.0], [922.0, 2510.0], [844.0, 2510.0]], "score": 0.9997230172157288, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[370.0, 2542.0], [532.0, 2542.0], [532.0, 2578.0], [370.0, 2578.0]], "score": 0.9880128502845764, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[945.0, 2544.0], [1091.0, 2548.0], [1090.0, 2584.0], [944.0, 2580.0]], "score": 0.9998664259910583, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1702.0, 2544.0], [1779.0, 2548.0], [1776.0, 2589.0], [1700.0, 2585.0]], "score": 0.9993813037872314, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[137.0, 2626.0], [359.0, 2630.0], [358.0, 2671.0], [136.0, 2667.0]], "score": 0.9811334013938904, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[771.0, 2623.0], [965.0, 2626.0], [964.0, 2662.0], [770.0, 2659.0]], "score": 0.9989793300628662, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[143.0, 2703.0], [622.0, 2707.0], [622.0, 2743.0], [143.0, 2739.0]], "score": 0.9809086918830872, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1348.0, 2701.0], [1551.0, 2705.0], [1550.0, 2741.0], [1347.0, 2737.0]], "score": 0.9992462396621704, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[144.0, 2771.0], [273.0, 2775.0], [271.0, 2813.0], [143.0, 2809.0]], "score": 0.9353315830230713, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[365.0, 2770.0], [419.0, 2770.0], [419.0, 2814.0], [365.0, 2814.0]], "score": 0.6601775884628296, "text": "Nº"}, {"orientation_angle": 0, "polygon": [[844.0, 2778.0], [922.0, 2783.0], [920.0, 2822.0], [842.0, 2817.0]], "score": 0.9996987581253052, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[372.0, 2844.0], [532.0, 2844.0], [532.0, 2880.0], [372.0, 2880.0]], "score": 0.9880310297012329, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[950.0, 2843.0], [1098.0, 2847.0], [1097.0, 2883.0], [949.0, 2879.0]], "score": 0.9998408555984497, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1695.0, 2842.0], [1775.0, 2842.0], [1775.0, 2886.0], [1695.0, 2886.0]], "score": 0.9989441633224487, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[143.0, 2922.0], [364.0, 2926.0], [363.0, 2967.0], [143.0, 2963.0]], "score": 0.9983449578285217, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[771.0, 2924.0], [967.0, 2929.0], [966.0, 2965.0], [770.0, 2960.0]], "score": 0.9988576769828796, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[143.0, 2999.0], [622.0, 3006.0], [622.0, 3042.0], [143.0, 3035.0]], "score": 0.982077956199646, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1339.0, 3006.0], [1540.0, 3006.0], [1540.0, 3040.0], [1339.0, 3040.0]], "score": 0.9995812177658081, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[150.0, 3083.0], [279.0, 3083.0], [279.0, 3119.0], [150.0, 3119.0]], "score": 0.9934492111206055, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[365.0, 3078.0], [420.0, 3078.0], [420.0, 3119.0], [365.0, 3119.0]], "score": 0.6206526756286621, "text": "N°"}, {"orientation_angle": 0, "polygon": [[846.0, 3077.0], [931.0, 3082.0], [929.0, 3121.0], [844.0, 3117.0]], "score": 0.9995523691177368, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[372.0, 3140.0], [532.0, 3140.0], [532.0, 3176.0], [372.0, 3176.0]], "score": 0.9986599087715149, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[945.0, 3143.0], [1103.0, 3147.0], [1102.0, 3184.0], [944.0, 3180.0]], "score": 0.9998876452445984, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1692.0, 3142.0], [1767.0, 3147.0], [1764.0, 3186.0], [1689.0, 3182.0]], "score": 0.9987859129905701, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[157.0, 3213.0], [2247.0, 3217.0], [2247.0, 3246.0], [157.0, 3242.0]], "score": 0.9860988855361938, "text": "(1) Lorsque le nombre de filiales excède le nombre de lignes du formulaire, veuillez utiliser un ou plusieurs tableaux supplémentaires. Dans ce cas, il convient de numéroter chaque tableau en haut et à gauche de la case"}]}, {"bbox": [80.3213119506836, 1479.356689453125, 108.03064727783203, 1877.899658203125], "label": "aside_text", "score": 0.7449355721473694, "texts": [{"orientation_angle": 1, "polygon": [[77.0, 1483.0], [107.0, 1483.0], [109.0, 1879.0], [79.0, 1879.0]], "score": 0.8890420198440552, "text": "Copytight Groupe ISA (2023) ISACUMPT'A"}]}, {"bbox": [149.5396728515625, 3211.489013671875, 2246.55078125, 3306.457275390625], "label": "text", "score": 0.5232512950897217, "texts": [{"orientation_angle": 0, "polygon": [[157.0, 3213.0], [2247.0, 3217.0], [2247.0, 3246.0], [157.0, 3242.0]], "score": 0.9860988855361938, "text": "(1) Lorsque le nombre de filiales excède le nombre de lignes du formulaire, veuillez utiliser un ou plusieurs tableaux supplémentaires. Dans ce cas, il convient de numéroter chaque tableau en haut et à gauche de la case"}, {"orientation_angle": 0, "polygon": [[159.0, 3246.0], [1144.0, 3249.0], [1144.0, 3273.0], [158.0, 3270.0]], "score": 0.9854622483253479, "text": "prévue à cet effet et de porter le nombre total de tableaux souscrits en bas à droite de cette même case."}, {"orientation_angle": 0, "polygon": [[160.0, 3273.0], [1118.0, 3276.0], [1118.0, 3306.0], [160.0, 3302.0]], "score": 0.9848960041999817, "text": "* Des explications concernant cette rubrique figurent dans la notice n°2033-NOT-SD."}]}], "most_frequent_angle": 0, "ocr": [{"orientation_angle": 0, "polygon": [[1807.0, 116.0], [2316.0, 116.0], [2316.0, 157.0], [1807.0, 157.0]], "score": 0.9921385645866394, "text": "DGFiP N° 2033-G-SD 2023"}, {"orientation_angle": 0, "polygon": [[2047.0, 163.0], [2267.0, 163.0], [2267.0, 192.0], [2047.0, 192.0]], "score": 0.9781662225723267, "text": "Formulaire obligatoire"}, {"orientation_angle": 0, "polygon": [[856.0, 176.0], [1535.0, 176.0], [1535.0, 217.0], [856.0, 217.0]], "score": 0.998253583908081, "text": "FILIALES ET PARTICIPATIONS"}, {"orientation_angle": 0, "polygon": [[2014.0, 193.0], [2291.0, 192.0], [2292.0, 222.0], [2014.0, 224.0]], "score": 0.9753490686416626, "text": "(art. 38 de l'ann. Il au CGI)"}, {"orientation_angle": 0, "polygon": [[1890.0, 219.0], [1911.0, 219.0], [1911.0, 248.0], [1890.0, 248.0]], "score": 0.9990554451942444, "text": "1"}, {"orientation_angle": 0, "polygon": [[1968.0, 228.0], [2026.0, 228.0], [2026.0, 279.0], [1968.0, 279.0]], "score": 0.9875941872596741, "text": "(1)"}, {"orientation_angle": 0, "polygon": [[774.0, 260.0], [1663.0, 260.0], [1663.0, 299.0], [774.0, 299.0]], "score": 0.994198203086853, "text": "(liste des personnes ou groupements de personnes de droit ou de fait"}, {"orientation_angle": 0, "polygon": [[321.0, 304.0], [466.0, 308.0], [464.0, 346.0], [320.0, 342.0]], "score": 0.9596357941627502, "text": "N° de dépôt"}, {"orientation_angle": 0, "polygon": [[813.0, 301.0], [1618.0, 303.0], [1618.0, 344.0], [813.0, 342.0]], "score": 0.9949648380279541, "text": "dont la société détient directement au moins 10 % du capital)"}, {"orientation_angle": 0, "polygon": [[1935.0, 306.0], [1957.0, 306.0], [1957.0, 339.0], [1935.0, 339.0]], "score": 0.0, "text": ""}, {"orientation_angle": 0, "polygon": [[2111.0, 301.0], [2245.0, 301.0], [2245.0, 349.0], [2111.0, 349.0]], "score": 0.9006553292274475, "text": "Néant *"}, {"orientation_angle": 0, "polygon": [[181.0, 431.0], [446.0, 431.0], [446.0, 465.0], [181.0, 465.0]], "score": 0.9984474182128906, "text": "EXERCICE CLOS LE"}, {"orientation_angle": 0, "polygon": [[488.0, 426.0], [663.0, 426.0], [663.0, 462.0], [488.0, 462.0]], "score": 0.9999527931213379, "text": "31/12/2022"}, {"orientation_angle": 0, "polygon": [[1545.0, 441.0], [1638.0, 441.0], [1638.0, 477.0], [1545.0, 477.0]], "score": 0.9996121525764465, "text": "SIREN"}, {"orientation_angle": 0, "polygon": [[1713.0, 436.0], [2085.0, 436.0], [2085.0, 482.0], [1713.0, 482.0]], "score": 0.9735680818557739, "text": "4 9 9 9 7 9 5 4 0"}, {"orientation_angle": 0, "polygon": [[179.0, 506.0], [643.0, 510.0], [642.0, 544.0], [179.0, 541.0]], "score": 0.9823012351989746, "text": "DÉNOMINATION DE L'ENTREPRISE"}, {"orientation_angle": 0, "polygon": [[679.0, 512.0], [891.0, 512.0], [891.0, 548.0], [679.0, 548.0]], "score": 0.9994376301765442, "text": "SAS HADEAN"}, {"orientation_angle": 0, "polygon": [[178.0, 580.0], [384.0, 584.0], [384.0, 620.0], [177.0, 616.0]], "score": 0.9978212714195251, "text": "ADRESSE (voie)"}, {"orientation_angle": 0, "polygon": [[420.0, 583.0], [705.0, 583.0], [705.0, 619.0], [420.0, 619.0]], "score": 0.9756974577903748, "text": "94 Grand Rue Sapiac"}, {"orientation_angle": 0, "polygon": [[176.0, 652.0], [372.0, 652.0], [372.0, 686.0], [176.0, 686.0]], "score": 0.9790080785751343, "text": "CODE POSTAL"}, {"orientation_angle": 0, "polygon": [[474.0, 655.0], [567.0, 655.0], [567.0, 693.0], [474.0, 693.0]], "score": 0.9999641180038452, "text": "82000"}, {"orientation_angle": 0, "polygon": [[1099.0, 652.0], [1191.0, 652.0], [1191.0, 688.0], [1099.0, 688.0]], "score": 0.9996846914291382, "text": "VILLE"}, {"orientation_angle": 0, "polygon": [[1247.0, 654.0], [1468.0, 654.0], [1468.0, 688.0], [1247.0, 688.0]], "score": 0.9992713928222656, "text": "MONTAUBAN"}, {"orientation_angle": 0, "polygon": [[171.0, 708.0], [1034.0, 710.0], [1034.0, 749.0], [171.0, 748.0]], "score": 0.992634654045105, "text": "NOMBRE TOTAL DE FILIALES DÉTENUES PAR L'ENTREPRISE"}, {"orientation_angle": 0, "polygon": [[1079.0, 712.0], [1147.0, 712.0], [1147.0, 753.0], [1079.0, 753.0]], "score": 0.9999497532844543, "text": "905"}, {"orientation_angle": 1, "polygon": [[1337.0, 715.0], [1359.0, 715.0], [1359.0, 748.0], [1337.0, 748.0]], "score": 0.31420063972473145, "text": "T"}, {"orientation_angle": 0, "polygon": [[145.0, 783.0], [367.0, 787.0], [366.0, 828.0], [144.0, 824.0]], "score": 0.9951428174972534, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[401.0, 787.0], [476.0, 787.0], [476.0, 826.0], [401.0, 826.0]], "score": 0.9908153414726257, "text": "SAS"}, {"orientation_angle": 0, "polygon": [[772.0, 792.0], [965.0, 792.0], [965.0, 828.0], [772.0, 828.0]], "score": 0.9995810985565186, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[1041.0, 796.0], [1446.0, 796.0], [1446.0, 825.0], [1041.0, 825.0]], "score": 0.9996306300163269, "text": "ARCHEAN TECHNOLOGIES"}, {"orientation_angle": 0, "polygon": [[143.0, 860.0], [617.0, 866.0], [617.0, 905.0], [143.0, 900.0]], "score": 0.982127845287323, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[668.0, 862.0], [824.0, 862.0], [824.0, 898.0], [668.0, 898.0]], "score": 0.9999692440032959, "text": "480489707"}, {"orientation_angle": 0, "polygon": [[1334.0, 862.0], [1535.0, 862.0], [1535.0, 898.0], [1334.0, 898.0]], "score": 0.9979146122932434, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[1621.0, 861.0], [1726.0, 861.0], [1726.0, 903.0], [1621.0, 903.0]], "score": 0.9999244809150696, "text": "100.00"}, {"orientation_angle": 0, "polygon": [[144.0, 927.0], [274.0, 931.0], [273.0, 969.0], [143.0, 965.0]], "score": 0.9916817545890808, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[353.0, 927.0], [407.0, 927.0], [407.0, 968.0], [353.0, 968.0]], "score": 0.6739425659179688, "text": "No"}, {"orientation_angle": 0, "polygon": [[457.0, 931.0], [538.0, 931.0], [538.0, 968.0], [457.0, 968.0]], "score": 0.9989628791809082, "text": "1899"}, {"orientation_angle": 0, "polygon": [[844.0, 931.0], [922.0, 931.0], [922.0, 970.0], [844.0, 970.0]], "score": 0.998697817325592, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[949.0, 932.0], [1156.0, 932.0], [1156.0, 968.0], [949.0, 968.0]], "score": 0.980319619178772, "text": "Avenue d'Italie"}, {"orientation_angle": 0, "polygon": [[364.0, 1016.0], [527.0, 1016.0], [527.0, 1052.0], [364.0, 1052.0]], "score": 0.9897377490997314, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[579.0, 1009.0], [675.0, 1009.0], [675.0, 1047.0], [579.0, 1047.0]], "score": 0.9999326467514038, "text": "82000"}, {"orientation_angle": 0, "polygon": [[961.0, 1018.0], [1106.0, 1018.0], [1106.0, 1054.0], [961.0, 1054.0]], "score": 0.9998212456703186, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1146.0, 1011.0], [1363.0, 1011.0], [1363.0, 1047.0], [1146.0, 1047.0]], "score": 0.9994328618049622, "text": "MONTAUBAN"}, {"orientation_angle": 0, "polygon": [[1709.0, 1011.0], [1792.0, 1011.0], [1792.0, 1057.0], [1709.0, 1057.0]], "score": 0.995850682258606, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[1795.0, 1011.0], [1909.0, 1011.0], [1909.0, 1049.0], [1795.0, 1049.0]], "score": 0.997325599193573, "text": "France"}, {"orientation_angle": 0, "polygon": [[147.0, 1100.0], [369.0, 1104.0], [368.0, 1145.0], [146.0, 1141.0]], "score": 0.982333242893219, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[772.0, 1105.0], [965.0, 1109.0], [964.0, 1145.0], [772.0, 1141.0]], "score": 0.999432384967804, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[147.0, 1180.0], [624.0, 1184.0], [624.0, 1220.0], [146.0, 1216.0]], "score": 0.9766192436218262, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1348.0, 1180.0], [1551.0, 1184.0], [1550.0, 1220.0], [1347.0, 1216.0]], "score": 0.999461829662323, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[149.0, 1257.0], [279.0, 1261.0], [278.0, 1297.0], [148.0, 1293.0]], "score": 0.995403528213501, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[360.0, 1250.0], [416.0, 1243.0], [422.0, 1287.0], [367.0, 1295.0]], "score": 0.7222312688827515, "text": "N°"}, {"orientation_angle": 0, "polygon": [[844.0, 1254.0], [922.0, 1254.0], [922.0, 1293.0], [844.0, 1293.0]], "score": 0.9996015429496765, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[372.0, 1338.0], [532.0, 1338.0], [532.0, 1369.0], [372.0, 1369.0]], "score": 0.9984840750694275, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[958.0, 1336.0], [1104.0, 1336.0], [1104.0, 1372.0], [958.0, 1372.0]], "score": 0.999934196472168, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1704.0, 1332.0], [1784.0, 1337.0], [1781.0, 1381.0], [1701.0, 1377.0]], "score": 0.9978496432304382, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[147.0, 1413.0], [369.0, 1417.0], [368.0, 1458.0], [146.0, 1454.0]], "score": 0.982841432094574, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[771.0, 1418.0], [965.0, 1422.0], [964.0, 1458.0], [770.0, 1454.0]], "score": 0.9990744590759277, "text": "Dénomination"}, {"orientation_angle": 1, "polygon": [[77.0, 1483.0], [107.0, 1483.0], [109.0, 1879.0], [79.0, 1879.0]], "score": 0.8890420198440552, "text": "Copytight Groupe ISA (2023) ISACUMPT'A"}, {"orientation_angle": 0, "polygon": [[147.0, 1494.0], [624.0, 1497.0], [624.0, 1533.0], [146.0, 1529.0]], "score": 0.9904065132141113, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1347.0, 1492.0], [1551.0, 1492.0], [1551.0, 1528.0], [1347.0, 1528.0]], "score": 0.9993119239807129, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[149.0, 1570.0], [278.0, 1574.0], [277.0, 1612.0], [148.0, 1608.0]], "score": 0.9921391606330872, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[364.0, 1564.0], [419.0, 1564.0], [419.0, 1607.0], [364.0, 1607.0]], "score": 0.6769512295722961, "text": "N°"}, {"orientation_angle": 0, "polygon": [[843.0, 1569.0], [922.0, 1569.0], [922.0, 1607.0], [843.0, 1607.0]], "score": 0.9996607303619385, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[372.0, 1637.0], [532.0, 1637.0], [532.0, 1673.0], [372.0, 1673.0]], "score": 0.9995878338813782, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[957.0, 1640.0], [1105.0, 1645.0], [1104.0, 1680.0], [956.0, 1676.0]], "score": 0.9999097585678101, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1704.0, 1635.0], [1784.0, 1640.0], [1781.0, 1684.0], [1701.0, 1679.0]], "score": 0.9994321465492249, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[143.0, 1718.0], [360.0, 1721.0], [360.0, 1757.0], [143.0, 1754.0]], "score": 0.971231997013092, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[771.0, 1721.0], [965.0, 1725.0], [964.0, 1761.0], [770.0, 1757.0]], "score": 0.9989401698112488, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[150.0, 1802.0], [624.0, 1805.0], [624.0, 1841.0], [150.0, 1837.0]], "score": 0.9792364239692688, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1346.0, 1803.0], [1551.0, 1807.0], [1550.0, 1843.0], [1345.0, 1839.0]], "score": 0.9967862367630005, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[150.0, 1870.0], [279.0, 1870.0], [279.0, 1906.0], [150.0, 1906.0]], "score": 0.972405731678009, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[364.0, 1865.0], [420.0, 1865.0], [420.0, 1908.0], [364.0, 1908.0]], "score": 0.7578495740890503, "text": "N°"}, {"orientation_angle": 0, "polygon": [[844.0, 1869.0], [922.0, 1874.0], [920.0, 1913.0], [842.0, 1909.0]], "score": 0.9997602105140686, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[370.0, 1937.0], [536.0, 1937.0], [536.0, 1978.0], [370.0, 1978.0]], "score": 0.9985347390174866, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[948.0, 1938.0], [1096.0, 1942.0], [1095.0, 1980.0], [947.0, 1976.0]], "score": 0.9998254776000977, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1695.0, 1938.0], [1775.0, 1938.0], [1775.0, 1985.0], [1695.0, 1985.0]], "score": 0.9993816614151001, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[148.0, 2022.0], [365.0, 2022.0], [365.0, 2058.0], [148.0, 2058.0]], "score": 0.9989451169967651, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[774.0, 2026.0], [965.0, 2026.0], [965.0, 2062.0], [774.0, 2062.0]], "score": 0.9992087483406067, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[147.0, 2091.0], [624.0, 2094.0], [624.0, 2128.0], [146.0, 2125.0]], "score": 0.978221595287323, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1346.0, 2094.0], [1549.0, 2094.0], [1549.0, 2128.0], [1346.0, 2128.0]], "score": 0.9408262968063354, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[146.0, 2166.0], [276.0, 2170.0], [275.0, 2207.0], [144.0, 2203.0]], "score": 0.9753495454788208, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[365.0, 2168.0], [420.0, 2168.0], [420.0, 2209.0], [365.0, 2209.0]], "score": 0.700232207775116, "text": "N"}, {"orientation_angle": 0, "polygon": [[844.0, 2162.0], [922.0, 2167.0], [920.0, 2206.0], [842.0, 2201.0]], "score": 0.992622971534729, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[370.0, 2229.0], [532.0, 2229.0], [532.0, 2265.0], [370.0, 2265.0]], "score": 0.9931855797767639, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[940.0, 2232.0], [1086.0, 2236.0], [1085.0, 2272.0], [939.0, 2268.0]], "score": 0.9998865127563477, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1697.0, 2233.0], [1778.0, 2233.0], [1778.0, 2277.0], [1697.0, 2277.0]], "score": 0.9987144470214844, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[145.0, 2332.0], [360.0, 2332.0], [360.0, 2368.0], [145.0, 2368.0]], "score": 0.9983470439910889, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[774.0, 2334.0], [967.0, 2334.0], [967.0, 2368.0], [774.0, 2368.0]], "score": 0.9995948672294617, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[138.0, 2402.0], [622.0, 2406.0], [622.0, 2440.0], [138.0, 2436.0]], "score": 0.9878509640693665, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1334.0, 2400.0], [1539.0, 2404.0], [1538.0, 2440.0], [1333.0, 2436.0]], "score": 0.9858907461166382, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[146.0, 2460.0], [276.0, 2464.0], [275.0, 2502.0], [144.0, 2498.0]], "score": 0.9927910566329956, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[365.0, 2462.0], [419.0, 2462.0], [419.0, 2505.0], [365.0, 2505.0]], "score": 0.7662553191184998, "text": "N°"}, {"orientation_angle": 0, "polygon": [[844.0, 2472.0], [922.0, 2472.0], [922.0, 2510.0], [844.0, 2510.0]], "score": 0.9997230172157288, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[370.0, 2542.0], [532.0, 2542.0], [532.0, 2578.0], [370.0, 2578.0]], "score": 0.9880128502845764, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[945.0, 2544.0], [1091.0, 2548.0], [1090.0, 2584.0], [944.0, 2580.0]], "score": 0.9998664259910583, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1702.0, 2544.0], [1779.0, 2548.0], [1776.0, 2589.0], [1700.0, 2585.0]], "score": 0.9993813037872314, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[137.0, 2626.0], [359.0, 2630.0], [358.0, 2671.0], [136.0, 2667.0]], "score": 0.9811334013938904, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[771.0, 2623.0], [965.0, 2626.0], [964.0, 2662.0], [770.0, 2659.0]], "score": 0.9989793300628662, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[143.0, 2703.0], [622.0, 2707.0], [622.0, 2743.0], [143.0, 2739.0]], "score": 0.9809086918830872, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1348.0, 2701.0], [1551.0, 2705.0], [1550.0, 2741.0], [1347.0, 2737.0]], "score": 0.9992462396621704, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[144.0, 2771.0], [273.0, 2775.0], [271.0, 2813.0], [143.0, 2809.0]], "score": 0.9353315830230713, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[365.0, 2770.0], [419.0, 2770.0], [419.0, 2814.0], [365.0, 2814.0]], "score": 0.6601775884628296, "text": "Nº"}, {"orientation_angle": 0, "polygon": [[844.0, 2778.0], [922.0, 2783.0], [920.0, 2822.0], [842.0, 2817.0]], "score": 0.9996987581253052, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[372.0, 2844.0], [532.0, 2844.0], [532.0, 2880.0], [372.0, 2880.0]], "score": 0.9880310297012329, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[950.0, 2843.0], [1098.0, 2847.0], [1097.0, 2883.0], [949.0, 2879.0]], "score": 0.9998408555984497, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1695.0, 2842.0], [1775.0, 2842.0], [1775.0, 2886.0], [1695.0, 2886.0]], "score": 0.9989441633224487, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[143.0, 2922.0], [364.0, 2926.0], [363.0, 2967.0], [143.0, 2963.0]], "score": 0.9983449578285217, "text": "Forme juridique"}, {"orientation_angle": 0, "polygon": [[771.0, 2924.0], [967.0, 2929.0], [966.0, 2965.0], [770.0, 2960.0]], "score": 0.9988576769828796, "text": "Dénomination"}, {"orientation_angle": 0, "polygon": [[143.0, 2999.0], [622.0, 3006.0], [622.0, 3042.0], [143.0, 3035.0]], "score": 0.982077956199646, "text": "N° SIREN (si société établie en France)"}, {"orientation_angle": 0, "polygon": [[1339.0, 3006.0], [1540.0, 3006.0], [1540.0, 3040.0], [1339.0, 3040.0]], "score": 0.9995812177658081, "text": "% de détention"}, {"orientation_angle": 0, "polygon": [[150.0, 3083.0], [279.0, 3083.0], [279.0, 3119.0], [150.0, 3119.0]], "score": 0.9934492111206055, "text": "Adresse :"}, {"orientation_angle": 0, "polygon": [[365.0, 3078.0], [420.0, 3078.0], [420.0, 3119.0], [365.0, 3119.0]], "score": 0.6206526756286621, "text": "N°"}, {"orientation_angle": 0, "polygon": [[846.0, 3077.0], [931.0, 3082.0], [929.0, 3121.0], [844.0, 3117.0]], "score": 0.9995523691177368, "text": "Voie"}, {"orientation_angle": 0, "polygon": [[372.0, 3140.0], [532.0, 3140.0], [532.0, 3176.0], [372.0, 3176.0]], "score": 0.9986599087715149, "text": "Code Postal"}, {"orientation_angle": 0, "polygon": [[945.0, 3143.0], [1103.0, 3147.0], [1102.0, 3184.0], [944.0, 3180.0]], "score": 0.9998876452445984, "text": "Commune"}, {"orientation_angle": 0, "polygon": [[1692.0, 3142.0], [1767.0, 3147.0], [1764.0, 3186.0], [1689.0, 3182.0]], "score": 0.9987859129905701, "text": "Pays"}, {"orientation_angle": 0, "polygon": [[157.0, 3213.0], [2247.0, 3217.0], [2247.0, 3246.0], [157.0, 3242.0]], "score": 0.9860988855361938, "text": "(1) Lorsque le nombre de filiales excède le nombre de lignes du formulaire, veuillez utiliser un ou plusieurs tableaux supplémentaires. Dans ce cas, il convient de numéroter chaque tableau en haut et à gauche de la case"}, {"orientation_angle": 0, "polygon": [[159.0, 3246.0], [1144.0, 3249.0], [1144.0, 3273.0], [158.0, 3270.0]], "score": 0.9854622483253479, "text": "prévue à cet effet et de porter le nombre total de tableaux souscrits en bas à droite de cette même case."}, {"orientation_angle": 0, "polygon": [[160.0, 3273.0], [1118.0, 3276.0], [1118.0, 3306.0], [160.0, 3302.0]], "score": 0.9848960041999817, "text": "* Des explications concernant cette rubrique figurent dans la notice n°2033-NOT-SD."}], "page": 8, "pdf": "CA_499979540_8201_2009B00114_2022_S__65dd4fa8762d99271903b402.pdf", "skew_angle": 0.0}
+{
+  "layout": [
+    {
+      "bbox": [
+        126.68841552734375,
+        148.98094177246094,
+        2317.529052734375,
+        3216.632568359375
+      ],
+      "label": "image",
+      "score": 0.9765956401824951,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1807,
+              116
+            ],
+            [
+              2316,
+              116
+            ],
+            [
+              2316,
+              157
+            ],
+            [
+              1807,
+              157
+            ]
+          ],
+          "score": 0.9921385645866394,
+          "text": "DGFiP N° 2033-G-SD 2023"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              2047,
+              163
+            ],
+            [
+              2267,
+              163
+            ],
+            [
+              2267,
+              192
+            ],
+            [
+              2047,
+              192
+            ]
+          ],
+          "score": 0.9781662225723267,
+          "text": "Formulaire obligatoire"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              856,
+              176
+            ],
+            [
+              1535,
+              176
+            ],
+            [
+              1535,
+              217
+            ],
+            [
+              856,
+              217
+            ]
+          ],
+          "score": 0.998253583908081,
+          "text": "FILIALES ET PARTICIPATIONS"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              2014,
+              193
+            ],
+            [
+              2291,
+              192
+            ],
+            [
+              2292,
+              222
+            ],
+            [
+              2014,
+              224
+            ]
+          ],
+          "score": 0.9753490686416626,
+          "text": "(art. 38 de l'ann. Il au CGI)"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1890,
+              219
+            ],
+            [
+              1911,
+              219
+            ],
+            [
+              1911,
+              248
+            ],
+            [
+              1890,
+              248
+            ]
+          ],
+          "score": 0.9990554451942444,
+          "text": "1"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1968,
+              228
+            ],
+            [
+              2026,
+              228
+            ],
+            [
+              2026,
+              279
+            ],
+            [
+              1968,
+              279
+            ]
+          ],
+          "score": 0.9875941872596741,
+          "text": "(1)"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              774,
+              260
+            ],
+            [
+              1663,
+              260
+            ],
+            [
+              1663,
+              299
+            ],
+            [
+              774,
+              299
+            ]
+          ],
+          "score": 0.994198203086853,
+          "text": "(liste des personnes ou groupements de personnes de droit ou de fait"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              321,
+              304
+            ],
+            [
+              466,
+              308
+            ],
+            [
+              464,
+              346
+            ],
+            [
+              320,
+              342
+            ]
+          ],
+          "score": 0.9596357941627502,
+          "text": "N° de dépôt"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              813,
+              301
+            ],
+            [
+              1618,
+              303
+            ],
+            [
+              1618,
+              344
+            ],
+            [
+              813,
+              342
+            ]
+          ],
+          "score": 0.9949648380279541,
+          "text": "dont la société détient directement au moins 10 % du capital)"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1935,
+              306
+            ],
+            [
+              1957,
+              306
+            ],
+            [
+              1957,
+              339
+            ],
+            [
+              1935,
+              339
+            ]
+          ],
+          "score": 0,
+          "text": ""
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              2111,
+              301
+            ],
+            [
+              2245,
+              301
+            ],
+            [
+              2245,
+              349
+            ],
+            [
+              2111,
+              349
+            ]
+          ],
+          "score": 0.9006553292274475,
+          "text": "Néant *"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              181,
+              431
+            ],
+            [
+              446,
+              431
+            ],
+            [
+              446,
+              465
+            ],
+            [
+              181,
+              465
+            ]
+          ],
+          "score": 0.9984474182128906,
+          "text": "EXERCICE CLOS LE"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              488,
+              426
+            ],
+            [
+              663,
+              426
+            ],
+            [
+              663,
+              462
+            ],
+            [
+              488,
+              462
+            ]
+          ],
+          "score": 0.9999527931213379,
+          "text": "31/12/2022"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1545,
+              441
+            ],
+            [
+              1638,
+              441
+            ],
+            [
+              1638,
+              477
+            ],
+            [
+              1545,
+              477
+            ]
+          ],
+          "score": 0.9996121525764465,
+          "text": "SIREN"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1713,
+              436
+            ],
+            [
+              2085,
+              436
+            ],
+            [
+              2085,
+              482
+            ],
+            [
+              1713,
+              482
+            ]
+          ],
+          "score": 0.9735680818557739,
+          "text": "4 9 9 9 7 9 5 4 0"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              179,
+              506
+            ],
+            [
+              643,
+              510
+            ],
+            [
+              642,
+              544
+            ],
+            [
+              179,
+              541
+            ]
+          ],
+          "score": 0.9823012351989746,
+          "text": "DÉNOMINATION DE L'ENTREPRISE"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              679,
+              512
+            ],
+            [
+              891,
+              512
+            ],
+            [
+              891,
+              548
+            ],
+            [
+              679,
+              548
+            ]
+          ],
+          "score": 0.9994376301765442,
+          "text": "SAS HADEAN"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              178,
+              580
+            ],
+            [
+              384,
+              584
+            ],
+            [
+              384,
+              620
+            ],
+            [
+              177,
+              616
+            ]
+          ],
+          "score": 0.9978212714195251,
+          "text": "ADRESSE (voie)"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              420,
+              583
+            ],
+            [
+              705,
+              583
+            ],
+            [
+              705,
+              619
+            ],
+            [
+              420,
+              619
+            ]
+          ],
+          "score": 0.9756974577903748,
+          "text": "94 Grand Rue Sapiac"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              176,
+              652
+            ],
+            [
+              372,
+              652
+            ],
+            [
+              372,
+              686
+            ],
+            [
+              176,
+              686
+            ]
+          ],
+          "score": 0.9790080785751343,
+          "text": "CODE POSTAL"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              474,
+              655
+            ],
+            [
+              567,
+              655
+            ],
+            [
+              567,
+              693
+            ],
+            [
+              474,
+              693
+            ]
+          ],
+          "score": 0.9999641180038452,
+          "text": "82000"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1099,
+              652
+            ],
+            [
+              1191,
+              652
+            ],
+            [
+              1191,
+              688
+            ],
+            [
+              1099,
+              688
+            ]
+          ],
+          "score": 0.9996846914291382,
+          "text": "VILLE"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1247,
+              654
+            ],
+            [
+              1468,
+              654
+            ],
+            [
+              1468,
+              688
+            ],
+            [
+              1247,
+              688
+            ]
+          ],
+          "score": 0.9992713928222656,
+          "text": "MONTAUBAN"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              171,
+              708
+            ],
+            [
+              1034,
+              710
+            ],
+            [
+              1034,
+              749
+            ],
+            [
+              171,
+              748
+            ]
+          ],
+          "score": 0.992634654045105,
+          "text": "NOMBRE TOTAL DE FILIALES DÉTENUES PAR L'ENTREPRISE"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1079,
+              712
+            ],
+            [
+              1147,
+              712
+            ],
+            [
+              1147,
+              753
+            ],
+            [
+              1079,
+              753
+            ]
+          ],
+          "score": 0.9999497532844543,
+          "text": "905"
+        },
+        {
+          "orientation_angle": 1,
+          "polygon": [
+            [
+              1337,
+              715
+            ],
+            [
+              1359,
+              715
+            ],
+            [
+              1359,
+              748
+            ],
+            [
+              1337,
+              748
+            ]
+          ],
+          "score": 0.31420063972473145,
+          "text": "T"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              145,
+              783
+            ],
+            [
+              367,
+              787
+            ],
+            [
+              366,
+              828
+            ],
+            [
+              144,
+              824
+            ]
+          ],
+          "score": 0.9951428174972534,
+          "text": "Forme juridique"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              401,
+              787
+            ],
+            [
+              476,
+              787
+            ],
+            [
+              476,
+              826
+            ],
+            [
+              401,
+              826
+            ]
+          ],
+          "score": 0.9908153414726257,
+          "text": "SAS"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              772,
+              792
+            ],
+            [
+              965,
+              792
+            ],
+            [
+              965,
+              828
+            ],
+            [
+              772,
+              828
+            ]
+          ],
+          "score": 0.9995810985565186,
+          "text": "Dénomination"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1041,
+              796
+            ],
+            [
+              1446,
+              796
+            ],
+            [
+              1446,
+              825
+            ],
+            [
+              1041,
+              825
+            ]
+          ],
+          "score": 0.9996306300163269,
+          "text": "ARCHEAN TECHNOLOGIES"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              143,
+              860
+            ],
+            [
+              617,
+              866
+            ],
+            [
+              617,
+              905
+            ],
+            [
+              143,
+              900
+            ]
+          ],
+          "score": 0.982127845287323,
+          "text": "N° SIREN (si société établie en France)"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              668,
+              862
+            ],
+            [
+              824,
+              862
+            ],
+            [
+              824,
+              898
+            ],
+            [
+              668,
+              898
+            ]
+          ],
+          "score": 0.9999692440032959,
+          "text": "480489707"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1334,
+              862
+            ],
+            [
+              1535,
+              862
+            ],
+            [
+              1535,
+              898
+            ],
+            [
+              1334,
+              898
+            ]
+          ],
+          "score": 0.9979146122932434,
+          "text": "% de détention"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1621,
+              861
+            ],
+            [
+              1726,
+              861
+            ],
+            [
+              1726,
+              903
+            ],
+            [
+              1621,
+              903
+            ]
+          ],
+          "score": 0.9999244809150696,
+          "text": "100.00"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              144,
+              927
+            ],
+            [
+              274,
+              931
+            ],
+            [
+              273,
+              969
+            ],
+            [
+              143,
+              965
+            ]
+          ],
+          "score": 0.9916817545890808,
+          "text": "Adresse :"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              353,
+              927
+            ],
+            [
+              407,
+              927
+            ],
+            [
+              407,
+              968
+            ],
+            [
+              353,
+              968
+            ]
+          ],
+          "score": 0.6739425659179688,
+          "text": "No"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              457,
+              931
+            ],
+            [
+              538,
+              931
+            ],
+            [
+              538,
+              968
+            ],
+            [
+              457,
+              968
+            ]
+          ],
+          "score": 0.9989628791809082,
+          "text": "1899"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              844,
+              931
+            ],
+            [
+              922,
+              931
+            ],
+            [
+              922,
+              970
+            ],
+            [
+              844,
+              970
+            ]
+          ],
+          "score": 0.998697817325592,
+          "text": "Voie"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              949,
+              932
+            ],
+            [
+              1156,
+              932
+            ],
+            [
+              1156,
+              968
+            ],
+            [
+              949,
+              968
+            ]
+          ],
+          "score": 0.980319619178772,
+          "text": "Avenue d'Italie"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              364,
+              1016
+            ],
+            [
+              527,
+              1016
+            ],
+            [
+              527,
+              1052
+            ],
+            [
+              364,
+              1052
+            ]
+          ],
+          "score": 0.9897377490997314,
+          "text": "Code Postal"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              579,
+              1009
+            ],
+            [
+              675,
+              1009
+            ],
+            [
+              675,
+              1047
+            ],
+            [
+              579,
+              1047
+            ]
+          ],
+          "score": 0.9999326467514038,
+          "text": "82000"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              961,
+              1018
+            ],
+            [
+              1106,
+              1018
+            ],
+            [
+              1106,
+              1054
+            ],
+            [
+              961,
+              1054
+            ]
+          ],
+          "score": 0.9998212456703186,
+          "text": "Commune"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1146,
+              1011
+            ],
+            [
+              1363,
+              1011
+            ],
+            [
+              1363,
+              1047
+            ],
+            [
+              1146,
+              1047
+            ]
+          ],
+          "score": 0.9994328618049622,
+          "text": "MONTAUBAN"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1709,
+              1011
+            ],
+            [
+              1792,
+              1011
+            ],
+            [
+              1792,
+              1057
+            ],
+            [
+              1709,
+              1057
+            ]
+          ],
+          "score": 0.995850682258606,
+          "text": "Pays"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1795,
+              1011
+            ],
+            [
+              1909,
+              1011
+            ],
+            [
+              1909,
+              1049
+            ],
+            [
+              1795,
+              1049
+            ]
+          ],
+          "score": 0.997325599193573,
+          "text": "France"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              147,
+              1100
+            ],
+            [
+              369,
+              1104
+            ],
+            [
+              368,
+              1145
+            ],
+            [
+              146,
+              1141
+            ]
+          ],
+          "score": 0.982333242893219,
+          "text": "Forme juridique"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              772,
+              1105
+            ],
+            [
+              965,
+              1109
+            ],
+            [
+              964,
+              1145
+            ],
+            [
+              772,
+              1141
+            ]
+          ],
+          "score": 0.999432384967804,
+          "text": "Dénomination"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              147,
+              1180
+            ],
+            [
+              624,
+              1184
+            ],
+            [
+              624,
+              1220
+            ],
+            [
+              146,
+              1216
+            ]
+          ],
+          "score": 0.9766192436218262,
+          "text": "N° SIREN (si société établie en France)"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1348,
+              1180
+            ],
+            [
+              1551,
+              1184
+            ],
+            [
+              1550,
+              1220
+            ],
+            [
+              1347,
+              1216
+            ]
+          ],
+          "score": 0.999461829662323,
+          "text": "% de détention"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              149,
+              1257
+            ],
+            [
+              279,
+              1261
+            ],
+            [
+              278,
+              1297
+            ],
+            [
+              148,
+              1293
+            ]
+          ],
+          "score": 0.995403528213501,
+          "text": "Adresse :"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              360,
+              1250
+            ],
+            [
+              416,
+              1243
+            ],
+            [
+              422,
+              1287
+            ],
+            [
+              367,
+              1295
+            ]
+          ],
+          "score": 0.7222312688827515,
+          "text": "N°"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              844,
+              1254
+            ],
+            [
+              922,
+              1254
+            ],
+            [
+              922,
+              1293
+            ],
+            [
+              844,
+              1293
+            ]
+          ],
+          "score": 0.9996015429496765,
+          "text": "Voie"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              372,
+              1338
+            ],
+            [
+              532,
+              1338
+            ],
+            [
+              532,
+              1369
+            ],
+            [
+              372,
+              1369
+            ]
+          ],
+          "score": 0.9984840750694275,
+          "text": "Code Postal"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              958,
+              1336
+            ],
+            [
+              1104,
+              1336
+            ],
+            [
+              1104,
+              1372
+            ],
+            [
+              958,
+              1372
+            ]
+          ],
+          "score": 0.999934196472168,
+          "text": "Commune"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1704,
+              1332
+            ],
+            [
+              1784,
+              1337
+            ],
+            [
+              1781,
+              1381
+            ],
+            [
+              1701,
+              1377
+            ]
+          ],
+          "score": 0.9978496432304382,
+          "text": "Pays"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              147,
+              1413
+            ],
+            [
+              369,
+              1417
+            ],
+            [
+              368,
+              1458
+            ],
+            [
+              146,
+              1454
+            ]
+          ],
+          "score": 0.982841432094574,
+          "text": "Forme juridique"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              771,
+              1418
+            ],
+            [
+              965,
+              1422
+            ],
+            [
+              964,
+              1458
+            ],
+            [
+              770,
+              1454
+            ]
+          ],
+          "score": 0.9990744590759277,
+          "text": "Dénomination"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              147,
+              1494
+            ],
+            [
+              624,
+              1497
+            ],
+            [
+              624,
+              1533
+            ],
+            [
+              146,
+              1529
+            ]
+          ],
+          "score": 0.9904065132141113,
+          "text": "N° SIREN (si société établie en France)"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1347,
+              1492
+            ],
+            [
+              1551,
+              1492
+            ],
+            [
+              1551,
+              1528
+            ],
+            [
+              1347,
+              1528
+            ]
+          ],
+          "score": 0.9993119239807129,
+          "text": "% de détention"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              149,
+              1570
+            ],
+            [
+              278,
+              1574
+            ],
+            [
+              277,
+              1612
+            ],
+            [
+              148,
+              1608
+            ]
+          ],
+          "score": 0.9921391606330872,
+          "text": "Adresse :"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              364,
+              1564
+            ],
+            [
+              419,
+              1564
+            ],
+            [
+              419,
+              1607
+            ],
+            [
+              364,
+              1607
+            ]
+          ],
+          "score": 0.6769512295722961,
+          "text": "N°"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              843,
+              1569
+            ],
+            [
+              922,
+              1569
+            ],
+            [
+              922,
+              1607
+            ],
+            [
+              843,
+              1607
+            ]
+          ],
+          "score": 0.9996607303619385,
+          "text": "Voie"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              372,
+              1637
+            ],
+            [
+              532,
+              1637
+            ],
+            [
+              532,
+              1673
+            ],
+            [
+              372,
+              1673
+            ]
+          ],
+          "score": 0.9995878338813782,
+          "text": "Code Postal"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              957,
+              1640
+            ],
+            [
+              1105,
+              1645
+            ],
+            [
+              1104,
+              1680
+            ],
+            [
+              956,
+              1676
+            ]
+          ],
+          "score": 0.9999097585678101,
+          "text": "Commune"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1704,
+              1635
+            ],
+            [
+              1784,
+              1640
+            ],
+            [
+              1781,
+              1684
+            ],
+            [
+              1701,
+              1679
+            ]
+          ],
+          "score": 0.9994321465492249,
+          "text": "Pays"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              143,
+              1718
+            ],
+            [
+              360,
+              1721
+            ],
+            [
+              360,
+              1757
+            ],
+            [
+              143,
+              1754
+            ]
+          ],
+          "score": 0.971231997013092,
+          "text": "Forme juridique"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              771,
+              1721
+            ],
+            [
+              965,
+              1725
+            ],
+            [
+              964,
+              1761
+            ],
+            [
+              770,
+              1757
+            ]
+          ],
+          "score": 0.9989401698112488,
+          "text": "Dénomination"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              150,
+              1802
+            ],
+            [
+              624,
+              1805
+            ],
+            [
+              624,
+              1841
+            ],
+            [
+              150,
+              1837
+            ]
+          ],
+          "score": 0.9792364239692688,
+          "text": "N° SIREN (si société établie en France)"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1346,
+              1803
+            ],
+            [
+              1551,
+              1807
+            ],
+            [
+              1550,
+              1843
+            ],
+            [
+              1345,
+              1839
+            ]
+          ],
+          "score": 0.9967862367630005,
+          "text": "% de détention"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              150,
+              1870
+            ],
+            [
+              279,
+              1870
+            ],
+            [
+              279,
+              1906
+            ],
+            [
+              150,
+              1906
+            ]
+          ],
+          "score": 0.972405731678009,
+          "text": "Adresse :"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              364,
+              1865
+            ],
+            [
+              420,
+              1865
+            ],
+            [
+              420,
+              1908
+            ],
+            [
+              364,
+              1908
+            ]
+          ],
+          "score": 0.7578495740890503,
+          "text": "N°"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              844,
+              1869
+            ],
+            [
+              922,
+              1874
+            ],
+            [
+              920,
+              1913
+            ],
+            [
+              842,
+              1909
+            ]
+          ],
+          "score": 0.9997602105140686,
+          "text": "Voie"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              370,
+              1937
+            ],
+            [
+              536,
+              1937
+            ],
+            [
+              536,
+              1978
+            ],
+            [
+              370,
+              1978
+            ]
+          ],
+          "score": 0.9985347390174866,
+          "text": "Code Postal"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              948,
+              1938
+            ],
+            [
+              1096,
+              1942
+            ],
+            [
+              1095,
+              1980
+            ],
+            [
+              947,
+              1976
+            ]
+          ],
+          "score": 0.9998254776000977,
+          "text": "Commune"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1695,
+              1938
+            ],
+            [
+              1775,
+              1938
+            ],
+            [
+              1775,
+              1985
+            ],
+            [
+              1695,
+              1985
+            ]
+          ],
+          "score": 0.9993816614151001,
+          "text": "Pays"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              148,
+              2022
+            ],
+            [
+              365,
+              2022
+            ],
+            [
+              365,
+              2058
+            ],
+            [
+              148,
+              2058
+            ]
+          ],
+          "score": 0.9989451169967651,
+          "text": "Forme juridique"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              774,
+              2026
+            ],
+            [
+              965,
+              2026
+            ],
+            [
+              965,
+              2062
+            ],
+            [
+              774,
+              2062
+            ]
+          ],
+          "score": 0.9992087483406067,
+          "text": "Dénomination"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              147,
+              2091
+            ],
+            [
+              624,
+              2094
+            ],
+            [
+              624,
+              2128
+            ],
+            [
+              146,
+              2125
+            ]
+          ],
+          "score": 0.978221595287323,
+          "text": "N° SIREN (si société établie en France)"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1346,
+              2094
+            ],
+            [
+              1549,
+              2094
+            ],
+            [
+              1549,
+              2128
+            ],
+            [
+              1346,
+              2128
+            ]
+          ],
+          "score": 0.9408262968063354,
+          "text": "% de détention"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              146,
+              2166
+            ],
+            [
+              276,
+              2170
+            ],
+            [
+              275,
+              2207
+            ],
+            [
+              144,
+              2203
+            ]
+          ],
+          "score": 0.9753495454788208,
+          "text": "Adresse :"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              365,
+              2168
+            ],
+            [
+              420,
+              2168
+            ],
+            [
+              420,
+              2209
+            ],
+            [
+              365,
+              2209
+            ]
+          ],
+          "score": 0.700232207775116,
+          "text": "N"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              844,
+              2162
+            ],
+            [
+              922,
+              2167
+            ],
+            [
+              920,
+              2206
+            ],
+            [
+              842,
+              2201
+            ]
+          ],
+          "score": 0.992622971534729,
+          "text": "Voie"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              370,
+              2229
+            ],
+            [
+              532,
+              2229
+            ],
+            [
+              532,
+              2265
+            ],
+            [
+              370,
+              2265
+            ]
+          ],
+          "score": 0.9931855797767639,
+          "text": "Code Postal"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              940,
+              2232
+            ],
+            [
+              1086,
+              2236
+            ],
+            [
+              1085,
+              2272
+            ],
+            [
+              939,
+              2268
+            ]
+          ],
+          "score": 0.9998865127563477,
+          "text": "Commune"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1697,
+              2233
+            ],
+            [
+              1778,
+              2233
+            ],
+            [
+              1778,
+              2277
+            ],
+            [
+              1697,
+              2277
+            ]
+          ],
+          "score": 0.9987144470214844,
+          "text": "Pays"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              145,
+              2332
+            ],
+            [
+              360,
+              2332
+            ],
+            [
+              360,
+              2368
+            ],
+            [
+              145,
+              2368
+            ]
+          ],
+          "score": 0.9983470439910889,
+          "text": "Forme juridique"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              774,
+              2334
+            ],
+            [
+              967,
+              2334
+            ],
+            [
+              967,
+              2368
+            ],
+            [
+              774,
+              2368
+            ]
+          ],
+          "score": 0.9995948672294617,
+          "text": "Dénomination"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              138,
+              2402
+            ],
+            [
+              622,
+              2406
+            ],
+            [
+              622,
+              2440
+            ],
+            [
+              138,
+              2436
+            ]
+          ],
+          "score": 0.9878509640693665,
+          "text": "N° SIREN (si société établie en France)"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1334,
+              2400
+            ],
+            [
+              1539,
+              2404
+            ],
+            [
+              1538,
+              2440
+            ],
+            [
+              1333,
+              2436
+            ]
+          ],
+          "score": 0.9858907461166382,
+          "text": "% de détention"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              146,
+              2460
+            ],
+            [
+              276,
+              2464
+            ],
+            [
+              275,
+              2502
+            ],
+            [
+              144,
+              2498
+            ]
+          ],
+          "score": 0.9927910566329956,
+          "text": "Adresse :"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              365,
+              2462
+            ],
+            [
+              419,
+              2462
+            ],
+            [
+              419,
+              2505
+            ],
+            [
+              365,
+              2505
+            ]
+          ],
+          "score": 0.7662553191184998,
+          "text": "N°"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              844,
+              2472
+            ],
+            [
+              922,
+              2472
+            ],
+            [
+              922,
+              2510
+            ],
+            [
+              844,
+              2510
+            ]
+          ],
+          "score": 0.9997230172157288,
+          "text": "Voie"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              370,
+              2542
+            ],
+            [
+              532,
+              2542
+            ],
+            [
+              532,
+              2578
+            ],
+            [
+              370,
+              2578
+            ]
+          ],
+          "score": 0.9880128502845764,
+          "text": "Code Postal"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              945,
+              2544
+            ],
+            [
+              1091,
+              2548
+            ],
+            [
+              1090,
+              2584
+            ],
+            [
+              944,
+              2580
+            ]
+          ],
+          "score": 0.9998664259910583,
+          "text": "Commune"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1702,
+              2544
+            ],
+            [
+              1779,
+              2548
+            ],
+            [
+              1776,
+              2589
+            ],
+            [
+              1700,
+              2585
+            ]
+          ],
+          "score": 0.9993813037872314,
+          "text": "Pays"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              137,
+              2626
+            ],
+            [
+              359,
+              2630
+            ],
+            [
+              358,
+              2671
+            ],
+            [
+              136,
+              2667
+            ]
+          ],
+          "score": 0.9811334013938904,
+          "text": "Forme juridique"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              771,
+              2623
+            ],
+            [
+              965,
+              2626
+            ],
+            [
+              964,
+              2662
+            ],
+            [
+              770,
+              2659
+            ]
+          ],
+          "score": 0.9989793300628662,
+          "text": "Dénomination"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              143,
+              2703
+            ],
+            [
+              622,
+              2707
+            ],
+            [
+              622,
+              2743
+            ],
+            [
+              143,
+              2739
+            ]
+          ],
+          "score": 0.9809086918830872,
+          "text": "N° SIREN (si société établie en France)"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1348,
+              2701
+            ],
+            [
+              1551,
+              2705
+            ],
+            [
+              1550,
+              2741
+            ],
+            [
+              1347,
+              2737
+            ]
+          ],
+          "score": 0.9992462396621704,
+          "text": "% de détention"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              144,
+              2771
+            ],
+            [
+              273,
+              2775
+            ],
+            [
+              271,
+              2813
+            ],
+            [
+              143,
+              2809
+            ]
+          ],
+          "score": 0.9353315830230713,
+          "text": "Adresse :"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              365,
+              2770
+            ],
+            [
+              419,
+              2770
+            ],
+            [
+              419,
+              2814
+            ],
+            [
+              365,
+              2814
+            ]
+          ],
+          "score": 0.6601775884628296,
+          "text": "Nº"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              844,
+              2778
+            ],
+            [
+              922,
+              2783
+            ],
+            [
+              920,
+              2822
+            ],
+            [
+              842,
+              2817
+            ]
+          ],
+          "score": 0.9996987581253052,
+          "text": "Voie"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              372,
+              2844
+            ],
+            [
+              532,
+              2844
+            ],
+            [
+              532,
+              2880
+            ],
+            [
+              372,
+              2880
+            ]
+          ],
+          "score": 0.9880310297012329,
+          "text": "Code Postal"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              950,
+              2843
+            ],
+            [
+              1098,
+              2847
+            ],
+            [
+              1097,
+              2883
+            ],
+            [
+              949,
+              2879
+            ]
+          ],
+          "score": 0.9998408555984497,
+          "text": "Commune"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1695,
+              2842
+            ],
+            [
+              1775,
+              2842
+            ],
+            [
+              1775,
+              2886
+            ],
+            [
+              1695,
+              2886
+            ]
+          ],
+          "score": 0.9989441633224487,
+          "text": "Pays"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              143,
+              2922
+            ],
+            [
+              364,
+              2926
+            ],
+            [
+              363,
+              2967
+            ],
+            [
+              143,
+              2963
+            ]
+          ],
+          "score": 0.9983449578285217,
+          "text": "Forme juridique"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              771,
+              2924
+            ],
+            [
+              967,
+              2929
+            ],
+            [
+              966,
+              2965
+            ],
+            [
+              770,
+              2960
+            ]
+          ],
+          "score": 0.9988576769828796,
+          "text": "Dénomination"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              143,
+              2999
+            ],
+            [
+              622,
+              3006
+            ],
+            [
+              622,
+              3042
+            ],
+            [
+              143,
+              3035
+            ]
+          ],
+          "score": 0.982077956199646,
+          "text": "N° SIREN (si société établie en France)"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1339,
+              3006
+            ],
+            [
+              1540,
+              3006
+            ],
+            [
+              1540,
+              3040
+            ],
+            [
+              1339,
+              3040
+            ]
+          ],
+          "score": 0.9995812177658081,
+          "text": "% de détention"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              150,
+              3083
+            ],
+            [
+              279,
+              3083
+            ],
+            [
+              279,
+              3119
+            ],
+            [
+              150,
+              3119
+            ]
+          ],
+          "score": 0.9934492111206055,
+          "text": "Adresse :"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              365,
+              3078
+            ],
+            [
+              420,
+              3078
+            ],
+            [
+              420,
+              3119
+            ],
+            [
+              365,
+              3119
+            ]
+          ],
+          "score": 0.6206526756286621,
+          "text": "N°"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              846,
+              3077
+            ],
+            [
+              931,
+              3082
+            ],
+            [
+              929,
+              3121
+            ],
+            [
+              844,
+              3117
+            ]
+          ],
+          "score": 0.9995523691177368,
+          "text": "Voie"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              372,
+              3140
+            ],
+            [
+              532,
+              3140
+            ],
+            [
+              532,
+              3176
+            ],
+            [
+              372,
+              3176
+            ]
+          ],
+          "score": 0.9986599087715149,
+          "text": "Code Postal"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              945,
+              3143
+            ],
+            [
+              1103,
+              3147
+            ],
+            [
+              1102,
+              3184
+            ],
+            [
+              944,
+              3180
+            ]
+          ],
+          "score": 0.9998876452445984,
+          "text": "Commune"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              1692,
+              3142
+            ],
+            [
+              1767,
+              3147
+            ],
+            [
+              1764,
+              3186
+            ],
+            [
+              1689,
+              3182
+            ]
+          ],
+          "score": 0.9987859129905701,
+          "text": "Pays"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              157,
+              3213
+            ],
+            [
+              2247,
+              3217
+            ],
+            [
+              2247,
+              3246
+            ],
+            [
+              157,
+              3242
+            ]
+          ],
+          "score": 0.9860988855361938,
+          "text": "(1) Lorsque le nombre de filiales excède le nombre de lignes du formulaire, veuillez utiliser un ou plusieurs tableaux supplémentaires. Dans ce cas, il convient de numéroter chaque tableau en haut et à gauche de la case"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        80.3213119506836,
+        1479.356689453125,
+        108.03064727783203,
+        1877.899658203125
+      ],
+      "label": "aside_text",
+      "score": 0.7449355721473694,
+      "texts": [
+        {
+          "orientation_angle": 1,
+          "polygon": [
+            [
+              77,
+              1483
+            ],
+            [
+              107,
+              1483
+            ],
+            [
+              109,
+              1879
+            ],
+            [
+              79,
+              1879
+            ]
+          ],
+          "score": 0.8890420198440552,
+          "text": "Copytight Groupe ISA (2023) ISACUMPT'A"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        149.5396728515625,
+        3211.489013671875,
+        2246.55078125,
+        3306.457275390625
+      ],
+      "label": "text",
+      "score": 0.5232512950897217,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              157,
+              3213
+            ],
+            [
+              2247,
+              3217
+            ],
+            [
+              2247,
+              3246
+            ],
+            [
+              157,
+              3242
+            ]
+          ],
+          "score": 0.9860988855361938,
+          "text": "(1) Lorsque le nombre de filiales excède le nombre de lignes du formulaire, veuillez utiliser un ou plusieurs tableaux supplémentaires. Dans ce cas, il convient de numéroter chaque tableau en haut et à gauche de la case"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              159,
+              3246
+            ],
+            [
+              1144,
+              3249
+            ],
+            [
+              1144,
+              3273
+            ],
+            [
+              158,
+              3270
+            ]
+          ],
+          "score": 0.9854622483253479,
+          "text": "prévue à cet effet et de porter le nombre total de tableaux souscrits en bas à droite de cette même case."
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              160,
+              3273
+            ],
+            [
+              1118,
+              3276
+            ],
+            [
+              1118,
+              3306
+            ],
+            [
+              160,
+              3302
+            ]
+          ],
+          "score": 0.9848960041999817,
+          "text": "* Des explications concernant cette rubrique figurent dans la notice n°2033-NOT-SD."
+        }
+      ]
+    }
+  ],
+  "most_frequent_angle": 0,
+  "ocr": [
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1807,
+          116
+        ],
+        [
+          2316,
+          116
+        ],
+        [
+          2316,
+          157
+        ],
+        [
+          1807,
+          157
+        ]
+      ],
+      "score": 0.9921385645866394,
+      "text": "DGFiP N° 2033-G-SD 2023"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2047,
+          163
+        ],
+        [
+          2267,
+          163
+        ],
+        [
+          2267,
+          192
+        ],
+        [
+          2047,
+          192
+        ]
+      ],
+      "score": 0.9781662225723267,
+      "text": "Formulaire obligatoire"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          856,
+          176
+        ],
+        [
+          1535,
+          176
+        ],
+        [
+          1535,
+          217
+        ],
+        [
+          856,
+          217
+        ]
+      ],
+      "score": 0.998253583908081,
+      "text": "FILIALES ET PARTICIPATIONS"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2014,
+          193
+        ],
+        [
+          2291,
+          192
+        ],
+        [
+          2292,
+          222
+        ],
+        [
+          2014,
+          224
+        ]
+      ],
+      "score": 0.9753490686416626,
+      "text": "(art. 38 de l'ann. Il au CGI)"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1890,
+          219
+        ],
+        [
+          1911,
+          219
+        ],
+        [
+          1911,
+          248
+        ],
+        [
+          1890,
+          248
+        ]
+      ],
+      "score": 0.9990554451942444,
+      "text": "1"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1968,
+          228
+        ],
+        [
+          2026,
+          228
+        ],
+        [
+          2026,
+          279
+        ],
+        [
+          1968,
+          279
+        ]
+      ],
+      "score": 0.9875941872596741,
+      "text": "(1)"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          774,
+          260
+        ],
+        [
+          1663,
+          260
+        ],
+        [
+          1663,
+          299
+        ],
+        [
+          774,
+          299
+        ]
+      ],
+      "score": 0.994198203086853,
+      "text": "(liste des personnes ou groupements de personnes de droit ou de fait"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          321,
+          304
+        ],
+        [
+          466,
+          308
+        ],
+        [
+          464,
+          346
+        ],
+        [
+          320,
+          342
+        ]
+      ],
+      "score": 0.9596357941627502,
+      "text": "N° de dépôt"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          813,
+          301
+        ],
+        [
+          1618,
+          303
+        ],
+        [
+          1618,
+          344
+        ],
+        [
+          813,
+          342
+        ]
+      ],
+      "score": 0.9949648380279541,
+      "text": "dont la société détient directement au moins 10 % du capital)"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1935,
+          306
+        ],
+        [
+          1957,
+          306
+        ],
+        [
+          1957,
+          339
+        ],
+        [
+          1935,
+          339
+        ]
+      ],
+      "score": 0,
+      "text": ""
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2111,
+          301
+        ],
+        [
+          2245,
+          301
+        ],
+        [
+          2245,
+          349
+        ],
+        [
+          2111,
+          349
+        ]
+      ],
+      "score": 0.9006553292274475,
+      "text": "Néant *"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          181,
+          431
+        ],
+        [
+          446,
+          431
+        ],
+        [
+          446,
+          465
+        ],
+        [
+          181,
+          465
+        ]
+      ],
+      "score": 0.9984474182128906,
+      "text": "EXERCICE CLOS LE"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          488,
+          426
+        ],
+        [
+          663,
+          426
+        ],
+        [
+          663,
+          462
+        ],
+        [
+          488,
+          462
+        ]
+      ],
+      "score": 0.9999527931213379,
+      "text": "31/12/2022"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1545,
+          441
+        ],
+        [
+          1638,
+          441
+        ],
+        [
+          1638,
+          477
+        ],
+        [
+          1545,
+          477
+        ]
+      ],
+      "score": 0.9996121525764465,
+      "text": "SIREN"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1713,
+          436
+        ],
+        [
+          2085,
+          436
+        ],
+        [
+          2085,
+          482
+        ],
+        [
+          1713,
+          482
+        ]
+      ],
+      "score": 0.9735680818557739,
+      "text": "4 9 9 9 7 9 5 4 0"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          179,
+          506
+        ],
+        [
+          643,
+          510
+        ],
+        [
+          642,
+          544
+        ],
+        [
+          179,
+          541
+        ]
+      ],
+      "score": 0.9823012351989746,
+      "text": "DÉNOMINATION DE L'ENTREPRISE"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          679,
+          512
+        ],
+        [
+          891,
+          512
+        ],
+        [
+          891,
+          548
+        ],
+        [
+          679,
+          548
+        ]
+      ],
+      "score": 0.9994376301765442,
+      "text": "SAS HADEAN"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          178,
+          580
+        ],
+        [
+          384,
+          584
+        ],
+        [
+          384,
+          620
+        ],
+        [
+          177,
+          616
+        ]
+      ],
+      "score": 0.9978212714195251,
+      "text": "ADRESSE (voie)"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          420,
+          583
+        ],
+        [
+          705,
+          583
+        ],
+        [
+          705,
+          619
+        ],
+        [
+          420,
+          619
+        ]
+      ],
+      "score": 0.9756974577903748,
+      "text": "94 Grand Rue Sapiac"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          176,
+          652
+        ],
+        [
+          372,
+          652
+        ],
+        [
+          372,
+          686
+        ],
+        [
+          176,
+          686
+        ]
+      ],
+      "score": 0.9790080785751343,
+      "text": "CODE POSTAL"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          474,
+          655
+        ],
+        [
+          567,
+          655
+        ],
+        [
+          567,
+          693
+        ],
+        [
+          474,
+          693
+        ]
+      ],
+      "score": 0.9999641180038452,
+      "text": "82000"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1099,
+          652
+        ],
+        [
+          1191,
+          652
+        ],
+        [
+          1191,
+          688
+        ],
+        [
+          1099,
+          688
+        ]
+      ],
+      "score": 0.9996846914291382,
+      "text": "VILLE"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1247,
+          654
+        ],
+        [
+          1468,
+          654
+        ],
+        [
+          1468,
+          688
+        ],
+        [
+          1247,
+          688
+        ]
+      ],
+      "score": 0.9992713928222656,
+      "text": "MONTAUBAN"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          171,
+          708
+        ],
+        [
+          1034,
+          710
+        ],
+        [
+          1034,
+          749
+        ],
+        [
+          171,
+          748
+        ]
+      ],
+      "score": 0.992634654045105,
+      "text": "NOMBRE TOTAL DE FILIALES DÉTENUES PAR L'ENTREPRISE"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1079,
+          712
+        ],
+        [
+          1147,
+          712
+        ],
+        [
+          1147,
+          753
+        ],
+        [
+          1079,
+          753
+        ]
+      ],
+      "score": 0.9999497532844543,
+      "text": "905"
+    },
+    {
+      "orientation_angle": 1,
+      "polygon": [
+        [
+          1337,
+          715
+        ],
+        [
+          1359,
+          715
+        ],
+        [
+          1359,
+          748
+        ],
+        [
+          1337,
+          748
+        ]
+      ],
+      "score": 0.31420063972473145,
+      "text": "T"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          145,
+          783
+        ],
+        [
+          367,
+          787
+        ],
+        [
+          366,
+          828
+        ],
+        [
+          144,
+          824
+        ]
+      ],
+      "score": 0.9951428174972534,
+      "text": "Forme juridique"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          401,
+          787
+        ],
+        [
+          476,
+          787
+        ],
+        [
+          476,
+          826
+        ],
+        [
+          401,
+          826
+        ]
+      ],
+      "score": 0.9908153414726257,
+      "text": "SAS"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          772,
+          792
+        ],
+        [
+          965,
+          792
+        ],
+        [
+          965,
+          828
+        ],
+        [
+          772,
+          828
+        ]
+      ],
+      "score": 0.9995810985565186,
+      "text": "Dénomination"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1041,
+          796
+        ],
+        [
+          1446,
+          796
+        ],
+        [
+          1446,
+          825
+        ],
+        [
+          1041,
+          825
+        ]
+      ],
+      "score": 0.9996306300163269,
+      "text": "ARCHEAN TECHNOLOGIES"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          143,
+          860
+        ],
+        [
+          617,
+          866
+        ],
+        [
+          617,
+          905
+        ],
+        [
+          143,
+          900
+        ]
+      ],
+      "score": 0.982127845287323,
+      "text": "N° SIREN (si société établie en France)"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          668,
+          862
+        ],
+        [
+          824,
+          862
+        ],
+        [
+          824,
+          898
+        ],
+        [
+          668,
+          898
+        ]
+      ],
+      "score": 0.9999692440032959,
+      "text": "480489707"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1334,
+          862
+        ],
+        [
+          1535,
+          862
+        ],
+        [
+          1535,
+          898
+        ],
+        [
+          1334,
+          898
+        ]
+      ],
+      "score": 0.9979146122932434,
+      "text": "% de détention"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1621,
+          861
+        ],
+        [
+          1726,
+          861
+        ],
+        [
+          1726,
+          903
+        ],
+        [
+          1621,
+          903
+        ]
+      ],
+      "score": 0.9999244809150696,
+      "text": "100.00"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          144,
+          927
+        ],
+        [
+          274,
+          931
+        ],
+        [
+          273,
+          969
+        ],
+        [
+          143,
+          965
+        ]
+      ],
+      "score": 0.9916817545890808,
+      "text": "Adresse :"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          353,
+          927
+        ],
+        [
+          407,
+          927
+        ],
+        [
+          407,
+          968
+        ],
+        [
+          353,
+          968
+        ]
+      ],
+      "score": 0.6739425659179688,
+      "text": "No"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          457,
+          931
+        ],
+        [
+          538,
+          931
+        ],
+        [
+          538,
+          968
+        ],
+        [
+          457,
+          968
+        ]
+      ],
+      "score": 0.9989628791809082,
+      "text": "1899"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          844,
+          931
+        ],
+        [
+          922,
+          931
+        ],
+        [
+          922,
+          970
+        ],
+        [
+          844,
+          970
+        ]
+      ],
+      "score": 0.998697817325592,
+      "text": "Voie"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          949,
+          932
+        ],
+        [
+          1156,
+          932
+        ],
+        [
+          1156,
+          968
+        ],
+        [
+          949,
+          968
+        ]
+      ],
+      "score": 0.980319619178772,
+      "text": "Avenue d'Italie"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          364,
+          1016
+        ],
+        [
+          527,
+          1016
+        ],
+        [
+          527,
+          1052
+        ],
+        [
+          364,
+          1052
+        ]
+      ],
+      "score": 0.9897377490997314,
+      "text": "Code Postal"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          579,
+          1009
+        ],
+        [
+          675,
+          1009
+        ],
+        [
+          675,
+          1047
+        ],
+        [
+          579,
+          1047
+        ]
+      ],
+      "score": 0.9999326467514038,
+      "text": "82000"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          961,
+          1018
+        ],
+        [
+          1106,
+          1018
+        ],
+        [
+          1106,
+          1054
+        ],
+        [
+          961,
+          1054
+        ]
+      ],
+      "score": 0.9998212456703186,
+      "text": "Commune"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1146,
+          1011
+        ],
+        [
+          1363,
+          1011
+        ],
+        [
+          1363,
+          1047
+        ],
+        [
+          1146,
+          1047
+        ]
+      ],
+      "score": 0.9994328618049622,
+      "text": "MONTAUBAN"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1709,
+          1011
+        ],
+        [
+          1792,
+          1011
+        ],
+        [
+          1792,
+          1057
+        ],
+        [
+          1709,
+          1057
+        ]
+      ],
+      "score": 0.995850682258606,
+      "text": "Pays"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1795,
+          1011
+        ],
+        [
+          1909,
+          1011
+        ],
+        [
+          1909,
+          1049
+        ],
+        [
+          1795,
+          1049
+        ]
+      ],
+      "score": 0.997325599193573,
+      "text": "France"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          147,
+          1100
+        ],
+        [
+          369,
+          1104
+        ],
+        [
+          368,
+          1145
+        ],
+        [
+          146,
+          1141
+        ]
+      ],
+      "score": 0.982333242893219,
+      "text": "Forme juridique"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          772,
+          1105
+        ],
+        [
+          965,
+          1109
+        ],
+        [
+          964,
+          1145
+        ],
+        [
+          772,
+          1141
+        ]
+      ],
+      "score": 0.999432384967804,
+      "text": "Dénomination"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          147,
+          1180
+        ],
+        [
+          624,
+          1184
+        ],
+        [
+          624,
+          1220
+        ],
+        [
+          146,
+          1216
+        ]
+      ],
+      "score": 0.9766192436218262,
+      "text": "N° SIREN (si société établie en France)"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1348,
+          1180
+        ],
+        [
+          1551,
+          1184
+        ],
+        [
+          1550,
+          1220
+        ],
+        [
+          1347,
+          1216
+        ]
+      ],
+      "score": 0.999461829662323,
+      "text": "% de détention"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          149,
+          1257
+        ],
+        [
+          279,
+          1261
+        ],
+        [
+          278,
+          1297
+        ],
+        [
+          148,
+          1293
+        ]
+      ],
+      "score": 0.995403528213501,
+      "text": "Adresse :"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          360,
+          1250
+        ],
+        [
+          416,
+          1243
+        ],
+        [
+          422,
+          1287
+        ],
+        [
+          367,
+          1295
+        ]
+      ],
+      "score": 0.7222312688827515,
+      "text": "N°"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          844,
+          1254
+        ],
+        [
+          922,
+          1254
+        ],
+        [
+          922,
+          1293
+        ],
+        [
+          844,
+          1293
+        ]
+      ],
+      "score": 0.9996015429496765,
+      "text": "Voie"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          372,
+          1338
+        ],
+        [
+          532,
+          1338
+        ],
+        [
+          532,
+          1369
+        ],
+        [
+          372,
+          1369
+        ]
+      ],
+      "score": 0.9984840750694275,
+      "text": "Code Postal"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          958,
+          1336
+        ],
+        [
+          1104,
+          1336
+        ],
+        [
+          1104,
+          1372
+        ],
+        [
+          958,
+          1372
+        ]
+      ],
+      "score": 0.999934196472168,
+      "text": "Commune"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1704,
+          1332
+        ],
+        [
+          1784,
+          1337
+        ],
+        [
+          1781,
+          1381
+        ],
+        [
+          1701,
+          1377
+        ]
+      ],
+      "score": 0.9978496432304382,
+      "text": "Pays"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          147,
+          1413
+        ],
+        [
+          369,
+          1417
+        ],
+        [
+          368,
+          1458
+        ],
+        [
+          146,
+          1454
+        ]
+      ],
+      "score": 0.982841432094574,
+      "text": "Forme juridique"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          771,
+          1418
+        ],
+        [
+          965,
+          1422
+        ],
+        [
+          964,
+          1458
+        ],
+        [
+          770,
+          1454
+        ]
+      ],
+      "score": 0.9990744590759277,
+      "text": "Dénomination"
+    },
+    {
+      "orientation_angle": 1,
+      "polygon": [
+        [
+          77,
+          1483
+        ],
+        [
+          107,
+          1483
+        ],
+        [
+          109,
+          1879
+        ],
+        [
+          79,
+          1879
+        ]
+      ],
+      "score": 0.8890420198440552,
+      "text": "Copytight Groupe ISA (2023) ISACUMPT'A"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          147,
+          1494
+        ],
+        [
+          624,
+          1497
+        ],
+        [
+          624,
+          1533
+        ],
+        [
+          146,
+          1529
+        ]
+      ],
+      "score": 0.9904065132141113,
+      "text": "N° SIREN (si société établie en France)"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1347,
+          1492
+        ],
+        [
+          1551,
+          1492
+        ],
+        [
+          1551,
+          1528
+        ],
+        [
+          1347,
+          1528
+        ]
+      ],
+      "score": 0.9993119239807129,
+      "text": "% de détention"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          149,
+          1570
+        ],
+        [
+          278,
+          1574
+        ],
+        [
+          277,
+          1612
+        ],
+        [
+          148,
+          1608
+        ]
+      ],
+      "score": 0.9921391606330872,
+      "text": "Adresse :"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          364,
+          1564
+        ],
+        [
+          419,
+          1564
+        ],
+        [
+          419,
+          1607
+        ],
+        [
+          364,
+          1607
+        ]
+      ],
+      "score": 0.6769512295722961,
+      "text": "N°"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          843,
+          1569
+        ],
+        [
+          922,
+          1569
+        ],
+        [
+          922,
+          1607
+        ],
+        [
+          843,
+          1607
+        ]
+      ],
+      "score": 0.9996607303619385,
+      "text": "Voie"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          372,
+          1637
+        ],
+        [
+          532,
+          1637
+        ],
+        [
+          532,
+          1673
+        ],
+        [
+          372,
+          1673
+        ]
+      ],
+      "score": 0.9995878338813782,
+      "text": "Code Postal"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          957,
+          1640
+        ],
+        [
+          1105,
+          1645
+        ],
+        [
+          1104,
+          1680
+        ],
+        [
+          956,
+          1676
+        ]
+      ],
+      "score": 0.9999097585678101,
+      "text": "Commune"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1704,
+          1635
+        ],
+        [
+          1784,
+          1640
+        ],
+        [
+          1781,
+          1684
+        ],
+        [
+          1701,
+          1679
+        ]
+      ],
+      "score": 0.9994321465492249,
+      "text": "Pays"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          143,
+          1718
+        ],
+        [
+          360,
+          1721
+        ],
+        [
+          360,
+          1757
+        ],
+        [
+          143,
+          1754
+        ]
+      ],
+      "score": 0.971231997013092,
+      "text": "Forme juridique"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          771,
+          1721
+        ],
+        [
+          965,
+          1725
+        ],
+        [
+          964,
+          1761
+        ],
+        [
+          770,
+          1757
+        ]
+      ],
+      "score": 0.9989401698112488,
+      "text": "Dénomination"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          150,
+          1802
+        ],
+        [
+          624,
+          1805
+        ],
+        [
+          624,
+          1841
+        ],
+        [
+          150,
+          1837
+        ]
+      ],
+      "score": 0.9792364239692688,
+      "text": "N° SIREN (si société établie en France)"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1346,
+          1803
+        ],
+        [
+          1551,
+          1807
+        ],
+        [
+          1550,
+          1843
+        ],
+        [
+          1345,
+          1839
+        ]
+      ],
+      "score": 0.9967862367630005,
+      "text": "% de détention"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          150,
+          1870
+        ],
+        [
+          279,
+          1870
+        ],
+        [
+          279,
+          1906
+        ],
+        [
+          150,
+          1906
+        ]
+      ],
+      "score": 0.972405731678009,
+      "text": "Adresse :"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          364,
+          1865
+        ],
+        [
+          420,
+          1865
+        ],
+        [
+          420,
+          1908
+        ],
+        [
+          364,
+          1908
+        ]
+      ],
+      "score": 0.7578495740890503,
+      "text": "N°"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          844,
+          1869
+        ],
+        [
+          922,
+          1874
+        ],
+        [
+          920,
+          1913
+        ],
+        [
+          842,
+          1909
+        ]
+      ],
+      "score": 0.9997602105140686,
+      "text": "Voie"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          370,
+          1937
+        ],
+        [
+          536,
+          1937
+        ],
+        [
+          536,
+          1978
+        ],
+        [
+          370,
+          1978
+        ]
+      ],
+      "score": 0.9985347390174866,
+      "text": "Code Postal"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          948,
+          1938
+        ],
+        [
+          1096,
+          1942
+        ],
+        [
+          1095,
+          1980
+        ],
+        [
+          947,
+          1976
+        ]
+      ],
+      "score": 0.9998254776000977,
+      "text": "Commune"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1695,
+          1938
+        ],
+        [
+          1775,
+          1938
+        ],
+        [
+          1775,
+          1985
+        ],
+        [
+          1695,
+          1985
+        ]
+      ],
+      "score": 0.9993816614151001,
+      "text": "Pays"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          148,
+          2022
+        ],
+        [
+          365,
+          2022
+        ],
+        [
+          365,
+          2058
+        ],
+        [
+          148,
+          2058
+        ]
+      ],
+      "score": 0.9989451169967651,
+      "text": "Forme juridique"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          774,
+          2026
+        ],
+        [
+          965,
+          2026
+        ],
+        [
+          965,
+          2062
+        ],
+        [
+          774,
+          2062
+        ]
+      ],
+      "score": 0.9992087483406067,
+      "text": "Dénomination"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          147,
+          2091
+        ],
+        [
+          624,
+          2094
+        ],
+        [
+          624,
+          2128
+        ],
+        [
+          146,
+          2125
+        ]
+      ],
+      "score": 0.978221595287323,
+      "text": "N° SIREN (si société établie en France)"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1346,
+          2094
+        ],
+        [
+          1549,
+          2094
+        ],
+        [
+          1549,
+          2128
+        ],
+        [
+          1346,
+          2128
+        ]
+      ],
+      "score": 0.9408262968063354,
+      "text": "% de détention"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          146,
+          2166
+        ],
+        [
+          276,
+          2170
+        ],
+        [
+          275,
+          2207
+        ],
+        [
+          144,
+          2203
+        ]
+      ],
+      "score": 0.9753495454788208,
+      "text": "Adresse :"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          365,
+          2168
+        ],
+        [
+          420,
+          2168
+        ],
+        [
+          420,
+          2209
+        ],
+        [
+          365,
+          2209
+        ]
+      ],
+      "score": 0.700232207775116,
+      "text": "N"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          844,
+          2162
+        ],
+        [
+          922,
+          2167
+        ],
+        [
+          920,
+          2206
+        ],
+        [
+          842,
+          2201
+        ]
+      ],
+      "score": 0.992622971534729,
+      "text": "Voie"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          370,
+          2229
+        ],
+        [
+          532,
+          2229
+        ],
+        [
+          532,
+          2265
+        ],
+        [
+          370,
+          2265
+        ]
+      ],
+      "score": 0.9931855797767639,
+      "text": "Code Postal"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          940,
+          2232
+        ],
+        [
+          1086,
+          2236
+        ],
+        [
+          1085,
+          2272
+        ],
+        [
+          939,
+          2268
+        ]
+      ],
+      "score": 0.9998865127563477,
+      "text": "Commune"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1697,
+          2233
+        ],
+        [
+          1778,
+          2233
+        ],
+        [
+          1778,
+          2277
+        ],
+        [
+          1697,
+          2277
+        ]
+      ],
+      "score": 0.9987144470214844,
+      "text": "Pays"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          145,
+          2332
+        ],
+        [
+          360,
+          2332
+        ],
+        [
+          360,
+          2368
+        ],
+        [
+          145,
+          2368
+        ]
+      ],
+      "score": 0.9983470439910889,
+      "text": "Forme juridique"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          774,
+          2334
+        ],
+        [
+          967,
+          2334
+        ],
+        [
+          967,
+          2368
+        ],
+        [
+          774,
+          2368
+        ]
+      ],
+      "score": 0.9995948672294617,
+      "text": "Dénomination"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          138,
+          2402
+        ],
+        [
+          622,
+          2406
+        ],
+        [
+          622,
+          2440
+        ],
+        [
+          138,
+          2436
+        ]
+      ],
+      "score": 0.9878509640693665,
+      "text": "N° SIREN (si société établie en France)"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1334,
+          2400
+        ],
+        [
+          1539,
+          2404
+        ],
+        [
+          1538,
+          2440
+        ],
+        [
+          1333,
+          2436
+        ]
+      ],
+      "score": 0.9858907461166382,
+      "text": "% de détention"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          146,
+          2460
+        ],
+        [
+          276,
+          2464
+        ],
+        [
+          275,
+          2502
+        ],
+        [
+          144,
+          2498
+        ]
+      ],
+      "score": 0.9927910566329956,
+      "text": "Adresse :"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          365,
+          2462
+        ],
+        [
+          419,
+          2462
+        ],
+        [
+          419,
+          2505
+        ],
+        [
+          365,
+          2505
+        ]
+      ],
+      "score": 0.7662553191184998,
+      "text": "N°"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          844,
+          2472
+        ],
+        [
+          922,
+          2472
+        ],
+        [
+          922,
+          2510
+        ],
+        [
+          844,
+          2510
+        ]
+      ],
+      "score": 0.9997230172157288,
+      "text": "Voie"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          370,
+          2542
+        ],
+        [
+          532,
+          2542
+        ],
+        [
+          532,
+          2578
+        ],
+        [
+          370,
+          2578
+        ]
+      ],
+      "score": 0.9880128502845764,
+      "text": "Code Postal"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          945,
+          2544
+        ],
+        [
+          1091,
+          2548
+        ],
+        [
+          1090,
+          2584
+        ],
+        [
+          944,
+          2580
+        ]
+      ],
+      "score": 0.9998664259910583,
+      "text": "Commune"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1702,
+          2544
+        ],
+        [
+          1779,
+          2548
+        ],
+        [
+          1776,
+          2589
+        ],
+        [
+          1700,
+          2585
+        ]
+      ],
+      "score": 0.9993813037872314,
+      "text": "Pays"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          137,
+          2626
+        ],
+        [
+          359,
+          2630
+        ],
+        [
+          358,
+          2671
+        ],
+        [
+          136,
+          2667
+        ]
+      ],
+      "score": 0.9811334013938904,
+      "text": "Forme juridique"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          771,
+          2623
+        ],
+        [
+          965,
+          2626
+        ],
+        [
+          964,
+          2662
+        ],
+        [
+          770,
+          2659
+        ]
+      ],
+      "score": 0.9989793300628662,
+      "text": "Dénomination"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          143,
+          2703
+        ],
+        [
+          622,
+          2707
+        ],
+        [
+          622,
+          2743
+        ],
+        [
+          143,
+          2739
+        ]
+      ],
+      "score": 0.9809086918830872,
+      "text": "N° SIREN (si société établie en France)"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1348,
+          2701
+        ],
+        [
+          1551,
+          2705
+        ],
+        [
+          1550,
+          2741
+        ],
+        [
+          1347,
+          2737
+        ]
+      ],
+      "score": 0.9992462396621704,
+      "text": "% de détention"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          144,
+          2771
+        ],
+        [
+          273,
+          2775
+        ],
+        [
+          271,
+          2813
+        ],
+        [
+          143,
+          2809
+        ]
+      ],
+      "score": 0.9353315830230713,
+      "text": "Adresse :"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          365,
+          2770
+        ],
+        [
+          419,
+          2770
+        ],
+        [
+          419,
+          2814
+        ],
+        [
+          365,
+          2814
+        ]
+      ],
+      "score": 0.6601775884628296,
+      "text": "Nº"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          844,
+          2778
+        ],
+        [
+          922,
+          2783
+        ],
+        [
+          920,
+          2822
+        ],
+        [
+          842,
+          2817
+        ]
+      ],
+      "score": 0.9996987581253052,
+      "text": "Voie"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          372,
+          2844
+        ],
+        [
+          532,
+          2844
+        ],
+        [
+          532,
+          2880
+        ],
+        [
+          372,
+          2880
+        ]
+      ],
+      "score": 0.9880310297012329,
+      "text": "Code Postal"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          950,
+          2843
+        ],
+        [
+          1098,
+          2847
+        ],
+        [
+          1097,
+          2883
+        ],
+        [
+          949,
+          2879
+        ]
+      ],
+      "score": 0.9998408555984497,
+      "text": "Commune"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1695,
+          2842
+        ],
+        [
+          1775,
+          2842
+        ],
+        [
+          1775,
+          2886
+        ],
+        [
+          1695,
+          2886
+        ]
+      ],
+      "score": 0.9989441633224487,
+      "text": "Pays"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          143,
+          2922
+        ],
+        [
+          364,
+          2926
+        ],
+        [
+          363,
+          2967
+        ],
+        [
+          143,
+          2963
+        ]
+      ],
+      "score": 0.9983449578285217,
+      "text": "Forme juridique"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          771,
+          2924
+        ],
+        [
+          967,
+          2929
+        ],
+        [
+          966,
+          2965
+        ],
+        [
+          770,
+          2960
+        ]
+      ],
+      "score": 0.9988576769828796,
+      "text": "Dénomination"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          143,
+          2999
+        ],
+        [
+          622,
+          3006
+        ],
+        [
+          622,
+          3042
+        ],
+        [
+          143,
+          3035
+        ]
+      ],
+      "score": 0.982077956199646,
+      "text": "N° SIREN (si société établie en France)"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1339,
+          3006
+        ],
+        [
+          1540,
+          3006
+        ],
+        [
+          1540,
+          3040
+        ],
+        [
+          1339,
+          3040
+        ]
+      ],
+      "score": 0.9995812177658081,
+      "text": "% de détention"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          150,
+          3083
+        ],
+        [
+          279,
+          3083
+        ],
+        [
+          279,
+          3119
+        ],
+        [
+          150,
+          3119
+        ]
+      ],
+      "score": 0.9934492111206055,
+      "text": "Adresse :"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          365,
+          3078
+        ],
+        [
+          420,
+          3078
+        ],
+        [
+          420,
+          3119
+        ],
+        [
+          365,
+          3119
+        ]
+      ],
+      "score": 0.6206526756286621,
+      "text": "N°"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          846,
+          3077
+        ],
+        [
+          931,
+          3082
+        ],
+        [
+          929,
+          3121
+        ],
+        [
+          844,
+          3117
+        ]
+      ],
+      "score": 0.9995523691177368,
+      "text": "Voie"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          372,
+          3140
+        ],
+        [
+          532,
+          3140
+        ],
+        [
+          532,
+          3176
+        ],
+        [
+          372,
+          3176
+        ]
+      ],
+      "score": 0.9986599087715149,
+      "text": "Code Postal"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          945,
+          3143
+        ],
+        [
+          1103,
+          3147
+        ],
+        [
+          1102,
+          3184
+        ],
+        [
+          944,
+          3180
+        ]
+      ],
+      "score": 0.9998876452445984,
+      "text": "Commune"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1692,
+          3142
+        ],
+        [
+          1767,
+          3147
+        ],
+        [
+          1764,
+          3186
+        ],
+        [
+          1689,
+          3182
+        ]
+      ],
+      "score": 0.9987859129905701,
+      "text": "Pays"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          157,
+          3213
+        ],
+        [
+          2247,
+          3217
+        ],
+        [
+          2247,
+          3246
+        ],
+        [
+          157,
+          3242
+        ]
+      ],
+      "score": 0.9860988855361938,
+      "text": "(1) Lorsque le nombre de filiales excède le nombre de lignes du formulaire, veuillez utiliser un ou plusieurs tableaux supplémentaires. Dans ce cas, il convient de numéroter chaque tableau en haut et à gauche de la case"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          159,
+          3246
+        ],
+        [
+          1144,
+          3249
+        ],
+        [
+          1144,
+          3273
+        ],
+        [
+          158,
+          3270
+        ]
+      ],
+      "score": 0.9854622483253479,
+      "text": "prévue à cet effet et de porter le nombre total de tableaux souscrits en bas à droite de cette même case."
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          160,
+          3273
+        ],
+        [
+          1118,
+          3276
+        ],
+        [
+          1118,
+          3306
+        ],
+        [
+          160,
+          3302
+        ]
+      ],
+      "score": 0.9848960041999817,
+      "text": "* Des explications concernant cette rubrique figurent dans la notice n°2033-NOT-SD."
+    }
+  ],
+  "page": 8,
+  "pdf": "CA_499979540_8201_2009B00114_2022_S__65dd4fa8762d99271903b402.pdf",
+  "skew_angle": 0
+}

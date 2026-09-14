@@ -1,1 +1,2006 @@
-{"_reocr_corrected_count": 3, "_reocr_failed_count": 0, "_reocr_failures": [], "layout": [{"bbox": [95.53645324707031, 81.64901733398438, 519.1138305664062, 169.87338256835938], "label": "header", "score": 0.7353678941726685, "texts": [{"orientation_angle": 0, "polygon": [[119.0, 82.0], [486.0, 82.0], [486.0, 123.0], [119.0, 123.0]], "score": 0.9970812201499939, "text": "Société MEUBLE 110"}, {"orientation_angle": 0, "polygon": [[117.0, 134.0], [505.0, 134.0], [505.0, 175.0], [117.0, 175.0]], "score": 0.9875053763389587, "text": "97600 MAMOUDZOU"}]}, {"bbox": [108.37353515625, 201.54443359375, 2424.5673828125, 3216.9638671875], "cells": [{"bbox": [115.73185157775879, 317.3907699584961, 2078.4332275390625, 3216.54443359375], "score": 0.6741384863853455, "texts": [{"orientation_angle": 0, "polygon": [[282.0, 421.0], [584.0, 421.0], [584.0, 469.0], [282.0, 469.0]], "score": 0.999821662902832, "text": "SOMMAIRE"}, {"orientation_angle": 0, "polygon": [[1977.0, 473.0], [2089.0, 473.0], [2089.0, 533.0], [1977.0, 533.0]], "score": 0.9998117089271545, "text": "page"}, {"orientation_angle": 0, "polygon": [[2015.0, 510.0], [2060.0, 510.0], [2060.0, 569.0], [2015.0, 569.0]], "score": 0.9313090443611145, "text": "5"}, {"orientation_angle": 0, "polygon": [[329.0, 522.0], [989.0, 522.0], [989.0, 569.0], [329.0, 569.0]], "score": 0.9934283494949341, "text": "Faits caractéristiques de l'exercice"}, {"orientation_angle": 0, "polygon": [[284.0, 570.0], [1219.0, 570.0], [1219.0, 616.0], [284.0, 616.0]], "score": 0.9986286759376526, "text": "- REGLES ET METHODES COMPTABLES"}, {"orientation_angle": 0, "polygon": [[2009.0, 659.0], [2061.0, 657.0], [2066.0, 767.0], [2014.0, 769.0]], "score": 0.7767667770385742, "text": "55"}, {"orientation_angle": 0, "polygon": [[329.0, 670.0], [999.0, 670.0], [999.0, 721.0], [329.0, 721.0]], "score": 0.9997380375862122, "text": "Principes et conventions générales"}, {"orientation_angle": 0, "polygon": [[327.0, 719.0], [1128.0, 716.0], [1128.0, 769.0], [327.0, 772.0]], "score": 0.9915518164634705, "text": "Permanence ou changement de méthodes"}, {"orientation_angle": 0, "polygon": [[284.0, 868.0], [1586.0, 865.0], [1586.0, 913.0], [284.0, 916.0]], "score": 0.9997835755348206, "text": "- COMPLEMENT D'INFORMATIONS RELATIF AU BILAN"}, {"orientation_angle": 0, "polygon": [[331.0, 968.0], [813.0, 968.0], [813.0, 1014.0], [331.0, 1014.0]], "score": 0.9999263882637024, "text": "Etat des immobilisations"}, {"orientation_angle": 0, "polygon": [[2020.0, 966.0], [2056.0, 966.0], [2056.0, 1015.0], [2020.0, 1015.0]], "score": 0.9995493292808533, "text": "6"}, {"orientation_angle": 0, "polygon": [[329.0, 1014.0], [803.0, 1017.0], [802.0, 1064.0], [329.0, 1060.0]], "score": 0.999919056892395, "text": "Etat des amortissements"}, {"orientation_angle": 1, "polygon": [[2020.0, 1010.0], [2058.0, 1010.0], [2058.0, 1067.0], [2020.0, 1067.0]], "score": 0.9933316111564636, "text": "9"}, {"orientation_angle": 0, "polygon": [[331.0, 1065.0], [703.0, 1065.0], [703.0, 1113.0], [331.0, 1113.0]], "score": 0.9744215607643127, "text": "Etat des provisions"}, {"orientation_angle": 0, "polygon": [[2017.0, 1058.0], [2060.0, 1058.0], [2060.0, 1113.0], [2017.0, 1113.0]], "score": 0.9998725652694702, "text": "7"}, {"orientation_angle": 0, "polygon": [[329.0, 1111.0], [1194.0, 1115.0], [1193.0, 1163.0], [329.0, 1159.0]], "score": 0.9925379157066345, "text": "Etat des échéances des créances et des dettes"}, {"orientation_angle": 0, "polygon": [[2017.0, 1111.0], [2060.0, 1111.0], [2060.0, 1164.0], [2017.0, 1164.0]], "score": 0.9999445676803589, "text": "7"}, {"orientation_angle": 0, "polygon": [[332.0, 1164.0], [692.0, 1164.0], [692.0, 1206.0], [332.0, 1206.0]], "score": 0.9987701177597046, "text": "Fonds commercial"}, {"orientation_angle": 0, "polygon": [[2020.0, 1163.0], [2055.0, 1163.0], [2055.0, 1212.0], [2020.0, 1212.0]], "score": 0.9999159574508667, "text": "8"}, {"orientation_angle": 0, "polygon": [[327.0, 1209.0], [1166.0, 1212.0], [1166.0, 1264.0], [327.0, 1260.0]], "score": 0.9863414764404297, "text": "Evaluation des immobilisations corporelles"}, {"orientation_angle": 0, "polygon": [[2022.0, 1214.0], [2055.0, 1214.0], [2055.0, 1265.0], [2022.0, 1265.0]], "score": 0.9963459372520447, "text": "8"}, {"orientation_angle": 0, "polygon": [[331.0, 1260.0], [932.0, 1264.0], [932.0, 1310.0], [331.0, 1306.0]], "score": 0.999963641166687, "text": "Evaluation des amortissements"}, {"orientation_angle": 0, "polygon": [[2024.0, 1267.0], [2055.0, 1267.0], [2055.0, 1313.0], [2024.0, 1313.0]], "score": 0.9997524619102478, "text": "8"}, {"orientation_angle": 0, "polygon": [[329.0, 1310.0], [1113.0, 1313.0], [1112.0, 1360.0], [329.0, 1356.0]], "score": 0.9830632209777832, "text": "Evaluation des matières et marchandises"}, {"orientation_angle": 0, "polygon": [[2022.0, 1313.0], [2055.0, 1313.0], [2055.0, 1363.0], [2022.0, 1363.0]], "score": 0.9948286414146423, "text": "8"}, {"orientation_angle": 0, "polygon": [[331.0, 1360.0], [1030.0, 1365.0], [1030.0, 1411.0], [331.0, 1406.0]], "score": 0.994551956653595, "text": "Evaluations des produits et en cours"}, {"orientation_angle": 0, "polygon": [[2020.0, 1365.0], [2055.0, 1365.0], [2055.0, 1413.0], [2020.0, 1413.0]], "score": 0.9996656179428101, "text": "8"}, {"orientation_angle": 0, "polygon": [[329.0, 1409.0], [1013.0, 1413.0], [1013.0, 1459.0], [329.0, 1455.0]], "score": 0.9847948551177979, "text": "Dépréciation des stocks et en cours"}, {"orientation_angle": 0, "polygon": [[2024.0, 1414.0], [2055.0, 1414.0], [2055.0, 1461.0], [2024.0, 1461.0]], "score": 0.9988378882408142, "text": "8"}, {"orientation_angle": 0, "polygon": [[329.0, 1457.0], [1042.0, 1461.0], [1042.0, 1509.0], [329.0, 1505.0]], "score": 0.9771139621734619, "text": "Evaluation des créances et des dettes"}, {"orientation_angle": 1, "polygon": [[2024.0, 1466.0], [2051.0, 1466.0], [2051.0, 1510.0], [2024.0, 1510.0]], "score": 0.9519789218902588, "text": "8"}, {"orientation_angle": 0, "polygon": [[328.0, 1505.0], [839.0, 1511.0], [838.0, 1562.0], [327.0, 1556.0]], "score": 0.9998229146003723, "text": "Dépréciation des créances"}, {"orientation_angle": 0, "polygon": [[2022.0, 1514.0], [2055.0, 1514.0], [2055.0, 1563.0], [2022.0, 1563.0]], "score": 0.9997217059135437, "text": "9"}, {"orientation_angle": 0, "polygon": [[329.0, 1556.0], [701.0, 1560.0], [701.0, 1606.0], [329.0, 1603.0]], "score": 0.9995916485786438, "text": "Produits à recevoir"}, {"orientation_angle": 1, "polygon": [[2020.0, 1562.0], [2053.0, 1562.0], [2053.0, 1613.0], [2020.0, 1613.0]], "score": 0.9974759221076965, "text": "6"}, {"orientation_angle": 0, "polygon": [[330.0, 1604.0], [650.0, 1610.0], [649.0, 1663.0], [329.0, 1657.0]], "score": 0.9705920815467834, "text": "Charges à payer"}, {"orientation_angle": 0, "polygon": [[2020.0, 1611.0], [2055.0, 1611.0], [2055.0, 1663.0], [2020.0, 1663.0]], "score": 0.9997095465660095, "text": "9"}, {"orientation_angle": 0, "polygon": [[331.0, 1654.0], [1073.0, 1658.0], [1073.0, 1711.0], [331.0, 1707.0]], "score": 0.9914066195487976, "text": "Charges et produits constatés d'avance"}, {"orientation_angle": 0, "polygon": [[2020.0, 1663.0], [2055.0, 1663.0], [2055.0, 1709.0], [2020.0, 1709.0]], "score": 0.9998383522033691, "text": "9"}, {"orientation_angle": 0, "polygon": [[393.0, 3127.0], [1299.0, 3136.0], [1298.0, 3194.0], [392.0, 3185.0]], "score": 0.9849270582199097, "text": "NA = Non Applicable NS = Non significative"}]}], "label": "table", "score": 0.5894636511802673}], "most_frequent_angle": 0, "ocr": [{"orientation_angle": 0, "polygon": [[119.0, 82.0], [486.0, 82.0], [486.0, 123.0], [119.0, 123.0]], "score": 0.9970812201499939, "text": "Société MEUBLE 110"}, {"orientation_angle": 0, "polygon": [[117.0, 134.0], [505.0, 134.0], [505.0, 175.0], [117.0, 175.0]], "score": 0.9875053763389587, "text": "97600 MAMOUDZOU"}, {"orientation_angle": 0, "polygon": [[205.0, 238.0], [451.0, 238.0], [451.0, 293.0], [205.0, 293.0]], "score": 0.9997603297233582, "text": "ANNEXE"}, {"orientation_angle": 0, "polygon": [[282.0, 421.0], [584.0, 421.0], [584.0, 469.0], [282.0, 469.0]], "score": 0.999821662902832, "text": "SOMMAIRE"}, {"orientation_angle": 0, "polygon": [[1977.0, 473.0], [2089.0, 473.0], [2089.0, 533.0], [1977.0, 533.0]], "score": 0.9998117089271545, "text": "page"}, {"orientation_angle": 0, "polygon": [[2015.0, 510.0], [2060.0, 510.0], [2060.0, 569.0], [2015.0, 569.0]], "score": 0.9313090443611145, "text": "5"}, {"orientation_angle": 0, "polygon": [[329.0, 522.0], [989.0, 522.0], [989.0, 569.0], [329.0, 569.0]], "score": 0.9934283494949341, "text": "Faits caractéristiques de l'exercice"}, {"orientation_angle": 0, "polygon": [[284.0, 570.0], [1219.0, 570.0], [1219.0, 616.0], [284.0, 616.0]], "score": 0.9986286759376526, "text": "- REGLES ET METHODES COMPTABLES"}, {"orientation_angle": 0, "polygon": [[2009.0, 659.0], [2061.0, 657.0], [2066.0, 767.0], [2014.0, 769.0]], "score": 0.7767667770385742, "text": "55"}, {"orientation_angle": 0, "polygon": [[329.0, 670.0], [999.0, 670.0], [999.0, 721.0], [329.0, 721.0]], "score": 0.9997380375862122, "text": "Principes et conventions générales"}, {"orientation_angle": 0, "polygon": [[327.0, 719.0], [1128.0, 716.0], [1128.0, 769.0], [327.0, 772.0]], "score": 0.9915518164634705, "text": "Permanence ou changement de méthodes"}, {"orientation_angle": 0, "polygon": [[284.0, 868.0], [1586.0, 865.0], [1586.0, 913.0], [284.0, 916.0]], "score": 0.9997835755348206, "text": "- COMPLEMENT D'INFORMATIONS RELATIF AU BILAN"}, {"orientation_angle": 0, "polygon": [[331.0, 968.0], [813.0, 968.0], [813.0, 1014.0], [331.0, 1014.0]], "score": 0.9999263882637024, "text": "Etat des immobilisations"}, {"orientation_angle": 0, "polygon": [[2020.0, 966.0], [2056.0, 966.0], [2056.0, 1015.0], [2020.0, 1015.0]], "score": 0.9995493292808533, "text": "6"}, {"orientation_angle": 0, "polygon": [[329.0, 1014.0], [803.0, 1017.0], [802.0, 1064.0], [329.0, 1060.0]], "score": 0.999919056892395, "text": "Etat des amortissements"}, {"orientation_angle": 1, "polygon": [[2020.0, 1010.0], [2058.0, 1010.0], [2058.0, 1067.0], [2020.0, 1067.0]], "score": 0.9999481439590454, "text": "6", "text_original": "9"}, {"orientation_angle": 0, "polygon": [[331.0, 1065.0], [703.0, 1065.0], [703.0, 1113.0], [331.0, 1113.0]], "score": 0.9744215607643127, "text": "Etat des provisions"}, {"orientation_angle": 0, "polygon": [[2017.0, 1058.0], [2060.0, 1058.0], [2060.0, 1113.0], [2017.0, 1113.0]], "score": 0.9998725652694702, "text": "7"}, {"orientation_angle": 0, "polygon": [[329.0, 1111.0], [1194.0, 1115.0], [1193.0, 1163.0], [329.0, 1159.0]], "score": 0.9925379157066345, "text": "Etat des échéances des créances et des dettes"}, {"orientation_angle": 0, "polygon": [[2017.0, 1111.0], [2060.0, 1111.0], [2060.0, 1164.0], [2017.0, 1164.0]], "score": 0.9999445676803589, "text": "7"}, {"orientation_angle": 0, "polygon": [[332.0, 1164.0], [692.0, 1164.0], [692.0, 1206.0], [332.0, 1206.0]], "score": 0.9987701177597046, "text": "Fonds commercial"}, {"orientation_angle": 0, "polygon": [[2020.0, 1163.0], [2055.0, 1163.0], [2055.0, 1212.0], [2020.0, 1212.0]], "score": 0.9999159574508667, "text": "8"}, {"orientation_angle": 0, "polygon": [[327.0, 1209.0], [1166.0, 1212.0], [1166.0, 1264.0], [327.0, 1260.0]], "score": 0.9863414764404297, "text": "Evaluation des immobilisations corporelles"}, {"orientation_angle": 0, "polygon": [[2022.0, 1214.0], [2055.0, 1214.0], [2055.0, 1265.0], [2022.0, 1265.0]], "score": 0.9963459372520447, "text": "8"}, {"orientation_angle": 0, "polygon": [[331.0, 1260.0], [932.0, 1264.0], [932.0, 1310.0], [331.0, 1306.0]], "score": 0.999963641166687, "text": "Evaluation des amortissements"}, {"orientation_angle": 0, "polygon": [[2024.0, 1267.0], [2055.0, 1267.0], [2055.0, 1313.0], [2024.0, 1313.0]], "score": 0.9997524619102478, "text": "8"}, {"orientation_angle": 0, "polygon": [[329.0, 1310.0], [1113.0, 1313.0], [1112.0, 1360.0], [329.0, 1356.0]], "score": 0.9830632209777832, "text": "Evaluation des matières et marchandises"}, {"orientation_angle": 0, "polygon": [[2022.0, 1313.0], [2055.0, 1313.0], [2055.0, 1363.0], [2022.0, 1363.0]], "score": 0.9948286414146423, "text": "8"}, {"orientation_angle": 0, "polygon": [[331.0, 1360.0], [1030.0, 1365.0], [1030.0, 1411.0], [331.0, 1406.0]], "score": 0.994551956653595, "text": "Evaluations des produits et en cours"}, {"orientation_angle": 0, "polygon": [[2020.0, 1365.0], [2055.0, 1365.0], [2055.0, 1413.0], [2020.0, 1413.0]], "score": 0.9996656179428101, "text": "8"}, {"orientation_angle": 0, "polygon": [[329.0, 1409.0], [1013.0, 1413.0], [1013.0, 1459.0], [329.0, 1455.0]], "score": 0.9847948551177979, "text": "Dépréciation des stocks et en cours"}, {"orientation_angle": 0, "polygon": [[2024.0, 1414.0], [2055.0, 1414.0], [2055.0, 1461.0], [2024.0, 1461.0]], "score": 0.9988378882408142, "text": "8"}, {"orientation_angle": 0, "polygon": [[329.0, 1457.0], [1042.0, 1461.0], [1042.0, 1509.0], [329.0, 1505.0]], "score": 0.9771139621734619, "text": "Evaluation des créances et des dettes"}, {"orientation_angle": 1, "polygon": [[2024.0, 1466.0], [2051.0, 1466.0], [2051.0, 1510.0], [2024.0, 1510.0]], "score": 0.9993758797645569, "text": "8", "text_original": "8"}, {"orientation_angle": 0, "polygon": [[328.0, 1505.0], [839.0, 1511.0], [838.0, 1562.0], [327.0, 1556.0]], "score": 0.9998229146003723, "text": "Dépréciation des créances"}, {"orientation_angle": 0, "polygon": [[2022.0, 1514.0], [2055.0, 1514.0], [2055.0, 1563.0], [2022.0, 1563.0]], "score": 0.9997217059135437, "text": "9"}, {"orientation_angle": 0, "polygon": [[329.0, 1556.0], [701.0, 1560.0], [701.0, 1606.0], [329.0, 1603.0]], "score": 0.9995916485786438, "text": "Produits à recevoir"}, {"orientation_angle": 1, "polygon": [[2020.0, 1562.0], [2053.0, 1562.0], [2053.0, 1613.0], [2020.0, 1613.0]], "score": 0.9998195767402649, "text": "9", "text_original": "6"}, {"orientation_angle": 0, "polygon": [[330.0, 1604.0], [650.0, 1610.0], [649.0, 1663.0], [329.0, 1657.0]], "score": 0.9705920815467834, "text": "Charges à payer"}, {"orientation_angle": 0, "polygon": [[2020.0, 1611.0], [2055.0, 1611.0], [2055.0, 1663.0], [2020.0, 1663.0]], "score": 0.9997095465660095, "text": "9"}, {"orientation_angle": 0, "polygon": [[331.0, 1654.0], [1073.0, 1658.0], [1073.0, 1711.0], [331.0, 1707.0]], "score": 0.9914066195487976, "text": "Charges et produits constatés d'avance"}, {"orientation_angle": 0, "polygon": [[2020.0, 1663.0], [2055.0, 1663.0], [2055.0, 1709.0], [2020.0, 1709.0]], "score": 0.9998383522033691, "text": "9"}, {"orientation_angle": 0, "polygon": [[393.0, 3127.0], [1299.0, 3136.0], [1298.0, 3194.0], [392.0, 3185.0]], "score": 0.9849270582199097, "text": "NA = Non Applicable NS = Non significative"}], "page": 7, "pdf": "CA_024052656_9761_1999B92056_2021_B2022000888__63dfe5e08640ab354119d382.pdf", "skew_angle": 0.0}
+{
+  "_reocr_corrected_count": 3,
+  "_reocr_failed_count": 0,
+  "_reocr_failures": [],
+  "layout": [
+    {
+      "bbox": [
+        95.53645324707031,
+        81.64901733398438,
+        519.1138305664062,
+        169.87338256835938
+      ],
+      "label": "header",
+      "score": 0.7353678941726685,
+      "texts": [
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              119,
+              82
+            ],
+            [
+              486,
+              82
+            ],
+            [
+              486,
+              123
+            ],
+            [
+              119,
+              123
+            ]
+          ],
+          "score": 0.9970812201499939,
+          "text": "Société MEUBLE 110"
+        },
+        {
+          "orientation_angle": 0,
+          "polygon": [
+            [
+              117,
+              134
+            ],
+            [
+              505,
+              134
+            ],
+            [
+              505,
+              175
+            ],
+            [
+              117,
+              175
+            ]
+          ],
+          "score": 0.9875053763389587,
+          "text": "97600 MAMOUDZOU"
+        }
+      ]
+    },
+    {
+      "bbox": [
+        108.37353515625,
+        201.54443359375,
+        2424.5673828125,
+        3216.9638671875
+      ],
+      "cells": [
+        {
+          "bbox": [
+            115.73185157775879,
+            317.3907699584961,
+            2078.4332275390625,
+            3216.54443359375
+          ],
+          "score": 0.6741384863853455,
+          "texts": [
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  282,
+                  421
+                ],
+                [
+                  584,
+                  421
+                ],
+                [
+                  584,
+                  469
+                ],
+                [
+                  282,
+                  469
+                ]
+              ],
+              "score": 0.999821662902832,
+              "text": "SOMMAIRE"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  1977,
+                  473
+                ],
+                [
+                  2089,
+                  473
+                ],
+                [
+                  2089,
+                  533
+                ],
+                [
+                  1977,
+                  533
+                ]
+              ],
+              "score": 0.9998117089271545,
+              "text": "page"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2015,
+                  510
+                ],
+                [
+                  2060,
+                  510
+                ],
+                [
+                  2060,
+                  569
+                ],
+                [
+                  2015,
+                  569
+                ]
+              ],
+              "score": 0.9313090443611145,
+              "text": "5"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  329,
+                  522
+                ],
+                [
+                  989,
+                  522
+                ],
+                [
+                  989,
+                  569
+                ],
+                [
+                  329,
+                  569
+                ]
+              ],
+              "score": 0.9934283494949341,
+              "text": "Faits caractéristiques de l'exercice"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  284,
+                  570
+                ],
+                [
+                  1219,
+                  570
+                ],
+                [
+                  1219,
+                  616
+                ],
+                [
+                  284,
+                  616
+                ]
+              ],
+              "score": 0.9986286759376526,
+              "text": "- REGLES ET METHODES COMPTABLES"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2009,
+                  659
+                ],
+                [
+                  2061,
+                  657
+                ],
+                [
+                  2066,
+                  767
+                ],
+                [
+                  2014,
+                  769
+                ]
+              ],
+              "score": 0.7767667770385742,
+              "text": "55"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  329,
+                  670
+                ],
+                [
+                  999,
+                  670
+                ],
+                [
+                  999,
+                  721
+                ],
+                [
+                  329,
+                  721
+                ]
+              ],
+              "score": 0.9997380375862122,
+              "text": "Principes et conventions générales"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  327,
+                  719
+                ],
+                [
+                  1128,
+                  716
+                ],
+                [
+                  1128,
+                  769
+                ],
+                [
+                  327,
+                  772
+                ]
+              ],
+              "score": 0.9915518164634705,
+              "text": "Permanence ou changement de méthodes"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  284,
+                  868
+                ],
+                [
+                  1586,
+                  865
+                ],
+                [
+                  1586,
+                  913
+                ],
+                [
+                  284,
+                  916
+                ]
+              ],
+              "score": 0.9997835755348206,
+              "text": "- COMPLEMENT D'INFORMATIONS RELATIF AU BILAN"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  331,
+                  968
+                ],
+                [
+                  813,
+                  968
+                ],
+                [
+                  813,
+                  1014
+                ],
+                [
+                  331,
+                  1014
+                ]
+              ],
+              "score": 0.9999263882637024,
+              "text": "Etat des immobilisations"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2020,
+                  966
+                ],
+                [
+                  2056,
+                  966
+                ],
+                [
+                  2056,
+                  1015
+                ],
+                [
+                  2020,
+                  1015
+                ]
+              ],
+              "score": 0.9995493292808533,
+              "text": "6"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  329,
+                  1014
+                ],
+                [
+                  803,
+                  1017
+                ],
+                [
+                  802,
+                  1064
+                ],
+                [
+                  329,
+                  1060
+                ]
+              ],
+              "score": 0.999919056892395,
+              "text": "Etat des amortissements"
+            },
+            {
+              "orientation_angle": 1,
+              "polygon": [
+                [
+                  2020,
+                  1010
+                ],
+                [
+                  2058,
+                  1010
+                ],
+                [
+                  2058,
+                  1067
+                ],
+                [
+                  2020,
+                  1067
+                ]
+              ],
+              "score": 0.9933316111564636,
+              "text": "9"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  331,
+                  1065
+                ],
+                [
+                  703,
+                  1065
+                ],
+                [
+                  703,
+                  1113
+                ],
+                [
+                  331,
+                  1113
+                ]
+              ],
+              "score": 0.9744215607643127,
+              "text": "Etat des provisions"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2017,
+                  1058
+                ],
+                [
+                  2060,
+                  1058
+                ],
+                [
+                  2060,
+                  1113
+                ],
+                [
+                  2017,
+                  1113
+                ]
+              ],
+              "score": 0.9998725652694702,
+              "text": "7"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  329,
+                  1111
+                ],
+                [
+                  1194,
+                  1115
+                ],
+                [
+                  1193,
+                  1163
+                ],
+                [
+                  329,
+                  1159
+                ]
+              ],
+              "score": 0.9925379157066345,
+              "text": "Etat des échéances des créances et des dettes"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2017,
+                  1111
+                ],
+                [
+                  2060,
+                  1111
+                ],
+                [
+                  2060,
+                  1164
+                ],
+                [
+                  2017,
+                  1164
+                ]
+              ],
+              "score": 0.9999445676803589,
+              "text": "7"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  332,
+                  1164
+                ],
+                [
+                  692,
+                  1164
+                ],
+                [
+                  692,
+                  1206
+                ],
+                [
+                  332,
+                  1206
+                ]
+              ],
+              "score": 0.9987701177597046,
+              "text": "Fonds commercial"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2020,
+                  1163
+                ],
+                [
+                  2055,
+                  1163
+                ],
+                [
+                  2055,
+                  1212
+                ],
+                [
+                  2020,
+                  1212
+                ]
+              ],
+              "score": 0.9999159574508667,
+              "text": "8"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  327,
+                  1209
+                ],
+                [
+                  1166,
+                  1212
+                ],
+                [
+                  1166,
+                  1264
+                ],
+                [
+                  327,
+                  1260
+                ]
+              ],
+              "score": 0.9863414764404297,
+              "text": "Evaluation des immobilisations corporelles"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2022,
+                  1214
+                ],
+                [
+                  2055,
+                  1214
+                ],
+                [
+                  2055,
+                  1265
+                ],
+                [
+                  2022,
+                  1265
+                ]
+              ],
+              "score": 0.9963459372520447,
+              "text": "8"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  331,
+                  1260
+                ],
+                [
+                  932,
+                  1264
+                ],
+                [
+                  932,
+                  1310
+                ],
+                [
+                  331,
+                  1306
+                ]
+              ],
+              "score": 0.999963641166687,
+              "text": "Evaluation des amortissements"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2024,
+                  1267
+                ],
+                [
+                  2055,
+                  1267
+                ],
+                [
+                  2055,
+                  1313
+                ],
+                [
+                  2024,
+                  1313
+                ]
+              ],
+              "score": 0.9997524619102478,
+              "text": "8"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  329,
+                  1310
+                ],
+                [
+                  1113,
+                  1313
+                ],
+                [
+                  1112,
+                  1360
+                ],
+                [
+                  329,
+                  1356
+                ]
+              ],
+              "score": 0.9830632209777832,
+              "text": "Evaluation des matières et marchandises"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2022,
+                  1313
+                ],
+                [
+                  2055,
+                  1313
+                ],
+                [
+                  2055,
+                  1363
+                ],
+                [
+                  2022,
+                  1363
+                ]
+              ],
+              "score": 0.9948286414146423,
+              "text": "8"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  331,
+                  1360
+                ],
+                [
+                  1030,
+                  1365
+                ],
+                [
+                  1030,
+                  1411
+                ],
+                [
+                  331,
+                  1406
+                ]
+              ],
+              "score": 0.994551956653595,
+              "text": "Evaluations des produits et en cours"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2020,
+                  1365
+                ],
+                [
+                  2055,
+                  1365
+                ],
+                [
+                  2055,
+                  1413
+                ],
+                [
+                  2020,
+                  1413
+                ]
+              ],
+              "score": 0.9996656179428101,
+              "text": "8"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  329,
+                  1409
+                ],
+                [
+                  1013,
+                  1413
+                ],
+                [
+                  1013,
+                  1459
+                ],
+                [
+                  329,
+                  1455
+                ]
+              ],
+              "score": 0.9847948551177979,
+              "text": "Dépréciation des stocks et en cours"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2024,
+                  1414
+                ],
+                [
+                  2055,
+                  1414
+                ],
+                [
+                  2055,
+                  1461
+                ],
+                [
+                  2024,
+                  1461
+                ]
+              ],
+              "score": 0.9988378882408142,
+              "text": "8"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  329,
+                  1457
+                ],
+                [
+                  1042,
+                  1461
+                ],
+                [
+                  1042,
+                  1509
+                ],
+                [
+                  329,
+                  1505
+                ]
+              ],
+              "score": 0.9771139621734619,
+              "text": "Evaluation des créances et des dettes"
+            },
+            {
+              "orientation_angle": 1,
+              "polygon": [
+                [
+                  2024,
+                  1466
+                ],
+                [
+                  2051,
+                  1466
+                ],
+                [
+                  2051,
+                  1510
+                ],
+                [
+                  2024,
+                  1510
+                ]
+              ],
+              "score": 0.9519789218902588,
+              "text": "8"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  328,
+                  1505
+                ],
+                [
+                  839,
+                  1511
+                ],
+                [
+                  838,
+                  1562
+                ],
+                [
+                  327,
+                  1556
+                ]
+              ],
+              "score": 0.9998229146003723,
+              "text": "Dépréciation des créances"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2022,
+                  1514
+                ],
+                [
+                  2055,
+                  1514
+                ],
+                [
+                  2055,
+                  1563
+                ],
+                [
+                  2022,
+                  1563
+                ]
+              ],
+              "score": 0.9997217059135437,
+              "text": "9"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  329,
+                  1556
+                ],
+                [
+                  701,
+                  1560
+                ],
+                [
+                  701,
+                  1606
+                ],
+                [
+                  329,
+                  1603
+                ]
+              ],
+              "score": 0.9995916485786438,
+              "text": "Produits à recevoir"
+            },
+            {
+              "orientation_angle": 1,
+              "polygon": [
+                [
+                  2020,
+                  1562
+                ],
+                [
+                  2053,
+                  1562
+                ],
+                [
+                  2053,
+                  1613
+                ],
+                [
+                  2020,
+                  1613
+                ]
+              ],
+              "score": 0.9974759221076965,
+              "text": "6"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  330,
+                  1604
+                ],
+                [
+                  650,
+                  1610
+                ],
+                [
+                  649,
+                  1663
+                ],
+                [
+                  329,
+                  1657
+                ]
+              ],
+              "score": 0.9705920815467834,
+              "text": "Charges à payer"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2020,
+                  1611
+                ],
+                [
+                  2055,
+                  1611
+                ],
+                [
+                  2055,
+                  1663
+                ],
+                [
+                  2020,
+                  1663
+                ]
+              ],
+              "score": 0.9997095465660095,
+              "text": "9"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  331,
+                  1654
+                ],
+                [
+                  1073,
+                  1658
+                ],
+                [
+                  1073,
+                  1711
+                ],
+                [
+                  331,
+                  1707
+                ]
+              ],
+              "score": 0.9914066195487976,
+              "text": "Charges et produits constatés d'avance"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  2020,
+                  1663
+                ],
+                [
+                  2055,
+                  1663
+                ],
+                [
+                  2055,
+                  1709
+                ],
+                [
+                  2020,
+                  1709
+                ]
+              ],
+              "score": 0.9998383522033691,
+              "text": "9"
+            },
+            {
+              "orientation_angle": 0,
+              "polygon": [
+                [
+                  393,
+                  3127
+                ],
+                [
+                  1299,
+                  3136
+                ],
+                [
+                  1298,
+                  3194
+                ],
+                [
+                  392,
+                  3185
+                ]
+              ],
+              "score": 0.9849270582199097,
+              "text": "NA = Non Applicable NS = Non significative"
+            }
+          ]
+        }
+      ],
+      "label": "table",
+      "score": 0.5894636511802673
+    }
+  ],
+  "most_frequent_angle": 0,
+  "ocr": [
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          119,
+          82
+        ],
+        [
+          486,
+          82
+        ],
+        [
+          486,
+          123
+        ],
+        [
+          119,
+          123
+        ]
+      ],
+      "score": 0.9970812201499939,
+      "text": "Société MEUBLE 110"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          117,
+          134
+        ],
+        [
+          505,
+          134
+        ],
+        [
+          505,
+          175
+        ],
+        [
+          117,
+          175
+        ]
+      ],
+      "score": 0.9875053763389587,
+      "text": "97600 MAMOUDZOU"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          205,
+          238
+        ],
+        [
+          451,
+          238
+        ],
+        [
+          451,
+          293
+        ],
+        [
+          205,
+          293
+        ]
+      ],
+      "score": 0.9997603297233582,
+      "text": "ANNEXE"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          282,
+          421
+        ],
+        [
+          584,
+          421
+        ],
+        [
+          584,
+          469
+        ],
+        [
+          282,
+          469
+        ]
+      ],
+      "score": 0.999821662902832,
+      "text": "SOMMAIRE"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          1977,
+          473
+        ],
+        [
+          2089,
+          473
+        ],
+        [
+          2089,
+          533
+        ],
+        [
+          1977,
+          533
+        ]
+      ],
+      "score": 0.9998117089271545,
+      "text": "page"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2015,
+          510
+        ],
+        [
+          2060,
+          510
+        ],
+        [
+          2060,
+          569
+        ],
+        [
+          2015,
+          569
+        ]
+      ],
+      "score": 0.9313090443611145,
+      "text": "5"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          329,
+          522
+        ],
+        [
+          989,
+          522
+        ],
+        [
+          989,
+          569
+        ],
+        [
+          329,
+          569
+        ]
+      ],
+      "score": 0.9934283494949341,
+      "text": "Faits caractéristiques de l'exercice"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          284,
+          570
+        ],
+        [
+          1219,
+          570
+        ],
+        [
+          1219,
+          616
+        ],
+        [
+          284,
+          616
+        ]
+      ],
+      "score": 0.9986286759376526,
+      "text": "- REGLES ET METHODES COMPTABLES"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2009,
+          659
+        ],
+        [
+          2061,
+          657
+        ],
+        [
+          2066,
+          767
+        ],
+        [
+          2014,
+          769
+        ]
+      ],
+      "score": 0.7767667770385742,
+      "text": "55"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          329,
+          670
+        ],
+        [
+          999,
+          670
+        ],
+        [
+          999,
+          721
+        ],
+        [
+          329,
+          721
+        ]
+      ],
+      "score": 0.9997380375862122,
+      "text": "Principes et conventions générales"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          327,
+          719
+        ],
+        [
+          1128,
+          716
+        ],
+        [
+          1128,
+          769
+        ],
+        [
+          327,
+          772
+        ]
+      ],
+      "score": 0.9915518164634705,
+      "text": "Permanence ou changement de méthodes"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          284,
+          868
+        ],
+        [
+          1586,
+          865
+        ],
+        [
+          1586,
+          913
+        ],
+        [
+          284,
+          916
+        ]
+      ],
+      "score": 0.9997835755348206,
+      "text": "- COMPLEMENT D'INFORMATIONS RELATIF AU BILAN"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          331,
+          968
+        ],
+        [
+          813,
+          968
+        ],
+        [
+          813,
+          1014
+        ],
+        [
+          331,
+          1014
+        ]
+      ],
+      "score": 0.9999263882637024,
+      "text": "Etat des immobilisations"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2020,
+          966
+        ],
+        [
+          2056,
+          966
+        ],
+        [
+          2056,
+          1015
+        ],
+        [
+          2020,
+          1015
+        ]
+      ],
+      "score": 0.9995493292808533,
+      "text": "6"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          329,
+          1014
+        ],
+        [
+          803,
+          1017
+        ],
+        [
+          802,
+          1064
+        ],
+        [
+          329,
+          1060
+        ]
+      ],
+      "score": 0.999919056892395,
+      "text": "Etat des amortissements"
+    },
+    {
+      "orientation_angle": 1,
+      "polygon": [
+        [
+          2020,
+          1010
+        ],
+        [
+          2058,
+          1010
+        ],
+        [
+          2058,
+          1067
+        ],
+        [
+          2020,
+          1067
+        ]
+      ],
+      "score": 0.9999481439590454,
+      "text": "6",
+      "text_original": "9"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          331,
+          1065
+        ],
+        [
+          703,
+          1065
+        ],
+        [
+          703,
+          1113
+        ],
+        [
+          331,
+          1113
+        ]
+      ],
+      "score": 0.9744215607643127,
+      "text": "Etat des provisions"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2017,
+          1058
+        ],
+        [
+          2060,
+          1058
+        ],
+        [
+          2060,
+          1113
+        ],
+        [
+          2017,
+          1113
+        ]
+      ],
+      "score": 0.9998725652694702,
+      "text": "7"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          329,
+          1111
+        ],
+        [
+          1194,
+          1115
+        ],
+        [
+          1193,
+          1163
+        ],
+        [
+          329,
+          1159
+        ]
+      ],
+      "score": 0.9925379157066345,
+      "text": "Etat des échéances des créances et des dettes"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2017,
+          1111
+        ],
+        [
+          2060,
+          1111
+        ],
+        [
+          2060,
+          1164
+        ],
+        [
+          2017,
+          1164
+        ]
+      ],
+      "score": 0.9999445676803589,
+      "text": "7"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          332,
+          1164
+        ],
+        [
+          692,
+          1164
+        ],
+        [
+          692,
+          1206
+        ],
+        [
+          332,
+          1206
+        ]
+      ],
+      "score": 0.9987701177597046,
+      "text": "Fonds commercial"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2020,
+          1163
+        ],
+        [
+          2055,
+          1163
+        ],
+        [
+          2055,
+          1212
+        ],
+        [
+          2020,
+          1212
+        ]
+      ],
+      "score": 0.9999159574508667,
+      "text": "8"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          327,
+          1209
+        ],
+        [
+          1166,
+          1212
+        ],
+        [
+          1166,
+          1264
+        ],
+        [
+          327,
+          1260
+        ]
+      ],
+      "score": 0.9863414764404297,
+      "text": "Evaluation des immobilisations corporelles"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2022,
+          1214
+        ],
+        [
+          2055,
+          1214
+        ],
+        [
+          2055,
+          1265
+        ],
+        [
+          2022,
+          1265
+        ]
+      ],
+      "score": 0.9963459372520447,
+      "text": "8"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          331,
+          1260
+        ],
+        [
+          932,
+          1264
+        ],
+        [
+          932,
+          1310
+        ],
+        [
+          331,
+          1306
+        ]
+      ],
+      "score": 0.999963641166687,
+      "text": "Evaluation des amortissements"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2024,
+          1267
+        ],
+        [
+          2055,
+          1267
+        ],
+        [
+          2055,
+          1313
+        ],
+        [
+          2024,
+          1313
+        ]
+      ],
+      "score": 0.9997524619102478,
+      "text": "8"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          329,
+          1310
+        ],
+        [
+          1113,
+          1313
+        ],
+        [
+          1112,
+          1360
+        ],
+        [
+          329,
+          1356
+        ]
+      ],
+      "score": 0.9830632209777832,
+      "text": "Evaluation des matières et marchandises"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2022,
+          1313
+        ],
+        [
+          2055,
+          1313
+        ],
+        [
+          2055,
+          1363
+        ],
+        [
+          2022,
+          1363
+        ]
+      ],
+      "score": 0.9948286414146423,
+      "text": "8"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          331,
+          1360
+        ],
+        [
+          1030,
+          1365
+        ],
+        [
+          1030,
+          1411
+        ],
+        [
+          331,
+          1406
+        ]
+      ],
+      "score": 0.994551956653595,
+      "text": "Evaluations des produits et en cours"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2020,
+          1365
+        ],
+        [
+          2055,
+          1365
+        ],
+        [
+          2055,
+          1413
+        ],
+        [
+          2020,
+          1413
+        ]
+      ],
+      "score": 0.9996656179428101,
+      "text": "8"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          329,
+          1409
+        ],
+        [
+          1013,
+          1413
+        ],
+        [
+          1013,
+          1459
+        ],
+        [
+          329,
+          1455
+        ]
+      ],
+      "score": 0.9847948551177979,
+      "text": "Dépréciation des stocks et en cours"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2024,
+          1414
+        ],
+        [
+          2055,
+          1414
+        ],
+        [
+          2055,
+          1461
+        ],
+        [
+          2024,
+          1461
+        ]
+      ],
+      "score": 0.9988378882408142,
+      "text": "8"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          329,
+          1457
+        ],
+        [
+          1042,
+          1461
+        ],
+        [
+          1042,
+          1509
+        ],
+        [
+          329,
+          1505
+        ]
+      ],
+      "score": 0.9771139621734619,
+      "text": "Evaluation des créances et des dettes"
+    },
+    {
+      "orientation_angle": 1,
+      "polygon": [
+        [
+          2024,
+          1466
+        ],
+        [
+          2051,
+          1466
+        ],
+        [
+          2051,
+          1510
+        ],
+        [
+          2024,
+          1510
+        ]
+      ],
+      "score": 0.9993758797645569,
+      "text": "8",
+      "text_original": "8"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          328,
+          1505
+        ],
+        [
+          839,
+          1511
+        ],
+        [
+          838,
+          1562
+        ],
+        [
+          327,
+          1556
+        ]
+      ],
+      "score": 0.9998229146003723,
+      "text": "Dépréciation des créances"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2022,
+          1514
+        ],
+        [
+          2055,
+          1514
+        ],
+        [
+          2055,
+          1563
+        ],
+        [
+          2022,
+          1563
+        ]
+      ],
+      "score": 0.9997217059135437,
+      "text": "9"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          329,
+          1556
+        ],
+        [
+          701,
+          1560
+        ],
+        [
+          701,
+          1606
+        ],
+        [
+          329,
+          1603
+        ]
+      ],
+      "score": 0.9995916485786438,
+      "text": "Produits à recevoir"
+    },
+    {
+      "orientation_angle": 1,
+      "polygon": [
+        [
+          2020,
+          1562
+        ],
+        [
+          2053,
+          1562
+        ],
+        [
+          2053,
+          1613
+        ],
+        [
+          2020,
+          1613
+        ]
+      ],
+      "score": 0.9998195767402649,
+      "text": "9",
+      "text_original": "6"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          330,
+          1604
+        ],
+        [
+          650,
+          1610
+        ],
+        [
+          649,
+          1663
+        ],
+        [
+          329,
+          1657
+        ]
+      ],
+      "score": 0.9705920815467834,
+      "text": "Charges à payer"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2020,
+          1611
+        ],
+        [
+          2055,
+          1611
+        ],
+        [
+          2055,
+          1663
+        ],
+        [
+          2020,
+          1663
+        ]
+      ],
+      "score": 0.9997095465660095,
+      "text": "9"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          331,
+          1654
+        ],
+        [
+          1073,
+          1658
+        ],
+        [
+          1073,
+          1711
+        ],
+        [
+          331,
+          1707
+        ]
+      ],
+      "score": 0.9914066195487976,
+      "text": "Charges et produits constatés d'avance"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          2020,
+          1663
+        ],
+        [
+          2055,
+          1663
+        ],
+        [
+          2055,
+          1709
+        ],
+        [
+          2020,
+          1709
+        ]
+      ],
+      "score": 0.9998383522033691,
+      "text": "9"
+    },
+    {
+      "orientation_angle": 0,
+      "polygon": [
+        [
+          393,
+          3127
+        ],
+        [
+          1299,
+          3136
+        ],
+        [
+          1298,
+          3194
+        ],
+        [
+          392,
+          3185
+        ]
+      ],
+      "score": 0.9849270582199097,
+      "text": "NA = Non Applicable NS = Non significative"
+    }
+  ],
+  "page": 7,
+  "pdf": "CA_024052656_9761_1999B92056_2021_B2022000888__63dfe5e08640ab354119d382.pdf",
+  "skew_angle": 0
+}
