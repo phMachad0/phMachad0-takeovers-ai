@@ -1,0 +1,1816 @@
+{
+  "about": "Field extraction over the liasse documents in scope. Coverage is reported against three denominators: fields read, fields absent from the filing by law, and fields the pipeline could not resolve.",
+  "totals": {
+    "documents": 8,
+    "fields_expected": 96,
+    "fields_read": 75,
+    "fields_legally_absent": 14,
+    "fields_unresolved": 7,
+    "coverage_of_available": 0.9146,
+    "tiers": {
+      "CODE": 63,
+      "LABEL": 12
+    }
+  },
+  "documents": [
+    {
+      "siren": "328024377",
+      "doc_id": "63e8ebbb54febda17c19ee7d",
+      "denomination": "BERNACHON SAS",
+      "fiscal_year_end": "2021-06-30",
+      "income_statement_confidential": false,
+      "fields_read": 11,
+      "tiers": {
+        "CODE": 8,
+        "LABEL": 3
+      },
+      "blank_cells_read_as_zero": 4,
+      "values": [
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "value": 4982524,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FL",
+              "value": 4982524,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "4 982 524"
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "value": 1044139,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FS",
+              "value": 956557,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            },
+            {
+              "code": "FT",
+              "value": 87582,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            },
+            {
+              "code": "FU",
+              "value": 0,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": true
+            },
+            {
+              "code": "FV",
+              "value": 0,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": true
+            },
+            {
+              "code": "FM",
+              "value": 0,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": true
+            }
+          ],
+          "snippet": "956 557 87 582 Achats de matières premières et autres approvisionnements (y comp"
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "value": 1905706,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FY",
+              "value": 1476746,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "FZ",
+              "value": 428960,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 476 746 428 960"
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "value": 1339065,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FW",
+              "value": 1339065,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "1 339 065"
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "value": 149350,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "GA",
+              "value": 149350,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "GB",
+              "value": 0,
+              "page": 4,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "149 350 - dotations aux provisions*"
+        },
+        {
+          "field_key": "PL_FINANCIAL_RESULTS_FRGAAP",
+          "value": 18831,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "GV",
+              "value": 18831,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "18 831"
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "value": 164610,
+          "unit": "EUR",
+          "page": 5,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "HK",
+              "value": 164610,
+              "page": 5,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "164 610"
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 4823303,
+          "unit": "EUR",
+          "page": 2,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "CO",
+              "value": 4823303,
+              "page": 2,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "4 823 303"
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 2816959,
+          "unit": "EUR",
+          "page": 3,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DL",
+              "value": 2816959,
+              "page": 3,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "2 816 959"
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 152500,
+          "unit": "EUR",
+          "page": 3,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DA",
+              "value": 152500,
+              "page": 3,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "152 500"
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 2516918,
+          "unit": "EUR",
+          "page": 2,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CG",
+              "value": 2151560,
+              "page": 2,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "CE",
+              "value": 365358,
+              "page": 2,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "2 151 560 365 358"
+        }
+      ],
+      "missing": [
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "reason": "no anchor resolved on any page of the right form"
+        }
+      ]
+    },
+    {
+      "siren": "328024377",
+      "doc_id": "63e8ebbb54febda17c19ee7e",
+      "denomination": "BERNACHON SAS",
+      "fiscal_year_end": "2022-06-30",
+      "income_statement_confidential": false,
+      "fields_read": 11,
+      "tiers": {
+        "CODE": 10,
+        "LABEL": 1
+      },
+      "blank_cells_read_as_zero": 4,
+      "values": [
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "value": 5564581,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FL",
+              "value": 5564581,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "5 564 581"
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "value": 1008553,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FS",
+              "value": 1219497,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "FT",
+              "value": -210944,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "FU",
+              "value": 0,
+              "page": 4,
+              "tier": "CODE",
+              "blank": true
+            },
+            {
+              "code": "FV",
+              "value": 0,
+              "page": 4,
+              "tier": "CODE",
+              "blank": true
+            },
+            {
+              "code": "FM",
+              "value": 0,
+              "page": 4,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "1 219 497 210 944) Achats de matières premières et autres approvisionnements (y "
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "value": 2212508,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FY",
+              "value": 1688833,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "FZ",
+              "value": 523675,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "1 688 833 523 675"
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "value": 1432377,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FW",
+              "value": 1432377,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 432 377"
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "value": 321856,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "GA",
+              "value": 321856,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "GB",
+              "value": 0,
+              "page": 4,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "321 856 - dotations aux provisions*"
+        },
+        {
+          "field_key": "PL_FINANCIAL_RESULTS_FRGAAP",
+          "value": -76778,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "GV",
+              "value": -76778,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "76 778)"
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "value": 125062,
+          "unit": "EUR",
+          "page": 5,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "HK",
+              "value": 125062,
+              "page": 5,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "125 062"
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 6233746,
+          "unit": "EUR",
+          "page": 2,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CO",
+              "value": 6233746,
+              "page": 2,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "6 233 746"
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 3036481,
+          "unit": "EUR",
+          "page": 3,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DL",
+              "value": 3036481,
+              "page": 3,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "3 036 481"
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 152500,
+          "unit": "EUR",
+          "page": 3,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DA",
+              "value": 152500,
+              "page": 3,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "152 500"
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 1981196,
+          "unit": "EUR",
+          "page": 2,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CG",
+              "value": 1515838,
+              "page": 2,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "CE",
+              "value": 465358,
+              "page": 2,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 515 838 465 358"
+        }
+      ],
+      "missing": [
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "reason": "no anchor resolved on any page of the right form"
+        }
+      ]
+    },
+    {
+      "siren": "504304205",
+      "doc_id": "63e13943526e1f30cd100db5",
+      "denomination": "SO.ME.PROD",
+      "fiscal_year_end": "2016-12-31",
+      "income_statement_confidential": false,
+      "fields_read": 12,
+      "tiers": {
+        "CODE": 12
+      },
+      "blank_cells_read_as_zero": 5,
+      "values": [
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "value": 1048023,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FL",
+              "value": 1048023,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 048 023"
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "value": 146888,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FS",
+              "value": 0,
+              "page": 6,
+              "tier": "CODE",
+              "blank": true
+            },
+            {
+              "code": "FT",
+              "value": 0,
+              "page": 6,
+              "tier": "CODE",
+              "blank": true
+            },
+            {
+              "code": "FU",
+              "value": 152338,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "FV",
+              "value": -5450,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "FM",
+              "value": 0,
+              "page": 6,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "Achats de marchandises (y compris droits de douane)* Variation de stock (marchan"
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "value": 469603,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FY",
+              "value": 378395,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "FZ",
+              "value": 91208,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "378 395 91 208"
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "value": 385028,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FW",
+              "value": 385028,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "385 028"
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "value": 53693,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "GA",
+              "value": 53693,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "GB",
+              "value": 0,
+              "page": 6,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "53 693 - dotations aux provisions"
+        },
+        {
+          "field_key": "PL_FINANCIAL_RESULTS_FRGAAP",
+          "value": -20300,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "GV",
+              "value": -20300,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "(20 300)"
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "value": 1146,
+          "unit": "EUR",
+          "page": 7,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "HK",
+              "value": 1146,
+              "page": 7,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 146"
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 1807858,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CO",
+              "value": 1807858,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 807 858"
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 1147625,
+          "unit": "EUR",
+          "page": 5,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DL",
+              "value": 1147625,
+              "page": 5,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 147 625"
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 1000000,
+          "unit": "EUR",
+          "page": 5,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DA",
+              "value": 1000000,
+              "page": 5,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 000 000"
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 58362,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CG",
+              "value": 58362,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "CE",
+              "value": 0,
+              "page": 4,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "58 362 Valeurs mobilières de placement"
+        },
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "value": 9,
+          "unit": "count",
+          "page": 16,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "YP",
+              "value": 9,
+              "page": 16,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "9"
+        }
+      ],
+      "missing": []
+    },
+    {
+      "siren": "504304205",
+      "doc_id": "63e13943526e1f30cd100db6",
+      "denomination": "SO.ME.PROD",
+      "fiscal_year_end": "2017-12-31",
+      "income_statement_confidential": false,
+      "fields_read": 11,
+      "tiers": {
+        "CODE": 10,
+        "LABEL": 1
+      },
+      "blank_cells_read_as_zero": 5,
+      "values": [
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "value": 964484,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FL",
+              "value": 964484,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "964 484"
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "value": 127282,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FS",
+              "value": 0,
+              "page": 6,
+              "tier": "CODE",
+              "blank": true
+            },
+            {
+              "code": "FT",
+              "value": 0,
+              "page": 6,
+              "tier": "CODE",
+              "blank": true
+            },
+            {
+              "code": "FU",
+              "value": 125964,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "FV",
+              "value": 1318,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "FM",
+              "value": 0,
+              "page": 6,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "Achats de marchandises (y compris droits de douane)* Variation de stock (marchan"
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "value": 379848,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FY",
+              "value": 308938,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "FZ",
+              "value": 70910,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "308 938 70 910"
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "value": 364789,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FW",
+              "value": 364789,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "364 789"
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "value": 66303,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "GA",
+              "value": 66303,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "GB",
+              "value": 0,
+              "page": 6,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "66 303 IRF"
+        },
+        {
+          "field_key": "PL_FINANCIAL_RESULTS_FRGAAP",
+          "value": -13520,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "GV",
+              "value": -13520,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "(13 520)"
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "value": 1146,
+          "unit": "EUR",
+          "page": 7,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "HK",
+              "value": 1146,
+              "page": 7,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 146"
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 1717114,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "CO",
+              "value": 1717114,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "1 717 114"
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 1191897,
+          "unit": "EUR",
+          "page": 5,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DL",
+              "value": 1191897,
+              "page": 5,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 191 897"
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 1000000,
+          "unit": "EUR",
+          "page": 5,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DA",
+              "value": 1000000,
+              "page": 5,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 000 000"
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 84561,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CG",
+              "value": 84561,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "CE",
+              "value": 0,
+              "page": 4,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "84 561 Valeurs mobilières de placement"
+        }
+      ],
+      "missing": [
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "reason": "no anchor resolved on any page of the right form"
+        }
+      ]
+    },
+    {
+      "siren": "504304205",
+      "doc_id": "66cd893cedec9b09d50191e8",
+      "denomination": "SO.ME.PROD",
+      "fiscal_year_end": "2020-12-31",
+      "income_statement_confidential": true,
+      "fields_read": 4,
+      "tiers": {
+        "CODE": 4
+      },
+      "blank_cells_read_as_zero": 1,
+      "values": [
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 1689390,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CO",
+              "value": 1689390,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 689 390"
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 1010320,
+          "unit": "EUR",
+          "page": 5,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DL",
+              "value": 1010320,
+              "page": 5,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 010 320"
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 1000000,
+          "unit": "EUR",
+          "page": 5,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DA",
+              "value": 1000000,
+              "page": 5,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 000 000"
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 149451,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CG",
+              "value": 149451,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "CE",
+              "value": 0,
+              "page": 4,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "149 451 Valeurs mobilières de placement"
+        }
+      ],
+      "missing": [
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "PL_FINANCIAL_RESULTS_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "reason": "no anchor resolved on any page of the right form"
+        }
+      ]
+    },
+    {
+      "siren": "401009741",
+      "doc_id": "63e881158be6eb9f9d1ff975",
+      "denomination": "CREAMANDE",
+      "fiscal_year_end": "2022-04-30",
+      "income_statement_confidential": false,
+      "fields_read": 11,
+      "tiers": {
+        "LABEL": 5,
+        "CODE": 6
+      },
+      "blank_cells_read_as_zero": 2,
+      "values": [
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "value": 1800826,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FL",
+              "value": 1800826,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "1 800 826"
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "value": 612560,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FS",
+              "value": 194094,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            },
+            {
+              "code": "FT",
+              "value": -227,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            },
+            {
+              "code": "FU",
+              "value": 321507,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            },
+            {
+              "code": "FV",
+              "value": 81224,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            },
+            {
+              "code": "FM",
+              "value": 15962,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "194 094 227) 321 507 81 224 15 962"
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "value": 593755,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FY",
+              "value": 444500,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            },
+            {
+              "code": "FZ",
+              "value": 149255,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "444 500 149 255"
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "value": 297253,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FW",
+              "value": 297253,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "297 253"
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "value": 38537,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "GA",
+              "value": 38537,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": false
+            },
+            {
+              "code": "GB",
+              "value": 0,
+              "page": 4,
+              "tier": "LABEL",
+              "blank": true
+            }
+          ],
+          "snippet": "38 537 dotations aux provisions*"
+        },
+        {
+          "field_key": "PL_FINANCIAL_RESULTS_FRGAAP",
+          "value": -2778,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "GV",
+              "value": -2778,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "2 778)"
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "value": 63846,
+          "unit": "EUR",
+          "page": 5,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "HK",
+              "value": 63846,
+              "page": 5,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "63 846"
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 945632,
+          "unit": "EUR",
+          "page": 2,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CO",
+              "value": 945632,
+              "page": 2,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "945 632"
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 532640,
+          "unit": "EUR",
+          "page": 3,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DL",
+              "value": 532640,
+              "page": 3,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "532 640"
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 30348,
+          "unit": "EUR",
+          "page": 3,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DA",
+              "value": 30348,
+              "page": 3,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "30 348"
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 367608,
+          "unit": "EUR",
+          "page": 2,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CG",
+              "value": 367608,
+              "page": 2,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "CE",
+              "value": 0,
+              "page": 2,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "367 608 DIVERS"
+        }
+      ],
+      "missing": [
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "reason": "no anchor resolved on any page of the right form"
+        }
+      ]
+    },
+    {
+      "siren": "401009741",
+      "doc_id": "65784e5da67d84faf4042736",
+      "denomination": "CREAMANDE",
+      "fiscal_year_end": "2023-04-30",
+      "income_statement_confidential": false,
+      "fields_read": 11,
+      "tiers": {
+        "CODE": 9,
+        "LABEL": 2
+      },
+      "blank_cells_read_as_zero": 2,
+      "values": [
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "value": 1805459,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FL",
+              "value": 1805459,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 805 459"
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "value": 558792,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FS",
+              "value": 138591,
+              "page": 6,
+              "tier": "LABEL",
+              "blank": false
+            },
+            {
+              "code": "FT",
+              "value": -45440,
+              "page": 6,
+              "tier": "LABEL",
+              "blank": false
+            },
+            {
+              "code": "FU",
+              "value": 490756,
+              "page": 6,
+              "tier": "LABEL",
+              "blank": false
+            },
+            {
+              "code": "FV",
+              "value": -52814,
+              "page": 6,
+              "tier": "LABEL",
+              "blank": false
+            },
+            {
+              "code": "FM",
+              "value": 27699,
+              "page": 6,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "138 591 45 440) 490 756 52 814) 27 699"
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "value": 662180,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "FY",
+              "value": 499659,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "FZ",
+              "value": 162521,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "499 659 162 521"
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "value": 329158,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FW",
+              "value": 329158,
+              "page": 6,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "329 158"
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "value": 48352,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "GA",
+              "value": 48352,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "GB",
+              "value": 0,
+              "page": 6,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "48 352 dotations aux provisions*"
+        },
+        {
+          "field_key": "PL_FINANCIAL_RESULTS_FRGAAP",
+          "value": -2096,
+          "unit": "EUR",
+          "page": 6,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "GV",
+              "value": -2096,
+              "page": 6,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "2 096)"
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "value": 53240,
+          "unit": "EUR",
+          "page": 7,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "HK",
+              "value": 53240,
+              "page": 7,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "53 240"
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 1014105,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CO",
+              "value": 1014105,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 014 105"
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 658859,
+          "unit": "EUR",
+          "page": 5,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DL",
+              "value": 658859,
+              "page": 5,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "658 859"
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 30360,
+          "unit": "EUR",
+          "page": 5,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DA",
+              "value": 30360,
+              "page": 5,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "30 360"
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 229619,
+          "unit": "EUR",
+          "page": 4,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CG",
+              "value": 229619,
+              "page": 4,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "CE",
+              "value": 0,
+              "page": 4,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "229 619 DIVERS"
+        }
+      ],
+      "missing": [
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "reason": "no anchor resolved on any page of the right form"
+        }
+      ]
+    },
+    {
+      "siren": "401009741",
+      "doc_id": "68f0a715f28d8aaf48046416",
+      "denomination": "CREAMANDE",
+      "fiscal_year_end": "2025-04-30",
+      "income_statement_confidential": true,
+      "fields_read": 4,
+      "tiers": {
+        "CODE": 4
+      },
+      "blank_cells_read_as_zero": 1,
+      "values": [
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 1135864,
+          "unit": "EUR",
+          "page": 2,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CO",
+              "value": 1135864,
+              "page": 2,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "1 135 864"
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 595725,
+          "unit": "EUR",
+          "page": 3,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DL",
+              "value": 595725,
+              "page": 3,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "595 725"
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 24960,
+          "unit": "EUR",
+          "page": 3,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "DA",
+              "value": 24960,
+              "page": 3,
+              "tier": "CODE",
+              "blank": false
+            }
+          ],
+          "snippet": "24 960"
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 300456,
+          "unit": "EUR",
+          "page": 2,
+          "tier": "CODE",
+          "components": [
+            {
+              "code": "CG",
+              "value": 300456,
+              "page": 2,
+              "tier": "CODE",
+              "blank": false
+            },
+            {
+              "code": "CE",
+              "value": 0,
+              "page": 2,
+              "tier": "CODE",
+              "blank": true
+            }
+          ],
+          "snippet": "300 456 DIVERS"
+        }
+      ],
+      "missing": [
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "PL_FINANCIAL_RESULTS_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "reason": "legally_absent_confidential_income_statement"
+        },
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "reason": "no anchor resolved on any page of the right form"
+        }
+      ]
+    }
+  ]
+}
