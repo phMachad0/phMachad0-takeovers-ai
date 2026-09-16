@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "liasse"
+version = "0.1.0"
+description = "Extract 12 financial fields from French annual filings, with provenance."
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf>=1.24",   # page geometry: only reliable source of page size in points
+    "jsonschema>=4",   # validate results.json against the schema Takeovers ships
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.5"]
+
+[project.scripts]
+liasse = "liasse.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+markers = [
+    "corpus: needs the full data/ corpus on disk (slow)",
+    "differential: compares our output against tools/bbox_viewer.py",
+]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.lint.per-file-ignores]
+# SIM300 reads `x == pytest.approx(y)` as a Yoda condition. It is not one, and the
+# rewrite it proposes is harder to read.
+"tests/**" = ["SIM300"]
