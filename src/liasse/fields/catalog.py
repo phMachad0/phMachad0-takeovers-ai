@@ -42,6 +42,11 @@ class RowAnchor:
     # Words that must NOT appear on the row. "dotations aux provisions" names three
     # different rows; only the exclusions tell them apart.
     without: frozenset[str] = frozenset()
+    # Whether the cell after this anchor's own is the previous exercise. True only for
+    # rows the form prints as a single value: on a row split into columns - FJ, FK, FL -
+    # the next cell belongs to the next column, not to the year before, and reading it as
+    # N-1 silently returns the total where the prior year was wanted.
+    allows_previous: bool = False
     # Codes sharing this row, in printed order, when the form splits a line into columns:
     # the revenue row carries FJ (France), FK (exports) and FL (total). Needed only when
     # the target code itself is missing, to work out which cell of the row is ours.

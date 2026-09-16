@@ -131,7 +131,9 @@ def _pick(cells: Sequence[ParsedNumber | None], index: int) -> ParsedNumber | No
     return cells[index] if index < len(cells) else cells[-1]
 
 
-def _read_anchor(pages_by_form: dict[str, list[OcrPage]], anchor: RowAnchor) -> Component | None:
+def _read_anchor(
+    pages_by_form: dict[str, list[OcrPage]], anchor: RowAnchor, previous: bool = False
+) -> Component | None:
     for page in pages_by_form.get(anchor.form, ()):
         lines = lines_of(page)
         median_height = median_token_height(page.tokens)
@@ -150,6 +152,13 @@ def _read_anchor(pages_by_form: dict[str, list[OcrPage]], anchor: RowAnchor) -> 
         anchoring = Anchoring(tier=tier, form=anchor.form, code=anchor.code, matched_label=matched)
 
         cells, index = _cells_for(line, anchor, code_token, median_height)
+        if previous:
+            # The exercise before this one, printed immediately to the right of the current
+            # one when the filing shows both. Absent on filings that print only N, and the
+            # caller treats that as "no comparison available" rather than as a zero.
+            index += 1
+            if index >= len(cells):
+                return None
         if not cells:
             # The row is there and its cell is empty. On a liasse a blank cell is nil, so
             # this is a reading and not a gap: the company holds no securities, or charged
@@ -216,4 +225,28 @@ def extract(pages: Iterable[OcrPage], forms: dict[int, str]) -> list[RawValue | 
     return results
 
 
-__all__ = ["extract", "FieldSpec"]
+def read_codes(
+    pages: Iterable[OcrPage],
+    forms: dict[int, str],
+    anchors: Sequence[RowAnchor],
+    *,
+    previous: bool = False,
+) -> dict[str, Component]:
+    """Read a set of raw line codes, for the checks rather than for the deliverable."""
+    pages_by_form: dict[str, list[OcrPage]] = {}
+    for page in pages:
+        form = forms.get(page.page)
+        if form:
+            pages_by_form.setdefault(form, []).append(page)
+
+    out: dict[str, Component] = {}
+    for anchor in anchors:
+        if previous and not anchor.allows_previous:
+            continue
+        component = _read_anchor(pages_by_form, anchor, previous=previous)
+        if component is not None:
+            out[anchor.code] = component
+    return out
+
+
+__all__ = ["extract", "read_codes", "FieldSpec"]

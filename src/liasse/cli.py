@@ -105,12 +105,37 @@ def _extract() -> int:
     return 0
 
 
+def _verify() -> int:
+    """Run every check over every liasse document and write the verification report."""
+    import json
+
+    from liasse.verify.report import build_report
+    from liasse.verify.runner import run
+
+    report = build_report(run())
+    paths.REPORTS_DIR.mkdir(exist_ok=True)
+    out = paths.REPORTS_DIR / "verification.json"
+    out.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    for check_id, stats in report["pass_rates"].items():
+        print(f"  {check_id}: {stats['passed']}/{stats['ran']} = {stats['rate']:.0%}")
+    totals = report["totals"]
+    print(
+        f"{totals['verified_by_at_least_one_check']} of {totals['fields']} values agree "
+        f"with an independent check ({totals['share_verified']:.0%}); "
+        f"{totals['contradicted']} contradicted, {totals['unverified']} unverified"
+    )
+    print(f"wrote {out.relative_to(paths.REPO_ROOT)}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="liasse", description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("doctor", help="check that the environment can run the pipeline")
     sub.add_parser("route", help="classify every page in scope and write reports/routing.json")
     sub.add_parser("extract", help="read the twelve fields and write reports/extraction.json")
+    sub.add_parser("verify", help="run the checks and write reports/verification.json")
     sub.add_parser("run", help="run the pipeline over the challenge scope")
     sub.add_parser("report", help="regenerate reports/ from the last run")
 
@@ -121,6 +146,8 @@ def main(argv: list[str] | None = None) -> int:
         return _route()
     if args.command == "extract":
         return _extract()
+    if args.command == "verify":
+        return _verify()
     print(f"'{args.command}' is not implemented yet", file=sys.stderr)
     return 2
 
