@@ -35,8 +35,14 @@ def _doctor() -> int:
         if not path.exists():
             problems.append(f"{label} not found at {path}")
 
+    from liasse.vlm.client import unavailable_because
+
     print(f"liasse {__version__}")
     print(f"repo root: {paths.REPO_ROOT}")
+    # Not a problem: the deterministic pipeline is the whole deliverable and needs no
+    # credential. Escalation is the optional extra, and doctor says whether it could run.
+    blocked = unavailable_because()
+    print(f"escalation: {'unavailable - ' + blocked if blocked else 'available'}")
     if problems:
         print("\nproblems:")
         for p in problems:
@@ -79,6 +85,8 @@ def _extract() -> int:
     from liasse.extract.liasse import extract
     from liasse.extract.plaquette import extract as extract_plaquette
     from liasse.extract.report import build_report, document_summary
+    from liasse.extract.workforce import FIELD_KEY as WORKFORCE_KEY
+    from liasse.extract.workforce import find as find_workforce
     from liasse.routing.classifier import classify_document
 
     summaries = []
@@ -103,6 +111,13 @@ def _extract() -> int:
                 if isinstance(value, RawValue) and value.field_key not in read:
                     values.append(value)
                     read.add(value.field_key)
+
+        # The headcount stated in prose, when no form printed it. Searched over every page,
+        # not the routed ones: it lives in the annexe, among pages the router discards.
+        if WORKFORCE_KEY not in read:
+            prose = find_workforce(pages)
+            if prose is not None:
+                values.append(prose)
 
         summaries.append(document_summary(document, values, routed.income_statement_confidential))
 
@@ -202,6 +217,135 @@ def _emit() -> int:
     print(f"validates against {paths.RESULTS_SCHEMA.relative_to(paths.REPO_ROOT)}")
     print(f"wrote {paths.RESULTS_JSON.relative_to(paths.REPO_ROOT)}")
     return 0
+
+
+def _escalate(dpi: int) -> int:
+    """Re-read what the checks could not settle, and keep only what a check then confirms.
+
+    A superset of ``emit``: it runs the whole deterministic pipeline, escalates the gaps,
+    and writes results.json with the measured API cost in the run block. Without a
+    credential it changes nothing and says why.
+    """
+    import dataclasses
+    import json
+
+    import jsonschema
+
+    from liasse.cost.meter import Meter, pages_in_scope
+    from liasse.emit.results import build, build_documents
+    from liasse.verify.confidence import for_field
+    from liasse.verify.runner import run as verify_run
+    from liasse.vlm.client import AnthropicTransport, Settings, unavailable_because
+    from liasse.vlm.escalate import run as escalate_run
+    from liasse.vlm.report import build_report
+
+    blocked = unavailable_because()
+    if blocked:
+        print(f"escalation is not available: {blocked}", file=sys.stderr)
+        print("nothing was changed; `liasse emit` writes the deterministic results.json")
+        return 0
+
+    settings = Settings.from_environment()
+    meter = Meter()
+    with meter.stage("count_pages"):
+        pages = pages_in_scope()
+    with meter.stage("route_extract_verify"):
+        verified = verify_run()
+    with meter.stage("escalate"):
+        escalation = escalate_run(verified, AnthropicTransport(settings), settings, dpi)
+
+    merged = []
+    for document_result in verified:
+        accepted = escalation.accepted.get(document_result.document.doc_id)
+        if not accepted:
+            merged.append(document_result)
+            continue
+        values = {**document_result.values, **accepted}
+        results = escalation.results[document_result.document.doc_id]
+        merged.append(
+            dataclasses.replace(
+                document_result,
+                values=values,
+                results=results,
+                confidence={key: for_field(key, results) for key in values},
+            )
+        )
+
+    with meter.stage("build_documents"):
+        documents = build_documents(merged)
+
+    routing_path = paths.REPORTS_DIR / "routing.json"
+    carrying = (
+        json.loads(routing_path.read_text(encoding="utf-8"))["totals"]["relevant_pages"]
+        if routing_path.exists()
+        else 0
+    )
+    meter.count(pages, carrying)
+    # The ledger the escalation filled. cost_eur_per_page stops being a sum over nothing
+    # the moment this runs, which is the property the E9 tests pin down.
+    meter.ledger = escalation.ledger
+
+    run_block = meter.run_block(
+        model=f"provided OCR + rules, with {settings.model} on the gaps",
+        notes=(
+            "Cost per page is the tokens of the calls this run actually made, priced at the "
+            "published rate on the date in reports/cost.json and divided by every page in "
+            "scope. Values re-read by the model are emitted only where a check computed "
+            "from other figures on other pages agreed with them; reports/escalation.json "
+            "lists every question asked, including the ones whose answer was paid for and "
+            "discarded."
+        ),
+    )
+
+    document = build(merged, run_block, documents)
+    paths.RESULTS_JSON.write_text(
+        json.dumps(document, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+    jsonschema.validate(document, json.loads(paths.RESULTS_SCHEMA.read_text(encoding="utf-8")))
+
+    paths.REPORTS_DIR.mkdir(exist_ok=True)
+    out = paths.REPORTS_DIR / "escalation.json"
+    report = build_report(escalation, settings.model, dpi)
+    out.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    totals = report["totals"]
+    print(
+        f"{totals['questions_asked']} questions asked, {totals['accepted']} accepted; "
+        f"{report['cost']['eur']:.6f} EUR over {report['cost']['api_calls']} calls"
+    )
+    print(f"wrote {out.relative_to(paths.REPO_ROOT)} and results.json")
+    return 0
+
+
+def _run() -> int:
+    """The whole deterministic pipeline, one stage after another: route, extract, verify,
+    emit, cost. What ``make run`` and the README's "How to run it" promise.
+
+    Each stage already writes its own report and prints its own summary; this only chains
+    them and stops at the first failure, so a broken stage is reported by that stage's own
+    message rather than by a second, vaguer one here.
+    """
+    for stage in (_route, _extract, _verify, _emit):
+        code = stage()
+        if code != 0:
+            return code
+    return _cost(_render_dpi(None))
+
+
+def _report() -> int:
+    """Regenerate reports/ from the last run, without re-emitting results.json.
+
+    Route, extract and verify are independent of results.json and safe to redo any time.
+    Cost is not: it reads the already-emitted results.json rather than the values in
+    memory, specifically so results.json and reports/cost.json can never disagree about
+    the same run - so this is where that dependency shows up. Run `liasse emit` (or
+    `liasse run`) first if results.json does not exist yet; `liasse cost` says so.
+    """
+    for stage in (_route, _extract, _verify):
+        code = stage()
+        if code != 0:
+            return code
+    return _cost(_render_dpi(None))
 
 
 def _render_dpi(requested: int | None) -> int:
@@ -359,6 +503,10 @@ def main(argv: list[str] | None = None) -> int:
         default=None,
         help="render resolution for the derived VLM curve; defaults to $LIASSE_VLM_DPI",
     )
+    escalate = sub.add_parser(
+        "escalate", help="re-read the gaps with a vision model, keeping only what a check confirms"
+    )
+    escalate.add_argument("--dpi", type=int, default=None, help="defaults to $LIASSE_VLM_DPI")
     boxes = sub.add_parser(
         "check-boxes", help="render sampled values onto their pages, to check by eye"
     )
@@ -380,8 +528,14 @@ def main(argv: list[str] | None = None) -> int:
         return _emit()
     if args.command == "cost":
         return _cost(_render_dpi(args.dpi))
+    if args.command == "escalate":
+        return _escalate(_render_dpi(args.dpi))
     if args.command == "check-boxes":
         return _check_boxes(args.n, args.seed)
+    if args.command == "run":
+        return _run()
+    if args.command == "report":
+        return _report()
     print(f"'{args.command}' is not implemented yet", file=sys.stderr)
     return 2
 

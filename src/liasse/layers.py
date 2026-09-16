@@ -20,7 +20,10 @@ LAYERS: dict[str, int] = {
     "units": 5,
     "verify": 6,
     "cost": 6,
+    # Both sit above verify and neither knows the other exists: escalation decides what to
+    # re-read from what the checks said, and emission writes down what survived.
     "emit": 7,
+    "vlm": 7,
 }
 
 # Modules that sit outside the layering: entry points are allowed to touch everything.

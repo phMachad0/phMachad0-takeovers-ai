@@ -3,12 +3,12 @@
   "totals": {
     "documents": 15,
     "fields_expected": 180,
-    "fields_read": 117,
+    "fields_read": 122,
     "fields_legally_absent": 14,
     "fields_unresolved": 7,
-    "coverage_of_available": 0.7048,
+    "coverage_of_available": 0.7349,
     "tiers": {
-      "LABEL": 54,
+      "LABEL": 59,
       "CODE": 63
     }
   },
@@ -289,9 +289,9 @@
       "denomination": "BERNACHON S.A.",
       "fiscal_year_end": "2020-06-30",
       "income_statement_confidential": false,
-      "fields_read": 11,
+      "fields_read": 12,
       "tiers": {
-        "LABEL": 11
+        "LABEL": 12
       },
       "blank_cells_read_as_zero": 0,
       "values": [
@@ -509,6 +509,23 @@
             }
           ],
           "snippet": "31 566"
+        },
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "value": 43,
+          "unit": "count",
+          "page": 19,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FT_EFFECTIF_MOYEN_PERSONNEL",
+              "value": 43,
+              "page": 19,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "Effectif moyen du personnel 43 personnes"
         }
       ],
       "missing": []
@@ -519,10 +536,10 @@
       "denomination": "BERNACHON SAS",
       "fiscal_year_end": "2021-06-30",
       "income_statement_confidential": false,
-      "fields_read": 11,
+      "fields_read": 12,
       "tiers": {
         "CODE": 8,
-        "LABEL": 3
+        "LABEL": 4
       },
       "blank_cells_read_as_zero": 4,
       "values": [
@@ -761,6 +778,23 @@
             }
           ],
           "snippet": "2 151 560 365 358"
+        },
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "value": 47,
+          "unit": "count",
+          "page": 43,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FT_EFFECTIF_MOYEN_PERSONNEL",
+              "value": 47,
+              "page": 43,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "Effectif moyen du personnal . 47 personnes."
         }
       ],
       "missing": [
@@ -776,10 +810,10 @@
       "denomination": "BERNACHON SAS",
       "fiscal_year_end": "2022-06-30",
       "income_statement_confidential": false,
-      "fields_read": 11,
+      "fields_read": 12,
       "tiers": {
         "CODE": 10,
-        "LABEL": 1
+        "LABEL": 2
       },
       "blank_cells_read_as_zero": 4,
       "values": [
@@ -1018,6 +1052,23 @@
             }
           ],
           "snippet": "1 515 838 465 358"
+        },
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "value": 47,
+          "unit": "count",
+          "page": 42,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FT_EFFECTIF_MOYEN_PERSONNEL",
+              "value": 47,
+              "page": 42,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "Effectif moyen du personnel : 47 personnes dont 9 apprentis et 2 handicapés."
         }
       ],
       "missing": [
@@ -1033,9 +1084,9 @@
       "denomination": "CHOCOLATERIE JACQUES BOCKEL",
       "fiscal_year_end": "2020-06-30",
       "income_statement_confidential": false,
-      "fields_read": 9,
+      "fields_read": 10,
       "tiers": {
-        "LABEL": 9
+        "LABEL": 10
       },
       "blank_cells_read_as_zero": 0,
       "values": [
@@ -1226,6 +1277,23 @@
             }
           ],
           "snippet": "302 337"
+        },
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "value": 33,
+          "unit": "count",
+          "page": 5,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FT_EFFECTIF_SALARIE_MOYEN",
+              "value": 33,
+              "page": 5,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "L'effectif salarié moyen à la clôture de l'exercice s'élève à 33 personnes contr"
         }
       ],
       "missing": []
@@ -1236,9 +1304,9 @@
       "denomination": "CHOCOLATERIE JACQUES BOCKEL",
       "fiscal_year_end": "2022-06-30",
       "income_statement_confidential": false,
-      "fields_read": 10,
+      "fields_read": 11,
       "tiers": {
-        "LABEL": 10
+        "LABEL": 11
       },
       "blank_cells_read_as_zero": 0,
       "values": [
@@ -1446,6 +1514,23 @@
             }
           ],
           "snippet": "621 467"
+        },
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "value": 36,
+          "unit": "count",
+          "page": 5,
+          "tier": "LABEL",
+          "components": [
+            {
+              "code": "FT_EFFECTIF_SALARIE_MOYEN",
+              "value": 36,
+              "page": 5,
+              "tier": "LABEL",
+              "blank": false
+            }
+          ],
+          "snippet": "L'effectif salarié moyen à la clôture de l'exercice s'élève à 36 personnes contr"
         }
       ],
       "missing": []

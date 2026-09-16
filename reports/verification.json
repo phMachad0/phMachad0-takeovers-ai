@@ -54,11 +54,11 @@
   },
   "totals": {
     "documents": 15,
-    "fields": 117,
+    "fields": 122,
     "verified_by_at_least_one_check": 42,
-    "unverified": 73,
+    "unverified": 78,
     "contradicted": 2,
-    "share_verified": 0.359
+    "share_verified": 0.3443
   },
   "documents": [
     {
@@ -251,6 +251,14 @@
           "checks_failed": []
         },
         {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "value": 43,
+          "unit": "count",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
           "field_key": "PL_COGS_FRGAAP",
           "value": 865045,
           "unit": "EUR",
@@ -360,6 +368,14 @@
           "checks_passed": [
             "V4"
           ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "value": 47,
+          "unit": "count",
+          "confidence": 0.6,
+          "checks_passed": [],
           "checks_failed": []
         },
         {
@@ -589,6 +605,14 @@
           "checks_failed": []
         },
         {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "value": 47,
+          "unit": "count",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
           "field_key": "PL_COGS_FRGAAP",
           "value": 1008553,
           "unit": "EUR",
@@ -794,6 +818,14 @@
           "checks_failed": []
         },
         {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "value": 33,
+          "unit": "count",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
           "field_key": "PL_COGS_FRGAAP",
           "value": 1488053,
           "unit": "EUR",
@@ -887,6 +919,14 @@
           "field_key": "BS_TOTAL_EQUITY_FRGAAP",
           "value": 7076804,
           "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "META_AVG_WORKFORCE_FRGAAP",
+          "value": 36,
+          "unit": "count",
           "confidence": 0.6,
           "checks_passed": [],
           "checks_failed": []

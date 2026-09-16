@@ -12,6 +12,8 @@ from liasse.extract.base import RawValue
 from liasse.extract.liasse import extract, read_codes
 from liasse.extract.plaquette import extract as extract_plaquette
 from liasse.extract.plaquette import read_terms
+from liasse.extract.workforce import FIELD_KEY
+from liasse.extract.workforce import find as find_workforce
 from liasse.fields.checks import CHECK_ANCHORS
 from liasse.fields.plaquette import BS_LIABILITIES, TOTAL_LIABILITIES
 from liasse.routing.classifier import classify_document
@@ -49,6 +51,9 @@ class VerifiedDocument:
     values: dict[str, TypedValue]
     results: list[CheckResult]
     confidence: dict[str, Confidence] = field(default_factory=dict)
+    # Kept so that escalation can re-run the checks with a re-read value substituted in,
+    # without re-reading the document to rebuild what it already computed.
+    facts: DocumentFacts | None = None
 
 
 def _facts(document: Document) -> tuple[DocumentFacts, dict[str, TypedValue]] | None:
@@ -87,6 +92,16 @@ def _facts(document: Document) -> tuple[DocumentFacts, dict[str, TypedValue]] | 
     reported = dict(typed)
     for key, value in typed_plaquette.items():
         reported.setdefault(key, value)
+
+    # The headcount stated in prose, only where no form printed it. A form row carrying
+    # the code YP is the stronger anchor and keeps precedence; this reaches the filings
+    # that state the figure in a sentence in the annexe instead.
+    if FIELD_KEY not in reported:
+        prose = find_workforce(pages)
+        if prose is not None:
+            resolved = resolve([prose], document, pages)
+            if resolved:
+                reported[FIELD_KEY] = resolved[0]
 
     # Restricted to the liabilities pages on purpose: the asset page of the same filing
     # prints "TOTAL GENERAL" too, and reading that one would compare a number with itself.
@@ -162,6 +177,7 @@ def run() -> list[VerifiedDocument]:
                 values=typed,
                 results=results,
                 confidence={key: for_field(key, results) for key in typed},
+                facts=facts,
             )
         )
     return out
