@@ -132,32 +132,47 @@ def _verify() -> int:
 def _emit() -> int:
     """Run the pipeline end to end and write the deliverable."""
     import json
-    import time
 
     import jsonschema
 
-    from liasse.emit.results import build
+    from liasse.cost.meter import Meter, pages_in_scope
+    from liasse.emit.results import build, build_documents
     from liasse.verify.runner import run
 
-    started = time.perf_counter()
-    verified = run()
-    elapsed = time.perf_counter() - started
+    meter = Meter()
+    with meter.stage("count_pages"):
+        pages = pages_in_scope()
+    with meter.stage("route_extract_verify"):
+        verified = run()
+    with meter.stage("build_documents"):
+        documents = build_documents(verified)
 
-    pages = json.loads((paths.REPORTS_DIR / "routing.json").read_text())["totals"]["pages"]
-    run_block = {
-        "cost_eur_per_page": 0.0,
-        "seconds_per_page": round(elapsed / pages, 5),
-        "pages_processed": pages,
-        "model": "provided OCR + rules",
-        "notes": (
-            "No API is called and no credential is read, so the marginal cost is zero: "
-            "the pipeline reads the OCR shipped with the corpus and resolves fields by "
-            "the liasse's own line codes. Seconds per page is wall clock over a full run "
-            "divided by every page in scope, including the 355 the router discards."
+    # The router's own count of pages carrying fields, when it has been run. It is not
+    # recomputed here: doing the work twice to report how long the work took would put the
+    # measurement inside the thing being measured.
+    routing_path = paths.REPORTS_DIR / "routing.json"
+    carrying = (
+        json.loads(routing_path.read_text(encoding="utf-8"))["totals"]["relevant_pages"]
+        if routing_path.exists()
+        else 0
+    )
+    meter.count(pages, carrying)
+
+    run_block = meter.run_block(
+        model="provided OCR + rules",
+        notes=(
+            "No API is called and no credential is read: the pipeline reads the OCR "
+            "shipped with the corpus and anchors on the liasse's own line codes. The cost "
+            "per page is therefore a sum over zero recorded API calls divided by a counted "
+            "number of pages, not a zero typed into the file. Seconds per page is wall "
+            "clock over a full run divided by every page in scope, including the ones the "
+            "router discards; the per-stage split is under 'measured'. What a vision model "
+            "would cost on the same pages is derived - no call was made - in "
+            "reports/cost.json."
         ),
-    }
+    )
 
-    document = build(verified, run_block)
+    document = build(verified, run_block, documents)
     paths.RESULTS_JSON.write_text(
         json.dumps(document, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
@@ -169,6 +184,89 @@ def _emit() -> int:
     print(f"{values} values from {len(document['documents'])} filings")
     print(f"validates against {paths.RESULTS_SCHEMA.relative_to(paths.REPO_ROOT)}")
     print(f"wrote {paths.RESULTS_JSON.relative_to(paths.REPO_ROOT)}")
+    return 0
+
+
+def _render_dpi(requested: int | None) -> int:
+    """--dpi, else LIASSE_VLM_DPI, else the default. The only env var this pipeline reads.
+
+    Named in .env.example, as the brief requires: "your cost-per-page claim only means
+    something if we can see which provider and model produced it".
+    """
+    import os
+
+    from liasse.cost.vlm import DEFAULT_RENDER_DPI
+
+    if requested is not None:
+        return requested
+    return int(os.environ.get("LIASSE_VLM_DPI") or DEFAULT_RENDER_DPI)
+
+
+def _cost(dpi: int) -> int:
+    """Write reports/cost.json: what the run cost, and what a vision model would cost.
+
+    Reads the measured half out of results.json rather than running the pipeline again,
+    so the two files can never disagree about the same run.
+    """
+    import json
+    import math
+
+    from liasse.cost.report import build_report
+    from liasse.cost.vlm import (
+        answer_characters,
+        build_scenarios,
+        measure_pages,
+        prompt_characters,
+        tokens_from_characters,
+    )
+
+    routing_path = paths.REPORTS_DIR / "routing.json"
+    if not routing_path.exists() or not paths.RESULTS_JSON.exists():
+        print("run `liasse route` and `liasse emit` first", file=sys.stderr)
+        return 2
+
+    routing = json.loads(routing_path.read_text(encoding="utf-8"))
+    results = json.loads(paths.RESULTS_JSON.read_text(encoding="utf-8"))
+    field_defs = json.loads(paths.FIELD_DEFS.read_text(encoding="utf-8"))
+
+    pages = measure_pages(routing, dpi)
+    answering = sum(1 for p in pages if p.carries_fields)
+    if not answering:
+        print("the routing report lists no page carrying a field", file=sys.stderr)
+        return 2
+
+    prompt_tokens = tokens_from_characters(prompt_characters(field_defs))
+    output_tokens = math.ceil(tokens_from_characters(answer_characters(results)) / answering)
+    scenarios = build_scenarios(pages, prompt_tokens, output_tokens)
+    report = build_report(
+        results["run"], pages, scenarios, prompt_tokens, output_tokens, dpi
+    )
+
+    paths.REPORTS_DIR.mkdir(exist_ok=True)
+    out = paths.REPORTS_DIR / "cost.json"
+    out.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    measured = report["measured"]
+    print(
+        f"measured: {measured['cost_eur_per_page']} EUR/page, "
+        f"{measured['seconds_per_page']} s/page over {measured['pages_processed']} pages "
+        f"({measured['api_calls']} API calls)"
+    )
+    print(f"derived at {dpi} dpi, EUR per page of the corpus (no call was made):")
+    models = list(report["derived"]["scenarios"][0]["by_model"])
+    print(f"  {'scenario':<24} {'pages':>6}  " + "  ".join(f"{m:>16}" for m in models))
+    for scenario in report["derived"]["scenarios"]:
+        row = "  ".join(
+            f"{scenario['by_model'][m]['eur_per_page_of_corpus']:>16.6f}" for m in models
+        )
+        print(f"  {scenario['name']:<24} {scenario['pages_sent']:>6}  {row}")
+    headline = report["derived"]["headline"]
+    if headline:
+        print(
+            f"routing the pages costs {headline['waste_factor']}x less than sending all "
+            f"{headline['pages_if_not']}, for the same answer"
+        )
+    print(f"wrote {out.relative_to(paths.REPO_ROOT)}")
     return 0
 
 
@@ -237,6 +335,13 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("extract", help="read the twelve fields and write reports/extraction.json")
     sub.add_parser("verify", help="run the checks and write reports/verification.json")
     sub.add_parser("emit", help="write results.json at the repository root")
+    cost = sub.add_parser("cost", help="write reports/cost.json: measured run, derived VLM curve")
+    cost.add_argument(
+        "--dpi",
+        type=int,
+        default=None,
+        help="render resolution for the derived VLM curve; defaults to $LIASSE_VLM_DPI",
+    )
     boxes = sub.add_parser(
         "check-boxes", help="render sampled values onto their pages, to check by eye"
     )
@@ -256,6 +361,8 @@ def main(argv: list[str] | None = None) -> int:
         return _verify()
     if args.command == "emit":
         return _emit()
+    if args.command == "cost":
+        return _cost(_render_dpi(args.dpi))
     if args.command == "check-boxes":
         return _check_boxes(args.n, args.seed)
     print(f"'{args.command}' is not implemented yet", file=sys.stderr)

@@ -185,9 +185,16 @@ def build_documents(verified: list[VerifiedDocument]) -> list[dict]:
     return out
 
 
-def build(verified: list[VerifiedDocument], run_block: dict) -> dict:
-    """The whole file, ready to write at the repository root."""
-    documents = build_documents(verified)
+def build(
+    verified: list[VerifiedDocument], run_block: dict, documents: list[dict] | None = None
+) -> dict:
+    """The whole file, ready to write at the repository root.
+
+    ``documents`` can be passed in already built. The caller that measures the run needs
+    to time that work and then report the timing inside this file, which it cannot do if
+    building the documents is hidden in here.
+    """
+    documents = build_documents(verified) if documents is None else documents
     processed = [d for d in documents if "not_processed" not in d]
     return {
         "documents": documents,

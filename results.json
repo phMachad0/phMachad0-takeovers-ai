@@ -4810,10 +4810,39 @@
   ],
   "run": {
     "cost_eur_per_page": 0.0,
-    "seconds_per_page": 0.00374,
+    "seconds_per_page": 0.00403,
     "pages_processed": 415,
     "model": "provided OCR + rules",
-    "notes": "No API is called and no credential is read, so the marginal cost is zero: the pipeline reads the OCR shipped with the corpus and resolves fields by the liasse's own line codes. Seconds per page is wall clock over a full run divided by every page in scope, including the 355 the router discards."
+    "notes": "No API is called and no credential is read: the pipeline reads the OCR shipped with the corpus and anchors on the liasse's own line codes. The cost per page is therefore a sum over zero recorded API calls divided by a counted number of pages, not a zero typed into the file. Seconds per page is wall clock over a full run divided by every page in scope, including the ones the router discards; the per-stage split is under 'measured'. What a vision model would cost on the same pages is derived - no call was made - in reports/cost.json.",
+    "measured": {
+      "seconds_total": 1.67337,
+      "pages_in_scope": 415,
+      "pages_carrying_fields": 60,
+      "stages": [
+        {
+          "name": "count_pages",
+          "seconds": 0.00452
+        },
+        {
+          "name": "route_extract_verify",
+          "seconds": 1.46297
+        },
+        {
+          "name": "build_documents",
+          "seconds": 0.20589
+        }
+      ],
+      "api_calls": 0,
+      "models_called": [],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "usd_total": 0.0,
+      "fx": {
+        "usd_per_eur": 1.1537,
+        "date": "2026-09-16",
+        "source": "ECB euro foreign exchange reference rate"
+      }
+    }
   },
   "notes": "75 values from 8 of 15 filings. The seven not processed are plaquettes - the accountant's own presentation of the accounts, with no liasse line codes - and the extractor for that format was not built. Of the fields absent from the filings that were processed, the six PL_* fields of two deposits are absent by law: those companies filed under the L.232-25 confidentiality option and the registry marks the deposit 'Partiellement confidentiel'. Every value carries the checks it survived; those checks measure agreement between statements the documents make more than once, not truth."
 }
