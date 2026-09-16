@@ -53,6 +53,18 @@ class PositionedToken:
         """The box in ORIGINAL coordinates - the only ones fit to report."""
         return bounds(self.token.polygon)
 
+    @property
+    def right(self) -> float:
+        """Right edge in the deskewed working space.
+
+        The end that matters for a printed amount: figures in a table column are
+        right-aligned, so their left edges scatter with the length of the number while
+        their right edges line up. Taken as the left edge plus the token's own width,
+        because the deskew is a rotation of under a degree and does not change it.
+        """
+        x0, _, x1, _ = self.bbox
+        return self.x + (x1 - x0)
+
 
 @dataclass(frozen=True, slots=True)
 class Line:

@@ -4,29 +4,1310 @@
       "pdf": "data/820561470/bilans/pdf/bilan_2023-06-05_6493e4372f502414800f8164.pdf",
       "siren": "820561470",
       "fiscal_year_end": "2021-08-31",
-      "fields": [],
-      "not_processed": "plaquette format: the accountant's own presentation, with no liasse line codes. The label-anchored extractor for it was not built."
+      "fields": [
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 638962,
+          "unit": "EUR",
+          "page": 6,
+          "bbox": [
+            0.7543,
+            0.859,
+            0.8081,
+            0.8711
+          ],
+          "snippet": "638 962",
+          "confidence": 0.85,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_TOTAL_ACTIF",
+                "value": 638962,
+                "page": 6,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7543,
+                  0.859,
+                  0.8081,
+                  0.8711
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 10000,
+              "currency": "euros",
+              "page": 17,
+              "snippet": "SARL au capital de 10 000 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [
+              "V1b"
+            ],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 322009,
+          "unit": "EUR",
+          "page": 7,
+          "bbox": [
+            0.7615,
+            0.3873,
+            0.8146,
+            0.3994
+          ],
+          "snippet": "322 009",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_TOTAL_CAPITAUX_PROPRES",
+                "value": 322009,
+                "page": 7,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7615,
+                  0.3873,
+                  0.8146,
+                  0.3994
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 10000,
+              "currency": "euros",
+              "page": 17,
+              "snippet": "SARL au capital de 10 000 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 10000,
+          "unit": "EUR",
+          "page": 7,
+          "bbox": [
+            0.7729,
+            0.16,
+            0.8182,
+            0.1724
+          ],
+          "snippet": "10 000",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_CAPITAL_SOCIAL",
+                "value": 10000,
+                "page": 7,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7729,
+                  0.16,
+                  0.8182,
+                  0.1724
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 10000,
+              "currency": "euros",
+              "page": 17,
+              "snippet": "SARL au capital de 10 000 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 307724,
+          "unit": "EUR",
+          "page": 6,
+          "bbox": [
+            0.7571,
+            0.7152,
+            0.8105,
+            0.7441
+          ],
+          "snippet": "307 199 525",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_DISPONIBILITES",
+                "value": 307199,
+                "page": 6,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7571,
+                  0.7335,
+                  0.8089,
+                  0.7441
+                ]
+              },
+              {
+                "code": "PQ_VMP",
+                "value": 525,
+                "page": 6,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7818,
+                  0.7152,
+                  0.8105,
+                  0.727
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 10000,
+              "currency": "euros",
+              "page": 17,
+              "snippet": "SARL au capital de 10 000 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        }
+      ],
+      "fields_absent": [
+        "PL_REVENUE_FRGAAP",
+        "PL_COGS_FRGAAP",
+        "PL_PERSONNEL_COSTS_FRGAAP",
+        "PL_EXT_SERVICES_COSTS_FRGAAP",
+        "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+        "PL_FINANCIAL_RESULTS_FRGAAP",
+        "PL_INCOME_TAX_FRGAAP",
+        "META_AVG_WORKFORCE_FRGAAP"
+      ]
     },
     {
       "pdf": "data/820561470/bilans/pdf/bilan_2023-06-13_6543d3fd08093cdace058668.pdf",
       "siren": "820561470",
       "fiscal_year_end": "2022-08-31",
-      "fields": [],
-      "not_processed": "plaquette format: the accountant's own presentation, with no liasse line codes. The label-anchored extractor for it was not built."
+      "fields": [
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 638554,
+          "unit": "EUR",
+          "page": 3,
+          "bbox": [
+            0.745,
+            0.8588,
+            0.8017,
+            0.8711
+          ],
+          "snippet": "638 554",
+          "confidence": 0.85,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_TOTAL_ACTIF",
+                "value": 638554,
+                "page": 3,
+                "tier": "LABEL",
+                "bbox": [
+                  0.745,
+                  0.8588,
+                  0.8017,
+                  0.8711
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 150000,
+              "currency": "euros",
+              "page": 14,
+              "snippet": "SARL au capital de 150 000 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [
+              "V1b"
+            ],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 438221,
+          "unit": "EUR",
+          "page": 4,
+          "bbox": [
+            0.7515,
+            0.3862,
+            0.8041,
+            0.3985
+          ],
+          "snippet": "438 221",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_TOTAL_CAPITAUX_PROPRES",
+                "value": 438221,
+                "page": 4,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7515,
+                  0.3862,
+                  0.8041,
+                  0.3985
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 150000,
+              "currency": "euros",
+              "page": 14,
+              "snippet": "SARL au capital de 150 000 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 150000,
+          "unit": "EUR",
+          "page": 4,
+          "bbox": [
+            0.7544,
+            0.1597,
+            0.807,
+            0.1718
+          ],
+          "snippet": "150 000",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_CAPITAL_SOCIAL",
+                "value": 150000,
+                "page": 4,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7544,
+                  0.1597,
+                  0.807,
+                  0.1718
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 150000,
+              "currency": "euros",
+              "page": 14,
+              "snippet": "SARL au capital de 150 000 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 214455,
+          "unit": "EUR",
+          "page": 3,
+          "bbox": [
+            0.7507,
+            0.7139,
+            0.8025,
+            0.7436
+          ],
+          "snippet": "175 359 39 096",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_DISPONIBILITES",
+                "value": 175359,
+                "page": 3,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7507,
+                  0.733,
+                  0.8017,
+                  0.7436
+                ]
+              },
+              {
+                "code": "PQ_VMP",
+                "value": 39096,
+                "page": 3,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7564,
+                  0.7139,
+                  0.8025,
+                  0.726
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 150000,
+              "currency": "euros",
+              "page": 14,
+              "snippet": "SARL au capital de 150 000 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        }
+      ],
+      "fields_absent": [
+        "PL_REVENUE_FRGAAP",
+        "PL_COGS_FRGAAP",
+        "PL_PERSONNEL_COSTS_FRGAAP",
+        "PL_EXT_SERVICES_COSTS_FRGAAP",
+        "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+        "PL_FINANCIAL_RESULTS_FRGAAP",
+        "PL_INCOME_TAX_FRGAAP",
+        "META_AVG_WORKFORCE_FRGAAP"
+      ]
     },
     {
       "pdf": "data/820561470/bilans/pdf/bilan_2024-01-15_67458f18cea78a70070fa226.pdf",
       "siren": "820561470",
       "fiscal_year_end": "2023-08-31",
-      "fields": [],
-      "not_processed": "plaquette format: the accountant's own presentation, with no liasse line codes. The label-anchored extractor for it was not built."
+      "fields": [
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 866478,
+          "unit": "EUR",
+          "page": 1,
+          "bbox": [
+            0.7577,
+            0.8723,
+            0.8101,
+            0.8828
+          ],
+          "snippet": "866 478",
+          "confidence": 0.85,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_TOTAL_ACTIF",
+                "value": 866478,
+                "page": 1,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7577,
+                  0.8723,
+                  0.8101,
+                  0.8828
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 150000,
+              "currency": "euros",
+              "page": 3,
+              "snippet": "SARL au capital de 150 000 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [
+              "V1b"
+            ],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 460510,
+          "unit": "EUR",
+          "page": 2,
+          "bbox": [
+            0.7573,
+            0.3784,
+            0.8093,
+            0.3892
+          ],
+          "snippet": "460 510",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_TOTAL_CAPITAUX_PROPRES",
+                "value": 460510,
+                "page": 2,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7573,
+                  0.3784,
+                  0.8093,
+                  0.3892
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 150000,
+              "currency": "euros",
+              "page": 3,
+              "snippet": "SARL au capital de 150 000 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 150000,
+          "unit": "EUR",
+          "page": 2,
+          "bbox": [
+            0.7577,
+            0.1426,
+            0.8101,
+            0.1535
+          ],
+          "snippet": "150 000",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_CAPITAL_SOCIAL",
+                "value": 150000,
+                "page": 2,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7577,
+                  0.1426,
+                  0.8101,
+                  0.1535
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 150000,
+              "currency": "euros",
+              "page": 3,
+              "snippet": "SARL au capital de 150 000 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 268112,
+          "unit": "EUR",
+          "page": 1,
+          "bbox": [
+            0.7573,
+            0.7203,
+            0.8113,
+            0.751
+          ],
+          "snippet": "229 016 39 096",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_DISPONIBILITES",
+                "value": 229016,
+                "page": 1,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7573,
+                  0.7399,
+                  0.8113,
+                  0.751
+                ]
+              },
+              {
+                "code": "PQ_VMP",
+                "value": 39096,
+                "page": 1,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7641,
+                  0.7203,
+                  0.8113,
+                  0.7325
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 150000,
+              "currency": "euros",
+              "page": 3,
+              "snippet": "SARL au capital de 150 000 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        }
+      ],
+      "fields_absent": [
+        "PL_REVENUE_FRGAAP",
+        "PL_COGS_FRGAAP",
+        "PL_PERSONNEL_COSTS_FRGAAP",
+        "PL_EXT_SERVICES_COSTS_FRGAAP",
+        "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+        "PL_FINANCIAL_RESULTS_FRGAAP",
+        "PL_INCOME_TAX_FRGAAP",
+        "META_AVG_WORKFORCE_FRGAAP"
+      ]
     },
     {
       "pdf": "data/328024377/bilans/pdf/bilan_2020-12-24_63e8ebbb54febda17c19ee7c.pdf",
       "siren": "328024377",
       "fiscal_year_end": "2020-06-30",
-      "fields": [],
-      "not_processed": "plaquette format: the accountant's own presentation, with no liasse line codes. The label-anchored extractor for it was not built."
+      "fields": [
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "value": 3875200,
+          "unit": "EUR",
+          "page": 4,
+          "bbox": [
+            0.4937,
+            0.2608,
+            0.5433,
+            0.2793
+          ],
+          "snippet": "3 794 380 80 820",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_VENTES",
+                "value": 3794380,
+                "page": 4,
+                "tier": "LABEL",
+                "bbox": [
+                  0.4937,
+                  0.2608,
+                  0.5433,
+                  0.2691
+                ]
+              },
+              {
+                "code": "PQ_PRODUCTION_VENDUE",
+                "value": 80820,
+                "page": 4,
+                "tier": "LABEL",
+                "bbox": [
+                  0.5078,
+                  0.2705,
+                  0.5417,
+                  0.2793
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [
+              {
+                "snippet": "situation est extrêmement évolutive et volatile Toutefois, nous constatons und baisse du c",
+                "page": 7,
+                "reason": "outside every page carrying an extracted value"
+              },
+              {
+                "snippet": "Les montants sont indiques en K€",
+                "page": 10,
+                "reason": "outside every page carrying an extracted value"
+              }
+            ],
+            "anchor": {
+              "amount": 152500,
+              "currency": "euros",
+              "page": 20,
+              "snippet": "au capital de 152 500 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "value": 865045,
+          "unit": "EUR",
+          "page": 4,
+          "bbox": [
+            0.5022,
+            0.3449,
+            0.5445,
+            0.3637
+          ],
+          "snippet": "963 002 ' -97 957 :",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_ACHATS_MARCHANDISES",
+                "value": 963002,
+                "page": 4,
+                "tier": "LABEL",
+                "bbox": [
+                  0.5022,
+                  0.3449,
+                  0.5433,
+                  0.3534
+                ]
+              },
+              {
+                "code": "PQ_VAR_STOCK_MARCHANDISES",
+                "value": -97957,
+                "page": 4,
+                "tier": "LABEL",
+                "bbox": [
+                  0.5042,
+                  0.3554,
+                  0.5445,
+                  0.3637
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [
+              {
+                "snippet": "situation est extrêmement évolutive et volatile Toutefois, nous constatons und baisse du c",
+                "page": 7,
+                "reason": "outside every page carrying an extracted value"
+              },
+              {
+                "snippet": "Les montants sont indiques en K€",
+                "page": 10,
+                "reason": "outside every page carrying an extracted value"
+              }
+            ],
+            "anchor": {
+              "amount": 152500,
+              "currency": "euros",
+              "page": 20,
+              "snippet": "au capital de 152 500 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "value": 1609519,
+          "unit": "EUR",
+          "page": 4,
+          "bbox": [
+            0.4953,
+            0.462,
+            0.5417,
+            0.4806
+          ],
+          "snippet": "1 242 306 367 213",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_SALAIRES",
+                "value": 1242306,
+                "page": 4,
+                "tier": "LABEL",
+                "bbox": [
+                  0.4953,
+                  0.462,
+                  0.5417,
+                  0.4703
+                ]
+              },
+              {
+                "code": "PQ_CHARGES_SOCIALES",
+                "value": 367213,
+                "page": 4,
+                "tier": "LABEL",
+                "bbox": [
+                  0.503,
+                  0.4723,
+                  0.5417,
+                  0.4806
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [
+              {
+                "snippet": "situation est extrêmement évolutive et volatile Toutefois, nous constatons und baisse du c",
+                "page": 7,
+                "reason": "outside every page carrying an extracted value"
+              },
+              {
+                "snippet": "Les montants sont indiques en K€",
+                "page": 10,
+                "reason": "outside every page carrying an extracted value"
+              }
+            ],
+            "anchor": {
+              "amount": 152500,
+              "currency": "euros",
+              "page": 20,
+              "snippet": "au capital de 152 500 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "value": 1182000,
+          "unit": "EUR",
+          "page": 4,
+          "bbox": [
+            0.4953,
+            0.3868,
+            0.5425,
+            0.3956
+          ],
+          "snippet": "1 182 000",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_AUTRES_ACHATS",
+                "value": 1182000,
+                "page": 4,
+                "tier": "LABEL",
+                "bbox": [
+                  0.4953,
+                  0.3868,
+                  0.5425,
+                  0.3956
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [
+              {
+                "snippet": "situation est extrêmement évolutive et volatile Toutefois, nous constatons und baisse du c",
+                "page": 7,
+                "reason": "outside every page carrying an extracted value"
+              },
+              {
+                "snippet": "Les montants sont indiques en K€",
+                "page": 10,
+                "reason": "outside every page carrying an extracted value"
+              }
+            ],
+            "anchor": {
+              "amount": 152500,
+              "currency": "euros",
+              "page": 20,
+              "snippet": "au capital de 152 500 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "value": 96157,
+          "unit": "EUR",
+          "page": 4,
+          "bbox": [
+            0.5086,
+            0.4831,
+            0.5413,
+            0.4903
+          ],
+          "snippet": "96 157",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_AMORTISSEMENTS_ET_PROVISIONS",
+                "value": 96157,
+                "page": 4,
+                "tier": "LABEL",
+                "bbox": [
+                  0.5086,
+                  0.4831,
+                  0.5413,
+                  0.4903
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [
+              {
+                "snippet": "situation est extrêmement évolutive et volatile Toutefois, nous constatons und baisse du c",
+                "page": 7,
+                "reason": "outside every page carrying an extracted value"
+              },
+              {
+                "snippet": "Les montants sont indiques en K€",
+                "page": 10,
+                "reason": "outside every page carrying an extracted value"
+              }
+            ],
+            "anchor": {
+              "amount": 152500,
+              "currency": "euros",
+              "page": 20,
+              "snippet": "au capital de 152 500 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_FINANCIAL_RESULTS_FRGAAP",
+          "value": 357,
+          "unit": "EUR",
+          "page": 4,
+          "bbox": [
+            0.5187,
+            0.5655,
+            0.5425,
+            0.5752
+          ],
+          "snippet": "357",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_RESULTAT_FINANCIER",
+                "value": 357,
+                "page": 4,
+                "tier": "LABEL",
+                "bbox": [
+                  0.5187,
+                  0.5655,
+                  0.5425,
+                  0.5752
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [
+              {
+                "snippet": "situation est extrêmement évolutive et volatile Toutefois, nous constatons und baisse du c",
+                "page": 7,
+                "reason": "outside every page carrying an extracted value"
+              },
+              {
+                "snippet": "Les montants sont indiques en K€",
+                "page": 10,
+                "reason": "outside every page carrying an extracted value"
+              }
+            ],
+            "anchor": {
+              "amount": 152500,
+              "currency": "euros",
+              "page": 20,
+              "snippet": "au capital de 152 500 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "value": 31566,
+          "unit": "EUR",
+          "page": 4,
+          "bbox": [
+            0.5086,
+            0.6824,
+            0.5425,
+            0.6909
+          ],
+          "snippet": "31 566",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_IMPOTS",
+                "value": 31566,
+                "page": 4,
+                "tier": "LABEL",
+                "bbox": [
+                  0.5086,
+                  0.6824,
+                  0.5425,
+                  0.6909
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [
+              {
+                "snippet": "situation est extrêmement évolutive et volatile Toutefois, nous constatons und baisse du c",
+                "page": 7,
+                "reason": "outside every page carrying an extracted value"
+              },
+              {
+                "snippet": "Les montants sont indiques en K€",
+                "page": 10,
+                "reason": "outside every page carrying an extracted value"
+              }
+            ],
+            "anchor": {
+              "amount": 152500,
+              "currency": "euros",
+              "page": 20,
+              "snippet": "au capital de 152 500 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 3500529,
+          "unit": "EUR",
+          "page": 2,
+          "bbox": [
+            0.7398,
+            0.6921,
+            0.7898,
+            0.7009
+          ],
+          "snippet": "3 500 529",
+          "confidence": 0.85,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_TOTAL_GENERAL",
+                "value": 3500529,
+                "page": 2,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7398,
+                  0.6921,
+                  0.7898,
+                  0.7009
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [
+              {
+                "snippet": "situation est extrêmement évolutive et volatile Toutefois, nous constatons und baisse du c",
+                "page": 7,
+                "reason": "outside every page carrying an extracted value"
+              },
+              {
+                "snippet": "Les montants sont indiques en K€",
+                "page": 10,
+                "reason": "outside every page carrying an extracted value"
+              }
+            ],
+            "anchor": {
+              "amount": 152500,
+              "currency": "euros",
+              "page": 20,
+              "snippet": "au capital de 152 500 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [
+              "V1b"
+            ],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 2365051,
+          "unit": "EUR",
+          "page": 3,
+          "bbox": [
+            0.7418,
+            0.3634,
+            0.7934,
+            0.3717
+          ],
+          "snippet": "2 365 051",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_TOTAL_CAPITAUX_PROPRES",
+                "value": 2365051,
+                "page": 3,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7418,
+                  0.3634,
+                  0.7934,
+                  0.3717
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [
+              {
+                "snippet": "situation est extrêmement évolutive et volatile Toutefois, nous constatons und baisse du c",
+                "page": 7,
+                "reason": "outside every page carrying an extracted value"
+              },
+              {
+                "snippet": "Les montants sont indiques en K€",
+                "page": 10,
+                "reason": "outside every page carrying an extracted value"
+              }
+            ],
+            "anchor": {
+              "amount": 152500,
+              "currency": "euros",
+              "page": 20,
+              "snippet": "au capital de 152 500 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 152500,
+          "unit": "EUR",
+          "page": 3,
+          "bbox": [
+            0.7551,
+            0.2474,
+            0.795,
+            0.2574
+          ],
+          "snippet": "152 500",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_CAPITAL",
+                "value": 152500,
+                "page": 3,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7551,
+                  0.2474,
+                  0.795,
+                  0.2574
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [
+              {
+                "snippet": "situation est extrêmement évolutive et volatile Toutefois, nous constatons und baisse du c",
+                "page": 7,
+                "reason": "outside every page carrying an extracted value"
+              },
+              {
+                "snippet": "Les montants sont indiques en K€",
+                "page": 10,
+                "reason": "outside every page carrying an extracted value"
+              }
+            ],
+            "anchor": {
+              "amount": 152500,
+              "currency": "euros",
+              "page": 20,
+              "snippet": "au capital de 152 500 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 1545314,
+          "unit": "EUR",
+          "page": 2,
+          "bbox": [
+            0.7446,
+            0.6194,
+            0.7906,
+            0.6379
+          ],
+          "snippet": "1 179 955 365 359",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_DISPONIBILITES",
+                "value": 1179955,
+                "page": 2,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7446,
+                  0.6296,
+                  0.7906,
+                  0.6379
+                ]
+              },
+              {
+                "code": "PQ_VMP",
+                "value": 365359,
+                "page": 2,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7523,
+                  0.6194,
+                  0.7906,
+                  0.6276
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [
+              {
+                "snippet": "situation est extrêmement évolutive et volatile Toutefois, nous constatons und baisse du c",
+                "page": 7,
+                "reason": "outside every page carrying an extracted value"
+              },
+              {
+                "snippet": "Les montants sont indiques en K€",
+                "page": 10,
+                "reason": "outside every page carrying an extracted value"
+              }
+            ],
+            "anchor": {
+              "amount": 152500,
+              "currency": "euros",
+              "page": 20,
+              "snippet": "au capital de 152 500 euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        }
+      ],
+      "fields_absent": [
+        "META_AVG_WORKFORCE_FRGAAP"
+      ]
     },
     {
       "pdf": "data/328024377/bilans/pdf/bilan_2021-12-17_63e8ebbb54febda17c19ee7d.pdf",
@@ -45,7 +1326,7 @@
             0.2168
           ],
           "snippet": "4 982 524",
-          "confidence": 0.85,
+          "confidence": 0.93,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -116,7 +1397,8 @@
           },
           "verification": {
             "checks_passed": [
-              "V2a"
+              "V2a",
+              "V4"
             ],
             "checks_failed": []
           }
@@ -133,7 +1415,7 @@
             0.4165
           ],
           "snippet": "956 557 87 582 Achats de matières premières et autres approvisionnements (y compris droits de douane)* Variation de stoc",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "LABEL",
             "components": [
@@ -254,7 +1536,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           },
           "schema_ambiguity": {
@@ -275,7 +1559,7 @@
             0.498
           ],
           "snippet": "1 476 746 428 960",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -357,7 +1641,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           }
         },
@@ -373,7 +1659,7 @@
             0.438
           ],
           "snippet": "1 339 065",
-          "confidence": 0.6,
+          "confidence": 0.3,
           "extraction": {
             "tier": "LABEL",
             "components": [
@@ -444,7 +1730,9 @@
           },
           "verification": {
             "checks_passed": [],
-            "checks_failed": []
+            "checks_failed": [
+              "V4"
+            ]
           }
         },
         {
@@ -459,7 +1747,7 @@
             0.5357
           ],
           "snippet": "149 350 - dotations aux provisions*",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -542,7 +1830,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           }
         },
@@ -558,7 +1848,7 @@
             0.942
           ],
           "snippet": "18 831",
-          "confidence": 0.85,
+          "confidence": 0.93,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -629,7 +1919,8 @@
           },
           "verification": {
             "checks_passed": [
-              "V2b"
+              "V2b",
+              "V4"
             ],
             "checks_failed": []
           }
@@ -646,7 +1937,7 @@
             0.335
           ],
           "snippet": "164 610",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -716,7 +2007,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           }
         },
@@ -820,7 +2113,7 @@
             0.3842
           ],
           "snippet": "2 816 959",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -890,7 +2183,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           }
         },
@@ -906,7 +2201,7 @@
             0.1636
           ],
           "snippet": "152 500",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -976,7 +2271,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           },
           "schema_ambiguity": {
@@ -997,7 +2294,7 @@
             0.8052
           ],
           "snippet": "2 151 560 365 358",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -1079,7 +2376,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           }
         }
@@ -1105,7 +2404,7 @@
             0.2124
           ],
           "snippet": "5 564 581",
-          "confidence": 0.85,
+          "confidence": 0.93,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -1166,7 +2465,8 @@
           },
           "verification": {
             "checks_passed": [
-              "V2a"
+              "V2a",
+              "V4"
             ],
             "checks_failed": []
           }
@@ -1183,7 +2483,7 @@
             0.4133
           ],
           "snippet": "1 219 497 210 944) Achats de matières premières et autres approvisionnements (y compris droits de douane)* Variation de ",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -1294,7 +2594,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           },
           "schema_ambiguity": {
@@ -1315,7 +2617,7 @@
             0.4968
           ],
           "snippet": "1 688 833 523 675",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "LABEL",
             "components": [
@@ -1387,7 +2689,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           }
         },
@@ -1403,7 +2707,7 @@
             0.4361
           ],
           "snippet": "1 432 377",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -1463,7 +2767,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           }
         },
@@ -1479,7 +2785,7 @@
             0.5327
           ],
           "snippet": "321 856 - dotations aux provisions*",
-          "confidence": 0.6,
+          "confidence": 0.3,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -1553,7 +2859,9 @@
           },
           "verification": {
             "checks_passed": [],
-            "checks_failed": []
+            "checks_failed": [
+              "V4"
+            ]
           }
         },
         {
@@ -1568,7 +2876,7 @@
             0.9412
           ],
           "snippet": "76 778)",
-          "confidence": 0.85,
+          "confidence": 0.93,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -1629,7 +2937,8 @@
           },
           "verification": {
             "checks_passed": [
-              "V2b"
+              "V2b",
+              "V4"
             ],
             "checks_failed": []
           }
@@ -1646,7 +2955,7 @@
             0.3272
           ],
           "snippet": "125 062",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -1706,7 +3015,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           }
         },
@@ -1800,7 +3111,7 @@
             0.3691
           ],
           "snippet": "3 036 481",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -1860,7 +3171,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           }
         },
@@ -1876,7 +3189,7 @@
             0.1479
           ],
           "snippet": "152 500",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -1936,7 +3249,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           },
           "schema_ambiguity": {
@@ -1957,7 +3272,7 @@
             0.7967
           ],
           "snippet": "1 515 838 465 358",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -2029,7 +3344,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           }
         }
@@ -2042,22 +3359,1024 @@
       "pdf": "data/445070311/bilans/pdf/bilan_2022-02-14_63e2481c916269756a09542b.pdf",
       "siren": "445070311",
       "fiscal_year_end": "2020-06-30",
-      "fields": [],
-      "not_processed": "plaquette format: the accountant's own presentation, with no liasse line codes. The label-anchored extractor for it was not built."
+      "fields": [
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "value": 4978292,
+          "unit": "EUR",
+          "page": 16,
+          "bbox": [
+            0.7051,
+            0.248,
+            0.7745,
+            0.26
+          ],
+          "snippet": "4 978 292",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_CA_NET",
+                "value": 4978292,
+                "page": 16,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7051,
+                  0.248,
+                  0.7745,
+                  0.26
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 2,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "value": 1488053,
+          "unit": "EUR",
+          "page": 16,
+          "bbox": [
+            0.7071,
+            0.3916,
+            0.7753,
+            0.4464
+          ],
+          "snippet": "247 635 (3 517) 1 285 010 (41 075)",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_ACHATS_MARCHANDISES",
+                "value": 247635,
+                "page": 16,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7188,
+                  0.3916,
+                  0.7741,
+                  0.4019
+                ]
+              },
+              {
+                "code": "PQ_VAR_STOCK_MARCHANDISES",
+                "value": -3517,
+                "page": 16,
+                "tier": "LABEL",
+                "bbox": [
+                  0.724,
+                  0.4048,
+                  0.7753,
+                  0.419
+                ]
+              },
+              {
+                "code": "PQ_ACHATS_MATIERES",
+                "value": 1285010,
+                "page": 16,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7071,
+                  0.419,
+                  0.7745,
+                  0.4307
+                ]
+              },
+              {
+                "code": "PQ_VAR_STOCK_MATIERES",
+                "value": -41075,
+                "page": 16,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7156,
+                  0.4327,
+                  0.7741,
+                  0.4464
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 2,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "value": 1347162,
+          "unit": "EUR",
+          "page": 16,
+          "bbox": [
+            0.7067,
+            0.5176,
+            0.7753,
+            0.5441
+          ],
+          "snippet": "1 044 010 303 152",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_SALAIRES",
+                "value": 1044010,
+                "page": 16,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7067,
+                  0.5176,
+                  0.7745,
+                  0.5293
+                ]
+              },
+              {
+                "code": "PQ_CHARGES_SOCIALES",
+                "value": 303152,
+                "page": 16,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7176,
+                  0.5324,
+                  0.7753,
+                  0.5441
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 2,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "value": 884031,
+          "unit": "EUR",
+          "page": 16,
+          "bbox": [
+            0.7176,
+            0.4469,
+            0.7745,
+            0.4592
+          ],
+          "snippet": "884 031",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_AUTRES_ACHATS",
+                "value": 884031,
+                "page": 16,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7176,
+                  0.4469,
+                  0.7745,
+                  0.4592
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 2,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "value": 236796,
+          "unit": "EUR",
+          "page": 16,
+          "bbox": [
+            0.7184,
+            0.5783,
+            0.7753,
+            0.59
+          ],
+          "snippet": "236 796",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_DOT_AMORTISSEMENTS",
+                "value": 236796,
+                "page": 16,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7184,
+                  0.5783,
+                  0.7753,
+                  0.59
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 2,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "value": 302337,
+          "unit": "EUR",
+          "page": 17,
+          "bbox": [
+            0.7204,
+            0.7063,
+            0.7761,
+            0.718
+          ],
+          "snippet": "302 337",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_IMPOTS",
+                "value": 302337,
+                "page": 17,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7204,
+                  0.7063,
+                  0.7761,
+                  0.718
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 2,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 6899412,
+          "unit": "EUR",
+          "page": 14,
+          "bbox": [
+            0.7503,
+            0.9121,
+            0.8204,
+            0.9255
+          ],
+          "snippet": "6 899 412",
+          "confidence": 0.85,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_TOTAL_GENERAL",
+                "value": 6899412,
+                "page": 14,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7503,
+                  0.9121,
+                  0.8204,
+                  0.9255
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 2,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [
+              "V1b"
+            ],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 300000,
+          "unit": "EUR",
+          "page": 15,
+          "bbox": [
+            0.7369,
+            0.1622,
+            0.7934,
+            0.1739
+          ],
+          "snippet": "300 000",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_CAPITAL_SOCIAL",
+                "value": 300000,
+                "page": 15,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7369,
+                  0.1622,
+                  0.7934,
+                  0.1739
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 2,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 4533366,
+          "unit": "EUR",
+          "page": 14,
+          "bbox": [
+            0.749,
+            0.7505,
+            0.8192,
+            0.7762
+          ],
+          "snippet": "3 202 002 1 331 364",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_DISPONIBILITES",
+                "value": 3202002,
+                "page": 14,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7511,
+                  0.7659,
+                  0.8192,
+                  0.7762
+                ]
+              },
+              {
+                "code": "PQ_VMP",
+                "value": 1331364,
+                "page": 14,
+                "tier": "LABEL",
+                "bbox": [
+                  0.749,
+                  0.7505,
+                  0.8168,
+                  0.7625
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 2,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        }
+      ],
+      "fields_absent": [
+        "PL_FINANCIAL_RESULTS_FRGAAP",
+        "BS_TOTAL_EQUITY_FRGAAP",
+        "META_AVG_WORKFORCE_FRGAAP"
+      ]
     },
     {
       "pdf": "data/445070311/bilans/pdf/bilan_2023-11-21_65a4095d5fd178b16b09b860.pdf",
       "siren": "445070311",
       "fiscal_year_end": "2022-06-30",
-      "fields": [],
-      "not_processed": "plaquette format: the accountant's own presentation, with no liasse line codes. The label-anchored extractor for it was not built."
+      "fields": [
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "value": 7362279,
+          "unit": "EUR",
+          "page": 27,
+          "bbox": [
+            0.7106,
+            0.2442,
+            0.7783,
+            0.2558
+          ],
+          "snippet": "7 362 279",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_CA_NET",
+                "value": 7362279,
+                "page": 27,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7106,
+                  0.2442,
+                  0.7783,
+                  0.2558
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 3,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "value": 1953566,
+          "unit": "EUR",
+          "page": 27,
+          "bbox": [
+            0.711,
+            0.3862,
+            0.7791,
+            0.441
+          ],
+          "snippet": "348 255 26 851 1 858 354 (279 894)",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_ACHATS_MARCHANDISES",
+                "value": 348255,
+                "page": 27,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7223,
+                  0.3862,
+                  0.7791,
+                  0.3985
+                ]
+              },
+              {
+                "code": "PQ_VAR_STOCK_MARCHANDISES",
+                "value": 26851,
+                "page": 27,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7299,
+                  0.4005,
+                  0.7783,
+                  0.4127
+                ]
+              },
+              {
+                "code": "PQ_ACHATS_MATIERES",
+                "value": 1858354,
+                "page": 27,
+                "tier": "LABEL",
+                "bbox": [
+                  0.711,
+                  0.4141,
+                  0.7783,
+                  0.4258
+                ]
+              },
+              {
+                "code": "PQ_VAR_STOCK_MATIERES",
+                "value": -279894,
+                "page": 27,
+                "tier": "LABEL",
+                "bbox": [
+                  0.713,
+                  0.4287,
+                  0.7783,
+                  0.441
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 3,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "value": 1943291,
+          "unit": "EUR",
+          "page": 27,
+          "bbox": [
+            0.7098,
+            0.5128,
+            0.7783,
+            0.5391
+          ],
+          "snippet": "1 461 931 481 360",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_SALAIRES",
+                "value": 1461931,
+                "page": 27,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7098,
+                  0.5128,
+                  0.7771,
+                  0.5245
+                ]
+              },
+              {
+                "code": "PQ_CHARGES_SOCIALES",
+                "value": 481360,
+                "page": 27,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7215,
+                  0.5268,
+                  0.7783,
+                  0.5391
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 3,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "value": 928188,
+          "unit": "EUR",
+          "page": 27,
+          "bbox": [
+            0.7215,
+            0.4424,
+            0.7791,
+            0.4541
+          ],
+          "snippet": "928 188",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_AUTRES_ACHATS",
+                "value": 928188,
+                "page": 27,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7215,
+                  0.4424,
+                  0.7791,
+                  0.4541
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 3,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "value": 267890,
+          "unit": "EUR",
+          "page": 27,
+          "bbox": [
+            0.7215,
+            0.5733,
+            0.7783,
+            0.585
+          ],
+          "snippet": "267 890",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_DOT_AMORTISSEMENTS",
+                "value": 267890,
+                "page": 27,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7215,
+                  0.5733,
+                  0.7783,
+                  0.585
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 3,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "value": 621467,
+          "unit": "EUR",
+          "page": 29,
+          "bbox": [
+            0.7166,
+            0.6985,
+            0.7739,
+            0.7119
+          ],
+          "snippet": "621 467",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_IMPOTS",
+                "value": 621467,
+                "page": 29,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7166,
+                  0.6985,
+                  0.7739,
+                  0.7119
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 3,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 10174922,
+          "unit": "EUR",
+          "page": 23,
+          "bbox": [
+            0.7396,
+            0.9096,
+            0.8134,
+            0.9199
+          ],
+          "snippet": "10 174 922",
+          "confidence": 0.85,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_TOTAL_GENERAL",
+                "value": 10174922,
+                "page": 23,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7396,
+                  0.9096,
+                  0.8134,
+                  0.9199
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 3,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [
+              "V1b"
+            ],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 7076804,
+          "unit": "EUR",
+          "page": 25,
+          "bbox": [
+            0.7299,
+            0.33,
+            0.8009,
+            0.3437
+          ],
+          "snippet": "7 076 804",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_CAPITAUX_PROPRES",
+                "value": 7076804,
+                "page": 25,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7299,
+                  0.33,
+                  0.8009,
+                  0.3437
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 3,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 300000,
+          "unit": "EUR",
+          "page": 25,
+          "bbox": [
+            0.7428,
+            0.1557,
+            0.8009,
+            0.1686
+          ],
+          "snippet": "300 000",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_CAPITAL_SOCIAL",
+                "value": 300000,
+                "page": 25,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7428,
+                  0.1557,
+                  0.8009,
+                  0.1686
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 3,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 6876899,
+          "unit": "EUR",
+          "page": 23,
+          "bbox": [
+            0.7453,
+            0.7461,
+            0.8146,
+            0.7721
+          ],
+          "snippet": "6 267 354 609 545",
+          "confidence": 0.6,
+          "extraction": {
+            "tier": "LABEL",
+            "components": [
+              {
+                "code": "PQ_DISPONIBILITES",
+                "value": 6267354,
+                "page": 23,
+                "tier": "LABEL",
+                "bbox": [
+                  0.7453,
+                  0.7601,
+                  0.8138,
+                  0.7721
+                ]
+              },
+              {
+                "code": "PQ_VMP",
+                "value": 609545,
+                "page": 23,
+                "tier": "LABEL",
+                "bbox": [
+                  0.757,
+                  0.7461,
+                  0.8146,
+                  0.7578
+                ]
+              }
+            ]
+          },
+          "unit_evidence": {
+            "rule": "form_default_eur",
+            "rejected_markers": [],
+            "anchor": {
+              "amount": 300000,
+              "currency": "Euros",
+              "page": 3,
+              "snippet": "SAS au capital de 300.000 Euros"
+            }
+          },
+          "verification": {
+            "checks_passed": [],
+            "checks_failed": []
+          }
+        }
+      ],
+      "fields_absent": [
+        "PL_FINANCIAL_RESULTS_FRGAAP",
+        "META_AVG_WORKFORCE_FRGAAP"
+      ]
     },
     {
       "pdf": "data/445070311/bilans/pdf/bilan_2025-05-15_6860f28ca0138eae340c7453.pdf",
       "siren": "445070311",
       "fiscal_year_end": "2023-06-30",
       "fields": [],
-      "not_processed": "plaquette format: the accountant's own presentation, with no liasse line codes. The label-anchored extractor for it was not built."
+      "fields_absent": [
+        "PL_REVENUE_FRGAAP",
+        "PL_COGS_FRGAAP",
+        "PL_PERSONNEL_COSTS_FRGAAP",
+        "PL_EXT_SERVICES_COSTS_FRGAAP",
+        "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+        "PL_FINANCIAL_RESULTS_FRGAAP",
+        "PL_INCOME_TAX_FRGAAP",
+        "BS_TOTAL_ASSETS_FRGAAP",
+        "BS_TOTAL_EQUITY_FRGAAP",
+        "BS_CAPITAL_EQUITY_FRGAAP",
+        "BS_CASH_CURRENT_ASSET_FRGAAP",
+        "META_AVG_WORKFORCE_FRGAAP"
+      ],
+      "not_processed": "pages were routed but no field could be read from them. The OCR returns this filing's tables in a scrambled reading order, so the rows do not reconstruct and no column grid is recoverable."
     },
     {
       "pdf": "data/504304205/bilans/pdf/bilan_2017-05-31_63e13943526e1f30cd100db5.pdf",
@@ -3332,7 +5651,7 @@
             0.8803
           ],
           "snippet": "1 689 390",
-          "confidence": 0.85,
+          "confidence": 0.97,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -3362,7 +5681,9 @@
           },
           "verification": {
             "checks_passed": [
-              "V1"
+              "V1",
+              "V1b",
+              "V4"
             ],
             "checks_failed": []
           }
@@ -3424,7 +5745,7 @@
             0.1308
           ],
           "snippet": "1 000 000",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -3453,7 +5774,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           },
           "schema_ambiguity": {
@@ -3474,7 +5797,7 @@
             0.7632
           ],
           "snippet": "149 451 Valeurs mobilières de placement",
-          "confidence": 0.6,
+          "confidence": 0.85,
           "extraction": {
             "tier": "CODE",
             "components": [
@@ -3516,7 +5839,9 @@
             }
           },
           "verification": {
-            "checks_passed": [],
+            "checks_passed": [
+              "V4"
+            ],
             "checks_failed": []
           }
         }
@@ -4810,26 +7135,26 @@
   ],
   "run": {
     "cost_eur_per_page": 0.0,
-    "seconds_per_page": 0.00403,
+    "seconds_per_page": 0.00611,
     "pages_processed": 415,
     "model": "provided OCR + rules",
     "notes": "No API is called and no credential is read: the pipeline reads the OCR shipped with the corpus and anchors on the liasse's own line codes. The cost per page is therefore a sum over zero recorded API calls divided by a counted number of pages, not a zero typed into the file. Seconds per page is wall clock over a full run divided by every page in scope, including the ones the router discards; the per-stage split is under 'measured'. What a vision model would cost on the same pages is derived - no call was made - in reports/cost.json.",
     "measured": {
-      "seconds_total": 1.67337,
+      "seconds_total": 2.5375,
       "pages_in_scope": 415,
-      "pages_carrying_fields": 60,
+      "pages_carrying_fields": 61,
       "stages": [
         {
           "name": "count_pages",
-          "seconds": 0.00452
+          "seconds": 0.00811
         },
         {
           "name": "route_extract_verify",
-          "seconds": 1.46297
+          "seconds": 2.22331
         },
         {
           "name": "build_documents",
-          "seconds": 0.20589
+          "seconds": 0.30608
         }
       ],
       "api_calls": 0,
@@ -4844,5 +7169,5 @@
       }
     }
   },
-  "notes": "75 values from 8 of 15 filings. The seven not processed are plaquettes - the accountant's own presentation of the accounts, with no liasse line codes - and the extractor for that format was not built. Of the fields absent from the filings that were processed, the six PL_* fields of two deposits are absent by law: those companies filed under the L.232-25 confidentiality option and the registry marks the deposit 'Partiellement confidentiel'. Every value carries the checks it survived; those checks measure agreement between statements the documents make more than once, not truth."
+  "notes": "117 values from 14 of 15 filings. Two formats are read: the DGFiP liasse, anchored on the two-letter line codes fixed by law, and the plaquette - the accountant's own presentation, which prints no codes and is read by recovering the column grid from the page geometry and matching the printed French labels. Where a filing carries both, the liasse reading is the one reported and the plaquette reading is spent on check V4, which compares them. Of the fields absent from the filings that were processed, the six PL_* fields of two deposits are absent by law: those companies filed under the L.232-25 confidentiality option and the registry marks the deposit 'Partiellement confidentiel'. Every value carries the checks it survived; those checks measure agreement between statements the documents make more than once, not truth."
 }

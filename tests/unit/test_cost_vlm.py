@@ -137,7 +137,7 @@ def _corpus() -> list[PageImage]:
 def test_the_scenarios_are_built_from_the_pages_they_are_given():
     scenarios = {s.name: s for s in build_scenarios(_corpus(), 200, 50)}
     assert scenarios["deterministic"].pages_sent == 0
-    assert scenarios["escalate_plaquettes"].pages_sent == 1
+    assert scenarios["escalate_pages_without_line_codes"].pages_sent == 1
     assert scenarios["vlm_on_routed_pages"].pages_sent == 3
     assert scenarios["vlm_on_every_page"].pages_sent == 5
 
@@ -169,7 +169,7 @@ def test_routing_is_the_decision_that_changes_the_bill_by_a_factor():
     routed = scenarios["vlm_on_routed_pages"].usd(price)
     everything = scenarios["vlm_on_every_page"].usd(price)
     assert everything > routed
-    assert scenarios["escalate_plaquettes"].usd(price) < routed
+    assert scenarios["escalate_pages_without_line_codes"].usd(price) < routed
 
 
 def test_a_bigger_model_costs_more_for_the_same_tokens():

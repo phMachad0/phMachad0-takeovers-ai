@@ -6,7 +6,9 @@
     "V2b": "financial income minus financial expense equals the result",
     "V2c": "the bottom line of form 2053 equals the result on form 2051",
     "V0": "the registry's closing date matches the one printed",
-    "V3": "the previous-year column restates the year before's filing"
+    "V3": "the previous-year column restates the year before's filing",
+    "V4": "the liasse and the plaquette of one filing say the same thing",
+    "V1b": "a plaquette's own two sides balance against each other"
   },
   "pass_rates": {
     "V0": {
@@ -16,8 +18,13 @@
     },
     "V1": {
       "ran": 8,
-      "passed": 0,
-      "rate": 0.0
+      "passed": 8,
+      "rate": 1.0
+    },
+    "V1b": {
+      "ran": 7,
+      "passed": 7,
+      "rate": 1.0
     },
     "V2a": {
       "ran": 6,
@@ -38,21 +45,176 @@
       "ran": 10,
       "passed": 6,
       "rate": 0.6
+    },
+    "V4": {
+      "ran": 23,
+      "passed": 21,
+      "rate": 0.913
     }
   },
   "totals": {
-    "documents": 8,
-    "fields": 75,
-    "verified_by_at_least_one_check": 12,
-    "unverified": 55,
-    "contradicted": 8,
-    "share_verified": 0.16
+    "documents": 15,
+    "fields": 117,
+    "verified_by_at_least_one_check": 42,
+    "unverified": 73,
+    "contradicted": 2,
+    "share_verified": 0.359
   },
   "documents": [
     {
+      "siren": "820561470",
+      "doc_id": "6493e4372f502414800f8164",
+      "fiscal_year_end": "2021-08-31",
+      "fields": [
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 10000,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 307724,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 638962,
+          "unit": "EUR",
+          "confidence": 0.85,
+          "checks_passed": [
+            "V1b"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 322009,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        }
+      ],
+      "checks": [
+        {
+          "check_id": "V1b",
+          "passed": true,
+          "detail": "total assets vs total liabilities and equity, both off the plaquette: 638962 vs 638962",
+          "delta": 0.0,
+          "tolerance": 1
+        }
+      ]
+    },
+    {
+      "siren": "820561470",
+      "doc_id": "6543d3fd08093cdace058668",
+      "fiscal_year_end": "2022-08-31",
+      "fields": [
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 150000,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 214455,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 638554,
+          "unit": "EUR",
+          "confidence": 0.85,
+          "checks_passed": [
+            "V1b"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 438221,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        }
+      ],
+      "checks": [
+        {
+          "check_id": "V1b",
+          "passed": true,
+          "detail": "total assets vs total liabilities and equity, both off the plaquette: 638554 vs 638554",
+          "delta": 0.0,
+          "tolerance": 1
+        }
+      ]
+    },
+    {
+      "siren": "820561470",
+      "doc_id": "67458f18cea78a70070fa226",
+      "fiscal_year_end": "2023-08-31",
+      "fields": [
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 150000,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 268112,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 866478,
+          "unit": "EUR",
+          "confidence": 0.85,
+          "checks_passed": [
+            "V1b"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 460510,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        }
+      ],
+      "checks": [
+        {
+          "check_id": "V1b",
+          "passed": true,
+          "detail": "total assets vs total liabilities and equity, both off the plaquette: 866478 vs 866478",
+          "delta": 0.0,
+          "tolerance": 1
+        }
+      ]
+    },
+    {
       "siren": "328024377",
-      "doc_id": "63e8ebbb54febda17c19ee7d",
-      "fiscal_year_end": "2021-06-30",
+      "doc_id": "63e8ebbb54febda17c19ee7c",
+      "fiscal_year_end": "2020-06-30",
       "fields": [
         {
           "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
@@ -64,7 +226,7 @@
         },
         {
           "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
-          "value": 2516918,
+          "value": 1545314,
           "unit": "EUR",
           "confidence": 0.6,
           "checks_passed": [],
@@ -72,17 +234,17 @@
         },
         {
           "field_key": "BS_TOTAL_ASSETS_FRGAAP",
-          "value": 7113704,
+          "value": 3500529,
           "unit": "EUR",
-          "confidence": 0.3,
-          "checks_passed": [],
-          "checks_failed": [
-            "V1"
-          ]
+          "confidence": 0.85,
+          "checks_passed": [
+            "V1b"
+          ],
+          "checks_failed": []
         },
         {
           "field_key": "BS_TOTAL_EQUITY_FRGAAP",
-          "value": 2816959,
+          "value": 2365051,
           "unit": "EUR",
           "confidence": 0.6,
           "checks_passed": [],
@@ -90,7 +252,7 @@
         },
         {
           "field_key": "PL_COGS_FRGAAP",
-          "value": 1044139,
+          "value": 865045,
           "unit": "EUR",
           "confidence": 0.6,
           "checks_passed": [],
@@ -98,7 +260,7 @@
         },
         {
           "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
-          "value": 149350,
+          "value": 96157,
           "unit": "EUR",
           "confidence": 0.6,
           "checks_passed": [],
@@ -106,7 +268,7 @@
         },
         {
           "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
-          "value": 1339065,
+          "value": 1182000,
           "unit": "EUR",
           "confidence": 0.6,
           "checks_passed": [],
@@ -114,17 +276,15 @@
         },
         {
           "field_key": "PL_FINANCIAL_RESULTS_FRGAAP",
-          "value": 18831,
+          "value": 357,
           "unit": "EUR",
-          "confidence": 0.85,
-          "checks_passed": [
-            "V2b"
-          ],
+          "confidence": 0.6,
+          "checks_passed": [],
           "checks_failed": []
         },
         {
           "field_key": "PL_INCOME_TAX_FRGAAP",
-          "value": 164610,
+          "value": 31566,
           "unit": "EUR",
           "confidence": 0.6,
           "checks_passed": [],
@@ -132,7 +292,7 @@
         },
         {
           "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
-          "value": 1905706,
+          "value": 1609519,
           "unit": "EUR",
           "confidence": 0.6,
           "checks_passed": [],
@@ -140,11 +300,137 @@
         },
         {
           "field_key": "PL_REVENUE_FRGAAP",
-          "value": 4982524,
+          "value": 3875200,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        }
+      ],
+      "checks": [
+        {
+          "check_id": "V1b",
+          "passed": true,
+          "detail": "total assets vs total liabilities and equity, both off the plaquette: 3500529 vs 3500529",
+          "delta": 0.0,
+          "tolerance": 1
+        }
+      ]
+    },
+    {
+      "siren": "328024377",
+      "doc_id": "63e8ebbb54febda17c19ee7d",
+      "fiscal_year_end": "2021-06-30",
+      "fields": [
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 152500,
           "unit": "EUR",
           "confidence": 0.85,
           "checks_passed": [
-            "V2a"
+            "V4"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 2516918,
+          "unit": "EUR",
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 4823303,
+          "unit": "EUR",
+          "confidence": 0.85,
+          "checks_passed": [
+            "V1"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 2816959,
+          "unit": "EUR",
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "value": 1044139,
+          "unit": "EUR",
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "value": 149350,
+          "unit": "EUR",
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "value": 1339065,
+          "unit": "EUR",
+          "confidence": 0.3,
+          "checks_passed": [],
+          "checks_failed": [
+            "V4"
+          ]
+        },
+        {
+          "field_key": "PL_FINANCIAL_RESULTS_FRGAAP",
+          "value": 18831,
+          "unit": "EUR",
+          "confidence": 0.93,
+          "checks_passed": [
+            "V2b",
+            "V4"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "value": 164610,
+          "unit": "EUR",
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "value": 1905706,
+          "unit": "EUR",
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "value": 4982524,
+          "unit": "EUR",
+          "confidence": 0.93,
+          "checks_passed": [
+            "V2a",
+            "V4"
           ],
           "checks_failed": []
         }
@@ -152,9 +438,9 @@
       "checks": [
         {
           "check_id": "V1",
-          "passed": false,
-          "detail": "total assets vs total equity and liabilities: 7113704 vs 4823303, off by 2290401",
-          "delta": 2290401.0,
+          "passed": true,
+          "detail": "total assets vs total equity and liabilities: 4823303 vs 4823303",
+          "delta": 0.0,
           "tolerance": 1
         },
         {
@@ -184,6 +470,76 @@
           "detail": "registry says 2021-06-30, the form prints 2021-06-30",
           "delta": null,
           "tolerance": 0
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "BS_CAPITAL_EQUITY_FRGAAP: liasse 152500 vs plaquette 152500",
+          "delta": 0.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "BS_CASH_CURRENT_ASSET_FRGAAP: liasse 2516918 vs plaquette 2516919, off by -1",
+          "delta": -1.0,
+          "tolerance": 2
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "BS_TOTAL_EQUITY_FRGAAP: liasse 2816959 vs plaquette 2816960, off by -1",
+          "delta": -1.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "PL_COGS_FRGAAP: liasse 1044139 vs plaquette 1044141, off by -2",
+          "delta": -2.0,
+          "tolerance": 5
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "PL_DEPRECIATION_AMORTIZATION_FRGAAP: liasse 149350 vs plaquette 149350",
+          "delta": 0.0,
+          "tolerance": 2
+        },
+        {
+          "check_id": "V4",
+          "passed": false,
+          "detail": "PL_EXT_SERVICES_COSTS_FRGAAP: liasse 1339065 vs plaquette 1339068, off by -3",
+          "delta": -3.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "PL_FINANCIAL_RESULTS_FRGAAP: liasse 18831 vs plaquette 18832, off by -1",
+          "delta": -1.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "PL_INCOME_TAX_FRGAAP: liasse 164610 vs plaquette 164610",
+          "delta": 0.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "PL_PERSONNEL_COSTS_FRGAAP: liasse 1905706 vs plaquette 1905707, off by -1",
+          "delta": -1.0,
+          "tolerance": 2
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "PL_REVENUE_FRGAAP: liasse 4982524 vs plaquette 4982525, off by -1",
+          "delta": -1.0,
+          "tolerance": 1
         }
       ]
     },
@@ -196,67 +552,80 @@
           "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
           "value": 152500,
           "unit": "EUR",
-          "confidence": 0.6,
-          "checks_passed": [],
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
           "checks_failed": []
         },
         {
           "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
           "value": 1981196,
           "unit": "EUR",
-          "confidence": 0.6,
-          "checks_passed": [],
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
           "checks_failed": []
         },
         {
           "field_key": "BS_TOTAL_ASSETS_FRGAAP",
-          "value": 8754311,
+          "value": 6233746,
           "unit": "EUR",
-          "confidence": 0.3,
-          "checks_passed": [],
-          "checks_failed": [
+          "confidence": 0.85,
+          "checks_passed": [
             "V1"
-          ]
+          ],
+          "checks_failed": []
         },
         {
           "field_key": "BS_TOTAL_EQUITY_FRGAAP",
           "value": 3036481,
           "unit": "EUR",
-          "confidence": 0.6,
-          "checks_passed": [],
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
           "checks_failed": []
         },
         {
           "field_key": "PL_COGS_FRGAAP",
           "value": 1008553,
           "unit": "EUR",
-          "confidence": 0.6,
-          "checks_passed": [],
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
           "checks_failed": []
         },
         {
           "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
           "value": 321856,
           "unit": "EUR",
-          "confidence": 0.6,
+          "confidence": 0.3,
           "checks_passed": [],
-          "checks_failed": []
+          "checks_failed": [
+            "V4"
+          ]
         },
         {
           "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
           "value": 1432377,
           "unit": "EUR",
-          "confidence": 0.6,
-          "checks_passed": [],
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
           "checks_failed": []
         },
         {
           "field_key": "PL_FINANCIAL_RESULTS_FRGAAP",
           "value": -76778,
           "unit": "EUR",
-          "confidence": 0.85,
+          "confidence": 0.93,
           "checks_passed": [
-            "V2b"
+            "V2b",
+            "V4"
           ],
           "checks_failed": []
         },
@@ -264,25 +633,30 @@
           "field_key": "PL_INCOME_TAX_FRGAAP",
           "value": 125062,
           "unit": "EUR",
-          "confidence": 0.6,
-          "checks_passed": [],
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
           "checks_failed": []
         },
         {
           "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
           "value": 2212508,
           "unit": "EUR",
-          "confidence": 0.6,
-          "checks_passed": [],
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
           "checks_failed": []
         },
         {
           "field_key": "PL_REVENUE_FRGAAP",
           "value": 5564581,
           "unit": "EUR",
-          "confidence": 0.85,
+          "confidence": 0.93,
           "checks_passed": [
-            "V2a"
+            "V2a",
+            "V4"
           ],
           "checks_failed": []
         }
@@ -290,9 +664,9 @@
       "checks": [
         {
           "check_id": "V1",
-          "passed": false,
-          "detail": "total assets vs total equity and liabilities: 8754311 vs 6233746, off by 2520565",
-          "delta": 2520565.0,
+          "passed": true,
+          "detail": "total assets vs total equity and liabilities: 6233746 vs 6233746",
+          "delta": 0.0,
           "tolerance": 1
         },
         {
@@ -315,8 +689,273 @@
           "detail": "registry says 2022-06-30, the form prints 2022-06-30",
           "delta": null,
           "tolerance": 0
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "BS_CAPITAL_EQUITY_FRGAAP: liasse 152500 vs plaquette 152500",
+          "delta": 0.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "BS_CASH_CURRENT_ASSET_FRGAAP: liasse 1981196 vs plaquette 1981197, off by -1",
+          "delta": -1.0,
+          "tolerance": 2
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "BS_TOTAL_EQUITY_FRGAAP: liasse 3036481 vs plaquette 3036482, off by -1",
+          "delta": -1.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "PL_COGS_FRGAAP: liasse 1008553 vs plaquette 1008553",
+          "delta": 0.0,
+          "tolerance": 5
+        },
+        {
+          "check_id": "V4",
+          "passed": false,
+          "detail": "PL_DEPRECIATION_AMORTIZATION_FRGAAP: liasse 321856 vs plaquette 324901, off by -3045",
+          "delta": -3045.0,
+          "tolerance": 2
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "PL_EXT_SERVICES_COSTS_FRGAAP: liasse 1432377 vs plaquette 1432377",
+          "delta": 0.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "PL_FINANCIAL_RESULTS_FRGAAP: liasse -76778 vs plaquette -76778",
+          "delta": 0.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "PL_INCOME_TAX_FRGAAP: liasse 125062 vs plaquette 125062",
+          "delta": 0.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "PL_PERSONNEL_COSTS_FRGAAP: liasse 2212508 vs plaquette 2212509, off by -1",
+          "delta": -1.0,
+          "tolerance": 2
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "PL_REVENUE_FRGAAP: liasse 5564581 vs plaquette 5564582, off by -1",
+          "delta": -1.0,
+          "tolerance": 1
         }
       ]
+    },
+    {
+      "siren": "445070311",
+      "doc_id": "63e2481c916269756a09542b",
+      "fiscal_year_end": "2020-06-30",
+      "fields": [
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 300000,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 4533366,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 6899412,
+          "unit": "EUR",
+          "confidence": 0.85,
+          "checks_passed": [
+            "V1b"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "value": 1488053,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "value": 236796,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "value": 884031,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "value": 302337,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "value": 1347162,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "value": 4978292,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        }
+      ],
+      "checks": [
+        {
+          "check_id": "V1b",
+          "passed": true,
+          "detail": "total assets vs total liabilities and equity, both off the plaquette: 6899412 vs 6899412",
+          "delta": 0.0,
+          "tolerance": 1
+        }
+      ]
+    },
+    {
+      "siren": "445070311",
+      "doc_id": "65a4095d5fd178b16b09b860",
+      "fiscal_year_end": "2022-06-30",
+      "fields": [
+        {
+          "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
+          "value": 300000,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
+          "value": 6876899,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_TOTAL_ASSETS_FRGAAP",
+          "value": 10174922,
+          "unit": "EUR",
+          "confidence": 0.85,
+          "checks_passed": [
+            "V1b"
+          ],
+          "checks_failed": []
+        },
+        {
+          "field_key": "BS_TOTAL_EQUITY_FRGAAP",
+          "value": 7076804,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_COGS_FRGAAP",
+          "value": 1953566,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_DEPRECIATION_AMORTIZATION_FRGAAP",
+          "value": 267890,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_EXT_SERVICES_COSTS_FRGAAP",
+          "value": 928188,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_INCOME_TAX_FRGAAP",
+          "value": 621467,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_PERSONNEL_COSTS_FRGAAP",
+          "value": 1943291,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        },
+        {
+          "field_key": "PL_REVENUE_FRGAAP",
+          "value": 7362279,
+          "unit": "EUR",
+          "confidence": 0.6,
+          "checks_passed": [],
+          "checks_failed": []
+        }
+      ],
+      "checks": [
+        {
+          "check_id": "V1b",
+          "passed": true,
+          "detail": "total assets vs total liabilities and equity, both off the plaquette: 10174922 vs 10174922",
+          "delta": 0.0,
+          "tolerance": 1
+        }
+      ]
+    },
+    {
+      "siren": "445070311",
+      "doc_id": "6860f28ca0138eae340c7453",
+      "fiscal_year_end": "2023-06-30",
+      "fields": [],
+      "checks": []
     },
     {
       "siren": "504304205",
@@ -341,13 +980,13 @@
         },
         {
           "field_key": "BS_TOTAL_ASSETS_FRGAAP",
-          "value": 2031391,
+          "value": 1807858,
           "unit": "EUR",
-          "confidence": 0.3,
-          "checks_passed": [],
-          "checks_failed": [
+          "confidence": 0.85,
+          "checks_passed": [
             "V1"
-          ]
+          ],
+          "checks_failed": []
         },
         {
           "field_key": "BS_TOTAL_EQUITY_FRGAAP",
@@ -429,9 +1068,9 @@
       "checks": [
         {
           "check_id": "V1",
-          "passed": false,
-          "detail": "total assets vs total equity and liabilities: 2031391 vs 1807858, off by 223533",
-          "delta": 223533.0,
+          "passed": true,
+          "detail": "total assets vs total equity and liabilities: 1807858 vs 1807858",
+          "delta": 0.0,
           "tolerance": 1
         },
         {
@@ -515,13 +1154,13 @@
         },
         {
           "field_key": "BS_TOTAL_ASSETS_FRGAAP",
-          "value": 1987385,
+          "value": 1717114,
           "unit": "EUR",
-          "confidence": 0.3,
-          "checks_passed": [],
-          "checks_failed": [
+          "confidence": 0.85,
+          "checks_passed": [
             "V1"
-          ]
+          ],
+          "checks_failed": []
         },
         {
           "field_key": "BS_TOTAL_EQUITY_FRGAAP",
@@ -595,9 +1234,9 @@
       "checks": [
         {
           "check_id": "V1",
-          "passed": false,
-          "detail": "total assets vs total equity and liabilities: 1987385 vs 1717114, off by 270271",
-          "delta": 270271.0,
+          "passed": true,
+          "detail": "total assets vs total equity and liabilities: 1717114 vs 1717114",
+          "delta": 0.0,
           "tolerance": 1
         },
         {
@@ -667,27 +1306,33 @@
           "field_key": "BS_CAPITAL_EQUITY_FRGAAP",
           "value": 1000000,
           "unit": "EUR",
-          "confidence": 0.6,
-          "checks_passed": [],
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
           "checks_failed": []
         },
         {
           "field_key": "BS_CASH_CURRENT_ASSET_FRGAAP",
           "value": 149451,
           "unit": "EUR",
-          "confidence": 0.6,
-          "checks_passed": [],
+          "confidence": 0.85,
+          "checks_passed": [
+            "V4"
+          ],
           "checks_failed": []
         },
         {
           "field_key": "BS_TOTAL_ASSETS_FRGAAP",
-          "value": 2050178,
+          "value": 1689390,
           "unit": "EUR",
-          "confidence": 0.3,
-          "checks_passed": [],
-          "checks_failed": [
-            "V1"
-          ]
+          "confidence": 0.97,
+          "checks_passed": [
+            "V1",
+            "V1b",
+            "V4"
+          ],
+          "checks_failed": []
         },
         {
           "field_key": "BS_TOTAL_EQUITY_FRGAAP",
@@ -701,9 +1346,37 @@
       "checks": [
         {
           "check_id": "V1",
-          "passed": false,
-          "detail": "total assets vs total equity and liabilities: 2050178 vs 1689390, off by 360788",
-          "delta": 360788.0,
+          "passed": true,
+          "detail": "total assets vs total equity and liabilities: 1689390 vs 1689390",
+          "delta": 0.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "BS_CAPITAL_EQUITY_FRGAAP: liasse 1000000 vs plaquette 1000000",
+          "delta": 0.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "BS_CASH_CURRENT_ASSET_FRGAAP: liasse 149451 vs plaquette 149451",
+          "delta": 0.0,
+          "tolerance": 2
+        },
+        {
+          "check_id": "V4",
+          "passed": true,
+          "detail": "BS_TOTAL_ASSETS_FRGAAP: liasse 1689390 vs plaquette 1689390",
+          "delta": 0.0,
+          "tolerance": 1
+        },
+        {
+          "check_id": "V1b",
+          "passed": true,
+          "detail": "total assets vs total liabilities and equity, both off the plaquette: 1689390 vs 1689390",
+          "delta": 0.0,
           "tolerance": 1
         }
       ]
@@ -731,13 +1404,13 @@
         },
         {
           "field_key": "BS_TOTAL_ASSETS_FRGAAP",
-          "value": 1756506,
+          "value": 945632,
           "unit": "EUR",
-          "confidence": 0.3,
-          "checks_passed": [],
-          "checks_failed": [
+          "confidence": 0.85,
+          "checks_passed": [
             "V1"
-          ]
+          ],
+          "checks_failed": []
         },
         {
           "field_key": "BS_TOTAL_EQUITY_FRGAAP",
@@ -811,9 +1484,9 @@
       "checks": [
         {
           "check_id": "V1",
-          "passed": false,
-          "detail": "total assets vs total equity and liabilities: 1756506 vs 945632, off by 810874",
-          "delta": 810874.0,
+          "passed": true,
+          "detail": "total assets vs total equity and liabilities: 945632 vs 945632",
+          "delta": 0.0,
           "tolerance": 1
         },
         {
@@ -869,13 +1542,13 @@
         },
         {
           "field_key": "BS_TOTAL_ASSETS_FRGAAP",
-          "value": 1781360,
+          "value": 1014105,
           "unit": "EUR",
-          "confidence": 0.3,
-          "checks_passed": [],
-          "checks_failed": [
+          "confidence": 0.85,
+          "checks_passed": [
             "V1"
-          ]
+          ],
+          "checks_failed": []
         },
         {
           "field_key": "BS_TOTAL_EQUITY_FRGAAP",
@@ -949,9 +1622,9 @@
       "checks": [
         {
           "check_id": "V1",
-          "passed": false,
-          "detail": "total assets vs total equity and liabilities: 1781360 vs 1014105, off by 767255",
-          "delta": 767255.0,
+          "passed": true,
+          "detail": "total assets vs total equity and liabilities: 1014105 vs 1014105",
+          "delta": 0.0,
           "tolerance": 1
         },
         {
@@ -1007,13 +1680,13 @@
         },
         {
           "field_key": "BS_TOTAL_ASSETS_FRGAAP",
-          "value": 1931543,
+          "value": 1135864,
           "unit": "EUR",
-          "confidence": 0.3,
-          "checks_passed": [],
-          "checks_failed": [
+          "confidence": 0.85,
+          "checks_passed": [
             "V1"
-          ]
+          ],
+          "checks_failed": []
         },
         {
           "field_key": "BS_TOTAL_EQUITY_FRGAAP",
@@ -1027,9 +1700,9 @@
       "checks": [
         {
           "check_id": "V1",
-          "passed": false,
-          "detail": "total assets vs total equity and liabilities: 1931543 vs 1135864, off by 795679",
-          "delta": 795679.0,
+          "passed": true,
+          "detail": "total assets vs total equity and liabilities: 1135864 vs 1135864",
+          "delta": 0.0,
           "tolerance": 1
         },
         {

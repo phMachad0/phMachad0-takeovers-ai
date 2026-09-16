@@ -12,7 +12,7 @@ checkable, and ``tests/unit/test_text_fuzzy.py`` checks it rather than trusting 
 
 from __future__ import annotations
 
-from collections.abc import Iterable
+from collections.abc import Iterable, Sequence
 
 # Below this length a single edit is a large share of the word, and short words are not
 # discriminative anyway. They must match exactly.
@@ -68,3 +68,26 @@ def minimum_separation(vocabulary: Iterable[str]) -> int:
     if len(words) < 2:
         return 0
     return min(levenshtein(a, b) for i, a in enumerate(words) for b in words[i + 1 :])
+
+
+# A word the detector cut in two is still one word. "Disponibilités" arrives as "Dispon"
+# and "bilités" on a balance sheet in scope, and neither half is within an edit of the
+# whole. Joining a token to the one after it and trying again recovers it, and cannot
+# invent a match that was not nearly there: the join is only accepted under the same edit
+# tolerance as any other spelling.
+MAX_TOKENS_PER_WORD = 2
+
+
+def matches_run(words: Sequence[str], index: int, canonical_words: Iterable[str]) -> int:
+    """How many tokens starting at ``index`` spell one of these words. 0 for none."""
+    spellings = list(canonical_words)
+    if matches_any(words[index], spellings):
+        return 1
+    joined = words[index]
+    for length in range(2, MAX_TOKENS_PER_WORD + 1):
+        if index + length > len(words):
+            break
+        joined += words[index + length - 1]
+        if matches_any(joined, spellings):
+            return length
+    return 0

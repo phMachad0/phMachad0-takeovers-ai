@@ -136,3 +136,76 @@ def cross_year(earlier: DocumentFacts, later: DocumentFacts) -> list[CheckResult
             )
         )
     return results
+
+
+# The two formats round independently - the liasse is filled in whole euros, the plaquette
+# prints figures rounded from centimes - so a term may legitimately differ by a unit in
+# each. Measured across the three filings that carry both: every genuine agreement is
+# exact or off by one, and the single real disagreement is off by 3 045.
+def _format_tolerance(field_key: str, facts: DocumentFacts) -> int:
+    typed = facts.fields.get(field_key)
+    terms = len(typed.raw.components) if typed is not None else 1
+    return max(1, terms)
+
+
+@check("V4", Scope.DOCUMENT, "the liasse and the plaquette of one filing say the same thing")
+def format_agreement(facts: DocumentFacts) -> list[CheckResult]:
+    """Two extractors, two printings, one number.
+
+    Three filings in scope carry both the DGFiP form and the accountant's own presentation
+    of the same exercise. They were typeset by different software from the same ledger, and
+    they are read here by two pipelines that share no anchoring logic: one follows the
+    two-letter line codes, the other recovers a column grid from geometry and matches French
+    labels. Nothing is common to both but the underlying fact.
+
+    That makes this the strongest check in the suite. The others compare a document with
+    itself - a total against its own terms, one page against another page of the same form.
+    This one compares a document with an independent statement of the same thing, and it is
+    the only check that can catch a value both pages of a form agree on and both get wrong.
+    """
+    results = []
+    for field_key, plaquette in sorted(facts.fields_plaquette.items()):
+        liasse = facts.value(field_key)
+        if liasse is None:
+            continue
+        tolerance = _format_tolerance(field_key, facts)
+        delta = liasse - plaquette.value
+        results.append(
+            CheckResult(
+                check_id="V4",
+                passed=abs(delta) <= tolerance,
+                detail=(
+                    f"{field_key}: liasse {liasse} vs plaquette {plaquette.value}"
+                    + (f", off by {delta}" if delta else "")
+                ),
+                covers=(field_key,),
+                delta=delta,
+                tolerance=tolerance,
+            )
+        )
+    return results
+
+
+@check("V1b", Scope.DOCUMENT, "a plaquette's own two sides balance against each other")
+def plaquette_balance(facts: DocumentFacts) -> list[CheckResult]:
+    """V1 for the filings that have no line codes for V1 to use.
+
+    The same identity the brief points at - total assets reconcile with the other side of
+    the balance sheet - read off two different pages of the accountant's presentation,
+    through two different column grids recovered independently. Without it the seven
+    plaquette-only filings would carry values no check had ever looked at.
+    """
+    assets = facts.value("BS_TOTAL_ASSETS_FRGAAP")
+    liabilities = facts.terms_plaquette.get("PQ_TOTAL_PASSIF")
+    if assets is None or liabilities is None:
+        return []
+    return [
+        compare(
+            "V1b",
+            assets,
+            liabilities,
+            terms=2,
+            detail="total assets vs total liabilities and equity, both off the plaquette",
+            covers=("BS_TOTAL_ASSETS_FRGAAP",),
+        )
+    ]

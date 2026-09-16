@@ -187,14 +187,35 @@ class TestCorpus:
         assert failures
         assert all(abs(r.delta) == 423 for r in failures)
 
-    def test_no_value_is_contradicted_by_a_check_it_covers(self, verified):
-        contradicted = [
+    # The two contradictions V4 found between a filing's liasse and its own plaquette.
+    # Named rather than tolerated: each is a real disagreement between two printings of the
+    # same exercise, reported with confidence 0.30 and `checks_failed: ["V4"]` rather than
+    # quietly reported as if nothing were wrong. Any *other* contradiction is a regression.
+    KNOWN_CONTRADICTIONS = {
+        # The plaquette condenses depreciation and provisions into one row; the liasse
+        # splits them and ADR-002 takes GA+GB, which excludes provisions on current assets.
+        # The two are measuring slightly different things, and differ by 3 045 euros.
+        ("63e8ebbb", "PL_DEPRECIATION_AMORTIZATION_FRGAAP"),
+        # Off by 3 euros on a single printed total, which rounding does not explain.
+        ("63e8ebbb", "PL_EXT_SERVICES_COSTS_FRGAAP"),
+    }
+
+    def test_only_the_known_disagreements_contradict_a_value(self, verified):
+        contradicted = {
             (doc.document.doc_id[:8], key)
             for doc in verified
             for key, c in doc.confidence.items()
             if c.failed
-        ]
-        assert not contradicted, f"contradicted values: {contradicted}"
+        }
+        assert contradicted <= self.KNOWN_CONTRADICTIONS, (
+            f"new contradictions: {sorted(contradicted - self.KNOWN_CONTRADICTIONS)}"
+        )
+
+    def test_the_format_check_actually_ran_and_actually_disagreed(self, verified):
+        """A check that never fails is a check that is not connected to anything."""
+        results = [r for doc in verified for r in doc.results if r.check_id == "V4"]
+        assert results, "V4 never ran: no filing carried both formats"
+        assert any(not r.passed for r in results), "V4 agreed with everything, which is suspect"
 
     def test_money_never_became_a_float_anywhere(self, verified):
         for doc in verified:

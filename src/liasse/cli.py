@@ -75,7 +75,9 @@ def _extract() -> int:
     import json
 
     from liasse.corpus.loader import iter_pages, iter_scope
+    from liasse.extract.base import RawValue
     from liasse.extract.liasse import extract
+    from liasse.extract.plaquette import extract as extract_plaquette
     from liasse.extract.report import build_report, document_summary
     from liasse.routing.classifier import classify_document
 
@@ -84,9 +86,24 @@ def _extract() -> int:
         pages = list(iter_pages(document))
         routed = classify_document(document, pages)
         forms = {p.page: p.form for p in routed.relevant_pages if p.kind == "liasse" and p.form}
-        if not forms:
+        statements = {
+            p.page: p.statement
+            for p in routed.relevant_pages
+            if p.kind == "plaquette" and p.statement
+        }
+        if not (forms or statements):
             continue
-        values = extract([p for p in pages if p.page in forms], forms)
+
+        values = extract([p for p in pages if p.page in forms], forms) if forms else []
+        # Same precedence as the verifier: where a filing carries both, the liasse reading
+        # is the one reported and the plaquette only fills what the liasse did not give.
+        read = {v.field_key for v in values if isinstance(v, RawValue)}
+        if statements:
+            for value in extract_plaquette([p for p in pages if p.page in statements], statements):
+                if isinstance(value, RawValue) and value.field_key not in read:
+                    values.append(value)
+                    read.add(value.field_key)
+
         summaries.append(document_summary(document, values, routed.income_statement_confidential))
 
     report = build_report(summaries)

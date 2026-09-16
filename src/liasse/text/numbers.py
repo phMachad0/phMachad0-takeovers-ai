@@ -30,7 +30,13 @@ from liasse.text.lines import PositionedToken
 # French formatting: space as thousands separator, comma as decimal, parentheses or a
 # leading minus for negatives. The OCR splits and mangles all of these, which is E4's
 # problem; for a density count, "does this look like part of a number" is enough.
-_NUMERIC_RE = re.compile(r"^[\d\s.,()\u2212\u2013\u2014+-]{1,}$")
+#
+# One stray mark is allowed at the end. The detector glues an apostrophe or a colon to an
+# amount here and there - "963 002 '", "-97 957 :" - and rejecting the whole token for it
+# threw away two terms of a cost of goods sold, which then went absent for a document that
+# prints both of them plainly. Only a single trailing character, and only from marks that
+# never carry meaning in an amount.
+_NUMERIC_RE = re.compile(r"^[\d\s.,()\u2212\u2013\u2014+-]+[\'\":;*\u00b0\u2022]?$")
 
 
 def looks_numeric(text: str) -> bool:
@@ -148,24 +154,44 @@ def _is_well_formed(groups: Sequence[str]) -> bool:
     return all(len(group) == 3 for group in groups[1:])
 
 
+_MINUS_SIGNS = ("-", "−", "–", "—")
+
+
 def _sign_of(
     accepted: Sequence[PositionedToken], preceding: Sequence[PositionedToken]
 ) -> str | None:
     """Which marker, if any, says this amount is negative.
 
-    Three renderings seen on one page: a closing bracket glued to the last digits, an
-    opening bracket as a token of its own, and a bare minus sign to the left.
+    Five renderings, all seen in the corpus: an opening bracket as a token of its own, a
+    closing bracket glued to the last digits, a bare minus to the left, a minus glued to
+    the front of the digits, and a minus trailing them - the last being an accounting
+    convention one of the three plaquette dialects uses throughout.
+
+    A lone closing bracket is taken at face value even though it is half a pair, and that
+    is a decision rather than an oversight. Requiring a matching opener was tried: it is
+    correct reasoning and it is wrong here, because the liasse really does lose the opener
+    - form 2052 prints "(76 778)" and the OCR delivers "76 778)" - and the arithmetic check
+    on that row confirms the figure is negative. The cost is that a stray bracket elsewhere
+    flips a sign, which happens once in the corpus; that one is caught where the evidence
+    to catch it exists, on the page's own Brut - Amortissements = Net identity, rather than
+    here where there is nothing to tell the two apart.
     """
-    if any(")" in t.text for t in accepted):
+    text = " ".join(t.text for t in accepted)
+    if ")" in text:
         return "parenthesis"
+
     for token in reversed(preceding):
         stripped = token.text.strip()
         if stripped in {"(", "["}:
             return "parenthesis"
-        if stripped in {"-", "−", "–", "—"}:
+        if stripped in _MINUS_SIGNS:
             return "minus"
         if stripped:
             break  # anything else between means the marker is not ours
+
+    first, last = accepted[0].text.strip(), accepted[-1].text.strip()
+    if first.startswith(_MINUS_SIGNS) or last.endswith(_MINUS_SIGNS):
+        return "minus"
     return None
 
 

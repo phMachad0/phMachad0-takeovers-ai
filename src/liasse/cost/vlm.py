@@ -225,10 +225,11 @@ def build_scenarios(
         bill([], "deterministic", "what this pipeline does: no page is sent to any model."),
         bill(
             plaquette,
-            "escalate_plaquettes",
-            "send only the pages the code-anchored reader cannot touch. A plaquette is the "
-            "accountant's own presentation and prints no liasse line codes, so there is "
-            "nothing on it to anchor to; every other routed page has codes.",
+            "escalate_pages_without_line_codes",
+            "send only the pages that carry no liasse line code - the accountant's own "
+            "presentation of the accounts. This was the obvious escalation target until "
+            "the label-anchored reader was built for exactly those pages; it is priced "
+            "here as the alternative that was not taken.",
         ),
         bill(
             with_fields,

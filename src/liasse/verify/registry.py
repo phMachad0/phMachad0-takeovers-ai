@@ -93,7 +93,14 @@ class DocumentFacts:
     siren: str
     fiscal_year_end: str | None
     fields: dict[str, Any] = field(default_factory=dict)  # field_key -> TypedValue
+    # The same fields as read off this filing's plaquette pages, when it carries both
+    # formats. Kept apart from `fields` rather than merged into them: the point of having
+    # two readings is to compare them, and a merge would destroy exactly that.
+    fields_plaquette: dict[str, Any] = field(default_factory=dict)
     codes: dict[str, Number] = field(default_factory=dict)  # line code -> current year
+    # Rows read off plaquette pages for the checks: a plaquette has no line codes,
+    # so these are keyed by the catalogue's own term ids instead.
+    terms_plaquette: dict[str, Number] = field(default_factory=dict)
     codes_previous: dict[str, Number] = field(default_factory=dict)  # -> previous year
     # The closing date as printed on the form, against the registry's own dateCloture.
     printed_closing_date: str | None = None

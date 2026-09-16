@@ -152,10 +152,10 @@ def build_documents(verified: list[VerifiedDocument]) -> list[dict]:
 
         if verified_doc is None:
             # Listed rather than omitted: a reader of this file should see all fifteen and
-            # be told which were left, instead of having to notice seven are missing.
+            # be told which were left, instead of having to notice some are missing.
             record["not_processed"] = (
-                "plaquette format: the accountant's own presentation, with no liasse line "
-                "codes. The label-anchored extractor for it was not built."
+                "no page of this filing was routed to a statement either extractor could "
+                "read."
             )
             out.append(record)
             continue
@@ -180,6 +180,15 @@ def build_documents(verified: list[VerifiedDocument]) -> list[dict]:
         absent = [k for k in BY_KEY if k not in emitted]
         if absent:
             record["fields_absent"] = absent
+        if not record["fields"]:
+            # Routed, read, and nothing came back. Saying so is the point: a filing that
+            # silently contributes an empty list looks identical to one that was never
+            # reached, and the two are different failures.
+            record["not_processed"] = (
+                "pages were routed but no field could be read from them. The OCR returns "
+                "this filing's tables in a scrambled reading order, so the rows do not "
+                "reconstruct and no column grid is recoverable."
+            )
         out.append(record)
 
     return out
@@ -201,12 +210,15 @@ def build(
         "run": run_block,
         "notes": (
             f"{sum(len(d['fields']) for d in documents)} values from "
-            f"{len(processed)} of {len(documents)} filings. The seven not processed are "
-            "plaquettes - the accountant's own presentation of the accounts, with no "
-            "liasse line codes - and the extractor for that format was not built. Of the "
-            "fields absent from the filings that were processed, the six PL_* fields of "
-            "two deposits are absent by law: those companies filed under the L.232-25 "
-            "confidentiality option and the registry marks the deposit "
+            f"{len(processed)} of {len(documents)} filings. Two formats are read: the "
+            "DGFiP liasse, anchored on the two-letter line codes fixed by law, and the "
+            "plaquette - the accountant's own presentation, which prints no codes and is "
+            "read by recovering the column grid from the page geometry and matching the "
+            "printed French labels. Where a filing carries both, the liasse reading is "
+            "the one reported and the plaquette reading is spent on check V4, which "
+            "compares them. Of the fields absent from the filings that were processed, "
+            "the six PL_* fields of two deposits are absent by law: those companies filed "
+            "under the L.232-25 confidentiality option and the registry marks the deposit "
             "'Partiellement confidentiel'. Every value carries the checks it survived; "
             "those checks measure agreement between statements the documents make more "
             "than once, not truth."

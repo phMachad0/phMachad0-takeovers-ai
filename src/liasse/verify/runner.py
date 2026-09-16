@@ -10,7 +10,10 @@ from liasse.corpus.loader import iter_pages, iter_scope
 from liasse.corpus.models import Document, OcrPage
 from liasse.extract.base import RawValue
 from liasse.extract.liasse import extract, read_codes
+from liasse.extract.plaquette import extract as extract_plaquette
+from liasse.extract.plaquette import read_terms
 from liasse.fields.checks import CHECK_ANCHORS
+from liasse.fields.plaquette import BS_LIABILITIES, TOTAL_LIABILITIES
 from liasse.routing.classifier import classify_document
 from liasse.units.resolver import TypedValue, resolve
 from liasse.verify.confidence import Confidence, for_field
@@ -49,15 +52,54 @@ class VerifiedDocument:
 
 
 def _facts(document: Document) -> tuple[DocumentFacts, dict[str, TypedValue]] | None:
+    """Read one filing with whichever extractors its pages call for.
+
+    A filing can carry both formats, and three in scope do. Where it does, the liasse
+    reading is the one reported: it is anchored on line codes fixed by law rather than on
+    printed words, and the arithmetic checks of the form apply to it. The plaquette reading
+    is kept beside it and spent on V4 instead of being merged away. Where a filing carries
+    only plaquette pages - seven of the fifteen - that reading is what there is, and it is
+    reported.
+    """
     pages = list(iter_pages(document))
     routed = classify_document(document, pages)
     forms = {p.page: p.form for p in routed.relevant_pages if p.kind == "liasse" and p.form}
-    if not forms:
+    statements = {
+        p.page: p.statement
+        for p in routed.relevant_pages
+        if p.kind == "plaquette" and p.statement
+    }
+    if not (forms or statements):
         return None
-    selected = [p for p in pages if p.page in forms]
 
-    raw = [v for v in extract(selected, forms) if isinstance(v, RawValue)]
+    selected = [p for p in pages if p.page in forms]
+    raw = [v for v in extract(selected, forms) if isinstance(v, RawValue)] if forms else []
     typed = {t.field_key: t for t in resolve(raw, document, pages)}
+
+    plaquette_pages = [p for p in pages if p.page in statements]
+    raw_plaquette = (
+        [v for v in extract_plaquette(plaquette_pages, statements) if isinstance(v, RawValue)]
+        if statements
+        else []
+    )
+    typed_plaquette = {t.field_key: t for t in resolve(raw_plaquette, document, pages)}
+
+    reported = dict(typed)
+    for key, value in typed_plaquette.items():
+        reported.setdefault(key, value)
+
+    # Restricted to the liabilities pages on purpose: the asset page of the same filing
+    # prints "TOTAL GENERAL" too, and reading that one would compare a number with itself.
+    liabilities_pages = {p: s for p, s in statements.items() if s == BS_LIABILITIES}
+    terms_plaquette = {
+        k: c.value
+        for k, c in read_terms(
+            [p for p in pages if p.page in liabilities_pages],
+            liabilities_pages,
+            (TOTAL_LIABILITIES,),
+        ).items()
+    }
+
     codes = {k: c.value for k, c in read_codes(selected, forms, CHECK_ANCHORS).items()}
     previous = {
         k: c.value for k, c in read_codes(selected, forms, CHECK_ANCHORS, previous=True).items()
@@ -67,12 +109,18 @@ def _facts(document: Document) -> tuple[DocumentFacts, dict[str, TypedValue]] | 
             doc_id=document.doc_id,
             siren=document.siren,
             fiscal_year_end=document.fiscal_year_end,
-            fields=typed,
+            fields=reported,
+            # Only where the filing carries both. On a plaquette-only filing the two
+            # dictionaries are the same object's contents, and a check comparing a value
+            # with itself passes every time while verifying nothing - which is the failure
+            # E7 already walked into once.
+            fields_plaquette=typed_plaquette if forms else {},
             codes=codes,
+            terms_plaquette=terms_plaquette,
             codes_previous=previous,
-            printed_closing_date=printed_closing_date(selected),
+            printed_closing_date=printed_closing_date(selected or plaquette_pages),
         ),
-        typed,
+        reported,
     )
 
 

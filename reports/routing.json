@@ -3,17 +3,17 @@
   "totals": {
     "documents": 15,
     "pages": 415,
-    "relevant_pages": 60,
-    "relevant_share": 0.1446,
-    "reduction_factor": 6.92,
+    "relevant_pages": 61,
+    "relevant_share": 0.147,
+    "reduction_factor": 6.8,
     "kinds": {
-      "prose": 250,
+      "prose": 249,
       "blank": 52,
-      "plaquette": 29,
+      "plaquette": 30,
       "liasse": 84
     },
     "statements": {
-      "BS_ASSETS": 19,
+      "BS_ASSETS": 20,
       "BS_LIABILITIES": 18,
       "PL": 12,
       "PL_CONT": 8,
@@ -237,7 +237,7 @@
             "fingerprint_form": null,
             "fingerprint_overlap": 0,
             "plaquette_title": "PL",
-            "numeric_ratio": 0.682,
+            "numeric_ratio": 0.697,
             "statement_via": "title"
           }
         }
@@ -315,7 +315,7 @@
           "signals": {
             "n_tokens": 132,
             "header_form": "2053",
-            "n_codes": 26,
+            "n_codes": 28,
             "fingerprint_form": "2053",
             "fingerprint_overlap": 16,
             "plaquette_title": "PL",
@@ -447,7 +447,7 @@
           "signals": {
             "n_tokens": 136,
             "header_form": "2053",
-            "n_codes": 26,
+            "n_codes": 27,
             "fingerprint_form": "2053",
             "fingerprint_overlap": 16,
             "plaquette_title": "PL",
@@ -684,11 +684,11 @@
       "format": "plaquette",
       "income_statement_confidential": false,
       "n_pages": 32,
-      "n_relevant_pages": 4,
+      "n_relevant_pages": 5,
       "kinds": {
         "blank": 17,
-        "prose": 11,
-        "plaquette": 4
+        "prose": 10,
+        "plaquette": 5
       },
       "relevant": [
         {
@@ -704,7 +704,7 @@
             "fingerprint_form": null,
             "fingerprint_overlap": 0,
             "plaquette_title": null,
-            "numeric_ratio": 0.472,
+            "numeric_ratio": 0.48,
             "statement_via": "labels",
             "label_hits": {
               "BS_LIABILITIES": 5,
@@ -733,6 +733,29 @@
               "BS_LIABILITIES": 2,
               "BS_ASSETS": 3,
               "PL": 4
+            },
+            "low_confidence": true
+          }
+        },
+        {
+          "page": 13,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": true,
+          "signals": {
+            "n_tokens": 169,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": null,
+            "numeric_ratio": 0.189,
+            "statement_via": "labels",
+            "label_hits": {
+              "BS_LIABILITIES": 1,
+              "BS_ASSETS": 4,
+              "PL": 0
             },
             "low_confidence": true
           }
@@ -773,7 +796,7 @@
             "fingerprint_form": null,
             "fingerprint_overlap": 0,
             "plaquette_title": null,
-            "numeric_ratio": 0.224,
+            "numeric_ratio": 0.263,
             "statement_via": "labels",
             "label_hits": {
               "BS_LIABILITIES": 1,
@@ -808,7 +831,7 @@
           "signals": {
             "n_tokens": 274,
             "header_form": "2050",
-            "n_codes": 68,
+            "n_codes": 69,
             "fingerprint_form": "2050",
             "fingerprint_overlap": 46,
             "plaquette_title": "BS_ASSETS",
@@ -844,7 +867,7 @@
             "fingerprint_form": "2052",
             "fingerprint_overlap": 18,
             "plaquette_title": "PL",
-            "numeric_ratio": 0.367
+            "numeric_ratio": 0.372
           }
         },
         {
@@ -872,7 +895,7 @@
           "signals": {
             "n_tokens": 216,
             "header_form": "2058-C",
-            "n_codes": 37,
+            "n_codes": 39,
             "fingerprint_form": null,
             "fingerprint_overlap": 0,
             "plaquette_title": null,
@@ -905,7 +928,7 @@
           "signals": {
             "n_tokens": 268,
             "header_form": "2050",
-            "n_codes": 58,
+            "n_codes": 59,
             "fingerprint_form": "2050",
             "fingerprint_overlap": 46,
             "plaquette_title": "BS_ASSETS",
@@ -937,7 +960,7 @@
           "signals": {
             "n_tokens": 189,
             "header_form": "2052",
-            "n_codes": 40,
+            "n_codes": 42,
             "fingerprint_form": "2052",
             "fingerprint_overlap": 18,
             "plaquette_title": "PL",
@@ -1101,7 +1124,7 @@
           "signals": {
             "n_tokens": 253,
             "header_form": "2050",
-            "n_codes": 68,
+            "n_codes": 69,
             "fingerprint_form": "2050",
             "fingerprint_overlap": 46,
             "plaquette_title": "BS_ASSETS",
@@ -1149,7 +1172,7 @@
           "signals": {
             "n_tokens": 139,
             "header_form": "2053",
-            "n_codes": 26,
+            "n_codes": 27,
             "fingerprint_form": "2053",
             "fingerprint_overlap": 16,
             "plaquette_title": "PL",

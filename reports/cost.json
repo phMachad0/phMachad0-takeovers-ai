@@ -2,24 +2,24 @@
   "about": "What this run cost, and what a vision model would cost on the same corpus. The two halves are kept apart on purpose: 'measured' is what the run observed, 'derived' never called an API.",
   "measured": {
     "cost_eur_per_page": 0.0,
-    "seconds_per_page": 0.00403,
+    "seconds_per_page": 0.00611,
     "pages_processed": 415,
     "model": "provided OCR + rules",
-    "seconds_total": 1.67337,
+    "seconds_total": 2.5375,
     "pages_in_scope": 415,
-    "pages_carrying_fields": 60,
+    "pages_carrying_fields": 61,
     "stages": [
       {
         "name": "count_pages",
-        "seconds": 0.00452
+        "seconds": 0.00811
       },
       {
         "name": "route_extract_verify",
-        "seconds": 1.46297
+        "seconds": 2.22331
       },
       {
         "name": "build_documents",
-        "seconds": 0.20589
+        "seconds": 0.30608
       }
     ],
     "api_calls": 0,
@@ -59,7 +59,7 @@
     },
     "tokens_per_page": {
       "prompt": 1000,
-      "answer_on_a_page_carrying_fields": 36
+      "answer_on_a_page_carrying_fields": 56
     },
     "assumptions": [
       {
@@ -128,62 +128,62 @@
         }
       },
       {
-        "name": "escalate_plaquettes",
-        "about": "send only the pages the code-anchored reader cannot touch. A plaquette is the accountant's own presentation and prints no liasse line codes, so there is nothing on it to anchor to; every other routed page has codes.",
-        "pages_sent": 29,
-        "input_tokens": 167736,
-        "output_tokens": 1044,
+        "name": "escalate_pages_without_line_codes",
+        "about": "send only the pages that carry no liasse line code - the accountant's own presentation of the accounts. This was the obvious escalation target until the label-anchored reader was built for exactly those pages; it is priced here as the alternative that was not taken.",
+        "pages_sent": 30,
+        "input_tokens": 173520,
+        "output_tokens": 1680,
         "by_model": {
           "claude-opus-5": {
-            "usd": 0.86478,
-            "eur": 0.749571,
-            "eur_per_page_of_corpus": 0.001806,
-            "eur_per_page_sent": 0.025847,
-            "output_share": 0.0302
+            "usd": 0.9096,
+            "eur": 0.78842,
+            "eur_per_page_of_corpus": 0.0019,
+            "eur_per_page_sent": 0.026281,
+            "output_share": 0.0462
           },
           "claude-sonnet-5": {
-            "usd": 0.518868,
-            "eur": 0.449743,
-            "eur_per_page_of_corpus": 0.001084,
-            "eur_per_page_sent": 0.015508,
-            "output_share": 0.0302
+            "usd": 0.54576,
+            "eur": 0.473052,
+            "eur_per_page_of_corpus": 0.00114,
+            "eur_per_page_sent": 0.015768,
+            "output_share": 0.0462
           },
           "claude-haiku-4-5": {
-            "usd": 0.172956,
-            "eur": 0.149914,
-            "eur_per_page_of_corpus": 0.000361,
-            "eur_per_page_sent": 0.005169,
-            "output_share": 0.0302
+            "usd": 0.18192,
+            "eur": 0.157684,
+            "eur_per_page_of_corpus": 0.00038,
+            "eur_per_page_sent": 0.005256,
+            "output_share": 0.0462
           }
         }
       },
       {
         "name": "vlm_on_routed_pages",
         "about": "send every page the router says carries at least one of the twelve fields.",
-        "pages_sent": 60,
-        "input_tokens": 347040,
-        "output_tokens": 2160,
+        "pages_sent": 61,
+        "input_tokens": 352824,
+        "output_tokens": 3416,
         "by_model": {
           "claude-opus-5": {
-            "usd": 1.7892,
-            "eur": 1.550836,
-            "eur_per_page_of_corpus": 0.003737,
-            "eur_per_page_sent": 0.025847,
-            "output_share": 0.0302
+            "usd": 1.84952,
+            "eur": 1.60312,
+            "eur_per_page_of_corpus": 0.003863,
+            "eur_per_page_sent": 0.026281,
+            "output_share": 0.0462
           },
           "claude-sonnet-5": {
-            "usd": 1.07352,
-            "eur": 0.930502,
-            "eur_per_page_of_corpus": 0.002242,
-            "eur_per_page_sent": 0.015508,
-            "output_share": 0.0302
+            "usd": 1.109712,
+            "eur": 0.961872,
+            "eur_per_page_of_corpus": 0.002318,
+            "eur_per_page_sent": 0.015768,
+            "output_share": 0.0462
           },
           "claude-haiku-4-5": {
-            "usd": 0.35784,
-            "eur": 0.310167,
-            "eur_per_page_of_corpus": 0.000747,
-            "eur_per_page_sent": 0.005169,
-            "output_share": 0.0302
+            "usd": 0.369904,
+            "eur": 0.320624,
+            "eur_per_page_of_corpus": 0.000773,
+            "eur_per_page_sent": 0.005256,
+            "output_share": 0.0462
           }
         }
       },
@@ -192,36 +192,36 @@
         "about": "send the whole corpus, which is what a pipeline without a router has to do.",
         "pages_sent": 415,
         "input_tokens": 2400360,
-        "output_tokens": 2160,
+        "output_tokens": 3416,
         "by_model": {
           "claude-opus-5": {
-            "usd": 12.0558,
-            "eur": 10.449684,
-            "eur_per_page_of_corpus": 0.02518,
-            "eur_per_page_sent": 0.02518,
-            "output_share": 0.0045
+            "usd": 12.0872,
+            "eur": 10.4769,
+            "eur_per_page_of_corpus": 0.025246,
+            "eur_per_page_sent": 0.025246,
+            "output_share": 0.0071
           },
           "claude-sonnet-5": {
-            "usd": 7.23348,
-            "eur": 6.26981,
-            "eur_per_page_of_corpus": 0.015108,
-            "eur_per_page_sent": 0.015108,
-            "output_share": 0.0045
+            "usd": 7.25232,
+            "eur": 6.28614,
+            "eur_per_page_of_corpus": 0.015147,
+            "eur_per_page_sent": 0.015147,
+            "output_share": 0.0071
           },
           "claude-haiku-4-5": {
-            "usd": 2.41116,
-            "eur": 2.089937,
-            "eur_per_page_of_corpus": 0.005036,
-            "eur_per_page_sent": 0.005036,
-            "output_share": 0.0045
+            "usd": 2.41744,
+            "eur": 2.09538,
+            "eur_per_page_of_corpus": 0.005049,
+            "eur_per_page_sent": 0.005049,
+            "output_share": 0.0071
           }
         }
       }
     ],
     "headline": {
-      "pages_if_routed": 60,
+      "pages_if_routed": 61,
       "pages_if_not": 415,
-      "waste_factor": 6.92,
+      "waste_factor": 6.8,
       "note": "Routing is the only decision on this table that changes the bill by a factor rather than a fraction, and it costs nothing to make. The pages it discards were measured to carry none of the twelve fields, so the larger number buys no accuracy - it buys the same answer, later."
     }
   }
