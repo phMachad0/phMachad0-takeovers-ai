@@ -1,0 +1,1313 @@
+{
+  "about": "Page routing over the 15 documents in scope. 'relevant' pages are those carrying at least one of the 12 fields. Everything else is court certificates, minutes, audit reports and annexe schedules.",
+  "totals": {
+    "documents": 15,
+    "pages": 415,
+    "relevant_pages": 61,
+    "relevant_share": 0.147,
+    "reduction_factor": 6.8,
+    "kinds": {
+      "prose": 249,
+      "blank": 52,
+      "plaquette": 30,
+      "liasse": 84
+    },
+    "statements": {
+      "BS_ASSETS": 20,
+      "BS_LIABILITIES": 18,
+      "PL": 12,
+      "PL_CONT": 8,
+      "WORKFORCE": 3
+    },
+    "documents_with_confidential_income_statement": 5,
+    "documents_carrying_both_formats": 3
+  },
+  "documents": [
+    {
+      "siren": "820561470",
+      "doc_id": "6493e4372f502414800f8164",
+      "denomination": "SARL PAUTET",
+      "fiscal_year_end": "2021-08-31",
+      "format": "plaquette",
+      "income_statement_confidential": true,
+      "n_pages": 17,
+      "n_relevant_pages": 2,
+      "kinds": {
+        "prose": 11,
+        "blank": 4,
+        "plaquette": 2
+      },
+      "relevant": [
+        {
+          "page": 6,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 122,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.459,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 7,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 83,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.361,
+            "statement_via": "title"
+          }
+        }
+      ]
+    },
+    {
+      "siren": "820561470",
+      "doc_id": "6543d3fd08093cdace058668",
+      "denomination": "SARL PAUTET",
+      "fiscal_year_end": "2022-08-31",
+      "format": "plaquette",
+      "income_statement_confidential": true,
+      "n_pages": 15,
+      "n_relevant_pages": 2,
+      "kinds": {
+        "prose": 12,
+        "plaquette": 2,
+        "blank": 1
+      },
+      "relevant": [
+        {
+          "page": 3,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 123,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.447,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 4,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 80,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.362,
+            "statement_via": "title"
+          }
+        }
+      ]
+    },
+    {
+      "siren": "820561470",
+      "doc_id": "67458f18cea78a70070fa226",
+      "denomination": "SARL PAUTET",
+      "fiscal_year_end": "2023-08-31",
+      "format": "plaquette",
+      "income_statement_confidential": true,
+      "n_pages": 13,
+      "n_relevant_pages": 2,
+      "kinds": {
+        "plaquette": 2,
+        "prose": 10,
+        "blank": 1
+      },
+      "relevant": [
+        {
+          "page": 1,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 125,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.432,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 2,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 85,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.376,
+            "statement_via": "title"
+          }
+        }
+      ]
+    },
+    {
+      "siren": "328024377",
+      "doc_id": "63e8ebbb54febda17c19ee7c",
+      "denomination": "BERNACHON S.A.",
+      "fiscal_year_end": "2020-06-30",
+      "format": "plaquette",
+      "income_statement_confidential": false,
+      "n_pages": 29,
+      "n_relevant_pages": 3,
+      "kinds": {
+        "prose": 26,
+        "plaquette": 3
+      },
+      "relevant": [
+        {
+          "page": 2,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 126,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.484,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 3,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 88,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.364,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 4,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "PL",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 211,
+            "header_form": null,
+            "n_codes": 1,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.697,
+            "statement_via": "title"
+          }
+        }
+      ]
+    },
+    {
+      "siren": "328024377",
+      "doc_id": "63e8ebbb54febda17c19ee7d",
+      "denomination": "BERNACHON SAS",
+      "fiscal_year_end": "2021-06-30",
+      "format": "liasse",
+      "income_statement_confidential": false,
+      "n_pages": 43,
+      "n_relevant_pages": 7,
+      "kinds": {
+        "prose": 36,
+        "liasse": 4,
+        "plaquette": 3
+      },
+      "relevant": [
+        {
+          "page": 2,
+          "kind": "liasse",
+          "form": "2050",
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 256,
+            "header_form": "2050",
+            "n_codes": 67,
+            "fingerprint_form": "2050",
+            "fingerprint_overlap": 46,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.359
+          }
+        },
+        {
+          "page": 3,
+          "kind": "liasse",
+          "form": "2051",
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 143,
+            "header_form": "2051",
+            "n_codes": 36,
+            "fingerprint_form": "2051",
+            "fingerprint_overlap": 25,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.217
+          }
+        },
+        {
+          "page": 4,
+          "kind": "liasse",
+          "form": "2052",
+          "statement": "PL",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 172,
+            "header_form": "2052",
+            "n_codes": 36,
+            "fingerprint_form": "2052",
+            "fingerprint_overlap": 18,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.366
+          }
+        },
+        {
+          "page": 5,
+          "kind": "liasse",
+          "form": "2053",
+          "statement": "PL_CONT",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 132,
+            "header_form": "2053",
+            "n_codes": 28,
+            "fingerprint_form": "2053",
+            "fingerprint_overlap": 16,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.205
+          }
+        },
+        {
+          "page": 23,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 126,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.476,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 24,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 83,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.349,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 25,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "PL",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 172,
+            "header_form": null,
+            "n_codes": 1,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.657,
+            "statement_via": "title"
+          }
+        }
+      ]
+    },
+    {
+      "siren": "328024377",
+      "doc_id": "63e8ebbb54febda17c19ee7e",
+      "denomination": "BERNACHON SAS",
+      "fiscal_year_end": "2022-06-30",
+      "format": "liasse",
+      "income_statement_confidential": false,
+      "n_pages": 42,
+      "n_relevant_pages": 7,
+      "kinds": {
+        "prose": 35,
+        "liasse": 4,
+        "plaquette": 3
+      },
+      "relevant": [
+        {
+          "page": 2,
+          "kind": "liasse",
+          "form": "2050",
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 238,
+            "header_form": "2050",
+            "n_codes": 70,
+            "fingerprint_form": "2050",
+            "fingerprint_overlap": 46,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.319
+          }
+        },
+        {
+          "page": 3,
+          "kind": "liasse",
+          "form": "2051",
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 133,
+            "header_form": "2051",
+            "n_codes": 37,
+            "fingerprint_form": "2051",
+            "fingerprint_overlap": 25,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.165
+          }
+        },
+        {
+          "page": 4,
+          "kind": "liasse",
+          "form": "2052",
+          "statement": "PL",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 167,
+            "header_form": "2052",
+            "n_codes": 48,
+            "fingerprint_form": "2052",
+            "fingerprint_overlap": 18,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.275
+          }
+        },
+        {
+          "page": 5,
+          "kind": "liasse",
+          "form": "2053",
+          "statement": "PL_CONT",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 136,
+            "header_form": "2053",
+            "n_codes": 27,
+            "fingerprint_form": "2053",
+            "fingerprint_overlap": 16,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.235
+          }
+        },
+        {
+          "page": 24,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 131,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.504,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 25,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 84,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.369,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 26,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "PL",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 198,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.707,
+            "statement_via": "title"
+          }
+        }
+      ]
+    },
+    {
+      "siren": "445070311",
+      "doc_id": "63e2481c916269756a09542b",
+      "denomination": "CHOCOLATERIE JACQUES BOCKEL",
+      "fiscal_year_end": "2020-06-30",
+      "format": "plaquette",
+      "income_statement_confidential": false,
+      "n_pages": 28,
+      "n_relevant_pages": 4,
+      "kinds": {
+        "prose": 24,
+        "plaquette": 4
+      },
+      "relevant": [
+        {
+          "page": 14,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 135,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.526,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 15,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 85,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.376,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 16,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "PL",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 90,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.478,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 17,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "PL_CONT",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 77,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "PL_CONT",
+            "numeric_ratio": 0.39,
+            "statement_via": "title"
+          }
+        }
+      ]
+    },
+    {
+      "siren": "445070311",
+      "doc_id": "65a4095d5fd178b16b09b860",
+      "denomination": "CHOCOLATERIE JACQUES BOCKEL",
+      "fiscal_year_end": "2022-06-30",
+      "format": "plaquette",
+      "income_statement_confidential": false,
+      "n_pages": 58,
+      "n_relevant_pages": 4,
+      "kinds": {
+        "prose": 27,
+        "blank": 27,
+        "plaquette": 4
+      },
+      "relevant": [
+        {
+          "page": 23,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 138,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.514,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 25,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 93,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.344,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 27,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "PL",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 99,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.434,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 29,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "PL_CONT",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 94,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "PL_CONT",
+            "numeric_ratio": 0.394,
+            "statement_via": "title"
+          }
+        }
+      ]
+    },
+    {
+      "siren": "445070311",
+      "doc_id": "6860f28ca0138eae340c7453",
+      "denomination": "CHOCOLATERIE JACQUES BOCKEL",
+      "fiscal_year_end": "2023-06-30",
+      "format": "plaquette",
+      "income_statement_confidential": false,
+      "n_pages": 32,
+      "n_relevant_pages": 5,
+      "kinds": {
+        "blank": 17,
+        "prose": 10,
+        "plaquette": 5
+      },
+      "relevant": [
+        {
+          "page": 9,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_LIABILITIES",
+          "low_confidence": true,
+          "signals": {
+            "n_tokens": 229,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": null,
+            "numeric_ratio": 0.48,
+            "statement_via": "labels",
+            "label_hits": {
+              "BS_LIABILITIES": 5,
+              "BS_ASSETS": 4,
+              "PL": 0
+            },
+            "low_confidence": true
+          }
+        },
+        {
+          "page": 11,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "PL",
+          "low_confidence": true,
+          "signals": {
+            "n_tokens": 199,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": null,
+            "numeric_ratio": 0.437,
+            "statement_via": "labels",
+            "label_hits": {
+              "BS_LIABILITIES": 2,
+              "BS_ASSETS": 3,
+              "PL": 4
+            },
+            "low_confidence": true
+          }
+        },
+        {
+          "page": 13,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": true,
+          "signals": {
+            "n_tokens": 169,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": null,
+            "numeric_ratio": 0.189,
+            "statement_via": "labels",
+            "label_hits": {
+              "BS_LIABILITIES": 1,
+              "BS_ASSETS": 4,
+              "PL": 0
+            },
+            "low_confidence": true
+          }
+        },
+        {
+          "page": 15,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": true,
+          "signals": {
+            "n_tokens": 180,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": null,
+            "numeric_ratio": 0.25,
+            "statement_via": "labels",
+            "label_hits": {
+              "BS_LIABILITIES": 1,
+              "BS_ASSETS": 3,
+              "PL": 0
+            },
+            "low_confidence": true
+          }
+        },
+        {
+          "page": 19,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": true,
+          "signals": {
+            "n_tokens": 156,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": null,
+            "numeric_ratio": 0.263,
+            "statement_via": "labels",
+            "label_hits": {
+              "BS_LIABILITIES": 1,
+              "BS_ASSETS": 3,
+              "PL": 0
+            },
+            "low_confidence": true
+          }
+        }
+      ]
+    },
+    {
+      "siren": "504304205",
+      "doc_id": "63e13943526e1f30cd100db5",
+      "denomination": "SO.ME.PROD",
+      "fiscal_year_end": "2016-12-31",
+      "format": "liasse",
+      "income_statement_confidential": false,
+      "n_pages": 28,
+      "n_relevant_pages": 5,
+      "kinds": {
+        "prose": 6,
+        "liasse": 22
+      },
+      "relevant": [
+        {
+          "page": 4,
+          "kind": "liasse",
+          "form": "2050",
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 274,
+            "header_form": "2050",
+            "n_codes": 69,
+            "fingerprint_form": "2050",
+            "fingerprint_overlap": 46,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.398
+          }
+        },
+        {
+          "page": 5,
+          "kind": "liasse",
+          "form": "2051",
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 173,
+            "header_form": "2051",
+            "n_codes": 36,
+            "fingerprint_form": "2051",
+            "fingerprint_overlap": 25,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.306
+          }
+        },
+        {
+          "page": 6,
+          "kind": "liasse",
+          "form": "2052",
+          "statement": "PL",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 196,
+            "header_form": "2052",
+            "n_codes": 48,
+            "fingerprint_form": "2052",
+            "fingerprint_overlap": 18,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.372
+          }
+        },
+        {
+          "page": 7,
+          "kind": "liasse",
+          "form": "2053",
+          "statement": "PL_CONT",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 145,
+            "header_form": "2053",
+            "n_codes": 25,
+            "fingerprint_form": "2053",
+            "fingerprint_overlap": 16,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.29
+          }
+        },
+        {
+          "page": 16,
+          "kind": "liasse",
+          "form": "2058-C",
+          "statement": "WORKFORCE",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 216,
+            "header_form": "2058-C",
+            "n_codes": 39,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": null,
+            "numeric_ratio": 0.255
+          }
+        }
+      ]
+    },
+    {
+      "siren": "504304205",
+      "doc_id": "63e13943526e1f30cd100db6",
+      "denomination": "SO.ME.PROD",
+      "fiscal_year_end": "2017-12-31",
+      "format": "liasse",
+      "income_statement_confidential": false,
+      "n_pages": 30,
+      "n_relevant_pages": 5,
+      "kinds": {
+        "prose": 6,
+        "liasse": 23,
+        "blank": 1
+      },
+      "relevant": [
+        {
+          "page": 4,
+          "kind": "liasse",
+          "form": "2050",
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 268,
+            "header_form": "2050",
+            "n_codes": 59,
+            "fingerprint_form": "2050",
+            "fingerprint_overlap": 46,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.381
+          }
+        },
+        {
+          "page": 5,
+          "kind": "liasse",
+          "form": "2051",
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 148,
+            "header_form": "2051",
+            "n_codes": 33,
+            "fingerprint_form": "2051",
+            "fingerprint_overlap": 25,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.23
+          }
+        },
+        {
+          "page": 6,
+          "kind": "liasse",
+          "form": "2052",
+          "statement": "PL",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 189,
+            "header_form": "2052",
+            "n_codes": 42,
+            "fingerprint_form": "2052",
+            "fingerprint_overlap": 18,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.344
+          }
+        },
+        {
+          "page": 7,
+          "kind": "liasse",
+          "form": "2053",
+          "statement": "PL_CONT",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 149,
+            "header_form": "2053",
+            "n_codes": 25,
+            "fingerprint_form": "2053",
+            "fingerprint_overlap": 16,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.322
+          }
+        },
+        {
+          "page": 16,
+          "kind": "liasse",
+          "form": "2058-C",
+          "statement": "WORKFORCE",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 206,
+            "header_form": "2058-C",
+            "n_codes": 37,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": null,
+            "numeric_ratio": 0.243
+          }
+        }
+      ]
+    },
+    {
+      "siren": "504304205",
+      "doc_id": "66cd893cedec9b09d50191e8",
+      "denomination": "SO.ME.PROD",
+      "fiscal_year_end": "2020-12-31",
+      "format": "liasse",
+      "income_statement_confidential": true,
+      "n_pages": 33,
+      "n_relevant_pages": 5,
+      "kinds": {
+        "blank": 1,
+        "liasse": 21,
+        "prose": 9,
+        "plaquette": 2
+      },
+      "relevant": [
+        {
+          "page": 4,
+          "kind": "liasse",
+          "form": "2050",
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 281,
+            "header_form": "2050",
+            "n_codes": 62,
+            "fingerprint_form": "2050",
+            "fingerprint_overlap": 46,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.399
+          }
+        },
+        {
+          "page": 5,
+          "kind": "liasse",
+          "form": "2051",
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 164,
+            "header_form": "2051",
+            "n_codes": 35,
+            "fingerprint_form": "2051",
+            "fingerprint_overlap": 25,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.299
+          }
+        },
+        {
+          "page": 14,
+          "kind": "liasse",
+          "form": "2058-C",
+          "statement": "WORKFORCE",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 215,
+            "header_form": "2058-C",
+            "n_codes": 35,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": null,
+            "numeric_ratio": 0.265
+          }
+        },
+        {
+          "page": 23,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 141,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.518,
+            "statement_via": "title"
+          }
+        },
+        {
+          "page": 24,
+          "kind": "plaquette",
+          "form": null,
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 105,
+            "header_form": null,
+            "n_codes": 0,
+            "fingerprint_form": null,
+            "fingerprint_overlap": 0,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.448,
+            "statement_via": "title"
+          }
+        }
+      ]
+    },
+    {
+      "siren": "401009741",
+      "doc_id": "63e881158be6eb9f9d1ff975",
+      "denomination": "CREAMANDE",
+      "fiscal_year_end": "2022-04-30",
+      "format": "liasse",
+      "income_statement_confidential": false,
+      "n_pages": 16,
+      "n_relevant_pages": 4,
+      "kinds": {
+        "prose": 12,
+        "liasse": 4
+      },
+      "relevant": [
+        {
+          "page": 2,
+          "kind": "liasse",
+          "form": "2050",
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 253,
+            "header_form": "2050",
+            "n_codes": 69,
+            "fingerprint_form": "2050",
+            "fingerprint_overlap": 46,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.379
+          }
+        },
+        {
+          "page": 3,
+          "kind": "liasse",
+          "form": "2051",
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 143,
+            "header_form": "2051",
+            "n_codes": 38,
+            "fingerprint_form": "2051",
+            "fingerprint_overlap": 25,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.21
+          }
+        },
+        {
+          "page": 4,
+          "kind": "liasse",
+          "form": "2052",
+          "statement": "PL",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 165,
+            "header_form": "2052",
+            "n_codes": 29,
+            "fingerprint_form": "2052",
+            "fingerprint_overlap": 18,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.382
+          }
+        },
+        {
+          "page": 5,
+          "kind": "liasse",
+          "form": "2053",
+          "statement": "PL_CONT",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 139,
+            "header_form": "2053",
+            "n_codes": 27,
+            "fingerprint_form": "2053",
+            "fingerprint_overlap": 16,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.237
+          }
+        }
+      ]
+    },
+    {
+      "siren": "401009741",
+      "doc_id": "65784e5da67d84faf4042736",
+      "denomination": "CREAMANDE",
+      "fiscal_year_end": "2023-04-30",
+      "format": "liasse",
+      "income_statement_confidential": false,
+      "n_pages": 16,
+      "n_relevant_pages": 4,
+      "kinds": {
+        "prose": 12,
+        "liasse": 4
+      },
+      "relevant": [
+        {
+          "page": 4,
+          "kind": "liasse",
+          "form": "2050",
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 245,
+            "header_form": "2050",
+            "n_codes": 68,
+            "fingerprint_form": "2050",
+            "fingerprint_overlap": 46,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.322
+          }
+        },
+        {
+          "page": 5,
+          "kind": "liasse",
+          "form": "2051",
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 138,
+            "header_form": "2051",
+            "n_codes": 36,
+            "fingerprint_form": "2051",
+            "fingerprint_overlap": 25,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.196
+          }
+        },
+        {
+          "page": 6,
+          "kind": "liasse",
+          "form": "2052",
+          "statement": "PL",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 175,
+            "header_form": "2052",
+            "n_codes": 34,
+            "fingerprint_form": "2052",
+            "fingerprint_overlap": 18,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.366
+          }
+        },
+        {
+          "page": 7,
+          "kind": "liasse",
+          "form": "2053",
+          "statement": "PL_CONT",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 134,
+            "header_form": null,
+            "n_codes": 29,
+            "fingerprint_form": "2053",
+            "fingerprint_overlap": 16,
+            "plaquette_title": "PL",
+            "numeric_ratio": 0.209
+          }
+        }
+      ]
+    },
+    {
+      "siren": "401009741",
+      "doc_id": "68f0a715f28d8aaf48046416",
+      "denomination": "CREAMANDE",
+      "fiscal_year_end": "2025-04-30",
+      "format": "liasse",
+      "income_statement_confidential": true,
+      "n_pages": 15,
+      "n_relevant_pages": 2,
+      "kinds": {
+        "prose": 13,
+        "liasse": 2
+      },
+      "relevant": [
+        {
+          "page": 2,
+          "kind": "liasse",
+          "form": "2050",
+          "statement": "BS_ASSETS",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 216,
+            "header_form": "2050",
+            "n_codes": 69,
+            "fingerprint_form": "2050",
+            "fingerprint_overlap": 46,
+            "plaquette_title": "BS_ASSETS",
+            "numeric_ratio": 0.282
+          }
+        },
+        {
+          "page": 3,
+          "kind": "liasse",
+          "form": "2051",
+          "statement": "BS_LIABILITIES",
+          "low_confidence": false,
+          "signals": {
+            "n_tokens": 135,
+            "header_form": "2051",
+            "n_codes": 35,
+            "fingerprint_form": "2051",
+            "fingerprint_overlap": 25,
+            "plaquette_title": "BS_LIABILITIES",
+            "numeric_ratio": 0.185
+          }
+        }
+      ]
+    }
+  ]
+}

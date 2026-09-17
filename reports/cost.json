@@ -1,0 +1,228 @@
+{
+  "about": "What this run cost, and what a vision model would cost on the same corpus. The two halves are kept apart on purpose: 'measured' is what the run observed, 'derived' never called an API.",
+  "measured": {
+    "cost_eur_per_page": 0.0,
+    "seconds_per_page": 0.00587,
+    "pages_processed": 415,
+    "model": "provided OCR + rules",
+    "seconds_total": 2.43647,
+    "pages_in_scope": 415,
+    "pages_carrying_fields": 61,
+    "stages": [
+      {
+        "name": "count_pages",
+        "seconds": 0.00169
+      },
+      {
+        "name": "route_extract_verify",
+        "seconds": 2.16058
+      },
+      {
+        "name": "build_documents",
+        "seconds": 0.27421
+      }
+    ],
+    "api_calls": 0,
+    "models_called": [],
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usd_total": 0.0,
+    "fx": {
+      "usd_per_eur": 1.1537,
+      "date": "2026-09-16",
+      "source": "ECB euro foreign exchange reference rate"
+    }
+  },
+  "derived": {
+    "about": "No API call was made: this repository holds no credential and reads none. Every number below is arithmetic over measured page sizes, published prices and the stated assumptions. It is a derivation, not a measurement, and converting one row of it into a measurement is the next stage's job.",
+    "render": {
+      "dpi": 200,
+      "rules": {
+        "pixels_per_image_token": 750,
+        "max_long_edge_px": 2576,
+        "max_image_tokens": 4784,
+        "consulted": "2026-06-24",
+        "source": "Anthropic published vision limits"
+      },
+      "image_tokens": {
+        "min": 4784,
+        "median": 4784,
+        "max": 4784
+      },
+      "pages_at_the_ceiling": 415,
+      "distinct_page_sizes": 87,
+      "saturation_dpi": {
+        "min": 192,
+        "max": 193
+      },
+      "saturation_note": "Above this resolution the image is downscaled or the per-image ceiling binds, so a higher render costs the same and shows the model less. It is the resolution the price stops at."
+    },
+    "tokens_per_page": {
+      "prompt": 1000,
+      "answer_on_a_page_carrying_fields": 58
+    },
+    "assumptions": [
+      {
+        "name": "chars_per_token",
+        "value": 4.0,
+        "basis": "the conventional English average. JSON tokenises worse than prose, so this under-counts the answer; the report prints the answer's share of the bill so the size of that error can be seen rather than argued about."
+      }
+    ],
+    "prices": [
+      {
+        "model": "claude-opus-5",
+        "usd_per_mtok_input": 5.0,
+        "usd_per_mtok_output": 25.0,
+        "consulted": "2026-06-24",
+        "source": "Anthropic published list prices"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "usd_per_mtok_input": 3.0,
+        "usd_per_mtok_output": 15.0,
+        "consulted": "2026-06-24",
+        "source": "Anthropic published list prices"
+      },
+      {
+        "model": "claude-haiku-4-5",
+        "usd_per_mtok_input": 1.0,
+        "usd_per_mtok_output": 5.0,
+        "consulted": "2026-06-24",
+        "source": "Anthropic published list prices"
+      }
+    ],
+    "fx": {
+      "usd_per_eur": 1.1537,
+      "date": "2026-09-16",
+      "source": "ECB euro foreign exchange reference rate"
+    },
+    "scenarios": [
+      {
+        "name": "deterministic",
+        "about": "what this pipeline does: no page is sent to any model.",
+        "pages_sent": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "by_model": {
+          "claude-opus-5": {
+            "usd": 0.0,
+            "eur": 0.0,
+            "eur_per_page_of_corpus": 0.0,
+            "eur_per_page_sent": null,
+            "output_share": null
+          },
+          "claude-sonnet-5": {
+            "usd": 0.0,
+            "eur": 0.0,
+            "eur_per_page_of_corpus": 0.0,
+            "eur_per_page_sent": null,
+            "output_share": null
+          },
+          "claude-haiku-4-5": {
+            "usd": 0.0,
+            "eur": 0.0,
+            "eur_per_page_of_corpus": 0.0,
+            "eur_per_page_sent": null,
+            "output_share": null
+          }
+        }
+      },
+      {
+        "name": "escalate_pages_without_line_codes",
+        "about": "send only the pages that carry no liasse line code - the accountant's own presentation of the accounts. This was the obvious escalation target until the label-anchored reader was built for exactly those pages; it is priced here as the alternative that was not taken.",
+        "pages_sent": 30,
+        "input_tokens": 173520,
+        "output_tokens": 1740,
+        "by_model": {
+          "claude-opus-5": {
+            "usd": 0.9111,
+            "eur": 0.78972,
+            "eur_per_page_of_corpus": 0.001903,
+            "eur_per_page_sent": 0.026324,
+            "output_share": 0.0477
+          },
+          "claude-sonnet-5": {
+            "usd": 0.54666,
+            "eur": 0.473832,
+            "eur_per_page_of_corpus": 0.001142,
+            "eur_per_page_sent": 0.015794,
+            "output_share": 0.0477
+          },
+          "claude-haiku-4-5": {
+            "usd": 0.18222,
+            "eur": 0.157944,
+            "eur_per_page_of_corpus": 0.000381,
+            "eur_per_page_sent": 0.005265,
+            "output_share": 0.0477
+          }
+        }
+      },
+      {
+        "name": "vlm_on_routed_pages",
+        "about": "send every page the router says carries at least one of the twelve fields.",
+        "pages_sent": 61,
+        "input_tokens": 352824,
+        "output_tokens": 3538,
+        "by_model": {
+          "claude-opus-5": {
+            "usd": 1.85257,
+            "eur": 1.605764,
+            "eur_per_page_of_corpus": 0.003869,
+            "eur_per_page_sent": 0.026324,
+            "output_share": 0.0477
+          },
+          "claude-sonnet-5": {
+            "usd": 1.111542,
+            "eur": 0.963458,
+            "eur_per_page_of_corpus": 0.002322,
+            "eur_per_page_sent": 0.015794,
+            "output_share": 0.0477
+          },
+          "claude-haiku-4-5": {
+            "usd": 0.370514,
+            "eur": 0.321153,
+            "eur_per_page_of_corpus": 0.000774,
+            "eur_per_page_sent": 0.005265,
+            "output_share": 0.0477
+          }
+        }
+      },
+      {
+        "name": "vlm_on_every_page",
+        "about": "send the whole corpus, which is what a pipeline without a router has to do.",
+        "pages_sent": 415,
+        "input_tokens": 2400360,
+        "output_tokens": 3538,
+        "by_model": {
+          "claude-opus-5": {
+            "usd": 12.09025,
+            "eur": 10.479544,
+            "eur_per_page_of_corpus": 0.025252,
+            "eur_per_page_sent": 0.025252,
+            "output_share": 0.0073
+          },
+          "claude-sonnet-5": {
+            "usd": 7.25415,
+            "eur": 6.287726,
+            "eur_per_page_of_corpus": 0.015151,
+            "eur_per_page_sent": 0.015151,
+            "output_share": 0.0073
+          },
+          "claude-haiku-4-5": {
+            "usd": 2.41805,
+            "eur": 2.095909,
+            "eur_per_page_of_corpus": 0.00505,
+            "eur_per_page_sent": 0.00505,
+            "output_share": 0.0073
+          }
+        }
+      }
+    ],
+    "headline": {
+      "pages_if_routed": 61,
+      "pages_if_not": 415,
+      "waste_factor": 6.8,
+      "note": "Routing is the only decision on this table that changes the bill by a factor rather than a fraction, and it costs nothing to make. The pages it discards were measured to carry none of the twelve fields, so the larger number buys no accuracy - it buys the same answer, later."
+    }
+  }
+}

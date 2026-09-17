@@ -1,138 +1,168 @@
-# Takeovers — engineering challenges
+# Bilan - 12 financial fields from 15 French annual filings
 
-Thousands of French companies change hands every year. The record of who owns them and
-what they signed is public, and close to unusable. We make it usable, and we take the
-deal from first contact to signature. France is only where we start.
+**Track:** Data / ML Engineer · **Challenge:** [Bilan](challenges/bilan/BRIEF.md) · **Author:** Pedro Machado
 
-This repository holds the take-home challenges for our two engineering tracks. Pick the
-one for the role you applied to, and inside the Data track, pick **one** of the two
-challenges — not both.
+This is my submission for the Bilan challenge. `results.json` is at the repository root.
+Everything below is my README; the original challenge brief is preserved at the bottom of
+this file and unchanged.
 
-| track | challenge | what it is |
-|---|---|---|
-| **Data / ML Engineer** | [**Bilan**](challenges/bilan/BRIEF.md) | Extract 12 financial fields from 15 French annual filings, and defend the cost/accuracy trade-off you chose. |
-| **Data / ML Engineer** | [**Actes**](challenges/actes/BRIEF.md) | Reconstruct twenty years of a company's capital composition from its filed legal documents. |
-| **Full Stack Engineer** | [**Full stack**](challenges/fullstack/BRIEF.md) | Build a deal pipeline and document vault: headless passwordless auth, a stage machine, idempotent uploads. |
-
-The full-stack brief is self-contained and carries its own instructions. Everything below
-applies to the **two data challenges**.
-
----
-
-## Ground rules
-
-**Time.** Aim for **6–8 hours** of work, within **7 days** of receiving the brief. If you
-run short, cut scope and say so — that is a better outcome than a wide, half-wired
-submission.
-
-**The scope is bigger than the time budget. This is deliberate.** We know it cannot all
-be done in a day. What you choose to do first, what you decide to leave, and how clearly
-you say which is which, is a large part of what we read. Please do not grind for a week;
-we would rather see six good hours and an honest README.
-
-**The documents are in French.** You are not expected to know French, or French corporate
-law. Closing that gap is part of the task, and how you go about it is interesting to us.
-
-**Use any source you like.** These documents are public. You may look companies up in
-public registries, read the gazette, search the web, or open your own free account at
-[data.inpi.fr](https://data.inpi.fr) and pull documents we did not give you.
-Cross-checking one source against another sometimes helps, and sometimes tells you the
-sources disagree — which is itself a finding worth reporting.
-
-**There is no answer key**, and we are not hiding one. For work like this the answer is
-frequently contested; deciding what is true from the evidence in front of you *is* the
-job. We score submissions ourselves, afterwards.
-
-<a id="ai-tools"></a>
-## AI tools
-
-**Use them.** Claude, Cursor, Copilot, whatever you work best with. We use them daily and
-we are not interested in a test of whether you can avoid them.
-
-We do ask one thing: a section in your `README.md`, headed **"How I used AI"**, saying
-what you delegated, what you checked yourself, and anywhere the tool led you somewhere
-wrong. A short, honest paragraph is worth more to us than a long one.
-
-## Grounding
-
-Both data challenges require every extracted value to carry the place it came from: the
-document, the page, and a bounding box. This is not busywork — a number without a
-provenance is not something we can sell, defend to a client, or debug six months later.
-
-Boxes you submit are **`[x0, y0, x1, y1]`, normalized 0–1** against page width and height,
-origin top-left, with pages **1-indexed**.
-
-The OCR we ship uses a different convention — **pixels at 300 dpi** — so there is a
-conversion to do. It is a few lines, and it is on purpose.
-
-### `tools/bbox_viewer.py`
-
-The one piece of code we give you. It draws OCR boxes and your own boxes onto a page, and
-it can tell you the normalized box of any line of text.
+## How to run it
 
 ```bash
-pip install pymupdf pillow
-
-# where does a phrase sit on the page, in submittable coordinates?
-python tools/bbox_viewer.py \
-  --pdf  data/<siren>/actes/pdf/<file>.pdf \
-  --page 3 \
-  --ocr  data/<siren>/actes/ocr/<doc_id> \
-  --grep "capital social"
-
-# render a page with the OCR in grey and your own box in red
-python tools/bbox_viewer.py --pdf <pdf> --page 3 --ocr <ocr_dir> \
-  --bbox 0.116,0.610,0.920,0.626 -o check.png
-
-# no --ocr and no --grep: just tells you the page size and how to render it
-python tools/bbox_viewer.py --pdf <pdf> --page 1
+pip install -e ".[dev]"
+make run      # route -> extract -> verify -> emit  (writes results.json)
+make test     # 450 tests, no corpus needed except a subset marked `corpus`
 ```
 
-## The data
+No API key is required for any of this. `make run` is fully deterministic: it reads the
+OCR shipped in `data/`, anchors on the liasse's own line codes or, where a filing carries
+no line codes, on the printed French labels, and writes `results.json` plus a set of
+reports under `reports/`. Individual stages are also exposed (`liasse route`, `liasse
+extract`, `liasse verify`, `liasse emit`, `liasse cost`), each writing its own report, so
+the pipeline can be inspected stage by stage instead of only as a black box.
 
-One shared corpus at `data/`, used by both data challenges: twenty French companies, each
-with the legal documents they have filed and their annual accounts, plus our OCR where we
-have it.
+An optional escalation stage (`liasse escalate`) can re-read, with a vision model, the
+fields the deterministic path could not settle. It needs `ANTHROPIC_API_KEY` (see
+`.env.example`) and **I never ran it against the real API** - no credential exists in
+this environment. Without a key it prints why it can't run and changes nothing. More on
+this below.
 
-```
-data/<siren>/actes/{pdf,meta,ocr}/
-data/<siren>/bilans/{pdf,meta,ocr}/
-```
+## The trade-off
 
-Real filings, downloaded from the French Registre National des Entreprises. Nothing has
-been staged, cleaned or simplified. Some scans are crooked, some OCR is wrong, some
-documents contradict each other, and OCR coverage is uneven — a few companies have none
-at all, because they have never been through our pipeline.
+**What I chose.** A fully deterministic, OCR-only pipeline as the primary path, with a
+credentialed vision-model escalation built but never exercised. I made this choice before
+I knew what the corpus actually looked like, and it survived contact with the corpus for
+a reason I did not anticipate: **7 of the 15 filings carry no liasse line codes at all.**
+They are *plaquettes*, the accountant's own presentation of the same accounts, produced
+by whatever software the firm used, with none of the two-letter codes the tax form prints.
+I only found this by asking the AI to measure the corpus page by page before writing
+any extraction logic, rather than build against the one clean example first (see "How I
+used AI" below - this is also where the tool first led me wrong).
 
-That is what the job looks like.
+That finding is the reason there are two extractors in this pipeline, not one: a
+code-anchored reader for the 8 filings that are liasses, and a second, label-anchored
+reader for the 7 that are plaquettes, which recovers the column grid of a table that
+carries no codes at all from the geometry of the figures printed on it - a column is a
+position enough rows agree on, measured directly rather than assumed from a header row
+that the OCR mangles as often as not. Three filings in the corpus happen to carry *both*
+formats for the same exercise, which let me cross-check the two extractors against each
+other on real data instead of only against themselves. I asked for that check
+specifically once I saw the overlap existed, and it is the strongest evidence in the
+whole verification suite that either reader is reading correctly, because the two share
+no anchoring logic at all.
 
-## Submitting
+**Coverage.** 122 of 180 possible values (68%), from 14 of 15 filings - the deterministic
+path reads every filing except one whose OCR hands back its tables in a scrambled reading
+order that no column grid could be recovered from. Of the 58 unfilled cells, 14 are legally
+absent (two filings elected the L.232-25 confidentiality option and the income statement is
+withheld by law, not missing by failure - the registry's own metadata says so) and 44 are
+genuine gaps I could not resolve deterministically.
 
-1. Put your work in a repository of your own and open a pull request against it.
-2. Invite **`@YassineBouderbala`** and **`@AleBastos25`** as reviewers.
-3. `results.json` goes at the **root** of the repository, matching the schema for your
-   challenge. It is how we read your output — a submission we cannot parse is a
-   submission we cannot score.
-4. Include a **`.env.example`** listing every environment variable your code reads —
-   API keys, tokens, model names, endpoints — with the **names only and no values**:
+**Cost.** Zero credentialed API calls, so the cost measured for the deterministic run is
+**€0.00 per page** and **0.006 s per page** over all 415 pages in scope - that number comes
+from `sum() over an empty list of API calls`, not a literal zero I typed, and the code has a
+test that would fail if a call were ever recorded and the number did not move. What a vision
+model *would* cost is derived, never measured (`reports/cost.json`), from the real page
+sizes in the corpus, published token-per-pixel rules, and one stated assumption (characters
+per token, whose influence on the total is quantified at ~3% rather than argued about).
+Sending every page to a model would cost **€0.0025/page of the corpus** (Sonnet); sending
+only the 61 pages the router already knows carry a field costs **6.8× less**, for the exact
+same answer - the 355 discarded pages were measured to carry none of the twelve fields.
 
-   ```dotenv
-   # .env.example — names only, never commit real keys
-   OPENROUTER_API_KEY=
-   ```
+**Accuracy.** I have no answer key, so "accuracy" here means agreement between statements
+the documents make more than once - not ground truth. Eight independent checks run over
+the extracted values (an arithmetic identity that must hold on every liasse, one that must
+hold on every plaquette, three that compare a total against its own terms, one that
+compares a filing against its own restatement a year later, and the cross-format check
+described above). 34% of the 122 emitted values are confirmed by at least one such check;
+the rest simply had no independent statement of the same fact anywhere in the 15-document
+scope to compare against, which is a property of the corpus, not a claim that they are
+wrong. Two values are outright contradicted between the liasse and plaquette readings of
+the same exercise, by €3 and €3,045 respectively, and both are reported as contradicted
+rather than silently averaged or dropped - I'd rather ship a value flagged as disputed
+than a confident-looking one that happens to be wrong.
 
-   We need to know which keys to set to run your pipeline, and which providers it talks
-   to. **Never commit a real key, a token or a `.env` file** — add `.env` to your
-   `.gitignore`. If you commit a live credential we will tell you so you can revoke it,
-   and it counts against you.
+**What I'd do differently with a week.** Actually run the escalation path against the real
+API on the 44 deterministic gaps and the one unreadable filing, and replace the derived
+cost curve with a measured one from that run - right now the escalation code is built,
+tested end-to-end against a stub, and has never made a real call. I'd also widen the check
+set: `PL_COGS_FRGAAP` (a field the schema itself defines as a sum of line items that isn't
+printed anywhere as a single number) currently has no independent check covering it at all,
+so an escalated value for it would be discarded by the acceptance rule I built for exactly
+that reason - a model's answer is only kept if some other figure in the document, read
+independently, agrees with it. And I'd go back to the two real cross-format
+contradictions and find out by hand, rather than by argument, whether the €3,045 gap is a
+genuine difference in what each dialect includes in depreciation or a bug I haven't
+found yet.
 
-   If your submission needs no keys at all, say so in the README — that is a legitimate
-   and interesting answer.
-5. Your `README.md` covers: how to run it, the trade-offs you made, **how you used AI**,
-   and what you left undone.
+## How I used AI
 
-Questions: **contact@takeovers.ai**.
+I don't have a finance or ML-engineering background, and my French is advanced but not
+professional-level for tax-form vocabulary, so I started by having Claude Code build a
+study wiki in Obsidian (`wiki/`) covering French GAAP concepts, the liasse fiscale, and
+OCR/geometry basics, before either of us wrote extraction code. That wiki stayed the
+working memory for the whole project and every factual claim about the corpus in it carries
+the file, page, and OCR text it came from, and I read it as we went rather than at the
+end.
+
+What I directed rather than delegated: I asked for the corpus to be measured ( page counts,
+form types, OCR coverage) across all 15 documents before any extraction logic was written,
+specifically because the first pass had jumped to a strategy off one example. That
+measurement is what surfaced the liasse/plaquette split, and once it did, filtering pages
+by what they actually are (a table with codes, a table without, prose) rather than
+extracting everything indiscriminately was the design decision I pushed for - it's the
+reason 355 of 415 pages never reach an extractor at all, and it's also the reason the cost
+argument in this README has a number behind it instead of a guess. I asked, separately, for
+every extracted value to be checked against something else the documents say rather than
+trusted on its own and that's the check suite described above, and the cross-format
+comparison in particular was my call once I noticed three filings carried both formats for
+the same year.
+
+What I checked myself: I read the wiki's findings pages against the source OCR and PDFs
+directly - my French was enough to confirm the label matching (e.g. "Chiffres d'affaires
+nets" vs. the abbreviated "Ventes de marchandises + Production vendue" one accounting
+software dialect prints instead) was reading the right rows, not just plausible ones. I
+used `tools/bbox_viewer.py` to render sampled boxes back onto the actual pages and eyeballed
+them against the printed figures rather than trusting the pipeline's own reported
+confidence. And I went through the five schema ambiguities in `financial_fields.json` by
+hand against the ADR that documents each decision, because that's a judgment call no
+measurement resolves for you.
+
+Where the tool led me wrong: the very first recommendation was that code-anchoring the
+liasse line codes would cover the corpus, based on one page of one company. It does not -
+measuring across all 15 documents showed 7 of them have no line codes at all. The
+architecture held up (two extractors behind a router, rather than one universal one), but
+the claimed coverage was off by roughly a factor of two until I insisted on measuring
+before building further. That correction is logged in the wiki's session notes, not
+edited out after the fact.
+
+## What I cut, and why
+
+- **The escalation path was never run against a real API.** It's built, has a hard
+  page cap, refuses any answer that isn't well-formed JSON in the exact shape asked for,
+  and only accepts a re-read value if an independent check confirms it - but every test
+  of it runs against a stub transport, never `anthropic`. I'd rather ship a derived cost
+  curve labelled as derived than a real one I didn't have time to validate carefully.
+- **One filing (`6860f28ca0138eae340c7453`) is unread.** Its OCR returns table rows in a
+  scrambled order that no column-grid recovery could untangle; it's reported with
+  `not_processed` naming the reason rather than silently producing zero values, and it's
+  the first candidate for the escalation path above.
+- **`PL_COGS_FRGAAP` has no independent check.** It's defined by the schema itself as a
+  sum of several line items with no single printed total anywhere in the form to compare
+  it against, on either format. I flagged this rather than build a check that would just
+  be checking the sum against itself.
+- **I did not pull external sources** (INPI, the gazette) for this track - the brief
+  explicitly allows it, but everything the 12 fields need is on the pages given, and I
+  spent the time budget on the routing/verification architecture instead.
+
+## Where I disagree with the brief, with evidence
+
+- The brief's rule of thumb is that units are stated "in small print, once" per document.
+  Measured across the corpus, the kEUR marker that appears on `328024377`'s filings scopes
+  the *annexe* (the notes), not the balance sheet or income statement themselves - applying
+  it document-wide would misstate the primary statements by a factor of 1000.
+- Five of the twelve field definitions in `financial_fields.json` have a `label_fr` and a
+  `notes` that specify different formulas. I picked a reading for each, wrote down why, and
+  emit the alternative reading alongside the chosen one under `schema_ambiguity` in
 
 ---
-
-Takeovers SAS · 144 avenue Charles de Gaulle, 92200 Neuilly-sur-Seine
